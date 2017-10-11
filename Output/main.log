@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.30)  11 OCT 2017 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.30)  11 OCT 2017 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1101,9 +1101,15 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 17.
+
+Overfull \hbox (1.87404pt too wide) in paragraph at lines 34--36
+\OT1/ppl/m/n/10.95 re-fer-ring to fer-mi-ons they can also be grouped into gen-
+er-a-tions Fer-mi-ons are also grouped
+ []
+
 [3]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 67.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 69.
 ) (./Chapters/detector.tex [4]
 Chapter 2.
 Missing character: There is no â in font pplr7t!
@@ -1265,7 +1271,7 @@ Here is how much of TeX's memory you used:
  26805 multiletter control sequences out of 15000+600000
  58183 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,71p,1297b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,71p,1297b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1280,8 +1286,8 @@ onts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
 w/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on /Users/mbare/CERNBox/Thesis/Output/main.pdf (37 pages, 137916
-81 bytes).
+Output written on /Users/mbare/CERNBox/Thesis/Output/main.pdf (37 pages, 137919
+08 bytes).
 PDF statistics:
  774 PDF objects out of 1000 (max. 8388607)
  696 compressed objects within 7 object streams
