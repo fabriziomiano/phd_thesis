@@ -1,0 +1,61 @@
+\BOOKMARK [1][-]{Dedication.1}{Dedication}{}% 1
+\BOOKMARK [1][-]{Acknowledgements.1}{Acknowledgements}{}% 2
+\BOOKMARK [0][-]{declaration.0}{Declaration}{}% 3
+\BOOKMARK [1][-]{Abstract.1}{Abstract}{declaration.0}% 4
+\BOOKMARK [0][-]{contents_bookmark.0}{Contents}{}% 5
+\BOOKMARK [0][-]{chapter*.6}{Introduction}{}% 6
+\BOOKMARK [0][-]{chapter.1}{1 The Standard Model, Supersymmetry, and the motivations behind it}{}% 7
+\BOOKMARK [1][-]{section.1.1}{1.1 The Standard Model}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Overview}{section.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 Limitations of the Standard Model}{section.1.1}% 10
+\BOOKMARK [1][-]{section.1.2}{1.2 Supersymmetry}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Why SUSY?}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Minimal Supersymmetric Standard Model}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 R-parity SUSY}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.4}{1.2.4 Simplified models}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.5}{1.2.5 Phenomenological MSSM}{section.1.2}% 16
+\BOOKMARK [0][-]{chapter.2}{2 The ATLAS Experiment at the LHC}{}% 17
+\BOOKMARK [1][-]{section.2.1}{2.1 The LHC}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.2}{2.2 The ATLAS Detector}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 The Magnet System}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 The Inner Detector}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 The Calorimeters}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 The Muon Spectrometer}{section.2.2}% 23
+\BOOKMARK [1][-]{section.2.3}{2.3 The ATLAS Trigger System}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Level 1 Trigger}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 High-Level Trigger}{section.2.3}% 26
+\BOOKMARK [0][-]{chapter.3}{3 The b-jet Trigger Signature in ATLAS}{}% 27
+\BOOKMARK [1][-]{section.3.1}{3.1 Trigger Efficiency}{chapter.3}% 28
+\BOOKMARK [0][-]{chapter.4}{4 Event Simulation and Reconstruction}{}% 29
+\BOOKMARK [1][-]{section.4.1}{4.1 Event Generation}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Parton Distribution Functions \(PDFs\)}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Matrix Element Calculation}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Parton Showers}{section.4.1}% 33
+\BOOKMARK [2][-]{subsection.4.1.4}{4.1.4 Hadronisation}{section.4.1}% 34
+\BOOKMARK [1][-]{section.4.2}{4.2 Detector Simulation}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.3}{4.3 Reconstruction}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Pile-up in the Inner Detector}{section.4.3}% 37
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Tracks}{section.4.3}% 38
+\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 Vertex}{section.4.3}% 39
+\BOOKMARK [2][-]{subsection.4.3.4}{4.3.4 Electrons}{section.4.3}% 40
+\BOOKMARK [2][-]{subsection.4.3.5}{4.3.5 Muons}{section.4.3}% 41
+\BOOKMARK [2][-]{subsection.4.3.6}{4.3.6 Jets}{section.4.3}% 42
+\BOOKMARK [2][-]{subsection.4.3.7}{4.3.7 Taus}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.8}{4.3.8 Missing Transverse Energy}{section.4.3}% 44
+\BOOKMARK [1][-]{section.4.4}{4.4 Object Selection}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 Baseline Leptons}{section.4.4}% 46
+\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 Baseline Jets}{section.4.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.3}{4.4.3 Baseline Taus}{section.4.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.4}{4.4.4 Overlap Removal}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.5}{4.4.5 Signal Leptons}{section.4.4}% 50
+\BOOKMARK [2][-]{subsection.4.4.6}{4.4.6 Signal Jets}{section.4.4}% 51
+\BOOKMARK [2][-]{subsection.4.4.7}{4.4.7 Signal Taus}{section.4.4}% 52
+\BOOKMARK [1][-]{section.4.5}{4.5 Monte Carlo Samples}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Generators}{section.4.5}% 54
+\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 SM Background MC Samples}{section.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.5.3}{4.5.3 MC Signal Sample}{section.4.5}% 56
+\BOOKMARK [0][-]{chapter.5}{5 Stop Searches in all-hadronic final states}{}% 57
+\BOOKMARK [0][-]{chapter.6}{6 Results and Statistical Intepretations}{}% 58
+\BOOKMARK [0][-]{appendix.A}{A Appendix A}{}% 59
+\BOOKMARK [0][-]{appendix.B}{B Appendix B}{}% 60
+\BOOKMARK [0][-]{section*.27}{Bibliography}{}% 61

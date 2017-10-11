@@ -1,0 +1,157 @@
+% book example for classicthesis.sty
+\documentclass[11pt,paper=a5,footinclude=true,headinclude=true,dottedtoc, british,headsepline,headinclude]{scrbook} % KOMA-Script book
+\PassOptionsToPackage{utf8}{inputenc} % Set the encoding of your files. UTF-8 is the only sensible encoding nowadays. If you can't read äöüßáéçèê∂åëæƒÏ€ then change the encoding setting in your editor, not the line below. If your editor does not support utf8 use another editor!
+% ------------------------
+%     ATLAS STUFF 
+% ------------------------
+\newcommand*{\ATLASLATEXPATH}{latex/}
+\usepackage{\ATLASLATEXPATH atlasphysics}
+\bibliographystyle{\ATLASLATEXPATH atlasBibStyleWithTitle}
+%------------------------------------------------
+
+\usepackage{inputenc}
+\usepackage{palatino} % Use the Palatino font by default
+\usepackage{lineno} % Line Numbers 
+\usepackage[linedheaders,parts,a5paper]{classicthesis} % ,manychapters
+%\usepackage[osf]{libertine}
+\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS 
+\usepackage{amsmath}
+\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+\usepackage{fontenc}
+\PassOptionsToPackage{pdftex}{graphicx}
+\usepackage{graphicx} 
+\usepackage{textcomp} % Fix warning with missing font shapes
+\usepackage{scrhack} % Fix warnings when using KOMA with listings package  
+\usepackage{xspace} % To get the spacing after macros right
+\usepackage{mparhack} % To get marginpar right
+\usepackage{hyperref}
+\usepackage{subfig}
+% \PassOptionsToPackage{smaller}{acronym} % Include printonlyused in the first bracket to only show acronyms used in the text
+% \usepackage{acronym} % Nice macros for handling all acronyms in the thesis
+
+% %\renewcommand*{\acsfont}[1]{\textssc{#1}} % For MinionPro
+% \renewcommand*{\aclabelfont}[1]{\acsfont{#1}}
+%----------------------------------------------------------------------------------------
+%   SOME CONFIG
+%----------------------------------------------------------------------------------------
+\newcommand{\myTitle}{Searches for the supersymmetric partner of the top quark in all-hadronic final states with the ATLAS Detector at the LHC}
+\newcommand{\mySubtitle}{NO SUBTITLE\xspace}
+\newcommand{\myDegree}{Doctor of Philosophy \xspace}
+\newcommand{\myName}{Fabrizio \textsc{Miano}\xspace}
+\newcommand{\myProf}{Dr. Fabrizio \textsc{Salvatore}\xspace}
+\newcommand{\myOtherProf}{Prof. Antonella \textsc{De Santo}\xspace}
+\newcommand{\mySupervisor}{Dr. Fabrizio \textsc{Salvatore}\xspace}
+\newcommand{\myDepartment}{\href{http://www.sussex.ac.uk/epp/}{Experimental Particle Physics Research Group\xspace}}
+\newcommand{\myFaculty}{\href{http://www.sussex.ac.uk/mps/}{School of Mathematical and Physical Sciences\xspace}}
+\newcommand{\myUni}{University of Sussex\xspace}
+\newcommand{\myLocation}{Brighton\xspace}
+\newcommand{\myTime}{June 2018\xspace}
+%\newcommand{\myVersion}{version 1.0\xspace}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\graphicspath{{./figures/}}
+
+%   \pagestyle{scrheadings}
+%   \manualmark
+%   \markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+    
+    %----------------------------------------------------------------------------------------
+    %   TITLE PAGE 
+    %----------------------------------------------------------------------------------------
+    \pagestyle{plain}
+    \begin{titlepage}
+        \begin{center}
+            \includegraphics[width=3.5cm]{uslogo.eps} \\ \medskip
+            \vspace*{.02\textheight}
+            %{\scshape\LARGE \myUni\par}\vspace{1.5cm} % University name
+            \textsc{ Doctoral Thesis}\\%[0.5cm] % Thesis type
+
+            \rule{.9\linewidth}{.6pt}\\%[0.4cm]
+            {\Large \myTitle \par}%\vspace{0.4cm} %\bigskip % Thesis title
+            \rule{.9\linewidth}{.6pt}\\[1.5cm] 
+
+            \small \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of Doctor of Philosophy}\\[0.5cm] % University requirement text
+            \textit{in the}\\[0.5cm]
+            \myDepartment\\ \myFaculty\\[2cm]
+            %\vfill
+            
+            %\vspace*{.25\textheight}
+            \begin{minipage}{.45\linewidth}
+                \begin{flushleft} %\large
+                \emph{Author:}\\
+                \href{https://uk.linkedin.com/in/fabriziomiano}{\myName} % Author name - remove the \href bracket to remove the link
+                \end{flushleft}
+            \end{minipage}
+            \hfill
+            \begin{minipage}{.45\linewidth}
+                \begin{flushright} %\large
+                \emph{Supervisor:} \\
+                \href{http://www.sussex.ac.uk/profiles/168614}{\mySupervisor}%\\ % Supervisor name - remove the \href bracket to remove the link  
+    %               \href{http://www.sussex.ac.uk/profiles/221345}{\myOtherProf}
+                \end{flushright}
+            \end{minipage}\\[1cm]
+
+            %\vspace*{.25\textheight}
+            { \today}\\%[3cm] % Date
+             
+            \vfill
+        \end{center}
+
+    \end{titlepage}
+
+    \include{FrontBackMatter/Titleback}
+    \pagestyle{scrheadings} % Show chapter titles as headings
+    \tableofcontents 
+    
+    %   \automark[section]{chapter}
+    %   \renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
+    %   \renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
+
+    % use \cleardoublepage here to avoid problems with pdfbookmark
+    \cleardoublepage\input{Chapters/intro}
+
+    %------------------------------------------------
+    \cleardoublepage % Empty page before the start of the next part
+    \ctparttext{In this part the theoretical motivation behind supersymmetry searches will be discussed} % Text on the Part 1 page describing  the content in Part 1
+    \part{Why Supersymmetry?}
+    \input{Chapters/theory}
+
+    %------------------------------------------------
+    \cleardoublepage % Empty page before the start of the next part
+    \ctparttext{A brief overview of the Large Hadron Collider together with a detailed overview of the ATLAS detector will be presented} 
+    \part{The world's largest and most powerful particle collider}
+    \input{Chapters/detector}
+    \input{Chapters/trigger}
+
+    %------------------------------------------------
+    \cleardoublepage % Empty page before the start of the next part
+    \ctparttext{In this part the Monte Carlo samples used and the reconstruction of the main physics objects will be discussed} 
+    \part{The Tools used to carry out the analysis}
+    \input{Chapters/mc}
+    \input{Chapters/objects}
+
+    %------------------------------------------------
+    \cleardoublepage % Empty page before the start of the next part
+    \ctparttext{This part is entirely dedicated to the details of the analysis carried out} 
+    \part{The Analysis}
+    \input{Chapters/analysis}
+
+    %------------------------------------------------
+    \cleardoublepage % Empty page before the start of the next part
+    \ctparttext{Results will be hereby presented and extensively discussed} 
+    \part{The Outcome}
+    \input{Chapters/results}
+    \input{Chapters/conclusions}
+
+    \appendix
+
+    %----------------------------------------------------------------------------------------
+    %   BIBLIOGRAPHY
+    %----------------------------------------------------------------------------------------
+    \clearpage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{Bibliography}
+    \bibliography{Chapters/Bibliography}
+
+\end{document}
