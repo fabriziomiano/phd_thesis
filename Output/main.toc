@@ -3,55 +3,33 @@
 \contentsline {chapter}{\numberline {1}The Standard Model, Supersymmetry, and the motivations behind it}{2}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Standard Model}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Overview}{3}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Limitations of the Standard Model}{4}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Supersymmetry}{4}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Why SUSY?}{4}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Minimal Supersymmetric Standard Model}{4}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}\emph {R}-parity SUSY}{4}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Simplified models}{4}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Phenomenological MSSM}{4}{subsection.1.2.5}
-\contentsline {chapter}{\numberline {2}The ATLAS Experiment at the LHC}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}The LHC}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}The ATLAS Detector}{8}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The Magnet System}{9}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}The Inner Detector}{10}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}The Calorimeters}{13}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}The Muon Spectrometer}{15}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}The ATLAS Trigger System}{16}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Level 1 Trigger}{17}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {1.1.2}Limitations of the Standard Model}{5}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Supersymmetry}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Why SUSY?}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Minimal Supersymmetric Standard Model}{5}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}\emph {R}-parity SUSY}{5}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Simplified models}{5}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Phenomenological MSSM}{5}{subsection.1.2.5}
+\contentsline {chapter}{\numberline {2}The ATLAS Experiment at the LHC}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}The LHC}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}The ATLAS Detector}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The Magnet System}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}The Inner Detector}{11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}The Calorimeters}{14}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}The Muon Spectrometer}{16}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}The ATLAS Trigger System}{17}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Level 1 Trigger}{18}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}High-Level Trigger}{18}{subsection.2.3.2}
-\contentsline {chapter}{\numberline {3}The \emph {b}-jet Trigger Signature in ATLAS}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}Trigger Efficiency}{19}{section.3.1}
-\contentsline {chapter}{\numberline {4}Event Simulation and Reconstruction}{20}{chapter.4}
+\contentsline {chapter}{\numberline {3}The \emph {b}-jet Trigger Signature in ATLAS}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Trigger Efficiency}{20}{section.3.1}
+\contentsline {chapter}{\numberline {4}Event Simulation and Reconstruction}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}Event Generation}{21}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Parton Distribution Functions (PDFs)}{21}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Matrix Element Calculation}{21}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Parton Showers}{21}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}Hadronisation}{21}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Detector Simulation}{21}{section.4.2}
-\contentsline {section}{\numberline {4.3}Reconstruction}{21}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Pile-up in the Inner Detector}{21}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Tracks}{21}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Vertex}{21}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Electrons}{21}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Muons}{21}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Jets}{21}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}Taus}{21}{subsection.4.3.7}
-\contentsline {subsection}{\numberline {4.3.8}Missing Transverse Energy}{21}{subsection.4.3.8}
-\contentsline {section}{\numberline {4.4}Object Selection}{21}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Baseline Leptons}{21}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Baseline Jets}{21}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Baseline Taus}{21}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Overlap Removal}{21}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Signal Leptons}{21}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Signal Jets}{21}{subsection.4.4.6}
-\contentsline {subsection}{\numberline {4.4.7}Signal Taus}{21}{subsection.4.4.7}
-\contentsline {section}{\numberline {4.5}Monte Carlo Samples}{21}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Generators}{21}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}SM Background MC Samples}{21}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}MC Signal Sample}{21}{subsection.4.5.3}
-\contentsline {chapter}{\numberline {5}Stop Searches in all-hadronic final states}{22}{chapter.5}
-\contentsline {chapter}{\numberline {6}Results and Statistical Intepretations}{23}{chapter.6}
-\contentsline {chapter}{\numberline {A}Appendix A}{24}{appendix.A}
-\contentsline {chapter}{\numberline {B}Appendix B}{25}{appendix.B}
-\contentsline {chapter}{Bibliography}{26}{section*.27}
+\contentsline {section}{\numberline {4.2}Detector Simulation}{22}{section.4.2}
+\contentsline {chapter}{\numberline {5}Stop searches in final states with jets and missing transverse energy}{23}{chapter.5}
+\contentsline {chapter}{\numberline {6}Results and Statistical Intepretations}{24}{chapter.6}
+\contentsline {chapter}{Trigger}{25}{appendix*.30}
+\contentsline {chapter}{Bibliography}{26}{section*.31}

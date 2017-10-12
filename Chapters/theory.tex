@@ -1,5 +1,6 @@
 \chapter{The Standard Model, Supersymmetry, and the motivations behind it}
-\label{ch:theory} \epigraph{\emph{A theory is something nobody believes, except the person who made it. An experiment is something everybody believes, except the person who made it.}} {Albert Einstein}
+\label{ch:theory} 
+\epigraph{\emph{A theory is something nobody believes, except the person who made it. An experiment is something everybody believes, except the person who made it.}} {Albert Einstein}
 
 	The Standard Model (SM) of particle physics is an effective theory that aims to provide a general description of fundamental particles and the phenomena we see in nature, \ie\ the way they interact. Unfortunately, our understanding of nature is still limited due to some opened question to which the SM is not able to answer to, yet. 
 
@@ -22,7 +23,7 @@
 
 			\subsection*{Fermions}
 
-				Six quarks and six leptons belong to the fermions family. The six quarks of the SM can be grouped into three doublets. The up-type quarks (up, charm, top) have charge $+\frac{2}{3}e$ and the down-type quarks (down, strange, beauty/bottom) have charge $-\frac{1}{3}e$, where $e$ is the electron charge. Quarks also have another quantum number that can be seen as the analogue of the electric charge, the colour charge. There are three different states of the colour charge; ``red'', ``green'' and ``blue''.
+				Six quarks and six leptons belong to the fermions family. In particular, fermions can be grouped into three generations. Each generation contains four particles; one up- and one down-type quark, one charged lepton and one neutral lepton. The masses of the charged leptons and quarks increase with the generation. The six quarks of the SM can be grouped into three doublets:
 
 				\begin{equation*}
 				\label{eqn:quark_doublets}
@@ -31,8 +32,9 @@
 					\begin{pmatrix} t \\ b \end{pmatrix}
 				\end{equation*}
 
-				Three of the six leptons (electron $e\,,muon \mu\,, tau \tau$) are electrically charged and three of them electrically neutral (electron neutrino $\nu_e\,, muon neutrino \nu_{\mu}\,, tau neutrino \nu_{\tau})$. When referring to fermions they can also be grouped into generations
-				Fermions are also grouped in generations. Each generartion contains four particles; one charged lepton, one neutrino, and one up- and down-type quark. The masses of the charged leptons and quarks increase with the generation. 
+				\noindent The up-type quarks (up, charm, top) have charge $+\frac{2}{3}e$ and the down-type quarks (down, strange, beauty/bottom) have charge $-\frac{1}{3}e$, where $e$ is the electron charge. Quarks also have another quantum number that can be seen as the analogue of the electric charge, which is the colour charge. This can exist in three different states; ``red'', ``green'' and ``blue''. Moreover, as a consequence of \emph{confinement}, which will be discussed later on in this section, quarks cannot exist as free particles. They rather group to form hadronic matter, also known as \emph{hadrons}. There are two kinds of hadrons; mesons and baryons. Mesons are quark-antiquark systems, \eg the pion, and baryons are three-quark system, \eg protons and neutrons. Quarks and anti-quarks have a baryon number of $\frac{1}{3}$ and $-\frac{1}{3}$, respectively.
+
+				There are six leptons and they can be classified in charged leptons (electron $e$, muon $\mu$, tau $\tau$) and neutral leptons (electron neutrino $\nu_e$, muon neutrino $\nu_{\mu}$, tau neutrino $\nu_{\tau}$).
 
 				%\noindent Generations are classified according to the state of chirality, which is a non-physical concept close enough to helicity which, in turn, is the projection of the spin onto the direction of momentum. Chirality is equivalent to helicity for massless particles and, as per helicity states, there can either be left-handed chiral states or right-handed chiral states.
 				
@@ -43,12 +45,36 @@
 					\begin{pmatrix} \nu_{\tau} \\ \tau^- \end{pmatrix}
 				\end{equation*}
 
+				\noindent Each lepon has a charachteristic quantum number, called lepton number ($L$). Negatively (positively) charged leptons have $L=-1$ ($L=1$) and neutral leptons have $L=0$. The lepton number is conserved in all the interactions. 
+
+
+
+			\subsection*{Forces of Nature}
+
+				Forces in the SM are described by gauge theories, where the interactions is mediated by a vector gauge boson. The electromagnetic force is described by Quantum ElectroDynamics (QED) and, as its mediator is the photon ($\gamma$) which couples to charged particles, it only affects charged leptons and quarks, whereas neutrinos cannot. They are instead affected by the weak force which is mediated by the bosons $\Wboson^{\pm}$ and $\Zboson^0$. The weak interaction is associated with handedness (the projection of a particle spin onto its direction of motion). Both leptons and quarks have left- and right-handed components. However, only the left-handed (right-handed) component for neutrinos (anti-neutrinos) has been observed. This means that nature prefers to produce left-handed neutrinos and right-handed anti-neutrinos, which is the so-called parity violation. The strong interactions, mediated by the gluon (electrically neutral and massless), is described by Quantum ChromoDynamics (QCD). Table \ref{tab:interactions} summarises the forces described in the SM and their mediators' main charachteristics. Finally, the gravitational force, which is believed to be mediated by the graviton, is not included in Table \ref{tab:interactions} as it is not part of the SM.
+
+				\begin{table}[!htb]\centering\caption{Forces and mediators described by the SM}							
+					\begin{tabular}{c|c|c|c|c}
+						\hline \hline
+						Force & Name & Symbol & Mass [\GeV]& Charge \\ \hline \hline
+						Electromagnetic & Photon & $\gamma$ & 0 & 0 \\ \hline
+						\multirow{2}{*}{Weak} & W & $\Wboson^{\pm}$ & $80.398$ & $\pm e$ \\
+						& Z & $\Zboson^0$ & $91.188$ & 0 \\\hline
+						Strong & Gluon & $g$ & $0$ & $0$ \\\hline\hline
+					\end{tabular}						
+				\label{tab:interactions} 
+				\end{table}
+
+				In 1979 Sheldon Glashow, Abdus Salam, and Steven Weinberg were awarded the Nobel Prize in Physics for their contributions to the so-called electroweak unification. Weak and electromagnetic interactions were now unified. Quarks that interact through weak interaction are mixtures of SM eigenstates as described by the CKM matrix \cite{Olive2014}. 
+
+
+			\subsection*{Gauge Groups}
 
 
 
 
+			\subsection*{Electroweak Symmetry Breaking and the Higgs mechanism}
 
-			\subsection*{Forces of Nature}	
 
 
 
