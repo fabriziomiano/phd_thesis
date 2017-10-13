@@ -1,17 +1,17 @@
 \select@language {british}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces CERN Accelerator complex. The LHC is the last ring (dark grey line). Smaller machines are used for early-stage acceleration and also to provide beams for other experiments \cite {Lefevre2008}.\relax }}{8}{figure.caption.14}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Cut-away view of the ATLAS detector. The dimensions of the detector are 25 m in height and 44 m in length. The overall weight of the detector is approximately 7000 tonnes \cite {Lefevre2008}.\relax }}{9}{figure.caption.15}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The ATLAS magnet system.\relax }}{11}{figure.caption.17}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Geometry of magnet windings and tile calorimeter steel. The eight barrel toroid coils, with the end-cap coils interleaved are visible. The solenoid winding lies inside the calorimeter volume \cite {ATLASJINST}.}}}{11}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic view of the superconducting magnets \cite {YAMAMOTO200853}.}}}{11}{subfigure.3.2}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The ATLAS Inner Detector\relax }}{12}{figure.caption.20}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Overview of the ATLAS ID with labels and dimensions.}}}{12}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Diagram of the ATLAS ID and its sub-detectors.}}}{12}{subfigure.4.2}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces A computer generated image of the full calorimeter.\relax }}{14}{figure.caption.25}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Cut-away view of the ATLAS muon system \cite {ATLASJINST}.\relax }}{16}{figure.caption.28}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces The ATLAS TDAQ system. L1Topo and FTK were being commissioned during 2015 and not used for the results shown in this thesis \cite {ATLASTrigger2015}.\relax }}{17}{figure.caption.29}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces CERN Accelerator complex. The LHC is the last ring (dark grey line). Smaller machines are used for early-stage acceleration and also to provide beams for other experiments \cite {Lefevre2008}.\relax }}{10}{figure.caption.14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Cut-away view of the ATLAS detector. The dimensions of the detector are 25 m in height and 44 m in length. The overall weight of the detector is approximately 7000 tonnes \cite {Lefevre2008}.\relax }}{11}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The ATLAS magnet system.\relax }}{12}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Geometry of magnet windings and tile calorimeter steel. The eight barrel toroid coils, with the end-cap coils interleaved are visible. The solenoid winding lies inside the calorimeter volume \cite {ATLASJINST}.}}}{12}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic view of the superconducting magnets \cite {YAMAMOTO200853}.}}}{12}{subfigure.3.2}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The ATLAS Inner Detector\relax }}{14}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Overview of the ATLAS ID with labels and dimensions.}}}{14}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Diagram of the ATLAS ID and its sub-detectors.}}}{14}{subfigure.4.2}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces A computer generated image of the full calorimeter.\relax }}{16}{figure.caption.25}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Cut-away view of the ATLAS muon system \cite {ATLASJINST}.\relax }}{18}{figure.caption.28}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The ATLAS TDAQ system. L1Topo and FTK were being commissioned during 2015 and not used for the results shown in this thesis \cite {ATLASTrigger2015}.\relax }}{19}{figure.caption.29}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -34,45 +34,45 @@ Warning--empty pages in CMSHiggs2012
 Warning--empty pages in Olive2014
 Warning--empty pages in LHCb2008
 Warning--empty pages in ATLASInDet
-You've used 21 entries,
+You've used 22 entries,
             2341 wiz_defined-function locations,
-            702 strings with 7596 characters,
-and the built_in function-call counts, 4530 in all, are:
-= -- 463
-> -- 139
+            708 strings with 7684 characters,
+and the built_in function-call counts, 4677 in all, are:
+= -- 477
+> -- 143
 < -- 0
-+ -- 60
-- -- 39
-* -- 403
-:= -- 590
-add.period$ -- 35
-call.type$ -- 21
-change.case$ -- 21
++ -- 62
+- -- 40
+* -- 419
+:= -- 611
+add.period$ -- 36
+call.type$ -- 22
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 260
-empty$ -- 443
-format.name$ -- 39
-if$ -- 1170
+cite$ -- 28
+duplicate$ -- 268
+empty$ -- 460
+format.name$ -- 40
+if$ -- 1206
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 98
-newline$ -- 66
-num.names$ -- 21
-pop$ -- 91
+int.to.str$ -- 22
+missing$ -- 101
+newline$ -- 69
+num.names$ -- 22
+pop$ -- 95
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 123
+skip$ -- 124
 stack$ -- 0
 substring$ -- 88
-swap$ -- 95
+swap$ -- 96
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 28
-width$ -- 23
-write$ -- 159
+while$ -- 29
+width$ -- 24
+write$ -- 166
 (There were 5 error messages)

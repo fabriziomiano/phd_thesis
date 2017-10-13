@@ -18,7 +18,7 @@
 \usepackage{lineno} % Line Numbers 
 \usepackage[utf8]{inputenc}
 \usepackage{subfig}
-\usepackage[Sonny]{fncychap} % header style 
+%\usepackage[Sonny]{fncychap} % header style 
 %Options: Sonny, Glenn, Conny, Rejne, Bjornstrup
 \setcounter{secnumdepth}{4}
 
@@ -131,9 +131,11 @@
 %---------------------------------------------------
 % HYPERREF
 %---------------------------------------------------
-%\usepackage[colorlinks,pagebackref,pdfusetitle,urlcolor=blue,citecolor=blue,linkcolor=blue,bookmarksnumbered,plainpages=false]{hyperref}
+\usepackage[colorlinks,pagebackref,pdfusetitle,
+            urlcolor=blue,citecolor=blue,linkcolor=blue,
+            bookmarksnumbered,plainpages=false]{hyperref}
 % For print version, use this instead:
-\usepackage[pdfusetitle,bookmarksnumbered,plainpages=false]{hyperref}
+%\usepackage[pdfusetitle,bookmarksnumbered,plainpages=false]{hyperref}
 %\usepackage{backref}
 %\renewcommand{\backrefpagesname}{Cited on}
 %---------------------------------------------------
@@ -197,10 +199,10 @@
     \input{Chapters/results}
 
 
-    \backmatter
     %---------------------------------------------------
     % THESIS CONTENT - APPENDICES
     %---------------------------------------------------
+    \backmatter
     \appendix
     \input{Chapters/appA.tex}
 
