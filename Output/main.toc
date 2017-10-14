@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {1.2}Supersymmetry}{6}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Why SUSY?}{6}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Minimal Supersymmetric Standard Model}{6}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}\emph {R}-parity SUSY}{6}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.3}\emph {R}-parity SUSY}{7}{subsection.1.2.3}
 \contentsline {subsection}{\numberline {1.2.4}Simplified models}{7}{subsection.1.2.4}
 \contentsline {subsection}{\numberline {1.2.5}Phenomenological MSSM}{7}{subsection.1.2.5}
 \contentsline {chapter}{\numberline {2}The ATLAS Experiment at the LHC}{8}{chapter.2}
