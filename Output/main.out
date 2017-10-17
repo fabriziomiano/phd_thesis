@@ -5,35 +5,34 @@
 \BOOKMARK [0][-]{contents_bookmark.0}{Contents}{}% 5
 \BOOKMARK [0][-]{chapter*.6}{Introduction}{}% 6
 \BOOKMARK [0][-]{chapter.1}{1 The Standard Model, Supersymmetry, and the motivations behind it}{}% 7
-\BOOKMARK [1][-]{section.1.1}{1.1 The Standard Model}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Overview}{section.1.1}% 9
-\BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 Limitations of the Standard Model}{section.1.1}% 10
-\BOOKMARK [1][-]{section.1.2}{1.2 Supersymmetry}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Why SUSY?}{section.1.2}% 12
-\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Minimal Supersymmetric Standard Model}{section.1.2}% 13
-\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 R-parity SUSY}{section.1.2}% 14
-\BOOKMARK [2][-]{subsection.1.2.4}{1.2.4 Simplified models}{section.1.2}% 15
-\BOOKMARK [2][-]{subsection.1.2.5}{1.2.5 Phenomenological MSSM}{section.1.2}% 16
-\BOOKMARK [0][-]{chapter.2}{2 The ATLAS Experiment at the LHC}{}% 17
-\BOOKMARK [1][-]{section.2.1}{2.1 The LHC}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.2}{2.2 The ATLAS Detector}{chapter.2}% 19
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 The Magnet System}{section.2.2}% 20
-\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 The Inner Detector}{section.2.2}% 21
-\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 The Calorimeters}{section.2.2}% 22
-\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 The Muon Spectrometer}{section.2.2}% 23
-\BOOKMARK [1][-]{section.2.3}{2.3 The ATLAS Trigger System}{chapter.2}% 24
-\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Level 1 Trigger}{section.2.3}% 25
-\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 High-Level Trigger}{section.2.3}% 26
-\BOOKMARK [0][-]{chapter.3}{3 The b-jet Trigger Signature in ATLAS}{}% 27
-\BOOKMARK [1][-]{section.3.1}{3.1 Trigger Efficiency}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{4 Event Simulation and Reconstruction}{}% 29
-\BOOKMARK [1][-]{section.4.1}{4.1 Event Generation}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Parton Distribution Functions \(PDFs\)}{section.4.1}% 31
-\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Matrix Element Calculation}{section.4.1}% 32
-\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Parton Showers}{section.4.1}% 33
-\BOOKMARK [2][-]{subsection.4.1.4}{4.1.4 Hadronisation}{section.4.1}% 34
-\BOOKMARK [1][-]{section.4.2}{4.2 Detector Simulation}{chapter.4}% 35
-\BOOKMARK [0][-]{chapter.5}{5 Stop searches in final states with jets and missing transverse energy}{}% 36
-\BOOKMARK [0][-]{chapter.6}{6 Results and Statistical Intepretations}{}% 37
-\BOOKMARK [0][-]{appendix*.30}{Trigger}{}% 38
-\BOOKMARK [0][-]{section*.31}{Bibliography}{}% 39
+\BOOKMARK [1][-]{section.1.1}{1.1 Overview}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{1.2 Limitations of the Standard Model}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{1.3 Supersymmetry}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.3.1}{1.3.1 Why SUSY?}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.2}{1.3.2 Minimal Supersymmetric Standard Model}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.3}{1.3.3 R-parity SUSY}{section.1.3}% 13
+\BOOKMARK [2][-]{subsection.1.3.4}{1.3.4 Simplified models}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.5}{1.3.5 Phenomenological MSSM}{section.1.3}% 15
+\BOOKMARK [0][-]{chapter.2}{2 The ATLAS Experiment at the LHC}{}% 16
+\BOOKMARK [1][-]{section.2.1}{2.1 The LHC}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.2}{2.2 The ATLAS Detector}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 The Magnet System}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 The Inner Detector}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 The Calorimeters}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 The Muon Spectrometer}{section.2.2}% 22
+\BOOKMARK [1][-]{section.2.3}{2.3 The ATLAS Trigger System}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Level 1 Trigger}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 High-Level Trigger}{section.2.3}% 25
+\BOOKMARK [0][-]{chapter.3}{3 The b-jet Trigger Signature in ATLAS}{}% 26
+\BOOKMARK [1][-]{section.3.1}{3.1 Trigger Efficiency}{chapter.3}% 27
+\BOOKMARK [0][-]{chapter.4}{4 Event Simulation and Reconstruction}{}% 28
+\BOOKMARK [1][-]{section.4.1}{4.1 Event Generation}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Parton Distribution Functions \(PDFs\)}{section.4.1}% 30
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Matrix Element Calculation}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Parton Showers}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.4}{4.1.4 Hadronisation}{section.4.1}% 33
+\BOOKMARK [1][-]{section.4.2}{4.2 Detector Simulation}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{5 Stop searches in final states with jets and missing transverse energy}{}% 35
+\BOOKMARK [0][-]{chapter.6}{6 Results and Statistical Intepretations}{}% 36
+\BOOKMARK [0][-]{appendix*.35}{Trigger}{}% 37
+\BOOKMARK [0][-]{section*.36}{Bibliography}{}% 38
