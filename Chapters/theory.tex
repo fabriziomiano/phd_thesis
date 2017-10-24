@@ -251,15 +251,30 @@
 
 		\subsection*{Hierarchy Problem}
 
-			The coupling of every particle to the Higgs field contributes to the mass of the Higgs field, $m_H^2$. In particular, The term due to fermionic loop coupling is given by:
+			Due to the coupling of every particle to the Higgs field, the one-loop corrections to the Higgs mass receive several contributions. 
+
+			%\begin{wrapfigure}{l}{.\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=.5\textwidth]{theory/1loopCorrectionsHM}
+				\caption{\label{fig:higgs_coupling} One-loop quantum corrections to the Higgs mass: (a) a fermion correction with coupling $\lambda_f$ and (b) a scalar correction with coupling $\lambda_S$.}
+			\end{figure}
+
+			In particular, as shown in Fig. \ref{fig:higgs_coupling}:
 
 			\begin{equation}
 			\label{eq:mH_fermionic_contribution}
-			\Delta m_H^2 = - \frac{\left | \lambda_f \right |^2}{8 \pi ^2} \Lambda_{\mathrm{UV}}^2 + \dots ,
+			\Delta m_H^2 = - \frac{ | \lambda_f  |^2}{8 \pi ^2} \Lambda_{\mathrm{UV}}^2 + \dots 
 			\end{equation}
 
-			\noindent where $\Lambda_{\mathrm{UV}}$ is the ultraviolet momentum cut-off, selected as the cut-off value for the loop integral. If $\Lambda_{\mathrm{UV}}$ laid somewhere around the Planck scale ($\sim 2 \cdot 10^{18} \gev$), at which a QFT description of gravity is believed to become possible, then the correction to the Higgs mass would be around 30 orders of magnitude larger than Higgs mass itself. However, electroweak unification has been observed around $m_Z \sim O(100\gev)$ therefore, $m_H^2$ is not a natutal parameter. In other words, this difference between the electroweak scale and the Planck scale arisen from the quantum corrections to the Higgs mass is the so-called Hierarchy Problem \cite{Weinberg1976}.
+			\noindent which is the dominant, due to the fermionic contribution, and 
 
+			\begin{equation}
+			\label{eq:mH_scalar_contribution}
+			\Delta m_H^2 = - \frac{\left | \lambda_S \right |^2}{16 \pi ^2} \left [  \Lambda_{\mathrm{UV}}^2 - 2m_S^2 \ln \left (\Lambda_{\mathrm{UV}} / m_S \right) + \dots \right ]
+			\end{equation}
+
+			\noindent due to the bosonic contribution. Here, $\lambda_f$ and $\lambda_S$ are the coupling to the fermionic field and the scalar field, respectively; $\Delta m_H^2$ is the difference between the observed Higgs mass $m_H^2$ and the bare mass, $m_H^0$ (Lagrangian parameter); $\Lambda_{\mathrm{UV}}$ is the ultraviolet momentum cut-off, selected to be at the Planck scale ($\sim 2 \cdot 10^{18} \gev$), at which a QFT description of gravity is believed to become possible. The correction to the Higgs mass then, will be around 30 orders of magnitude larger than Higgs mass itself, in opposition to what has been measured. This difference just mentioned, between the electroweak scale and the Planck scale arisen from the quantum corrections to the Higgs mass, is the so-called Hierarchy Problem \cite{Weinberg1976}.
 
 
 		\subsection*{Neutrino Masses}
@@ -282,33 +297,42 @@
 	\section{Supersymmetry}
 	\label{sec:SUSY}
 
-		SUperSYmmetry (SUSY) is a theory that links gravity with the other fundamental forces of nature by introducing a space-time symmetry that relates bosons to fermions and vice-versa, via a transformation of the form of:  
+		Supersymmetry links gravity with the other fundamental forces of nature by introducing a space-time symmetry that relates bosons to fermions and vice-versa, via a transformation of the form of:  
 
 		\begin{equation}
 		\label{eq:susy_transformation}
 			Q \ket{\mathrm{fermion}} = \ket{\mathrm{boson}}, \qquad Q \ket{\mathrm{boson}} = \ket{\mathrm{fermion}}
 		\end{equation}
 
-		\noindent For each SM particle there exists a superparner (also referred to as \emph{sparticle}) with a spin difference of $\Delta s = 1/2$. As of today, superpartners have not been observed yet, resulting in the assumption that SUSY must be a broken symmetry, otherwise superpartners would have had the same quantum numbers and masses as their SM equivalent. However, if sparticles were to be too heavy the hierarchy problem would still remain unsolved. The \emph{soft} SUSY breaking mechanism overcomes this problem imposing contrains on the masses of sparticles to a range that can be experimentally explored.
+		\noindent For each SM particle there exists a superpartner with a spin difference of $\Delta s = 1/2$. As of today, superpartners, generally called \emph{sparticles} (where the \emph{s} stands for ``scalar''), have not been observed yet, resulting in the assumption that SUSY must be a broken symmetry, otherwise superpartners would have the same quantum numbers and masses as their SM equivalent. However, if sparticles were to be too heavy (close to the Planck scale), the hierarchy problem would still remain unsolved. The \emph{soft} SUSY breaking mechanism overcomes this problem imposing contrains on the masses of sparticles to a range that can be experimentally explored. 
+
+		In this section an overview of Supersymmetry (SUSY) will be presented, together with the motivations behind the success of such theory. Third generation SUSY will be also discussed as it is the most relevant theoretical support to the analyses presented in Chapter \ref{ch:stop_ana}. 
+		
 
 		\subsection{Why SUSY?}
+
+
+			
+
+		\subsection{SUSY Models}
+
+
+		\subsection*{Minimal Supersymmetric Standard Model}
 			
 			bla
 
-		\subsection{Minimal Supersymmetric Standard Model}
-			
-			bla
-
-		\subsection{\emph{R}-parity SUSY}
+		\subsection*{\emph{R}-parity SUSY}
 		
 			bla
 
-		\subsection{Simplified models}
+		\subsection*{Simplified models}
 		
 			bla
 
 
-		\subsection{Phenomenological MSSM}
+		\subsection*{Phenomenological MSSM}
 		
 			bla
+
+		\subsection{Third generation Supersymmetry}
 

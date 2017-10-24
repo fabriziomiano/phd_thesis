@@ -1,19 +1,20 @@
 \select@language {british}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces The Higgs potential in the complex plane.\relax }}{8}{figure.caption.12}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Summary of several Standard Model total production cross section measurements, corrected for leptonic branching fractions, compared to the corresponding theoretical expectations. All theoretical expectations were calculated at NLO or higher. The luminosity used for each measurement is indicated close to the data point. Uncertainties for the theoretical predictions are quoted from the original ATLAS papers. They were not always evaluated using the same prescriptions for PDFs and scales. Not all measurements are statistically significant yet \cite {ATLAS_a_SMSummary_TotalXsect}.\relax }}{9}{figure.caption.13}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The Higgs potential in the complex plane.\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Summary of several Standard Model total production cross section measurements, corrected for leptonic branching fractions, compared to the corresponding theoretical expectations. All theoretical expectations were calculated at NLO or higher. The luminosity used for each measurement is indicated close to the data point. Uncertainties for the theoretical predictions are quoted from the original ATLAS papers. They were not always evaluated using the same prescriptions for PDFs and scales. Not all measurements are statistically significant yet \cite {ATLAS_a_SMSummary_TotalXsect}.\relax }}{9}{figure.caption.9}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces One-loop quantum corrections to the Higgs mass: (a) a fermion correction with coupling $\lambda _f$ and (b) a scalar correction with coupling $\lambda _S$.\relax }}{10}{figure.caption.10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces CERN Accelerator complex. The LHC is the last ring (dark grey line). Smaller machines are used for early-stage acceleration and also to provide beams for other experiments \cite {Lefevre2008}.\relax }}{14}{figure.caption.19}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Cut-away view of the ATLAS detector. The dimensions of the detector are 25 m in height and 44 m in length. The overall weight of the detector is approximately 7000 tonnes \cite {Lefevre2008}.\relax }}{15}{figure.caption.20}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The ATLAS magnet system.\relax }}{16}{figure.caption.22}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Geometry of magnet windings and tile calorimeter steel. The eight barrel toroid coils, with the end-cap coils interleaved are visible. The solenoid winding lies inside the calorimeter volume \cite {ATLASJINST}.}}}{16}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic view of the superconducting magnets \cite {YAMAMOTO200853}.}}}{16}{subfigure.3.2}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The ATLAS Inner Detector\relax }}{18}{figure.caption.25}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Overview of the ATLAS ID with labels and dimensions.}}}{18}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Diagram of the ATLAS ID and its sub-detectors.}}}{18}{subfigure.4.2}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces A computer generated image of the full calorimeter.\relax }}{20}{figure.caption.30}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Cut-away view of the ATLAS muon system \cite {ATLASJINST}.\relax }}{22}{figure.caption.33}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces The ATLAS TDAQ system. L1Topo and FTK were being commissioned during 2015 and not used for the results shown in this thesis \cite {ATLASTrigger2015}.\relax }}{23}{figure.caption.34}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces CERN Accelerator complex. The LHC is the last ring (dark grey line). Smaller machines are used for early-stage acceleration and also to provide beams for other experiments \cite {Lefevre2008}.\relax }}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Cut-away view of the ATLAS detector. The dimensions of the detector are 25 m in height and 44 m in length. The overall weight of the detector is approximately 7000 tonnes \cite {Lefevre2008}.\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The ATLAS magnet system.\relax }}{17}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Geometry of magnet windings and tile calorimeter steel. The eight barrel toroid coils, with the end-cap coils interleaved are visible. The solenoid winding lies inside the calorimeter volume \cite {ATLASJINST}.}}}{17}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic view of the superconducting magnets \cite {YAMAMOTO200853}.}}}{17}{subfigure.3.2}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The ATLAS Inner Detector\relax }}{19}{figure.caption.14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Overview of the ATLAS ID with labels and dimensions.}}}{19}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Diagram of the ATLAS ID and its sub-detectors.}}}{19}{subfigure.4.2}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces A computer generated image of the full calorimeter.\relax }}{21}{figure.caption.15}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Cut-away view of the ATLAS muon system \cite {ATLASJINST}.\relax }}{23}{figure.caption.16}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The ATLAS TDAQ system. L1Topo and FTK were being commissioned during 2015 and not used for the results shown in this thesis \cite {ATLASTrigger2015}.\relax }}{24}{figure.caption.17}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
