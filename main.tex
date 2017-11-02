@@ -2,14 +2,17 @@
 % University of Sussex thesis template
 % Last Edit by Fabrizio Miano, Oct 2017
 %---------------------------------------------------
+
+%---------------------------------------------------
 %\RequirePackage[l2tabu,orthodox]{nag} 
-\RequirePackage{tgpagella}
-%\RequirePackage{mathpazo}
+%\RequirePackage{palatino} % Change Font
+%\RequirePackage{lmodern}
+%---------------------------------------------------
 \documentclass[a4paper,11pt,oneside]{book}
 \usepackage{booktabs}
 \usepackage{hepunits}
 \usepackage{physics}
-\usepackage{latex/atlasphysics}
+\usepackage{latex/atlasphysics} % ATLAS Class for variable etc
 \usepackage{enumerate}
 \usepackage{epigraph}
 \usepackage{placeins}
@@ -17,17 +20,17 @@
 \usepackage{multicol} % multicolumn text
 \usepackage{wrapfig} % figures wrapped in text
 \usepackage{booktabs} % lines for tables
-
+\usepackage{lineno} % Line Numbers 
+\usepackage{subfig}  % pictures and sub-pictures
+\usepackage[]{fncychap} % header style - Options: Sonny, Glenn, Bjornstrup
+\usepackage[utf8]{inputenc} 
+%\usepackage[math]{iwona}
+\usepackage{tgpagella}
+\usepackage[T1]{fontenc} 
+\setcounter{secnumdepth}{4}
 \usepackage{titlesec, blindtext, color}
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
-
-\usepackage{lineno} % Line Numbers 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{subfig}
-\usepackage[]{fncychap} % header style - Options: Sonny, Glenn, Bjornstrup
-\setcounter{secnumdepth}{4}
 
 %---------------------------------------------------
 % LINE SPACING
@@ -162,6 +165,7 @@
 %\usepackage{refcheck}
 \graphicspath{{./figures/}}
 
+
 %---------------------------------------------------
 % BEGIN DOCUMENT
 %---------------------------------------------------
@@ -234,4 +238,5 @@
 %---------------------------------------------------
 % END DOCUMENT
 %---------------------------------------------------
+
 \end{document}

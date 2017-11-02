@@ -251,30 +251,25 @@
 
 		\subsection*{Hierarchy Problem}
 
-			Due to the coupling of every particle to the Higgs field, the one-loop corrections to the Higgs mass receive several contributions. 
+			Due to the coupling of the Higgs field to the fermionic fields the one-loop corrections to the Higgs mass receive several contributions. In particular: 
 
-			%\begin{wrapfigure}{l}{.\textwidth}
-			\begin{figure}
-				\centering
-				\includegraphics[width=.5\textwidth]{theory/1loopCorrectionsHM}
-				\caption{\label{fig:higgs_coupling} One-loop quantum corrections to the Higgs mass: (a) a fermion correction with coupling $\lambda_f$ and (b) a scalar correction with coupling $\lambda_S$.}
-			\end{figure}
+			% %\begin{wrapfigure}{l}{.\textwidth}
+			% \begin{figure}
+			% 	\centering
+			% 	\includegraphics[width=\textwidth]{theory/1loopfermionicCorrections}
+			% 	\caption{\label{fig:higgs_f_coupling} One-loop quantum corrections to the Higgs mass. A fermion correction with coupling $\lambda_f$.}
+			% \end{figure}
 
-			In particular, as shown in Fig. \ref{fig:higgs_coupling}:
+			% In particular, as shown in Fig. \ref{fig:higgs_f_coupling}:			
 
 			\begin{equation}
 			\label{eq:mH_fermionic_contribution}
 			\Delta m_H^2 = - \frac{ | \lambda_f  |^2}{8 \pi ^2} \Lambda_{\mathrm{UV}}^2 + \dots 
 			\end{equation}
 
-			\noindent which is the dominant, due to the fermionic contribution, and 
+			% \noindent which is the dominant, due to the fermionic contribution, and 
 
-			\begin{equation}
-			\label{eq:mH_scalar_contribution}
-			\Delta m_H^2 = - \frac{\left | \lambda_S \right |^2}{16 \pi ^2} \left [  \Lambda_{\mathrm{UV}}^2 - 2m_S^2 \ln \left (\Lambda_{\mathrm{UV}} / m_S \right) + \dots \right ]
-			\end{equation}
-
-			\noindent due to the bosonic contribution. Here, $\lambda_f$ and $\lambda_S$ are the coupling to the fermionic field and the scalar field, respectively; $\Delta m_H^2$ is the difference between the observed Higgs mass $m_H^2$ and the bare mass, $m_H^0$ (Lagrangian parameter); $\Lambda_{\mathrm{UV}}$ is the ultraviolet momentum cut-off, selected to be at the Planck scale ($\sim 2 \cdot 10^{18} \gev$), at which a QFT description of gravity is believed to become possible. The correction to the Higgs mass then, will be around 30 orders of magnitude larger than Higgs mass itself, in opposition to what has been measured. This difference just mentioned, between the electroweak scale and the Planck scale arisen from the quantum corrections to the Higgs mass, is the so-called Hierarchy Problem \cite{Weinberg1976}.
+			\noindent here, $\lambda_f$ is the coupling constant to the fermionic field; $\Delta m_H^2$ is the difference between the observed Higgs mass $m_H^2$ and the bare mass, $m_H^0$ (Lagrangian parameter); $\Lambda_{\mathrm{UV}}$ is the ultraviolet momentum cut-off, selected to be at the Planck scale ($\sim 2 \cdot 10^{18} \gev$), at which a QFT description of gravity is believed to become possible. The correction to the Higgs mass then, will be around 30 orders of magnitude larger than Higgs mass itself, in opposition to what has been measured. This difference just mentioned, between the electroweak scale and the Planck scale arisen from the quantum corrections to the Higgs mass, is the so-called Hierarchy Problem \cite{Weinberg1976}.
 
 
 		\subsection*{Neutrino Masses}
@@ -306,33 +301,110 @@
 
 		\noindent For each SM particle there exists a superpartner with a spin difference of $\Delta s = 1/2$. As of today, superpartners, generally called \emph{sparticles} (where the \emph{s} stands for ``scalar''), have not been observed yet, resulting in the assumption that SUSY must be a broken symmetry, otherwise superpartners would have the same quantum numbers and masses as their SM equivalent. However, if sparticles were to be too heavy (close to the Planck scale), the hierarchy problem would still remain unsolved. The \emph{soft} SUSY breaking mechanism overcomes this problem imposing contrains on the masses of sparticles to a range that can be experimentally explored. 
 
-		In this section an overview of Supersymmetry (SUSY) will be presented, together with the motivations behind the success of such theory. Third generation SUSY will be also discussed as it is the most relevant theoretical support to the analyses presented in Chapter \ref{ch:stop_ana}. 
+		In this section an overview of Supersymmetry (SUSY) will be presented, together with the motivations behind the success of such theory. Third generation SUSY will be also discussed as it is the most relevant theoretical support to the analyses presented in this work. 
+		
 		
 
 		\subsection{Why SUSY?}
 
+			One of the main motivations for SUSY is the cancellation of quadratic divergences to $\Delta m_H^2$. 
+			The introduction of SUSY particles with a half-integer spin difference with respect to their SM provides a solution to the hierarchy problem. The Higgs mass squared potential receives corrections from a new scalar of mass ms of the form:
 
-			
+			\begin{equation}
+			\label{eq:mH_scalar_contribution}
+			\Delta m_H^2 = - \frac{\left | \lambda_S \right |^2}{16 \pi ^2} \left [  \Lambda_{\mathrm{UV}}^2 - 2m_S^2 \ln \left (\Lambda_{\mathrm{UV}} / m_S \right) + \dots \right ]
+			\end{equation}
 
-		\subsection{SUSY Models}
+			\noindent where, $\lambda_S$ is the coupling of SUSY particles to the Higgs field. This term cancels the fermionic contributions in Eq. \ref{eq:mH_fermionic_contribution} since the couplings are the same. The experimental value of Higgs mass will then not need any fine tuning.
+
+			Fig. \ref{fig:alphaRunning} shows the inverse couplings as a function of the scale for both SM and the Minimal Supersymmetric Standard Model (MSSM), which will be discussed in the next paragraph. In the SM the three lines, representing electromagnetic (dashed blue), weak (dashed red) and strong (solid green) interactions respectively, do not meet at one point, but with the introduction of supersymmetry, and assuming that the supersymmetric particles are not heavier than about 1 \TeV, they do meet. This is an indication that supersymmetry could be discovered at the LHC. The possible unification of the coupling constants at the Planck scale is therefore another good motivation for SUSY searches. 
+
+			\begin{figure}[!htb]
+				\centering
+				\includegraphics[width=\textwidth]{theory/alphaRunning}
+				\caption{\label{fig:alphaRunning} The inverse couplings of electromagnetic (dashed blue), weak (dashed red) and strong (solid green) interactions with the SM (left) and a supersymmetric model (right). In the SM the three lines do not meet at one point, but with the introduction of supersymmetry, and assuming that the supersymmetric particles are not heavier than about 1 \TeV, they do meet. This is an indication that supersymmetry could be discovered at the LHC.}
+			\end{figure}
+
 
 
 		\subsection*{Minimal Supersymmetric Standard Model}
 			
-			bla
+			The Minimal Supersymmetric Standard Model (MSSM), a minimal supersymmetric extension of the SM \cite{Jegerlehner:2013nna}, is defined by essentially doubling up the number of particles in the SM theory in order to include all the SM particles as well as their corresponding superpartners.
 
-		\subsection*{\emph{R}-parity SUSY}
-		
-			bla
+			\begin{table}[!htb]\centering\caption{SUSY particles in the MSSM}							
+				\begin{tabular}{|c|c|c|c|}
+					\hline
+					Name & Spin & Gauge Eigenstates & Mass Eigenstates \\ \hline \hline
+					
+					\multirow{3}{*}{Squarks ($\tilde{q}$)} & \multirow{3}{*}{0} 
+					& $\tilde{u}_L$ $\tilde{u}_R$ $\tilde{d}_L$ $\tilde{d}_R$ & (same) \\
+					& & $\tilde{c}_L$ $\tilde{c}_R$ $\tilde{s}_L$ $\tilde{s}_R$ & (same) \\
+					& & $\tilde{t}_L$ $\tilde{t}_R$ $\tilde{b}_L$ $\tilde{b}_R$ & $\tilde{t}_1$ $\tilde{t}_2$ $\tilde{b}_1$ $\tilde{b}_2$ \\ \hline
 
-		\subsection*{Simplified models}
-		
-			bla
+					\multirow{3}{*}{Sleptons ($\tilde{l}$)} & \multirow{3}{*}{0} 
+					& $\tilde{e}_L$ $\tilde{e}_R$ $\tilde{\nu}_L$ & (same) \\
+					& & $\tilde{\mu}_L$ $\tilde{\mu}_R$ $\tilde{\nu}_L$ & (same) \\ 
+					& & $\tilde{\tau}_L$ $\tilde{\tau}_R$ $\tilde{\nu}_{\tau}$ & $\tilde{\tau}_1$ $\tilde{\tau}_2$ $\tilde{\nu}_{\tau}$ \\ \hline
+					
+					Higgs bosons & 0 & $H_u^0$ $H_d^0$ $H_u^+$ $H_d^-$ & $h^0$ $H^0$ $A^0$ $H^{\pm}$ \\ \hline 
 
+					Neutralinos ($\tilde{\chi}_j^0$)   & 1/2 & $\tilde{B}^0$ $\tilde{W}^0$ $\tilde{H}_u^0$ $\tilde{H}_d^0$ & $\tilde{\chi}_1^0$ $\tilde{\chi}_2^0$ $\tilde{\chi}_3^0$ $\tilde{\chi}_4^0$\\
+					Charginos ($\tilde{\chi}_i^{\pm}$) & 1/2 & $\tilde{W}^{\pm}$ $\tilde{H}_u^+$ $\tilde{H}_u^-$ & $\tilde{\chi}_1^{\pm}$ $\tilde{\chi}_2^{\pm}$ \\ \hline
 
-		\subsection*{Phenomenological MSSM}
-		
-			bla
+					Gluino & 1/2 & $\tilde{g}$ & (same) \\
+					Gravitino & 3/2 & $\tilde{G}$ & (same) \\ \hline					
+				\end{tabular}						
+			\label{tab:MSSM_particles} 
+			\end{table}
 
-		\subsection{Third generation Supersymmetry}
+			\noindent Table \ref{tab:MSSM_particles} lists the MSSM particles. Scalar superpartners of quarks (leptons) are called \emph{squarks} $\tilde{q}$ (\emph{sleptons} $\tilde{l}$), short for ``scalar quarks (leptons)'' respectively. More generally they are referred to as scalar fermions, or sfermions, $\tilde{f}$. A tilde above symbols is used to indicate SUSY partners. As for gauge bosons and the Higgs, they have a fermionic superpartner. These are referred to as \emph{Gauginos} and \emph{Higgsinos} and, differently from the SM, in the MSSM there are two complex Higgs doublets: 
 
+			\begin{equation*}
+				H_u = (H_u^+, H_u^0) \qquad H_d = (H_d^0, H_d^-) 
+				\label{eq:MSSM_HiggsDoublets}
+			\end{equation*}
+
+			\noindent with their respective VEVs, $v_d$, $v_u$ which are constrained by the SM Higgs VEV: 
+
+			\begin{equation*}
+				v = \sqrt{v_u^2 + v_d^2}
+				\label{eq:MSSM_HiggsVEVs}
+			\end{equation*}
+
+			\noindent Once electroweak symmetry is broken, eight degrees of freedom arise from the two Higgs doublets. In particular, three of them give mass to the SM gauge bosons, $\Wboson^{\pm}$, \Zboson, two for charged Higgs bosons $H^{\pm}$ and three for the three neutral Higgs bosons, $h^0$ (the lightest) $H^0$ and $A^0$. Winos, $\tilde{W}^{\pm}$, and Bino, $\tilde{B}^0$ mixing produce four neutralinos and four charginos, $\tilde{\chi}^0_i$ ($i=1,2,3,4$) and $\tilde{\chi}^{\pm}_{1,2}$, respectively. The mixing is described by equation \ref{eq:chargino_mixing} and \ref{eq:neutralino_mixing} as it follows.
+
+			\begin{equation}
+			\label{eq:chargino_mixing}
+					\begin{pmatrix}  \tilde{\chi}^{\pm}_1 \\ \tilde{\chi}^{\pm}_2 \end{pmatrix}	
+					= 
+					\begin{pmatrix}
+						M_2 & \sqrt{2} m_W \sin \beta \\
+						\sqrt{2} m_W \cos \beta & \mu  
+					\end{pmatrix}
+					\begin{pmatrix}
+						\tilde{W}^{\pm} \\
+						\tilde{H}^{\pm}
+					\end{pmatrix}
+			\end{equation}
+
+			\begin{equation}
+			\label{eq:neutralino_mixing}
+					\begin{pmatrix}  \tilde{\chi}^{0}_1 \\ \tilde{\chi}^{0}_2 \\ \tilde{\chi}^{0}_3 \\ \tilde{\chi}^{0}_4 \end{pmatrix}	
+					= 
+					\begin{pmatrix}
+						M_1 & 0 & - m_Z \cos \beta \sin \theta_W & - m_Z \cos \theta_W \sin \beta \\
+						0 & M_2 & m_Z \cos \beta \cos \theta_W &  m_Z \cos \theta_W \sin \beta \\
+						- m_Z \cos \beta \sin \theta_W & m_Z \cos \beta \sin \theta_W & 0 & - \mu \\ 
+						m_Z \sin \beta \cos \theta_W & m_Z \sin \beta \cos \theta_W & - \mu & 0  
+					\end{pmatrix}
+					\begin{pmatrix}
+						\tilde{B}^{0} \\
+						\tilde{W}^{0} \\
+						\tilde{H}^{0}_u \\
+						\tilde{H}^{0}_d
+					\end{pmatrix}
+			\end{equation}
+
+			\noindent Here, 
+
+		\subsection{Third generation SUSY}
