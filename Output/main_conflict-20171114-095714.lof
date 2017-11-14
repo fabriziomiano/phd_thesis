@@ -1,0 +1,24 @@
+\select@language {british}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The Higgs potential in the complex plane.\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Summary of several Standard Model total production cross section measurements, corrected for leptonic branching fractions, compared to the corresponding theoretical expectations. All theoretical expectations were calculated at NLO or higher. The luminosity used for each measurement is indicated close to the data point. Uncertainties for the theoretical predictions are quoted from the original ATLAS papers. They were not always evaluated using the same prescriptions for PDFs and scales. Not all measurements are statistically significant yet \cite {ATLAS_a_SMSummary_TotalXsect}.\relax }}{9}{figure.caption.9}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces The inverse couplings of electromagnetic (dashed blue), weak (dashed red) and strong (solid green) interactions with the SM (left) and a supersymmetric model (right). In the SM the three lines do not meet at one point, but with the introduction of supersymmetry, and assuming that the supersymmetric particles are not heavier than about 1 \textrm {Te\kern -0.1em V}, they do meet. This is an indication that supersymmetry could be discovered at the LHC.\relax }}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces NLO+NLL production cross sections as a function of mass at $\sqrt {s} = 13 \textrm {Te\kern -0.1em V}$ \cite {Borschensky:2014cia}\relax }}{16}{figure.caption.13}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Illustration of stop decay modes in the plane stop-neutralino mass plane where the latter is assumed to be the lightest supersymmetric particle and the only one present among the decay products. The dashed blue lines indicate thresholds separating regions where different processes dominate.\relax }}{17}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces CERN Accelerator complex. The LHC is the last ring (dark grey line). Smaller machines are used for early-stage acceleration and also to provide beams for other experiments \cite {Lefevre2008}.\relax }}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Cut-away view of the ATLAS detector. The dimensions of the detector are 25 m in height and 44 m in length. The overall weight of the detector is approximately 7000 tonnes \cite {Lefevre2008}.\relax }}{21}{figure.caption.16}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The ATLAS magnet system.\relax }}{22}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Geometry of magnet windings and tile calorimeter steel. The eight barrel toroid coils, with the end-cap coils interleaved are visible. The solenoid winding lies inside the calorimeter volume \cite {ATLASJINST}.}}}{22}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic view of the superconducting magnets \cite {YAMAMOTO200853}.}}}{22}{subfigure.3.2}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The ATLAS Inner Detector\relax }}{24}{figure.caption.18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Overview of the ATLAS ID with labels and dimensions.}}}{24}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Diagram of the ATLAS ID and its sub-detectors.}}}{24}{subfigure.4.2}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces A computer generated image of the full calorimeter.\relax }}{26}{figure.caption.19}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Cut-away view of the ATLAS muon system \cite {ATLASJINST}.\relax }}{28}{figure.caption.20}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The ATLAS TDAQ system. L1Topo and FTK were being commissioned during 2015 and not used for the results shown in this thesis \cite {ATLASTrigger2015}.\relax }}{29}{figure.caption.21}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

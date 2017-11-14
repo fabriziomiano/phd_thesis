@@ -1,4 +1,4 @@
-\chapter{The Standard Model, Supersymmetry, and the motivations behind it}
+\chapter{Theoretical Framework of Supersymmetry searches}
 \label{ch:theory} 
 \epigraph{\emph{A theory is something nobody believes, except the person who made it. An experiment is something everybody believes, except the person who made it.}} {Albert Einstein}
 
@@ -10,7 +10,7 @@
 	
 
 
-	\section{Overview}
+	\section{The Standard Model}
 	%\label{sec:SM}
 	\label{sec:SMov}
 
@@ -69,7 +69,7 @@
 			\begin{table}[!htb]\centering\caption{Forces and mediators described by the SM}							
 				\begin{tabular}{c|c|c|c|c}
 					\hline \hline
-					Force & Name & Symbol & Mass [\GeV]& Charge \\ \hline \hline
+					\textbf{Force} & \textbf{Name} & \textbf{Symbol} & \textbf{Mass} [\GeV]& \textbf{Charge} \\ \hline \hline
 					Electromagnetic & Photon & $\gamma$ & 0 & 0 \\ \hline
 					\multirow{2}{*}{Weak} & W & $\Wboson^{\pm}$ & $80.398$ & $\pm e$ \\
 					& Z & $\Zboson^0$ & $91.188$ & 0 \\\hline
@@ -107,7 +107,8 @@
 
 
 
-		\subsection*{Electroweak Symmetry Breaking and the Higgs mechanism}
+		\subsection{Electroweak Symmetry Breaking and the Higgs mechanism}
+		\label{sec:ewksb}
 
 			In 1979 Sheldon Glashow, Abdus Salam, and Steven Weinberg were awarded the Nobel Prize in Physics for their contributions to the so-called electroweak unification. In the mathematical description of the SM in \ref{eq:SM_gaugeSym} the electroweak interaction is described by $U(1)_Y \otimes SU(2)_L$. The electroweak physical bosons \Wboson, \Zboson\ and $\gamma$ are related to the four unphysical gauge bosons $W_{\mu}^{\alpha = 1,\dots,3}$ and $B_\mu^0$. In particular, to obtain the physical bosons the gauge bosons have to mix as follows:
 
@@ -236,20 +237,20 @@
 
 
 
-	\section{Limitations of the Standard Model}
-	\label{sec:SMlim}
+		\subsection{Flaws of the Standard Model}
+		\label{sec:SMlim}
 
-		During Run 1 and 2 of the LHC, the SM has been extensively validated, as shown in Fig. \ref{fig:ATLAS_a_SMSummary_TotalXsect}: the agreement, between the measured production cross section of various SM processes and the SM predictions, looks very good. However, the reasons behind the mass difference between the the three generations of fermions are still not explained by the SM because masses are treated as free parameters of the theory. In addition, there are some fundamental questions that have still no answer and they will be briefly discussed this section.
+			During Run 1 and 2 of the LHC, the SM has been extensively validated, as shown in Fig. \ref{fig:ATLAS_a_SMSummary_TotalXsect}: the agreement, between the measured production cross section of various SM processes and the SM predictions, looks very good. However, the reasons behind the mass difference between the the three generations of fermions are still not explained by the SM because masses are treated as free parameters of the theory. In addition, there are some fundamental questions that have still no answer and they will be briefly discussed this section.
 
-		\begin{figure}[!htb]
-			\centering
-			\includegraphics[width=\textwidth]{theory/ATLAS_a_SMSummary_TotalXsect}
-			\caption{\label{fig:ATLAS_a_SMSummary_TotalXsect} Summary of several Standard Model total production cross section measurements, corrected for leptonic branching fractions, compared to the corresponding theoretical expectations. All theoretical expectations were calculated at NLO or higher. The luminosity used for each measurement is indicated close to the data point. Uncertainties for the theoretical predictions are quoted from the original ATLAS papers. They were not always evaluated using the same prescriptions for PDFs and scales. Not all measurements are statistically significant yet \cite{ATLAS_a_SMSummary_TotalXsect}.}
-		\end{figure}
+			\begin{figure}[!htb]
+				\centering
+				\includegraphics[width=\textwidth]{theory/ATLAS_a_SMSummary_TotalXsect}
+				\caption{\label{fig:ATLAS_a_SMSummary_TotalXsect} Summary of several Standard Model total production cross section measurements, corrected for leptonic branching fractions, compared to the corresponding theoretical expectations. All theoretical expectations were calculated at NLO or higher. The luminosity used for each measurement is indicated close to the data point. Uncertainties for the theoretical predictions are quoted from the original ATLAS papers. They were not always evaluated using the same prescriptions for PDFs and scales. Not all measurements are statistically significant yet \cite{ATLAS_a_SMSummary_TotalXsect}.}
+			\end{figure}
 
 
 
-		\subsection*{Hierarchy Problem}
+		\subsubsection*{Hierarchy Problem}
 
 			Due to the coupling of the Higgs field to the fermionic fields the one-loop corrections to the Higgs mass receive several contributions. In particular: 
 
@@ -272,7 +273,7 @@
 			\noindent here, $\lambda_f$ is the coupling constant to the fermionic field; $\Delta m_H^2$ is the difference between the observed Higgs mass $m_H^2$ and the bare mass, $m_H^0$ (Lagrangian parameter); $\Lambda_{\mathrm{UV}}$ is the ultraviolet momentum cut-off, selected to be at the Planck scale ($\sim 2 \cdot 10^{18} \gev$), at which a QFT description of gravity is believed to become possible. The correction to the Higgs mass then, will be around 30 orders of magnitude larger than Higgs mass itself, in opposition to what has been measured. This difference just mentioned, between the electroweak scale and the Planck scale arisen from the quantum corrections to the Higgs mass, is the so-called Hierarchy Problem \cite{Weinberg1976}.
 
 
-		\subsection*{Neutrino Masses}
+		\subsubsection*{Neutrino Masses}
 
 			The Super-Kamiokande Collaboration first, in 1998 \cite{SK1998}, and SNO Collaboration later, in 2001 \cite{SNO2001}, have provided measurements of the neutrino flux from solar and atmospheric sources. 
 			The Nobel Prize in Physics 2015 was awarded jointly to Takaaki Kajita and Arthur B. McDonald ``for the discovery of neutrino oscillations, which shows that neutrinos have mass'' \cite{Nobel2015}. Such feature contraddicts the absence of a mechanism for mass generation for the neutrinos. 
@@ -281,7 +282,7 @@
 
 
 
-		\subsection*{Dark Matter}
+		\subsubsection*{Dark Matter}
 
 			Although dark matter (DM) has never been directly observed, its existence is inferred from its gravitational effects. For example, looking at galaxies rotation, it was observed that the rotation speed was higher than expected, given the amount of visible matter. Two different reasoning arose during the last century to justify such effect either there is matter that cannot be seen by us (in terms of visible light), which contributes to the galatcis mass; or the general relativity works differently at galactic distances. The former is believed to be the most likely and it implies the existence of new particles which do not interact via electromagnetic interaction, the so-called Weakly Interacting Massive Particles (WIMPs).
 
@@ -301,7 +302,7 @@
 
 		\noindent For each SM particle there exists a superpartner with a spin difference of $\Delta s = 1/2$. As of today, superpartners, generally called \emph{sparticles} (where the \emph{s} stands for ``scalar''), have not been observed yet, resulting in the assumption that SUSY must be a broken symmetry, otherwise superpartners would have the same quantum numbers and masses as their SM equivalent. However, if sparticles were to be too heavy (close to the Planck scale), the hierarchy problem would still remain unsolved. The \emph{soft} SUSY breaking mechanism overcomes this problem imposing contrains on the masses of sparticles to a range that can be experimentally explored. 
 
-		In this section an overview of Supersymmetry (SUSY) will be presented, together with the motivations behind the success of such theory. Third generation SUSY will be also discussed as it is the most relevant theoretical support to the analyses presented in this work. 
+		In this section an overview of Supersymmetry (SUSY) will be presented, together with the motivations behind the success of such theory. Finally, third generation SUSY will be discussed as it is the most relevant theoretical support to the analyses presented in this work. 
 		
 		
 
@@ -317,7 +318,7 @@
 
 			\noindent where, $\lambda_S$ is the coupling of SUSY particles to the Higgs field. This term cancels the fermionic contributions in Eq. \ref{eq:mH_fermionic_contribution} since the couplings are the same. The experimental value of Higgs mass will then not need any fine tuning.
 
-			Fig. \ref{fig:alphaRunning} shows the inverse couplings as a function of the scale for both SM and the Minimal Supersymmetric Standard Model (MSSM), which will be discussed in the next paragraph. In the SM the three lines, representing electromagnetic (dashed blue), weak (dashed red) and strong (solid green) interactions respectively, do not meet at one point, but with the introduction of supersymmetry, and assuming that the supersymmetric particles are not heavier than about 1 \TeV, they do meet. This is an indication that supersymmetry could be discovered at the LHC. The possible unification of the coupling constants at the Planck scale is therefore another good motivation for SUSY searches. 
+			Fig. \ref{fig:alphaRunning} shows the inverse couplings as a function of the scale for both SM and the Minimal Supersymmetric Standard Model (MSSM), which will be soon discussed. In the SM the three lines, representing electromagnetic (dashed blue), weak (dashed red) and strong (solid green) interactions respectively, do not meet at one point, but with the introduction of supersymmetry, and assuming that the supersymmetric particles are not heavier than about 1 \TeV, they do meet. This is an indication that supersymmetry could be discovered at the LHC. The possible unification of the coupling constants at the Planck scale is therefore another good motivation for SUSY searches. 
 
 			\begin{figure}[!htb]
 				\centering
@@ -327,84 +328,189 @@
 
 
 
-		\subsection*{Minimal Supersymmetric Standard Model}
+		\subsection{Minimal Supersymmetric Standard Model}
 			
+			There does not exist a unique extension of a supersymmetric Standard Model, \ie SUSY is not a well-defined model but it is more a framework within which various SM extensions can be derived.
 			The Minimal Supersymmetric Standard Model (MSSM), a minimal supersymmetric extension of the SM \cite{Jegerlehner:2013nna}, is defined by essentially doubling up the number of particles in the SM theory in order to include all the SM particles as well as their corresponding superpartners.
 
-			\begin{table}[!htb]\centering\caption{SUSY particles in the MSSM}							
-				\begin{tabular}{|c|c|c|c|}
+			\subsubsection*{Soft SUSY breaking}
+				The mass spectrum of the SUSY particles must sit somewhere at a larger scale than the SM one, as supersymmetric particles have not been discovered at the mass scale of their SM partners. This gives us a hint that supersymmetry cannot be an exact symmetry, there has to be an analogous to the electroweak symmetry breaking discussed in \ref{sec:ewksb} that breaks SUSY. In particular, this must be soft or spontaneous such that broken supersymmetry still provides a solution to the hierarchy problem. This means that some new higher energy scale particles and interactions have to be added to the MSSM, but it also means that terms, containing only masses and couplings with positive mass dimension, being gauge invariant and violating SUSY, have to be added to the Lagrangian which will then be defined as;
+
+				\begin{equation}
+				\label{eq:soft_sb}
+					\cal L = \cal {L_{\mathrm{SUSY}}} + \cal {L_{\mathrm{soft}}}
+				\end{equation}
+
+				\noindent Here, $\cal {L_{\mathrm{SUSY}}}$ contains the original SUSY invariant interaction and $\cal {L_{\mathrm{soft}}}$ contains all the additional terms. A set of around 100 parameters - depending on the method - are then introduced into the theory, and these are catalogued in Table \ref{tab:MSSM_mainFreePar}. 
+
+				\begin{table}[!htb]\centering\caption{Main free parameters introduced by soft supersymmetry breaking in the MSSM.}
+					\begin{tabular}{|c|c|}
 					\hline
-					Name & Spin & Gauge Eigenstates & Mass Eigenstates \\ \hline \hline
+					\textbf{Parameters} & \textbf{Physical Explanation} \\ \hline \hline
+					$M_1$, $M_2$, $M_3$ & Bino, Wino and gluino masses \\ \hline
 					
-					\multirow{3}{*}{Squarks ($\tilde{q}$)} & \multirow{3}{*}{0} 
-					& $\tilde{u}_L$ $\tilde{u}_R$ $\tilde{d}_L$ $\tilde{d}_R$ & (same) \\
-					& & $\tilde{c}_L$ $\tilde{c}_R$ $\tilde{s}_L$ $\tilde{s}_R$ & (same) \\
-					& & $\tilde{t}_L$ $\tilde{t}_R$ $\tilde{b}_L$ $\tilde{b}_R$ & $\tilde{t}_1$ $\tilde{t}_2$ $\tilde{b}_1$ $\tilde{b}_2$ \\ \hline
-
-					\multirow{3}{*}{Sleptons ($\tilde{l}$)} & \multirow{3}{*}{0} 
-					& $\tilde{e}_L$ $\tilde{e}_R$ $\tilde{\nu}_L$ & (same) \\
-					& & $\tilde{\mu}_L$ $\tilde{\mu}_R$ $\tilde{\nu}_L$ & (same) \\ 
-					& & $\tilde{\tau}_L$ $\tilde{\tau}_R$ $\tilde{\nu}_{\tau}$ & $\tilde{\tau}_1$ $\tilde{\tau}_2$ $\tilde{\nu}_{\tau}$ \\ \hline
+					$m_{\tilde{Q}_L}$ & left-handed squarks masses\\
+					$m_{\tilde{u}_R}$, $m_{\tilde{d}_R}$ & up- and down-type right-handed squarks masses\\
+					$m_{\tilde{l}_L}$, $m_{\tilde{l}_R}$ & left- and right-handed sleptons masses\\ \hline
 					
-					Higgs bosons & 0 & $H_u^0$ $H_d^0$ $H_u^+$ $H_d^-$ & $h^0$ $H^0$ $A^0$ $H^{\pm}$ \\ \hline 
+					$m_{\tilde{H}_u^2}$, $m_{\tilde{H}_d^2}$ &Up- and down-type higgsino mass squared\\
+					$\left | \mu \right |$, $B$ &higgsino mass and the bilinear higgs term\\ \hline
+					
+					\multirow{2}{*} {$A_u$, $A_d$, $A_e$} 
+					&Up- and down-type squark sfermion \\ &and Higgs interaction trilinear couplings\\\hline 
+					
+					$\tan \beta$ & Ratio of the VEVs of the two higgs doublet fields\\ \hline
+					\end{tabular}
+				\label{tab:MSSM_mainFreePar} 
+				\end{table}
 
-					Neutralinos ($\tilde{\chi}_j^0$)   & 1/2 & $\tilde{B}^0$ $\tilde{W}^0$ $\tilde{H}_u^0$ $\tilde{H}_d^0$ & $\tilde{\chi}_1^0$ $\tilde{\chi}_2^0$ $\tilde{\chi}_3^0$ $\tilde{\chi}_4^0$\\
-					Charginos ($\tilde{\chi}_i^{\pm}$) & 1/2 & $\tilde{W}^{\pm}$ $\tilde{H}_u^+$ $\tilde{H}_u^-$ & $\tilde{\chi}_1^{\pm}$ $\tilde{\chi}_2^{\pm}$ \\ \hline
 
-					Gluino & 1/2 & $\tilde{g}$ & (same) \\
-					Gravitino & 3/2 & $\tilde{G}$ & (same) \\ \hline					
-				\end{tabular}						
-			\label{tab:MSSM_particles} 
-			\end{table}
 
-			\noindent Table \ref{tab:MSSM_particles} lists the MSSM particles. Scalar superpartners of quarks (leptons) are called \emph{squarks} $\tilde{q}$ (\emph{sleptons} $\tilde{l}$), short for ``scalar quarks (leptons)'' respectively. More generally they are referred to as scalar fermions, or sfermions, $\tilde{f}$. A tilde above symbols is used to indicate SUSY partners. As for gauge bosons and the Higgs, they have a fermionic superpartner. These are referred to as \emph{Gauginos} and \emph{Higgsinos} and, differently from the SM, in the MSSM there are two complex Higgs doublets: 
+			\subsubsection*{MSSM mass spectrum}
 
-			\begin{equation*}
-				H_u = (H_u^+, H_u^0) \qquad H_d = (H_d^0, H_d^-) 
-				\label{eq:MSSM_HiggsDoublets}
-			\end{equation*}
+				As for gauge bosons and the Higgs, there exists MSSM fermionic superpartner. These are referred to as \emph{Gauginos} and \emph{Higgsinos} and, differently from the SM, in the MSSM there are two complex Higgs doublets: 
 
-			\noindent with their respective VEVs, $v_d$, $v_u$ which are constrained by the SM Higgs VEV: 
+				\begin{equation*}
+					H_u = (H_u^+, H_u^0) \qquad H_d = (H_d^0, H_d^-) 
+					\label{eq:MSSM_HiggsDoublets}
+				\end{equation*}
 
-			\begin{equation*}
-				v = \sqrt{v_u^2 + v_d^2}
-				\label{eq:MSSM_HiggsVEVs}
-			\end{equation*}
+				\noindent with their respective VEVs, $v_d$, $v_u$ which are constrained by the SM Higgs VEV: 
 
-			\noindent Once electroweak symmetry is broken, eight degrees of freedom arise from the two Higgs doublets. In particular, three of them give mass to the SM gauge bosons, $\Wboson^{\pm}$, \Zboson, two for charged Higgs bosons $H^{\pm}$ and three for the three neutral Higgs bosons, $h^0$ (the lightest) $H^0$ and $A^0$. Winos, $\tilde{W}^{\pm}$, and Bino, $\tilde{B}^0$ mixing produce four neutralinos and four charginos, $\tilde{\chi}^0_i$ ($i=1,2,3,4$) and $\tilde{\chi}^{\pm}_{1,2}$, respectively. The mixing is described by equation \ref{eq:chargino_mixing} and \ref{eq:neutralino_mixing} as it follows.
+				\begin{equation*}
+					v = \sqrt{v_u^2 + v_d^2}
+					\label{eq:MSSM_HiggsVEVs}
+				\end{equation*}
 
-			\begin{equation}
-			\label{eq:chargino_mixing}
-					\begin{pmatrix}  \tilde{\chi}^{\pm}_1 \\ \tilde{\chi}^{\pm}_2 \end{pmatrix}	
-					= 
-					\begin{pmatrix}
-						M_2 & \sqrt{2} m_W \sin \beta \\
-						\sqrt{2} m_W \cos \beta & \mu  
-					\end{pmatrix}
-					\begin{pmatrix}
-						\tilde{W}^{\pm} \\
-						\tilde{H}^{\pm}
-					\end{pmatrix}
-			\end{equation}
+				
+				As per SM gauge bosons, the gaugino masses are affected by electroweak symmetry breaking. The new mass terms, introduced in the $\cal L_{\mathrm{soft}}$, mix to form the mass eigenstates of the sparticles. Nautral Winos, $\tilde{W}^0$, Binos, $\tilde{B}^0$ and higgsinos $\tilde{H}^0$ mix to form the four \textit{neutralinos} $\tilde{\chi}^0_i$ ($i=1,2,3,4$)  as it follows; 
 
-			\begin{equation}
-			\label{eq:neutralino_mixing}
-					\begin{pmatrix}  \tilde{\chi}^{0}_1 \\ \tilde{\chi}^{0}_2 \\ \tilde{\chi}^{0}_3 \\ \tilde{\chi}^{0}_4 \end{pmatrix}	
-					= 
-					\begin{pmatrix}
-						M_1 & 0 & - m_Z \cos \beta \sin \theta_W & - m_Z \cos \theta_W \sin \beta \\
-						0 & M_2 & m_Z \cos \beta \cos \theta_W &  m_Z \cos \theta_W \sin \beta \\
-						- m_Z \cos \beta \sin \theta_W & m_Z \cos \beta \sin \theta_W & 0 & - \mu \\ 
-						m_Z \sin \beta \cos \theta_W & m_Z \sin \beta \cos \theta_W & - \mu & 0  
-					\end{pmatrix}
-					\begin{pmatrix}
-						\tilde{B}^{0} \\
-						\tilde{W}^{0} \\
-						\tilde{H}^{0}_u \\
-						\tilde{H}^{0}_d
-					\end{pmatrix}
-			\end{equation}
+				\begin{equation}
+				\label{eq:neutralino_mixing}
+						\begin{pmatrix}  \tilde{\chi}^{0}_1 \\ \tilde{\chi}^{0}_2 \\ \tilde{\chi}^{0}_3 \\ \tilde{\chi}^{0}_4 \end{pmatrix}	
+						= 
+						\begin{pmatrix}
+							M_1 & 0 & - c_\beta s_W m_Z &  c_W s_\beta m_Z  \\
+							0 & M_2 & c_\beta c_W m_Z  &  - c_W s_\beta m_Z \\
+							- c_\beta s_W m_Z  & c_\beta s_W m_Z  & 0 & - \mu \\ 
+							s_\beta c_W m_Z  & - s_\beta c_W m_Z & - \mu & 0  
+						\end{pmatrix}
+						\begin{pmatrix}
+							\tilde{B}^{0} \\
+							\tilde{W}^{0} \\
+							\tilde{H}^{0}_u \\
+							\tilde{H}^{0}_d
+						\end{pmatrix}
+				\end{equation}
 
-			\noindent Here, 
+				\noindent Here, $c_{\beta} = \cos \beta$,  $(s_{\beta}) = \sin \beta$, $c_W = \cos \theta_W$ and $(s_W) = \sin \theta_W$. $M_1$, $M_2$ are related to gaugino masses and $\mu$ to higgsino mass, $\beta$ is the ratio of the electroweak coupling constants and $\theta_W$ is the ratio of the VEVs of the two Higgs doublet fields, and finally, $m_Z$ ($m_W$) is the mass of the \Zboson\ (\Wboson) boson. The neutralino indeces are conventionally assumed to increase with their masses. 
+				\\The charged winos $\tilde{W}^{\pm}$ and higgsinos $\tilde{H}^{\pm}$ mix to form four \textit{charginos}, $\tilde{\chi}^{\pm}_i$ ($i=1,2$) as it follows;
+
+				\begin{equation}
+				\label{eq:chargino_mixing}
+						\begin{pmatrix}  \tilde{\chi}^{\pm}_1 \\ \tilde{\chi}^{\pm}_2 \end{pmatrix}	
+						= 
+						\begin{pmatrix}
+							M_2 & \sqrt{2} m_W \sin \beta \\
+							\sqrt{2} m_W \cos \beta & \mu  
+						\end{pmatrix}
+						\begin{pmatrix}
+							\tilde{W}^{\pm} \\
+							\tilde{H}^{\pm}
+						\end{pmatrix}
+				\end{equation}
+
+				Charginos and neutralinos, given birth by the mixing described in Eq. \ref{eq:chargino_mixing} and \ref{eq:neutralino_mixing}, will be referred to as bino-like, wino-like or higgsino-like depending on their phenomenology. Gluinos do not mix as they carry colour charge, and its mass is linked to $M_3$. 
+
+				Sleptons and squarks states also mix due to electroweak symmetry breaking, although it is assumed to be zero except for the third generation particles. Stop, \stopL, \stopR, sbottom \sbottomL, \sbottomR, and stau,\stauL, \stauR mix to give mass eigenstates, \stopone, \stoptwo, \sbottomone, \sbottomtwo, \stauone, \stautwo, respectively. As with the neutralinos and charginos, the convention is to refer to the one with the lower index as the lighter one. Finally, the Higgs sector is also affected. There are five mass eigenstates, $h^0$, $H^0$, $A^0$, and $H^{\pm}$. These, together with the other MSSM particles are listed in Table \ref{tab:MSSM_particles}. 
+				%Scalar superpartners of quarks (leptons) are called \emph{squarks} $\tilde{q}$ (\emph{sleptons} $\tilde{l}$), short for ``scalar quarks (leptons)'' respectively. More generally they are referred to as scalar fermions, or sfermions, $\tilde{f}$. A tilde above symbols is used to indicate SUSY partners.
+
+				\begin{table}[!htb]\centering\caption{SUSY particles in the MSSM}							
+					\begin{tabular}{|c|c|c|c|}
+						\hline
+						\textbf{Name} & \textbf{Spin} & \textbf{Gauge Eigenstates} & \textbf{Mass Eigenstates} \\ \hline \hline
+						
+						\multirow{3}{*}{Squarks ($\tilde{q}$)} & \multirow{3}{*}{0} 
+						& $\tilde{u}_L$ $\tilde{u}_R$ $\tilde{d}_L$ $\tilde{d}_R$ & (same) \\
+						& & $\tilde{c}_L$ $\tilde{c}_R$ $\tilde{s}_L$ $\tilde{s}_R$ & (same) \\
+						& & $\tilde{t}_L$ $\tilde{t}_R$ $\tilde{b}_L$ $\tilde{b}_R$ & $\tilde{t}_1$ $\tilde{t}_2$ $\tilde{b}_1$ $\tilde{b}_2$ \\ \hline
+
+						\multirow{3}{*}{Sleptons ($\tilde{l}$)} & \multirow{3}{*}{0} 
+						& $\tilde{e}_L$ $\tilde{e}_R$ $\tilde{\nu}_L$ & (same) \\
+						& & $\tilde{\mu}_L$ $\tilde{\mu}_R$ $\tilde{\nu}_L$ & (same) \\ 
+						& & $\tilde{\tau}_L$ $\tilde{\tau}_R$ $\tilde{\nu}_{\tau}$ & $\tilde{\tau}_1$ $\tilde{\tau}_2$ $\tilde{\nu}_{\tau}$ \\ \hline
+						
+						Higgs bosons & 0 & $H_u^0$ $H_d^0$ $H_u^+$ $H_d^-$ & $h^0$ $H^0$ $A^0$ $H^{\pm}$ \\ \hline 
+
+						Neutralinos ($\tilde{\chi}_j^0$)   & 1/2 & $\tilde{B}^0$ $\tilde{W}^0$ $\tilde{H}_u^0$ $\tilde{H}_d^0$ & $\tilde{\chi}_1^0$ $\tilde{\chi}_2^0$ $\tilde{\chi}_3^0$ $\tilde{\chi}_4^0$\\
+						Charginos ($\tilde{\chi}_i^{\pm}$) & 1/2 & $\tilde{W}^{\pm}$ $\tilde{H}_u^+$ $\tilde{H}_u^-$ & $\tilde{\chi}_1^{\pm}$ $\tilde{\chi}_2^{\pm}$ \\ \hline
+
+						Gluino & 1/2 & $\tilde{g}$ & (same) \\
+						Gravitino & 3/2 & $\tilde{G}$ & (same) \\ \hline					
+					\end{tabular}						
+				\label{tab:MSSM_particles} 
+				\end{table}
+
+
+				% In SUSY models left- and right-handed squarks and sleptons do not have to have equal mass, which means that a rotation matrix can be defined. Interaction eigenstates, $\tilde{q}_{L(R)}$, can be rotated into mass eigenstates, $\tilde{q}_{1(2)}$ (the lower the index the lighter the mass).
+
+				% \begin{equation}
+				% \label{eq:3rdgen_mixing}
+				% 	\begin{pmatrix}
+				% 		\tilde{q}_1 \\
+				% 		\tilde{q}_2
+				% 	\end{pmatrix}
+				% 	=
+				% 	\begin{bmatrix}
+				% 		m_{\tilde{q}_L^2} & a_q m_q \\
+				% 		a_q m_q & m_{\tilde{q}_L^2}
+				% 	\end{bmatrix}
+				% 	\begin{bmatrix}
+				% 		\tilde{q}_L \\
+				% 		\tilde{q}_R
+				% 	\end{bmatrix}
+				% \end{equation}
+
+			\subsubsection*{$R$-parity}
+				
+				The most general MSSM can contain operators that violate baryon and/or lepton number, thus allowing proton decays. The non-observation of proton decays forbids the existence of such terms. A possibility to avoid these operators is to introduce a new discrete symmetry named R-parity. The conserved quantum number is defined as:
+
+				\begin{equation}
+					P_R = \left ( -1 \right )^{3 \left (B - L \right )+ 2s}
+				\end{equation}
+
+				\noindent where $B$, $L$ and $s$ are the baryon, lepton, and spin number, respectively.	
+
+				If a certain SUSY model is $R$-parity conserving, then the SM particles have $R = 1$ and SUSY partners have $R=-1$. 
+				When $R$-parity conservation is imposed on MSSM models, the mixing between particles and sparticles cannot occur, resulting in the number of SUSY particles to be even at every interaction vertex. 
+				Furthermore, all sparticles must be pair-produced and the Lightest Supersymmetric Particle (LSP) has to be stable and can therefore be a good Dark Matter candidate. Heavier sparticles can only decay to odd numbers of it.
+
+				In this work only $R$-parity conserving (RPC) models, where the \ninoone\ is assumed to be the LSP, were considered.
+
+				%Supersymmetry breaking has to be contained in a realistic phenomenological model. From a theoretical point of view, supersymmetry, if it exists at all, should be an exact spontaneously broken symmetry. There are a bunch of models of spontaneous symmetry breaking in the market and these always are an extension of the MSSM to include new particles and interactions at very high mass scales even though there is no general agreement on how this should be done. Practically though, it can be useful to parameterise our ignorance of these issues by introducing extra terms that explicitly break SUSY in the effective MSSM Lagrangian \cite{susyprimer}.
+
+
 
 		\subsection{Third generation SUSY}
+
+			As mentioned earlier on in this chapter, the introduction of SUSY particles overcomes the problem of an unnutural fine-tuning to the Higgs mass due to its quadratic corrections, given that the stops have masses typically around 1 TeV.
+
+			Stop pair production analyses are very challenging due to the cross section being around a factor of six smaller than \ttbar\ production (when $m_{\stopone} \sim m_t$). Furthermore, the cross-section of such processes dramatically decreases with increasing $m_{\stopone}$. Nonetheless, searches for direct \stopone\ production with $\stopone \ra t + \ninoone$ are sensitive in a scenario where $m_{\stopone} \gg m_t + m_{\ninoone}$ as the large \met, from the neutralinos, provides discriminating power for \ttbar\ rejection.
+
+			\begin{figure}[!htb]
+				\centering
+				\includegraphics[width=\textwidth]{theory/SusyXSec13TeV}
+				\caption{\label{fig:susy_13TeV_xsec} NLO+NLL production cross sections as a function of mass at $\sqrt{s} = 13 \TeV$ \cite{Borschensky:2014cia}}
+			\end{figure}
+
+			Fig. \ref{fig:susy_13TeV_xsec} shows SUSY particles production cross-sections for squarks that do not contribute to gluino production diagrams and vice versa, \ie\ treating squarks and gluinos as \textit{decoupled} making the cross section of squark pair-production be the same for all families. While gluinos production cross-sections are fairly large, SUSY electroweak production cross-sections of neutralinos and charginos are considerably lower. Sleptons production cross-section, which is not displayed, would sit just below higgsino-like chargino/neutralino production cross-section.  
+
+			The large number of particles and degrees of freedom in the MSSM brings in some parametrisation issues that lead to a non-trivial theoretical interpretation of the results of a certain analysis. However, simplified models represent a good workaround. The strategy \cite{Alwall2009} practically is to focus the attention only on a specific signal process without caring about other contributions. The analysis will then be optimised to address that particular signal, \eg\ direct stop pair-production in the two-body channel $t \ra \stopone + \ninoone$ without including the remaining SUSY mass spectrum. Such simplified models allow a theoretical reinterpretation of the results and provide a powerful tool to constrain various models. In this work only analyses laying their theoretical assumptions on such simplified models will be presented. 
+
+			\begin{figure}[!htb]
+				\centering
+				\includegraphics[width=\textwidth]{theory/3rd_gen_searches.png}
+				\caption{\label{fig:stop_topologies} Illustration of stop decay modes in the plane stop-neutralino mass plane where the latter is assumed to be the lightest supersymmetric particle and the only one present among the decay products. The dashed blue lines indicate thresholds separating regions where different processes dominate.}
+			\end{figure}
+
+

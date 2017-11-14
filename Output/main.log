@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.24)  2 NOV 2017 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.24)  14 NOV 2017 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2513,31 +2513,31 @@ nowledgments.aux) (/Users/mbare/CERNBox/Thesis/Output/FrontBackMatter/Declarati
 on.aux) (/Users/mbare/CERNBox/Thesis/Output/FrontBackMatter/Abstract.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 172.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 172.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 170.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 170.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
-LaTeX Info: Redefining \micro on input line 172.
+LaTeX Info: Redefining \micro on input line 170.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2609,7 +2609,7 @@ enefit from \pgfplotsset{compat=1.15} (current compat level: 1.14).
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box107
-Package hyperref Info: Link coloring ON on input line 172.
+Package hyperref Info: Link coloring ON on input line 170.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -2617,9 +2617,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count354
 )
-LaTeX Info: Redefining \ref on input line 172.
-LaTeX Info: Redefining \pageref on input line 172.
-LaTeX Info: Redefining \nameref on input line 172.
+LaTeX Info: Redefining \ref on input line 170.
+LaTeX Info: Redefining \pageref on input line 170.
+LaTeX Info: Redefining \nameref on input line 170.
 (/Users/mbare/CERNBox/Thesis/Output/main.out) (/Users/mbare/CERNBox/Thesis/Outp
 ut/main.out)
 \@outlinefile=\write5
@@ -2638,7 +2638,7 @@ Package epstopdf Info: Source file: <./figures/uslogo.eps>
 rted-to.pdf ./figures/uslogo.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/uslogo-eps-converted-to.pdf, id=147, pagebox=cropbox, 285.065pt x 25
+<./figures/uslogo-eps-converted-to.pdf, id=155, pagebox=cropbox, 285.065pt x 25
 0.9375pt>
 File: ./figures/uslogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/uslogo-eps-converted-to.pdf>
@@ -2670,7 +2670,7 @@ es/uslogo-eps-converted-to.pdf>])
 ame identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.185     \include{FrontBackMatter/Dedication}
+l.183     \include{FrontBackMatter/Dedication}
                                                % Dedication page [1
 
 
@@ -2727,93 +2727,100 @@ Chapter 1.
 Package xcolor Warning: Incompatible color definition on input line 1.
 
 
-Overfull \hbox (11.82597pt too wide) in paragraph at lines 1--1
-|[]\T1/qpl/b/n/24.88 The Stand-ard Model, Su-per-sym-
+Overfull \hbox (16.9114pt too wide) in paragraph at lines 1--1
+|[]\T1/qpl/b/n/24.88 Theoretical Frame-work of Su-per-
  []
 
 [2
 
 ] [3] [4] [5] [6] [7]
-<HiggsPotential/HiggsPotential.pdf, id=379, pagebox=cropbox, 217.98138pt x 158.
+<HiggsPotential/HiggsPotential.pdf, id=405, pagebox=cropbox, 217.98138pt x 158.
 50717pt>
 File: HiggsPotential/HiggsPotential.pdf Graphic file (type pdf)
 <use HiggsPotential/HiggsPotential.pdf>
 Package pdftex.def Info: HiggsPotential/HiggsPotential.pdf  used on input line 
-227. on input line 227.
+228. on input line 228.
 Package pdftex.def Info: Requested size: 213.39568pt x 155.18117pt on input lin
-e 227.
+e 228.
 
-Overfull \hbox (2.58553pt too wide) in paragraph at lines 231--234
+Overfull \hbox (2.58553pt too wide) in paragraph at lines 232--235
 [][]\T1/qpl/m/n/10.95 In sum-mary, to gen-er-ate particle masses
  []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 231--234
+Underfull \hbox (badness 7888) in paragraph at lines 232--235
 \T1/qpl/m/n/10.95 renor-m-al-is-able, the global Lag-rangian
  []
 
 [8 <./HiggsPotential/HiggsPotential.pdf>]
-<./figures/theory/ATLAS_a_SMSummary_TotalXsect.png, id=402, 4501.81876pt x 3303
+<./figures/theory/ATLAS_a_SMSummary_TotalXsect.png, id=428, 4501.81876pt x 3303
 .34125pt>
 File: ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png Graphic file (type png)
 
 <use ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png>
 Package pdftex.def Info: ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png  use
-d on input line 246. on input line 246.
+d on input line 247. on input line 247.
 Package pdftex.def Info: Requested size: 426.79135pt x 313.16542pt on input lin
-e 246.
-LaTeX Font Info:    Try loading font information for OMS+qpl on input line 272.
+e 247.
+LaTeX Font Info:    Try loading font information for OMS+qpl on input line 273.
 
-LaTeX Font Info:    No file OMSqpl.fd. on input line 272.
+LaTeX Font Info:    No file OMSqpl.fd. on input line 273.
 
 LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 272.
+(Font)              for symbol `textperiodcentered' on input line 273.
 
 [9 <./figures/theory/ATLAS_a_SMSummary_TotalXsect.png>] [10]
-Overfull \hbox (15.72563pt too wide) in paragraph at lines 320--321
-\T1/qpl/m/n/10.95 but with the in-tro-duc-tion of su-per-sym-metry, and as-sum-
-ing that the su-per-sym-met-ric particles
- []
-
-<./figures/theory/alphaRunning.jpg, id=425, 569.0058pt x 232.4685pt>
+<./figures/theory/alphaRunning.jpg, id=453, 569.0058pt x 232.4685pt>
 File: ./figures/theory/alphaRunning.jpg Graphic file (type jpg)
 <use ./figures/theory/alphaRunning.jpg>
 Package pdftex.def Info: ./figures/theory/alphaRunning.jpg  used on input line 
-324. on input line 324.
+325. on input line 325.
 Package pdftex.def Info: Requested size: 426.79135pt x 174.36513pt on input lin
-e 324.
-[11] [12 <./figures/theory/alphaRunning.jpg>]
-Overfull \hbox (24.71025pt too wide) detected at line 406
-[] \OT1/cmr/m/n/10.95 = [] []
- []
-
-) (./Chapters/detector.tex [13]
+e 325.
+[11] [12 <./figures/theory/alphaRunning.jpg>] [13] [14]
+<./figures/theory/SusyXSec13TeV.png, id=484, 569.0058pt x 387.3672pt>
+File: ./figures/theory/SusyXSec13TeV.png Graphic file (type png)
+<use ./figures/theory/SusyXSec13TeV.png>
+Package pdftex.def Info: ./figures/theory/SusyXSec13TeV.png  used on input line
+ 502. on input line 502.
+Package pdftex.def Info: Requested size: 426.79135pt x 290.54832pt on input lin
+e 502.
+[15]
+<./figures/theory/3rd_gen_searches.png, id=495, 987.69pt x 487.8225pt>
+File: ./figures/theory/3rd_gen_searches.png Graphic file (type png)
+<use ./figures/theory/3rd_gen_searches.png>
+Package pdftex.def Info: ./figures/theory/3rd_gen_searches.png  used on input l
+ine 512. on input line 512.
+Package pdftex.def Info: Requested size: 426.79135pt x 210.78679pt on input lin
+e 512.
+) (./Chapters/detector.tex [16 <./figures/theory/SusyXSec13TeV.png>] [17 <./fig
+ures/theory/3rd_gen_searches.png>]
 Chapter 2.
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
-[14
+[18
 
 ]
-<./figures/Detector/cern-acc-complex.jpg, id=457, 772.5663pt x 541.7841pt>
+<./figures/Detector/cern-acc-complex.jpg, id=519, 772.5663pt x 541.7841pt>
 File: ./figures/Detector/cern-acc-complex.jpg Graphic file (type jpg)
 <use ./figures/Detector/cern-acc-complex.jpg>
 Package pdftex.def Info: ./figures/Detector/cern-acc-complex.jpg  used on input
  line 46. on input line 46.
 Package pdftex.def Info: Requested size: 426.79135pt x 299.29662pt on input lin
 e 46.
-[15]
-<./figures/Detector/cut-away-det.jpg, id=474, 3161.8125pt x 2032.59375pt>
+[19]
+<./figures/Detector/cut-away-det.jpg, id=535, 3161.8125pt x 2032.59375pt>
 File: ./figures/Detector/cut-away-det.jpg Graphic file (type jpg)
 <use ./figures/Detector/cut-away-det.jpg>
 Package pdftex.def Info: ./figures/Detector/cut-away-det.jpg  used on input lin
 e 66. on input line 66.
 Package pdftex.def Info: Requested size: 426.79135pt x 274.3573pt on input line
  66.
-[16 <./figures/Detector/cern-acc-complex.jpg>] [17 <./figures/Detector/cut-away
+[20 <./figures/Detector/cern-acc-complex.jpg>] [21 <./figures/Detector/cut-away
 -det.jpg>]
-<./figures/Detector/MagnetSyst/magnetSyst.png, id=490, 1037.8775pt x 800.9925pt
+<./figures/Detector/MagnetSyst/magnetSyst.png, id=552, 1037.8775pt x 800.9925pt
 >
 File: ./figures/Detector/MagnetSyst/magnetSyst.png Graphic file (type png)
 <use ./figures/Detector/MagnetSyst/magnetSyst.png>
@@ -2826,7 +2833,7 @@ Underfull \hbox (badness 2181) in paragraph at lines 111--111
 \T1/qpl/m/n/9 solen-oid wind-ing lies in-side the calor-i-meter
  []
 
-<./figures/Detector/MagnetSyst/magnetSyst-desc.jpg, id=494, 248.6088pt x 156.10
+<./figures/Detector/MagnetSyst/magnetSyst-desc.jpg, id=555, 248.6088pt x 156.10
 32pt>
 File: ./figures/Detector/MagnetSyst/magnetSyst-desc.jpg Graphic file (type jpg)
 
@@ -2835,25 +2842,25 @@ Package pdftex.def Info: ./figures/Detector/MagnetSyst/magnetSyst-desc.jpg  use
 d on input line 115. on input line 115.
 Package pdftex.def Info: Requested size: 202.72849pt x 127.30037pt on input lin
 e 115.
-[18 <./figures/Detector/MagnetSyst/magnetSyst.png> <./figures/Detector/MagnetSy
+[22 <./figures/Detector/MagnetSyst/magnetSyst.png> <./figures/Detector/MagnetSy
 st/magnetSyst-desc.jpg>]
-<./figures/Detector/ID/ID-overview.jpg, id=510, 810.52812pt x 540.51938pt>
+<./figures/Detector/ID/ID-overview.jpg, id=571, 810.52812pt x 540.51938pt>
 File: ./figures/Detector/ID/ID-overview.jpg Graphic file (type jpg)
 <use ./figures/Detector/ID/ID-overview.jpg>
 Package pdftex.def Info: ./figures/Detector/ID/ID-overview.jpg  used on input l
 ine 141. on input line 141.
 Package pdftex.def Info: Requested size: 202.72849pt x 135.19548pt on input lin
 e 141.
-<./figures/Detector/ID/ID.png, id=511, 253.23409pt x 218.2554pt>
+<./figures/Detector/ID/ID.png, id=572, 253.23409pt x 218.2554pt>
 File: ./figures/Detector/ID/ID.png Graphic file (type png)
 <use ./figures/Detector/ID/ID.png>
 Package pdftex.def Info: ./figures/Detector/ID/ID.png  used on input line 142. 
 on input line 142.
 Package pdftex.def Info: Requested size: 202.72849pt x 174.73442pt on input lin
 e 142.
-[19] [20 <./figures/Detector/ID/ID-overview.jpg> <./figures/Detector/ID/ID.png>
-] [21]
-<./figures/Detector/Calo/Calo-overview.jpg, id=539, 3914.625pt x 2634.84375pt>
+[23] [24 <./figures/Detector/ID/ID-overview.jpg> <./figures/Detector/ID/ID.png>
+] [25]
+<./figures/Detector/Calo/Calo-overview.jpg, id=600, 3914.625pt x 2634.84375pt>
 File: ./figures/Detector/Calo/Calo-overview.jpg Graphic file (type jpg)
 <use ./figures/Detector/Calo/Calo-overview.jpg>
 Package pdftex.def Info: ./figures/Detector/Calo/Calo-overview.jpg  used on inp
@@ -2866,29 +2873,29 @@ Overfull \hbox (3.87778pt too wide) in paragraph at lines 190--193
 ronic calor-i-meter (HCAL), which
  []
 
-[22 <./figures/Detector/Calo/Calo-overview.jpg>]
+[26 <./figures/Detector/Calo/Calo-overview.jpg>]
 Overfull \hbox (7.6052pt too wide) in paragraph at lines 208--209
 \T1/qpl/m/n/10.95 The main pur-pose of the had-ronic calor-i-meter is to meas-u
 re the en-ergy of had-ronic showers.
  []
 
-<./figures/Detector/MS/MS.jpg, id=549, 750.805pt x 563.10374pt>
+<./figures/Detector/MS/MS.jpg, id=610, 750.805pt x 563.10374pt>
 File: ./figures/Detector/MS/MS.jpg Graphic file (type jpg)
 <use ./figures/Detector/MS/MS.jpg>
 Package pdftex.def Info: ./figures/Detector/MS/MS.jpg  used on input line 220. 
 on input line 220.
 Package pdftex.def Info: Requested size: 426.79135pt x 320.09605pt on input lin
 e 220.
-[23]
-<./figures/Detector/Trigger/TDAQSystem.png, id=559, 812.03375pt x 645.41125pt>
+[27]
+<./figures/Detector/Trigger/TDAQSystem.png, id=621, 812.03375pt x 645.41125pt>
 File: ./figures/Detector/Trigger/TDAQSystem.png Graphic file (type png)
 <use ./figures/Detector/Trigger/TDAQSystem.png>
 Package pdftex.def Info: ./figures/Detector/Trigger/TDAQSystem.png  used on inp
 ut line 242. on input line 242.
 Package pdftex.def Info: Requested size: 426.79135pt x 339.21037pt on input lin
 e 242.
-[24 <./figures/Detector/MS/MS.jpg>] [25 <./figures/Detector/Trigger/TDAQSystem.
-png>]) (./Chapters/trigger.tex [26]
+[28 <./figures/Detector/MS/MS.jpg>] [29 <./figures/Detector/Trigger/TDAQSystem.
+png>]) (./Chapters/trigger.tex [30]
 Chapter 3.
 
 Package xcolor Warning: Incompatible color definition on input line 1.
@@ -2899,7 +2906,7 @@ Overfull \hbox (21.01656pt too wide) in paragraph at lines 1--1
 g-na-ture in AT-
  []
 
-) (./Chapters/evtsim.tex [27
+) (./Chapters/evtsim.tex [31
 
 ]
 Chapter 4.
@@ -2911,7 +2918,7 @@ Overfull \hbox (28.1323pt too wide) in paragraph at lines 1--1
 |[]\T1/qpl/b/n/24.88 Event Sim-u-la-tion and Re-con-struc-
  []
 
-) (./Chapters/stop.tex [28
+) (./Chapters/stop.tex [32
 
 ]
 Chapter 5.
@@ -2923,16 +2930,16 @@ Overfull \hbox (6.61115pt too wide) in paragraph at lines 1--1
 |[]\T1/qpl/b/n/24.88 Stop searches in fi-nal states with
  []
 
-) (./Chapters/results.tex [29
+) (./Chapters/results.tex [33
 
 ]
 Chapter 6.
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
-) [30
+) [34
 
-] (./Chapters/appA.tex) [31
+] (./Chapters/appA.tex) [35
 
 
 ] (/Users/mbare/CERNBox/Thesis/Output/main.bbl (/Users/mbare/CERNBox/Thesis/Out
@@ -2943,33 +2950,33 @@ put/main.brf)
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [32
+) [36
 
 
-] [33]) [34]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
+] [37]) [38]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
 (/Users/mbare/CERNBox/Thesis/Output/main.aux (/Users/mbare/CERNBox/Thesis/Outpu
 t/FrontBackMatter/Titlepage.aux) (/Users/mbare/CERNBox/Thesis/Output/FrontBackM
 atter/Dedication.aux) (/Users/mbare/CERNBox/Thesis/Output/FrontBackMatter/Ackno
 wledgments.aux) (/Users/mbare/CERNBox/Thesis/Output/FrontBackMatter/Declaration
 .aux) (/Users/mbare/CERNBox/Thesis/Output/FrontBackMatter/Abstract.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9A4CA9AD44D446C5A37CAEF05417CC3D;2471.
+(rerunfilecheck)             Checksum: 19D67B3FE0D89B51DD79155227EE252B;2664.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 926A54B6D7285A9A240DC9AC6745A1F5;2144.
+(rerunfilecheck)             Checksum: D83BFF41EE777D69413A7FE9A62CEDF2;2333.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  ) 
 Here is how much of TeX's memory you used:
- 42850 strings out of 492990
- 961103 string characters out of 6132635
- 1148620 words of memory out of 5000000
- 45476 multiletter control sequences out of 15000+600000
+ 42892 strings out of 492990
+ 961981 string characters out of 6132635
+ 1159859 words of memory out of 5000000
+ 45503 multiletter control sequences out of 15000+600000
  609800 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,13n,111p,10470b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2978,24 +2985,27 @@ Here is how much of TeX's memory you used:
 al/texlive/2017/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/tex-gyre/qplbi.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
-public/tex-gyre/qplri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/cm-super/sfss0600.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-cm-super/sftt1095.pfb>
-Output written on /Users/mbare/CERNBox/Thesis/Output/main.pdf (44 pages, 145214
-82 bytes).
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/fon
+ts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/tex-gyre/qplbi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/tex-gyre/qplr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/t
+ex-gyre/qplri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-sup
+er/sfss0600.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super
+/sftt1095.pfb>
+Output written on /Users/mbare/CERNBox/Thesis/Output/main.pdf (48 pages, 148880
+42 bytes).
 PDF statistics:
- 810 PDF objects out of 1000 (max. 8388607)
- 716 compressed objects within 8 object streams
- 153 named destinations out of 1000 (max. 500000)
- 358 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 883 PDF objects out of 1000 (max. 8388607)
+ 777 compressed objects within 8 object streams
+ 166 named destinations out of 1000 (max. 500000)
+ 384 words of extra memory for PDF output out of 10000 (max. 10000000)
 
