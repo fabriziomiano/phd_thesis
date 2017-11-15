@@ -16,6 +16,7 @@
 \usepackage{enumerate}
 \usepackage{epigraph}
 \usepackage{placeins}
+\usepackage[hang]{footmisc}
 \usepackage[font=footnotesize,hang]{caption} % footnotes
 \usepackage{multicol} % multicolumn text
 \usepackage{wrapfig} % figures wrapped in text
@@ -32,12 +33,28 @@
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
 
+% \renewcommand{\epigraphrule}{0pt}
+% \setlength{\epigraphwidth}{.6\textwidth}
+% \renewcommand{\textflush}{flushepinormal}
 %---------------------------------------------------
-% LINE SPACING
+% LINE SPACING AND FOOTNOTE MARGIN
 %---------------------------------------------------
 \newcommand{\linespacing}{1.5}
 \renewcommand{\baselinestretch}{\linespacing}
-\def\mubar{\ensuremath{\langle\mu\rangle}}
+
+%\renewcommand{\epigraphrule}{0pt}
+%\setlength{\epigraphwidth}{.6\textwidth}
+%\renewcommand{\textflush}{flushepinormal}
+
+\setlength{\footnotemargin}{2mm}
+
+  % \let\tmp@footnotetext=\@footnotetext 
+  % \renewcommand{\@footnotetext}[1]% 
+  %     {{\singlespace\tmp@footnotetext{#1}}} 
+
+  % \let\tmpepigraph=\epigraph 
+  % \renewcommand{\epigraph}[2]% 
+  %     {{\singlespace\tmpepigraph{#1}{#2}}} 
 
 %---------------------------------------------------
 % BIBLIOGRAPHY STYLE
@@ -60,7 +77,7 @@
 \newcommand{\myFaculty}{\href{http://www.sussex.ac.uk/mps/}{School of Mathematical and Physical Sciences\xspace}}
 \newcommand{\myUni}{University of Sussex\xspace}
 \newcommand{\myLocation}{Brighton\xspace}
-\newcommand{\myTime}{June 2018\xspace}
+\newcommand{\myTime}{\today\xspace}
 \newcommand{\myVersion}{version 1.0\xspace}
 
 %---------------------------------------------------
