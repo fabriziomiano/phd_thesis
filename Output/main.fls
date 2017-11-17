@@ -503,8 +503,11 @@ INPUT Chapters/intro.tex
 INPUT Chapters/theory.tex
 INPUT Chapters/theory.tex
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/tex-gyre/ec-qplb.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/tex-gyre/ec-qplb.tfm
+INPUT ./figures/theory/sm.png
+INPUT ./figures/theory/sm.png
+INPUT ./figures/theory/sm.png
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/tex-gyre/ec-qplr.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/tex-gyre/ec-qplb.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/tex-gyre/ec-qplri.tfm
 INPUT HiggsPotential/HiggsPotential.pdf
 INPUT ./HiggsPotential/HiggsPotential.pdf
