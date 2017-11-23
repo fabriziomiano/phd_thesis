@@ -241,31 +241,12 @@
 		\begin{figure}[!htb]
 			\centering
 			\includegraphics[width=\textwidth]{Detector/Trigger/TDAQSystem}
-			\caption{The ATLAS TDAQ system. L1Topo and FTK were being commissioned during 2015 and not used for the results shown in this thesis~\cite{ATLASTrigger2015}.}
+			\caption{The ATLAS TDAQ system. L1Topo and FTK have not been used for the results shown in this thesis~\cite{ATLASTrigger2015}.}
 			\label{fig:TDAQSyst}
 		\end{figure}
 
-		The ATLAS Trigger System is at the heart of data taking. It is an essential component of any nuclear or particle physics experiment since it is responsible for deciding whether or not to store an event for later study~\cite{ATLASTrigger2015}. The ATLAS Trigger system is employed to reduce the event rate from $\sim$ 40 MHz\footnote{The LHC delivers beams with a bunch-spacing of 25 ns.} bunch-crossing\footnote{The term bunch-crossing is hereby used when referring to a collision between two bunches of protons. Since only a certain fraction of the total momentum carried by each proton contributes to the collision, an average number of interactions per bunch-crossing, $\left < \mu \right >$ is used.} to $\sim$ 200 Hz which corresponds to roughly 300 MB/s.
+		The ATLAS Trigger System is at the heart of data taking. It is an essential component of any nuclear or particle physics experiment since it is responsible for deciding whether or not to store an event for later study~\cite{ATLASTrigger2015}. Its main function to reduce the event rate from $\sim$ 40 MHz\footnote{The LHC delivers beams with a bunch-spacing of 25 ns.} bunch-crossing\footnote{The term bunch-crossing is hereby used when referring to a collision between two bunches of protons. Since only a certain fraction of the total momentum carried by each proton contributes to the collision, an average number of interactions per bunch-crossing, $\left < \mu \right >$ is used.} to $\sim$ 200 Hz which corresponds to roughly 300 MB/s.
 
-		The Trigger and Data Acquisition (TDAQ) system shown in Figure~\ref{fig:TDAQSyst} consists of a hardware-based first level trigger (L1) and a software-based high-level trigger (HLT). The L1 trigger decision is formed by the Central Trigger Processor (CTP), which receives inputs from the L1 calorimeter (L1Calo) and L1 muon (L1Muon) triggers. The first level (L1), which was designed to perform the first selection step, is a hardware-based system that uses information from the calorimeter and muon subdetectors. It also defines the so-called Regions of Interest (RoIs) within the detector to be investigated by the next level trigger, the HLT. Additionally, a Fast TracKer (FTK) system~\cite{FTKTDR} (not yet installed) will provide global ID track reconstruction at the L1 trigger rate using lookup tables stored in custom associative memory chips for the pattern recognition. The FPGA-based track fitter will perform a fast linear fit and the tracks are made available to the HLT. This system will allow the use of tracks at much higher event rates in the HLT than is currently affordable using CPU systems. However, the upgrade of the ATLAS trigger will not be discussed any further.
+		The Trigger and Data Acquisition (TDAQ) utilises a two-level system shown in Figure~\ref{fig:TDAQSyst}, a first hardware-based level trigger (L1) and a software-based high-level trigger (HLT). The L1 trigger decision is formed by the Central Trigger Processor (CTP), which receives inputs from the L1 calorimeter (L1Calo) and L1 muon (L1Muon) triggers. L1 is a hardware-based system that uses information from the calorimeter and muon subdetectors, and defines the so-called Regions of Interest (RoIs) within the detector to be investigated by the next level trigger, the HLT. Additionally, a Fast TracKer (FTK) system~\cite{FTKTDR} (not yet installed) will provide global ID track reconstruction at the L1 trigger rate using lookup tables stored in custom associative memory chips for the pattern recognition. The FPGA-based track fitter will perform a fast linear fit and the tracks are made available to the HLT. This system will allow the use of tracks at much higher event rates in the HLT than is currently affordable using CPU systems. However, the upgrade of the ATLAS trigger will not be discussed any further.
 
-		In the next sections the L1 and HLT will be briefly described. 
-
-
-		\subsection{Level 1 Trigger}
-
-			The Level 1 Trigger identifies Regions of Interest (RoIs)\footnote{$\eta - \phi$ regions where event features have been fouind by the L1 selection process.} and passes these to HLT which will perform further investigations. Furthermore, in order to decide whether or not the event processing will continue, L1 selection uses only information coming from some parts of the detector to keep the input rate to a maximum of 100 kHz. L1 is implemented in fast custom electronics to keep the latency\footnote{Time needed by an electric signal to get to the front-end electronics.} below $2.5\, \mu$s. Event data from other sub-sytstem are temporarily stored in memories whilst L1 decision is taken. 
-
-			The L1 topological trigger (L1-Topo)~\cite{ATLASL1Topo} is feeded with energy and direction information, about the objects found by the L1 calorimeter and the muon trigger, which will be processed by dedicated algorithms implemented in its own FPGAs. However, due to the 100 kHz read-out rate, not all the information collected by L1-Topo will be sent to the HLT, but only part of it. In order to properly seed the RoI-guided HLT reconstruction, speficic objects in combination with the correct topological criteria must be employed.
-
-
-		\subsection{High-Level Trigger}
-
-			The HLT is used to reduce the output rate down to 1 kHz and it has a $\sim$200 ms average decision time. Events that pass L1 trigger are then processed by the HLT using finer-granularity calorimeter information, precision measurements from the MS and tracking information from the ID. The HLT reconstruction can be run within RoIs identified at L1 or a so-called full-scan on the full detector can be performed. The track reconstruction in the Inner Detector is an essential component of the trigger decision in the HLT and it will be discussed more in detail in Chapter~\ref{ch:trigger}
-
-
-
-
-
-
-
+		The ATLAS trigger system will be extensively discussed in Chapter~\ref{ch:trigger}.

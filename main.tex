@@ -165,11 +165,34 @@
 %---------------------------------------------------
 % HYPERREF
 %---------------------------------------------------
-\usepackage[colorlinks,pagebackref,pdfusetitle,
-            urlcolor=blue,citecolor=blue,linkcolor=blue,
-            bookmarksnumbered,plainpages=false]{hyperref}
-% For print version, use this instead:
-%\usepackage[pdfusetitle,bookmarksnumbered,plainpages=false]{hyperref}
+% \usepackage[colorlinks,pagebackref,pdfusetitle,
+%             urlcolor=blue,citecolor=blue,linkcolor=blue,
+%             bookmarksnumbered,plainpages=false]{hyperref}
+
+% For digital version 
+\usepackage[pdftex,                          % Settings for PDF Metadata
+            pdfauthor={Fabrizio Miano},
+            pdftitle={\myTitle},
+            pdfsubject={PhD Thesis},
+            pdfkeywords={CERN, Large Hadron Collider (LHC), ATLAS Experiment, Trigger, 
+                        Supersymmetry, Particle Physics, Big Data, Monte Carlo},
+            pdfproducer={LaTeX},
+            pdfcreator={pdflatex},
+            colorlinks, pagebackref, pdfusetitle,            %Default Settings; original sussex template
+            urlcolor=blue, citecolor=blue, linkcolor=blue,
+            bookmarksnumbered, plainpages=false]{hyperref}
+
+% For printed version:
+% \usepackage[pdftex,
+%             pdfauthor={Fabrizio Miano},
+%             pdftitle={\myTitle},
+%             pdfsubject={PhD Thesis},
+%             pdfkeywords={CERN, Large Hadron Collider (LHC), ATLAS Experiment, Trigger, 
+%                         Supersymmetry, Particle Physics, Big Data, Monte Carlo},
+%             pdfproducer={LaTeX},
+%             pdfcreator={pdflatex},
+%             pdfusetitle, bookmarksnumbered, plainpages=false]{hyperref}
+
 %\usepackage{backref}
 %\renewcommand{\backrefpagesname}{Cited on}
 %---------------------------------------------------

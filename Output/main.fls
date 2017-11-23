@@ -489,7 +489,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/tex-gyre/ec-qplb.tfm
 INPUT /Users/mbare/CERNBox/Thesis/Output/main.toc
 INPUT /Users/mbare/CERNBox/Thesis/Output/main.toc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/tex-gyre/ec-qplb.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/tex-gyre/ec-qplbi.tfm
 OUTPUT /Users/mbare/CERNBox/Thesis/Output/main.toc
 INPUT /Users/mbare/CERNBox/Thesis/Output/main.lot
 INPUT /Users/mbare/CERNBox/Thesis/Output/main.lot
@@ -574,7 +573,6 @@ INPUT ./figures/Detector/Trigger/TDAQSystem.png
 INPUT ./figures/Detector/Trigger/TDAQSystem.png
 INPUT Chapters/trigger.tex
 INPUT Chapters/trigger.tex
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/tex-gyre/ec-qplbi.tfm
 INPUT Chapters/evtsim.tex
 INPUT Chapters/evtsim.tex
 INPUT Chapters/stop.tex
@@ -613,6 +611,7 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
@@ -628,7 +627,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qplbi.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb
