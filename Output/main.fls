@@ -514,12 +514,9 @@ INPUT ./HiggsPotential/HiggsPotential.pdf
 INPUT ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png
 INPUT ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png
 INPUT ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png
-INPUT ./figures/theory/alphaRunning.jpg
-INPUT ./figures/theory/alphaRunning.jpg
-INPUT ./figures/theory/alphaRunning.jpg
-INPUT ./figures/theory/SusyXSec13TeV.png
-INPUT ./figures/theory/SusyXSec13TeV.png
-INPUT ./figures/theory/SusyXSec13TeV.png
+INPUT ./figures/theory/1loopfermionicCorrections.png
+INPUT ./figures/theory/1loopfermionicCorrections.png
+INPUT ./figures/theory/1loopfermionicCorrections.png
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
@@ -527,6 +524,12 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm9.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT ./figures/theory/alphaRunning.jpg
+INPUT ./figures/theory/alphaRunning.jpg
+INPUT ./figures/theory/alphaRunning.jpg
+INPUT ./figures/theory/SusyXSec13TeV.png
+INPUT ./figures/theory/SusyXSec13TeV.png
+INPUT ./figures/theory/SusyXSec13TeV.png
 INPUT ./figures/theory/3rd_gen_searches.png
 INPUT ./figures/theory/3rd_gen_searches.png
 INPUT ./figures/theory/3rd_gen_searches.png
@@ -573,6 +576,9 @@ INPUT ./figures/Detector/Trigger/TDAQSystem.png
 INPUT ./figures/Detector/Trigger/TDAQSystem.png
 INPUT Chapters/trigger.tex
 INPUT Chapters/trigger.tex
+INPUT ./figures/Trigger/trig_chain.png
+INPUT ./figures/Trigger/trig_chain.png
+INPUT ./figures/Trigger/trig_chain.png
 INPUT Chapters/evtsim.tex
 INPUT Chapters/evtsim.tex
 INPUT Chapters/stop.tex
@@ -626,6 +632,7 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb

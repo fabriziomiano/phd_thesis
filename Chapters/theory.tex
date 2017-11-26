@@ -2,15 +2,14 @@
 \label{ch:theory} 
 \epigraph{\emph{A theory is something nobody believes, except the person who made it. An experiment is something everybody believes, except the person who made it.}} {Albert Einstein}
 
-	In this chapter, an overview of the Standard Model of particle physics will be presented in Section~\ref{sec:SMov} together with its limitations in Section~\ref{sec:SMlim}. After having discussed the reasons behind the need of an extension, which theoretical physicsts have been trying to provide for the last decades, one of the most popular, Supersymmetry, will be discussed in Section~\ref{sec:SUSY}. Here, an overview of the theory together with the motivations behind its success, will be presented in Section~\ref{sec:whySUSY}, followed by the description of the Minimal Supersymmetric Standard Model (MSSM) in Section~\ref{sec:MSSM}, and finally, the phenomenology of Supersymmetry, with particular attention on third-generation Supersymmetry, as it is the most relevant theoretical support to the analyses presented in this work, will be discussed in Section~\ref{sec:SUSYPheno}.
+	In this chapter, an overview of the Standard Model (SM) of particle physics will be presented in Section~\ref{sec:SMov} together with its limitations in Section~\ref{sec:SMlim} and the need of an extension. One of the most popular, supersymmetry, will be discussed in Section~\ref{sec:SUSY} where, an overview of the theory, together with the motivations behind its success, will be presented in Section~\ref{sec:whySUSY}, followed by the description of the Minimal Supersymmetric Standard Model (MSSM) in Section~\ref{sec:MSSM}, and finally, the phenomenology of supersymmetry, with particular attention on third-generation supersymmetry, as it is the most relevant theoretical support to the analyses presented in this work, will be discussed in Section~\ref{sec:SUSYPheno}.
 
-	
 
 
 	\section{The Standard Model}
 	\label{sec:SMov}
 
-		The SM is an effective theory that aims to provide a general description of fundamental particles and the phenomena we see in nature, \ie\ the way they interact. Unfortunately, our understanding of nature is still limited due to some opened question the SM is not able to answer to.
+		The SM is an effective theory that aims to provide a general description of fundamental particles and their interactions. Unfortunately, our understanding of nature is still limited due to some opened question the SM is not able to answer to.
 
 		\begin{wrapfigure}{R}{.5\textwidth}
 			\centering
@@ -20,16 +19,41 @@
 
 		The 20$^{th}$ century can be considered a quantum revolution. Several experiments led to discoveries which were found to be, together with the formalised theory, a solid base of the Standard Model of particle physics and our description of nature. Several particles were first predicted and then experimentally observed \eg\ the \Wboson\ and the \Zboson\ bosons, the $\tau$ lepton,~\cite{Herrero1998}, and more recently the Higgs boson at the LHC discovered by ATLAS~\cite{ATLASHiggs2012} and CMS~\cite{CMSHiggs2012}.
 
-		The SM lays on a Quantum Field Theory (QFT) where particles are treated like field excitations. It can describe three of the four fundamental forces; weak, electromagnetic, and strong, but not gravity.
+		The SM is a Quantum Field Theory (QFT) where particles are treated like excitations of quantum fileds in a four-dimensional Minkowski spacetime. It can describe three of the four fundamental forces; weak, electromagnetic, and strong, but not gravity.
 
-		The most general classification of the elementary particles within the SM can be made by means of spin. Fermions (leptons and quarks), usually referred to as matter, which have half-integer spin values, and bosons, usually referred to as information carriers, which have integer-spin values. A noteworthy subset of bosons is formed by the Spin-1 bosons, also known as gauge bosons. These can be considered mediators of the forces. Figure~\ref{fig:sm_el_part} displays the elementary particles of the Standard Model known as of today.
+		The most general classification of the elementary particles within the SM can be made by means of spin and their behaviour under Poincaré transformations: \textit{fermions} (leptons and quarks), usually referred to as matter, which have half-integer spin values, in unit of $\hbar$, and \textit{bosons}, usually referred to as information carriers, which have integer-spin values. A noteworthy subset of bosons is formed by the Spin-1 bosons, also known as gauge bosons. These can be considered mediators of the forces. Figure~\ref{fig:sm_el_part} displays the elementary particles of the Standard Model known as of today.
 		%, classified as just discussed, plus an additional scalar boson, the Higgs boson.
+
+
+
+		\subsection*{Symmetries and Gauge Groups}
+
+			In 1915, the German mathematician and theoretical physicist Emmy Noether (23 March 1882 – 14 April 1935) proved that every differentiable symmetry of the action - defined as the integral over space of a Lagrangian density function $S = \int \mathcal{L}\, dt$ - of a physical system has a corresponding conservation law. More generally, a symmetry is a property of a physical system and under certain transformations this property is preserved. 
+
+			A gauge theory in QFT, is a theory in which the Lagrangian is invariant under a continuous group of local transformations. Group theory was adopted to describe the symmetries conserved in the SM. The gauge group of the SM is the \emph{Lie Group} which contains all the transformations between possible gauges. The Lie algebra of group generators is associated to any Lie group and for each group generator there emerges a corresponding field, called the gauge field, and the quanta of such fields are called \emph{gauge bosons}.
+			
+			The three SM interactions can therefore be mathematically described by the following:
+
+			\begin{equation}
+			\label{eq:SM_gaugeSym}
+				U(1)_Y \otimes SU(2)_L \otimes SU(3)_C
+			\end{equation}
+
+			\noindent Here, $Y$ is the weak hypercharge, used to estimate the correlation between the electric charge ($Q$) and the third component of the weak isospin ($I_3$) via the relation $Q = I_3 + Y/2$, where $I_3$ can either be $\pm 1/2$ or $0$ for left-handed and right-handed particles, respectively; $C$ the colour charge and $L$ the left-handedness. 
+
+			%As of today, three of the four known forces of nature, electromagnetic, weak, and strong, can be described using gauge theory. 
+
+			QED is an Abelian gauge theory described by the symmetry group $U(1)$. The electromagnetic four-potential is its gauge field and the photon its gauge boson~\cite{Pich2012}. The interactions between charged fermions occurs by the exchange of a massless photon. 
+
+			The weak interaction is described by the non-Abelian gauge group $SU(2)$. The $SU(2)$ generators are the massless gauge bosons $W_{\mu}^{\alpha = 1,\dots,3}$ and they violate the parity by acting only on left-handed particles. As a consequence of non-Abelianity, $SU(2)$ gauge bosons can self-interact as the generator commutators are non-vanishing. Additionally, quarks can also interact through weak interaction as mixtures of SM eigenstates as described by the CKM matrix~\cite{Olive2014}.
+
+			Finally, the strong interaction, described by the symmetry group $SU(3)$, has eight massless gauge bosons, the gluons, $G_{\mu}^{\alpha=1,\dots,8}$ which can be exchanged between quarks and can also self-interact. 
 
 
 
 		\subsection*{Fermions}
 
-			Six quarks and six leptons belong to the fermions family. In particular, fermions can be grouped into three generations. Each generation contains four particles; one up- and one down-type quark, one charged lepton and one neutral lepton. The masses of the charged leptons and quarks increase with the generation. The six quarks of the SM can be grouped into three doublets;
+			There are twelve fermions in the SM: six quarks and six leptons. In particular, fermions can be grouped into three generations. Each generation contains four particles; one up- and one down-type quark, one charged lepton and one neutral lepton. The masses of the charged leptons and quarks increase with the generation. The six quarks of the SM can be grouped into three $S(2)$ doublets;
 
 			\begin{equation*}
 			\label{eq:quark_doublets}
@@ -38,11 +62,9 @@
 				\begin{pmatrix} t \\ b \end{pmatrix}
 			\end{equation*}
 
-			\noindent The up-type quarks (\textit{up, charm, top}) have charge $+\frac{2}{3}e$ and the down-type quarks (\textit{down, strange, beauty/bottom}) have charge $-\frac{1}{3}e$, where $e$ is the electron charge. Quarks also have another quantum number that can be seen as the analogue of the electric charge; the colour charge. This can exist in three different states; \textit{red}, \textit{green} and \textit{blue}. Moreover, as a consequence of \emph{confinement}, which will be discussed later on in this section, quarks cannot exist as free particles. They rather group to form hadronic matter, also known as \emph{hadrons}. There are two kinds of hadrons; mesons and baryons. Mesons are quark-antiquark systems, \eg the pion, and baryons are three-quark system, \eg protons and neutrons. Quarks and anti-quarks have a baryon number of $\frac{1}{3}$ and $-\frac{1}{3}$, respectively.
+			\noindent The up-type quarks (\textit{up, charm, top}) have charge $+\frac{2}{3}e$ and the down-type quarks (\textit{down, strange, beauty/bottom}) have charge $-\frac{1}{3}e$, where $e$ is the electron charge. Quarks also have another quantum number that can be seen as the analogue of the electric charge; the colour charge. This can exist in three different states; \textit{red}, \textit{green} and \textit{blue}, but they cannot exist as free particles. They rather group to form hadronic matter, also known as \emph{hadrons}. There are two kinds of hadrons; mesons and baryons. Mesons are quark-antiquark systems, \eg the pion, and baryons are three-quark system, \eg protons and neutrons. Quarks and anti-quarks have a baryon number of $\frac{1}{3}$ and $-\frac{1}{3}$, respectively.
 
 			There are six leptons and they can be classified in charged leptons (electron $e$, muon $\mu$, tau $\tau$) and neutral leptons (electron neutrino $\nu_e$, muon neutrino $\nu_{\mu}$, tau neutrino $\nu_{\tau}$).
-
-			%\noindent Generations are classified according to the state of chirality, which is a non-physical concept close enough to helicity which, in turn, is the projection of the spin onto the direction of momentum. Chirality is equivalent to helicity for massless particles and, as per helicity states, there can either be left-handed chiral states or right-handed chiral states.
 			
 			\begin{equation*}
 			\label{eq:lepton_flavor_doublets}
@@ -51,23 +73,31 @@
 				\begin{pmatrix} \nu_{\tau} \\ \tau^- \end{pmatrix}
 			\end{equation*}
 
-			\noindent Each lepon has a charachteristic quantum number, called lepton number ($L$). Negatively (positively) charged leptons have $L=-1$ ($L=1$) and neutral leptons have $L=0$. The lepton number is conserved in all the interactions. 
+			Each lepton has a characteristic quantum number, called lepton number ($L$). Negatively (positively) charged leptons have $L=-1$ ($L=1$) and neutral leptons have $L=1$. The lepton number is conserved in all the interactions. 
 
 
 
 		\subsection*{Forces of Nature}
 
-			Forces in the SM are described by gauge theories, where the interactions is mediated by a vector gauge boson. 
+			Forces in the SM are described by gauge theories, where the interactions are mediated by a vector gauge boson. 
 
-			The electromagnetic force is described by Quantum ElectroDynamics (QED) and, as its mediator is the photon ($\gamma$) which couples to charged particles, it only affects charged leptons and quarks, not neutrinos which are instead affected by the weak force, mediated by the $\Wboson^{\pm}$ and $\Zboson^0$ bosons. 
+			The electromagnetic force is described by Quantum Electrodynamics (QED) and, as its mediator is the photon ($\gamma$) which couples to charged particles, it only affects charged leptons and quarks, not neutrinos which are instead affected by the weak force, mediated by the $\Wboson^{\pm}$ and $\Zboson^0$ bosons. 
 
 			The weak interaction is associated with handedness (the projection of a particle spin onto its direction of motion). Both leptons and quarks have left- and right-handed components. However, only the left-handed (right-handed) component for neutrinos (anti-neutrinos) has been observed. This means that nature prefers to produce left-handed neutrinos and right-handed anti-neutrinos, which is the so-called \textit{parity violation}. 
 
-			The strong interaction, mediated by the gluon, electrically neutral and massless, is described by Quantum ChromoDynamics (QCD). Its coupling increases with increasing distance and is smaller at short range. Moreover, due to gluon self interactions, which will be discussed in the next paragraph, two different phenomena arise; 
+			The strong interaction, mediated by the gluon, electrically neutral and massless, is described by Quantum ChromoDynamics (QCD). Its coupling ($\alpha_s)$ increases with increasing distance and is smaller at short range. In particular, $\alpha_s$ evolves as a function of the transferred four-momentum squared, $Q^2$, as follows: 
+
+			\begin{equation}
+				\label{eq:alpha_s}
+				\alpha_s (Q^2) \propto \displaystyle \frac{1}{n_f \log (\frac{Q^2}{\Lambda_{\mathrm{QCD}}^2})} 
+			\end{equation}
+
+			\noindent where $n_f$ is the number of quarks with mass below $Q^2$ and $\Lambda_{\mathrm{QCD}}$ is the QCD characteristic scale, so Eq.~\ref{eq:alpha_s} shows that $\alpha_s$ decreases as a function of $\Lambda_{\mathrm{QCD}}$, but at the same time it quickly diverges when $Q^2$ gets closer to $\Lambda$. In other words, as the condition $\alpha_s \ll 1$ only holds for $Q^2 \gg \Lambda_{\mathrm{QCD}}$, QCD can be treated perturbatively only at high energy scales. Moreover, three facts arise; 
 
 			\begin{itemize}
 				\item \emph{confinement}: quarks or gluons cannot be observed as free particles, but only colourless “singlet” states can be observed as “jets”, namely collimated cone-shaped sprays of hadrons; 
-				\item \emph{asymptotic freedom}: interactions between quarks and gluons become weaker as the energy scale increases and the corresponding length scale decreases
+				\item \emph{asymptotic freedom}: interactions between quarks and gluons become weaker as the energy scale increases and the corresponding length scale decreases, as $\alpha_s \to 0$ for $Q^2 \to \infty$;
+				\item \emph{hadronisation}: when quarks or gluons are pulled apart, the production of pairs of hadrons, produced from the vacuum, is energetically preferred to an increase in distance.
 			\end{itemize}
 
 			Table~\ref{tab:interactions} summarises the forces described in the SM and the main charachteristics of the mediators. The gravitational force is believed to be mediated by the graviton, but as already mentioned, since it is not included in the SM, it will not be further discussed.
@@ -86,32 +116,6 @@
 
 
 
-		\subsection*{Symmetries and Gauge Groups}
-
-			In 1915, the German mathematician and theoretical physicist Emmy Noether (23 March 1882 – 14 April 1935) proved that every differentiable symmetry of the action - defined as the integral over space of a Lagrangian density function - of a physical system has a corresponding conservation law. More generally, a symmetry is a property of a physical system and under certain transformations this property is preserved. 
-
-			A gauge theory in QFT, is a theory in which the Lagrangian is invariant under a continuous group of local transformation. Group theory was adopted to describe the symmetries conserved in the SM. The gauge group of the SM is the \emph{Lie Group} which contains all the transformations between possible gauges. The Lie algebra of group generators is associated to any Lie group and for each group generator there emerges a corresponding field, called the gauge field, and the quanta of such fields are called \emph{gauge bosons}.
-			
-			The three SM interactions can therefore be mathematically described by the following:
-
-			\begin{equation}
-			\label{eq:SM_gaugeSym}
-				U(1)_Y \otimes SU(2)_L \otimes SU(3)_C
-			\end{equation}
-
-			\noindent Here, $Y$ is the weak hypercharge, used to estimate the correlation between the electric charge ($Q$) and the third component of the weak isospin ($I_3$) via the relation $Q = I_3 + Y/2$, where $I_3$ can either be $\pm 1/2$ or $0$ for left-handed and right-handed particles, respectively; $C$ the colour charge and $L$ the left-handedness. 
-
-			As of today, three of the four known forces of nature can be described using group theory. 
-
-			QED is an Abelian gauge theory described by the symmetry group $U(1)$. The electromagnetic four-potential is its gauge field and the photon its gauge boson~\cite{Pich2012}. The interactions between charged fermions occurs by the exchange of a massless photon. 
-
-			The weak interaction is described by the non-Abelian gauge group $SU(2)$. The $SU(2)$ generators are the massless gauge bosons $W_{\mu}^{\alpha = 1,\dots,3}$ and, as mentioned earlier on in this chapter, they violate the parity by acting only on left-handed particles. As a consequence of non-Abelianity, $SU(2)$ gauge bosons can self-interact as the generator commutators are non-vanishing. Additionally, quarks can also interact through weak interaction as mixtures of SM eigenstates as described by the CKM matrix~\cite{Olive2014}.
-
-			Finally, the strong interaction, described by the symmetry group $SU(3)$, has eight massless gauge bosons, the gluons, $G_{\mu}^{\alpha=1,\dots,8}$ which can be exchanged between quarks and can also self-interact. 
-
-
-
-
 		\subsection{Electroweak Symmetry Breaking and the Higgs mechanism}
 		\label{sec:ewksb}
 
@@ -119,21 +123,18 @@
 
 			The four electroweak physical bosons $\Wboson^{\pm}$, \Zboson\ and $\gamma$ are related to the four unphysical gauge bosons $W_{\mu}^{\alpha = 1,\dots,3}$ and $B_\mu$. In particular, to obtain the physical bosons the gauge bosons have to mix as follows;
 
-			\begin{equation}
-			\label{eq:mixing}
-					\begin{pmatrix} A_{\mu} \\ Z_{\mu} \end{pmatrix}					
-					= 
-					\begin{pmatrix}
-							\cos\theta_W & \sin\theta_W \\ 
-							-\sin\theta_W & \cos\theta_W
-						\end{pmatrix}
-					\begin{pmatrix}
-						B_{\mu} \\ W_{\mu}^3
-						\end{pmatrix}
-			\end{equation}
-
-			\noindent Here, $\theta_W$ is the so-called \emph{Weinberg angle} which is the angle by which spontaneous symmetry breaking rotates the original gauge bosons $\Wboson_{\mu}^3$ and $B_{\mu}$ into the physical \Zboson\ and $\gamma$. $A_\mu$ and $Z_\mu$ represent the photon and the \Zboson\ boson, respectively. The $\theta_W$ angle can be experimentally determined in terms of the coupling strengths, of the $B_{\mu}(g_1)$ and the $W_{\mu}^\alpha (g_2)$ to the fermions, using the relation $\tan\theta_W = g_1 / g_2 $. 
-			The field mixing of gauge bosons that gives birth to the physical ones can be mathematically expressed by the following:
+			% \begin{equation}
+			% \label{eq:mixing}
+			% 		\begin{pmatrix} A_{\mu} \\ Z_{\mu} \end{pmatrix}					
+			% 		= 
+			% 		\begin{pmatrix}
+			% 				\cos\theta_W & \sin\theta_W \\ 
+			% 				-\sin\theta_W & \cos\theta_W
+			% 			\end{pmatrix}
+			% 		\begin{pmatrix}
+			% 			B_{\mu} \\ W_{\mu}^3
+			% 			\end{pmatrix}
+			% \end{equation}
 
 			\begin{equation}
 			\label{eq:photon}
@@ -143,13 +144,13 @@
 			\label{eq:Zboson}
 				Z_{\mu} = W_{\mu}^3\cos\theta_W  - B_{\mu} \sin \theta_W
 			\end{equation}
-
-			\noindent and the two charged \Wboson\ bosons are defined as;
-
 			\begin{equation}
 			\label{eq:Wboson}
 				W_{\mu}^\pm = \frac{1}{\sqrt{2}} \displaystyle \left ( W_{\mu}^1 \mp i W_{\mu}^2 \right )
 			\end{equation}
+
+			\noindent Here, $\theta_W$ is the so-called \emph{Weinberg angle} which is the angle by which spontaneous symmetry breaking rotates the original gauge bosons $\Wboson_{\mu}^3$ and $B_{\mu}$ into the physical \Zboson\ and $\gamma$. $A_\mu$ and $Z_\mu$ are the photon and the \Zboson\ boson fields, respectively. The $\theta_W$ angle can be experimentally determined in terms of the coupling strengths, of the $B_{\mu}(g_1)$ and the $W_{\mu}^\alpha (g_2)$ to the fermions, using the relation $\tan\theta_W = g_1 / g_2 $. 
+			The field mixing of gauge bosons that gives birth to the physical ones can be mathematically expressed by the following:
 
 			The mass terms for both gauge bosons and fermionic fields are forbidden by the electroweak gauge as they are not invariant under gauge transformations. Nonetheless, it was experimentally proven that \Wboson\ and \Zboson\ bosons are massive~\cite{Pich2012}, therefore in order for the SM assumption to hold, the electroweak symmetry must be broken. 
 
@@ -160,8 +161,7 @@
 				\mathcal{L_{\mathrm{SM}}} = \mathcal{L_{\mathrm{EWK}}} + \mathcal{L_{\mathrm{QCD}}} + \mathcal{L_{\mathrm{Mass}}}
 			\end{equation}
 
-			\noindent In order for the SM Lagrangian to remain a renormalisable theory, the mass terms ($\mathcal{L_{\mathrm{Mass}}}$) cannot be insterted by hand. A mechanism, that can preserve the gauge symmetry in the SM and can solve the inconsistency arisen from the mass difference between the gauge bosons and the physical ones, is needed. A British theoretical physicist, Peter Higgs (29 May 1929, Newcastle upon Tyne, UK), came up with a brilliant solution for which he was awarded the Nobel Prize in Physics in 2013. Higgs proposed that broken symmetry in the electroweak theory could explain the origin of masses of elementary particles, and in particular of \Wboson\ and \Zboson\ bosons. It was around 1960's when the Higgs mechanism was about to be given birth. % and with it the Higgs Lagrangian in Eq.~\ref{eq:Higgs_lagrangian}.
-			The mechanism introduces a scalar field, known as the Higgs field, thought to couple to both massive fermions and bosons. The $SU(2)$ doublet is then introduced in the SM;
+			\noindent In order for the SM Lagrangian to remain a renormalisable theory, the mass terms ($\mathcal{L_{\mathrm{Mass}}}$) cannot be insterted by hand. A mechanism, that can preserve the gauge symmetry in the SM and can solve the inconsistency arisen from the mass difference between the gauge bosons and the physical ones, is needed. A British theoretical physicist, Peter Higgs (29 May 1929, Newcastle upon Tyne, UK), came up with a brilliant solution for which he was awarded the Nobel Prize in Physics in 2013. Higgs proposed that broken symmetry in the electroweak theory could explain the origin of masses of elementary particles, and in particular of \Wboson\ and \Zboson\ bosons. The mechanism introduces a scalar field, known as the Higgs field, thought to couple to both massive fermions and bosons. The $SU(2)$ doublet is then introduced in the SM;
 
 			\begin{equation}
 			\label{eq:Higgs_field}
@@ -218,6 +218,12 @@
 				\end{pmatrix}
 			\end{equation}
 
+			\begin{wrapfigure}{L}{.5\textwidth}
+			\centering
+				\includegraphics[width=.4\textwidth]{HiggsPotential/HiggsPotential}
+			\caption{\label{fig:higgs_potential}The Higgs potential in the complex plane.} %Any given point around the bottom of the hat gives the lowest-energy state.}
+			\end{wrapfigure}
+
 			The Higgs potential in Eq.~\ref{eq:Higgs_potential} is displayed in Fig.~\ref{fig:higgs_potential} if $\lambda$ and $\mu$ are chosen to be real. Such potential has a non-zero ground state, $v$, also known as \emph{vacuum expectation value} (VEV):
 
 			\begin{equation}
@@ -230,24 +236,16 @@
 
 			\noindent Such representation remains invariant under $U(1)$ allowing electric charge conservation. However, the SM gauge symmetry~\ref{eq:SM_gaugeSym} is broken into $SU(2)_L \otimes U(1)_Y$.
 
-			\begin{wrapfigure}{L}{.5\textwidth}
-			\centering
-				\includegraphics[width=.5\textwidth]{HiggsPotential/HiggsPotential}
-			\caption{\label{fig:higgs_potential} The Higgs potential in the complex plane.} %Any given point around the bottom of the hat gives the lowest-energy state.}
-			\end{wrapfigure}
-
-			In summary, to generate particle masses gauge symmetry must be broken. However, in order for the theory to remain renormalisable, the global Lagrangian symmetry must be preserved. This can be solved introducing the concept of \emph{spontaneous} symmetry breaking (SSB): a mechanism that allows a symmetric Lagrangian, but not a symmetric VEV. In particular, given a Lagrangian invariant under a certain transformation, $T_X$, and a generic set of states, that transform under $T_X$ as the elements of a multiplet, the symmetry is spontaneously broken if one of those states is arbitrarily chosen as the ground state of the system. 
+			In summary, to generate particle masses gauge symmetry must be broken. However, in order for the theory to remain renormalisable, the global Lagrangian symmetry must be preserved. This can be solved introducing the concept of \emph{spontaneous} symmetry breaking (SSB): a mechanism that allows a symmetric Lagrangian, but not a symmetric vacuum. In particular, given a Lagrangian invariant under a certain transformation, $T_X$, and a generic set of states, that transform under $T_X$ as the elements of a multiplet, the symmetry is spontaneously broken if one of those states is arbitrarily chosen as the ground state of the system. 
 			%The Higgs-field VEV is not invariant under gauge transformations. In fact, it spontaneously breaks the gauge symmetry leaving the symmetry of the model untouched. 
-			The interaction of the Higgs field with the $SU(2) \otimes U(1)$ gauge fields, $W_\mu^{\alpha =1,2,3}$, result in the three gauge bosons fields acquiring mass whilst the $B_\mu$ field remains massless. 
-
-
+			The interaction of the Higgs field with the $SU(2) \otimes U(1)$ gauge fields, $W_\mu^{\alpha =1,2,3}$, result in the three gauge bosons fields acquiring mass whilst the $A_\mu$ field remains massless. 
 
 
 
 		\subsection{Limitations of the Standard Model}
 		\label{sec:SMlim}
 
-			During Run 1 and 2 of the LHC, the SM has been extensively validated, as shown in Fig.~\ref{fig:ATLAS_a_SMSummary_TotalXsect}: the agreement, between the measured production cross-section of various SM processes and the SM predictions, looks very good. However, the reasons behind the mass difference between the the three generations of fermions are still not explained by the SM, since masses are treated as free parameters in the theory. In addition, there are some fundamental questions that have still no answer and they will be briefly discussed this section.
+			During Run 1 and 2 of the LHC, the SM has been extensively validated, as shown in Fig.~\ref{fig:ATLAS_a_SMSummary_TotalXsect}: the agreement, between the measured production cross-section of various SM processes and the SM predictions, looks very good. However, there are some fundamental questions that have still no answer.
 
 			\begin{figure}[!htb]
 				\centering
@@ -257,37 +255,29 @@
 
 
 
-
 		\subsubsection*{Hierarchy Problem}
 
-			Due to the coupling of the Higgs field to the fermionic fields the one-loop corrections to the Higgs mass receive several contributions. In particular: 
-
-			%\begin{wrapfigure}{l}{.\textwidth}
-			% \begin{figure}
-			% 	\centering
-			% 	\includegraphics[width=\textwidth]{theory/1loopfermionicCorrections}
-			% 	\caption{\label{fig:higgs_f_coupling} One-loop quantum corrections to the Higgs mass. A fermion correction with coupling $\lambda_f$.}
-			% \end{figure}
-
-			% In particular, as shown in Fig.~\ref{fig:higgs_f_coupling}:			
+			Due to the coupling of the Higgs field to the fermionic fields the one-loop corrections to the Higgs mass receive several contributions. In particular, looking at Fig.~\ref{fig:higgs_f_coupling}: 
 
 			\begin{equation}
-			\label{eq:mH_fermionic_contribution}
-			\Delta m_H^2 = - \frac{ | \lambda_f  |^2}{8 \pi ^2} \Lambda_{\mathrm{UV}}^2 + \dots 
+				\label{eq:mH_fermionic_contribution}
+				\Delta m_H^2 = - \frac{ | \lambda_f  |^2}{8 \pi ^2} \Lambda_{\mathrm{UV}}^2 + \dots 
 			\end{equation}
-
-			% \noindent which is the dominant, due to the fermionic contribution, and 
-
+ 	
 			\noindent where, $\lambda_f$ is the coupling constant to the fermionic field; $\Delta m_H^2$ is the difference between the observed Higgs mass $m_H^2$ and the bare mass, $m_H^0$ (Lagrangian parameter); $\Lambda_{\mathrm{UV}}$ is the ultraviolet momentum cut-off, selected to be at the Planck scale ($\sim 2 \cdot 10^{18} \gev$), at which a QFT description of gravity is believed to become possible. The correction to the Higgs mass then, will be around 30 orders of magnitude larger than Higgs mass itself, in opposition to what has been measured. This difference just mentioned, between the electroweak scale and the Planck scale arisen from the quantum corrections to the Higgs mass, is the so-called Hierarchy Problem~\cite{Weinberg1976}.
+
+			\begin{figure}
+				\centering
+				\includegraphics[width=.3\textwidth]{theory/1loopfermionicCorrections}
+				\caption{\label{fig:higgs_f_coupling} One-loop quantum corrections to the Higgs mass. A fermion correction with coupling $\lambda_f$.}
+			\end{figure}
 
 
 
 		\subsubsection*{Neutrino Masses}
 
 			The Super-Kamiokande Collaboration first, in 1998~\cite{SK1998}, and SNO Collaboration later, in 2001~\cite{SNO2001}, have provided measurements of the neutrino flux from solar and atmospheric sources. 
-			The Nobel Prize in Physics 2015 was awarded jointly to Takaaki Kajita and Arthur B. McDonald ``for the discovery of neutrino oscillations, which shows that neutrinos have mass''~\cite{Nobel2015}. Such feature contraddicts the absence of a mechanism for mass generation for the neutrinos. 
-
-			%Various exotic solutions are on the market: one possible solution could be to add the so-called Majorana mass terms for the neutrino (seesaw mechanism). %Neutrino physics could unveil physics beyond the SM.
+			The Nobel Prize in Physics 2015 was awarded jointly to Takaaki Kajita and Arthur B. McDonald ``for the discovery of neutrino oscillations, which shows that neutrinos have mass''~\cite{Nobel2015}. Such feature contradicts the presence of the neutrinos in the SM which are assumed to be massless.
 
 
 
@@ -311,9 +301,9 @@
 			Q \ket{\mathrm{fermion}} = \ket{\mathrm{boson}}, \qquad Q \ket{\mathrm{boson}} = \ket{\mathrm{fermion}}
 		\end{equation}
 
-		\noindent For each SM particle there exists a supersymmetric partner, generally called \textit{sparticle} (where the s stands for “scalar”), with a spin difference of $\Delta s = 1/2$. Each pair of partners is arranged in a so-called \textit{supermultiplet}. The two components have same masses and quantum numbers, but different spin. \textit{Sleptons} and \textit{squarks} gauge mechanism is the same as their SM equivalent, namely for example, the superpartners of the left-handed SM fermion components couple weakly, but the superpartners of the right-handed SM fermion components do not. Furthermore, gauge supermultiplets contain a vector boson and two spin-$\frac{1}{2}$ fermions. Spin-1 bosons are arranged in gauge multiplets, and their superpartners, referred to as \textit{gauginos}, are spin-$\frac{1}{2}$ fermions. Differently from the SM, the Spin-0 Higgs boson has two supermultiplets containing sparticles with different weak isospin values, referred to as $H_u$ and $H_d$, which are required to give mass to both the up- and down-type sparticles. Higgs SUSY partners are called the \textit{Higgsinos}.
+		\noindent For each SM particle there exists a supersymmetric partner, generally called \textit{sparticle} (where the s stands for “scalar”), with a spin difference of $\Delta s = 1/2$. Each pair of partners is arranged in a so-called \textit{supermultiplet}. The two components have same masses and quantum numbers, but different spin. \textit{Sleptons} and \textit{squarks} gauge quantum numbers are the same as their SM equivalent, namely for example, the superpartners of the left-handed SM fermion components couple weakly, but the superpartners of the right-handed SM fermion components do not. Furthermore, gauge supermultiplets contain a vector boson and two spin-$\frac{1}{2}$ fermions. Spin-1 bosons are arranged in gauge multiplets, and their superpartners, referred to as \textit{gauginos}, are spin-$\frac{1}{2}$ fermions. Unlike the SM, the Spin-0 Higgs boson has two supermultiplets containing sparticles with different weak isospin values, referred to as $H_u$ and $H_d$, which are required to give mass to both the up- and down-type sparticles. Higgs SUSY partners are called the \textit{Higgsinos}.
 
-		As of today, SUSY particles have not been observed, resulting in the assumption that SUSY must be a broken symmetry, otherwise superpartners would have the same quantum numbers and masses as their SM equivalent. However, if sparticles were to be too heavy (close to the Planck scale), the hierarchy problem would still remain unsolved. The \emph{soft} SUSY breaking mechanism, described in Section~\ref{sec:MSSM}, overcomes this problem by imposing contraints on the masses of sparticles to a range that can be experimentally explored. 		
+		As of today, SUSY particles have not been observed, resulting in the assumption that SUSY must be a broken symmetry, otherwise superpartners would have the same masses as their SM equivalent. However, if sparticles were to be too heavy (close to the Planck scale), the hierarchy problem would still remain unsolved. The \emph{soft} SUSY breaking mechanism, described in Section~\ref{sec:MSSM}, overcomes this problem by imposing contraints on the masses of sparticles to a range that can be experimentally explored. 		
 
 		
 
@@ -321,7 +311,7 @@
 		\label{sec:whySUSY}			
 
 			One of the main motivations for SUSY is the cancellation of quadratic divergences to $\Delta m_H^2$. 
-			The introduction of SUSY particles, with a half-integer spin difference with respect to their SM partners, provides a solution to the hierarchy problem. The Higgs mass squared potential receives corrections from a new scalar of mass ms of the form:
+			The introduction of SUSY particles, with a half-integer spin difference with respect to their SM partners, provides a solution to the hierarchy problem. The Higgs mass squared potential receives corrections from a new scalar of mass of the form:
 
 			\begin{equation}
 			\label{eq:mH_scalar_contribution}
@@ -348,7 +338,7 @@
 
 			\subsubsection*{Soft SUSY breaking}
 				
-				The mass spectrum of the SUSY particles must sit somewhere at a larger scale than the SM one, as supersymmetric particles have not been discovered at the mass scale of their SM partners. This gives us a hint that supersymmetry cannot be an exact symmetry, there has to be an analogous to the electroweak symmetry breaking discussed in~\ref{sec:ewksb} that breaks SUSY. In particular, this must be soft or spontaneous such that broken supersymmetry still provides a solution to the hierarchy problem. This means that some new higher-energy-scale particles and interactions have to be added to the MSSM, but it also means that terms, containing only masses and couplings, with positive mass dimension, gauge invariant and violating SUSY, have to be added to the Lagrangian;
+				The mass spectrum of the SUSY particles must sit somewhere at a larger scale than the SM one, as supersymmetric particles have not been discovered at the mass scale of their SM partners. This gives us a hint that supersymmetry cannot be an exact symmetry, there has to be an analogy with the electroweak symmetry breaking discussed in~\ref{sec:ewksb} that breaks SUSY. In particular, this must be soft or spontaneous such that broken supersymmetry still provides a solution to the hierarchy problem. This means that some new higher-energy-scale particles and interactions have to be added to the MSSM, but it also means that terms, containing only masses and couplings, with positive mass dimension, gauge invariant and violating SUSY, have to be added to the Lagrangian;
 
 				\begin{equation}
 				\label{eq:soft_sb}
@@ -365,13 +355,9 @@
 					\item anomaly-mediated supersymmetry breaking (AMSB), a special type of gravity-mediated supersymmetry breaking, that communicates supersymmetry breaking to the supersymmetric Standard Model through the conformal anomaly~\cite{Randall:1998uk, Giudice:1998xp}
 				\end{itemize}
 
-				\noindent However, such models will not be discussed any further.
-
 
 
 			\subsubsection*{MSSM mass spectrum}
-
-				% As for gauge bosons in the SM and the Higgs, there exists MSSM fermionic superpartners whichare referred to as \emph{Gauginos} and \emph{Higgsinos}. Diifferently from the SM, in the MSSM there are two complex Higgs doublets: 
 
 				% \begin{equation*}
 				% 	H_u = (H_u^+, H_u^0) \qquad H_d = (H_d^0, H_d^-) 
@@ -385,7 +371,7 @@
 				% 	\label{eq:MSSM_HiggsVEVs}
 				% \end{equation*}
 
-				As per the SM gauge bosons, the gaugino masses are affected by electroweak symmetry breaking. The new mass terms, introduced in the $\mathcal L_{\mathrm{soft}}$, mix to form the mass eigenstates of the sparticles. The neutral Winos, $\tilde{W}^0$, Binos, $\tilde{B}^0$ and higgsinos $\tilde{H}^0$ mix to form the four \textit{neutralinos} $\tilde{\chi}^0_i$ ($i=1,2,3,4$)  as it follows; 
+				As per the SM gauge bosons, the gaugino masses are affected by electroweak symmetry breaking. The new states, introduced in the $\mathcal L_{\mathrm{soft}}$, mix to form the mass eigenstates of the sparticles. The neutral Winos, $\tilde{W}^0$, Binos, $\tilde{B}^0$ and higgsinos $\tilde{H}^0$ mix to form the four \textit{neutralinos} $\tilde{\chi}^0_i$ ($i=1,2,3,4$) as follows; 
 
 				\begin{equation}
 				\label{eq:neutralino_mixing}
@@ -405,7 +391,7 @@
 					\end{pmatrix}
 				\end{equation}
 
-				\noindent Here, $c_{\beta} = \cos \beta$,  $(s_{\beta}) = \sin \beta$, $c_W = \cos \theta_W$ and $(s_W) = \sin \theta_W$. $M_1$, $M_2$ are related to gaugino masses and $\mu$ to higgsino mass, $\beta$ is the ratio of the electroweak coupling constants and $\theta_W$ is the ratio of the VEVs of the two Higgs doublet fields, and finally, $m_Z$ ($m_W$) is the mass of the \Zboson\ (\Wboson) boson. The neutralino indeces are conventionally assumed to increase with their masses. The charged winos $\tilde{W}^{\pm}$ and higgsinos $\tilde{H}^{\pm}$ mix to form four \textit{charginos}, $\tilde{\chi}^{\pm}_i$ ($i=1,2$) as it follows;
+				\noindent Here, $c_{\beta} = \cos \beta$,  $(s_{\beta}) = \sin \beta$, $c_W = \cos \theta_W$ and $(s_W) = \sin \theta_W$. $M_1$, $M_2$ are related to gaugino masses and $\mu$ to higgsino mass, $\tan \beta$ is the ratio of the VEVs of the two Higgs doublet fields, $\theta_W$ is the ratio of the electroweak coupling constants and, $m_Z$ ($m_W$) is the mass of the \Zboson\ (\Wboson) boson. The neutralino indeces are conventionally assumed to increase with their masses. The charged winos $\tilde{W}^{\pm}$ and higgsinos $\tilde{H}^{\pm}$ mix to form four \textit{charginos}, $\tilde{\chi}^{\pm}_i$ ($i=1,2$) as it follows;
 
 				\begin{equation}
 				\label{eq:chargino_mixing}
@@ -421,7 +407,7 @@
 						\end{pmatrix}
 				\end{equation}
 
-				Charginos and neutralinos, given birth by the mixing described in Eq.~\ref{eq:chargino_mixing} and~\ref{eq:neutralino_mixing}, will be referred to as bino-like, wino-like or higgsino-like depending on their phenomenology. Gluinos do not mix as they carry colour charge. 
+				Charginos and neutralinos mix as described in Eq.~\ref{eq:chargino_mixing} and~\ref{eq:neutralino_mixing} and will be referred to as bino-like, wino-like or higgsino-like depending on their phenomenology. Gluinos do not mix as they carry colour charge. 
 
 				The Higgs sector is also affected. There are five mass eigenstates, $h^0$, $H^0$, $A^0$, and $H^{\pm}$. These, together with the other MSSM particles are listed in Table~\ref{tab:MSSM_particles}. 
 				
@@ -452,7 +438,7 @@
 				\end{table}
 
 
-				In the MSSM the squark sector is specified by the mass matrix in the basis $(\tilde{q}_L, \tilde{q}_R)$ with $\tilde{q} = \tilde{t}$ or $\tilde{b}$~\cite{Haber:1984rc}. Left- and right-handed squarks and sleptons do not have to have equal mass, which means that a rotation matrix can be defined, although the mixing is assumed to be non-zero only for the third-generation scalar partners. Stop, \stopL, \stopR, sbottom \sbottomL, \sbottomR, and stau, \stauL, \stauR rotate into mass eigenstates, \stopone, \stoptwo, \sbottomone, \sbottomtwo, \stauone, \stautwo, respectively, as described in Eq.~\ref{eq:3rdgen_mixing}~\cite{Hidaka:2000cm}. %As with the neutralinos and charginos, the lower the index, the lighter the particle is. 
+				In the MSSM the squark sector is specified by the mass matrix in the basis $(\tilde{q}_L, \tilde{q}_R)$ with $\tilde{q} = \tilde{t}$ or $\tilde{b}$~\cite{Haber:1984rc}. A rotation matrix can be defined also for left- and right-handed squarks and sleptons, although in the MSSM the mixing is assumed to be non-zero only for the third-generation scalar partners. Stop, \stopL, \stopR, sbottom \sbottomL, \sbottomR, and stau, \stauL, \stauR\ rotate into mass eigenstates, \stopone, \stoptwo, \sbottomone, \sbottomtwo, \stauone, \stautwo, respectively, as described in Eq.~\ref{eq:3rdgen_mixing}~\cite{Hidaka:2000cm}. %As with the neutralinos and charginos, the lower the index, the lighter the particle is. 
 
 				\begin{equation}
 				\label{eq:3rdgen_mixing}
@@ -480,7 +466,7 @@
 					\end{split}
 				\end{align}
 
-				\noindent Here,  $I_3^{q_L}$ is the third component of the weak isospin and $e_q$ the electric charge of the quark $q$. $M_{{\{ \tilde{Q},\tilde{U},\tilde{D} \}}}$ and $A_{t,b}$ are soft SUSY–breaking parameters, $\mu$ is the higgsino mass parameter, and $\tan \beta$ is the ratio of Higgs field VEVs. By diagonalising the matrix in Eq.~\ref{eq:3rdgen_mixing} one gets the mass eigenstates 
+				\noindent Here, $I_3^{q_L}$ is the third component of the weak isospin and $e_q$ the electric charge of the quark $q$. $M_{{\{ \tilde{Q},\tilde{U},\tilde{D} \}}}$ and $A_{t,b}$ are soft SUSY–breaking parameters, $\mu$ is the higgsino mass parameter, and $\tan \beta$, as previously mentioned, is the ratio of Higgs field VEVs. By diagonalising the matrix in Eq.~\ref{eq:3rdgen_mixing} one gets the mass eigenstates 
 				
 				$$ \tilde{q}_1 = \tilde{q}_L \cos \theta_{\tilde{q}} + \tilde{q}_R \sin \theta_{\tilde{q}} $$
 				$$ \tilde{q}_2 = - \tilde{q}_L \sin \theta_{\tilde{q}} + \tilde{q}_R \cos \theta_{\tilde{q}} $$
@@ -493,7 +479,7 @@
 		\subsection{Phenomenology of Supersymmetry}
 		\label{sec:SUSYPheno}
 
-			As previously mentioned, the introduction of SUSY particles overcomes the problem of an unnutural fine-tuning to the Higgs mass due to its quadratic corrections, given that the stops have masses typically around 1 TeV.
+			As previously mentioned, the introduction of SUSY particles overcomes the problem of an unnutural fine-tuning to the Higgs mass due to its quadratic corrections.%, given that the stops have masses typically around 1 TeV.
 
 			\subsubsection*{$R$-parity}
 				
@@ -505,9 +491,9 @@
 
 				\noindent where $B$, $L$, and $s$ are the baryon, lepton, and spin number, respectively.	
 
-				If a certain SUSY model is $R$-parity conserving, then the SM particles have $R = 1$ and SUSY partners have $R=-1$. When $R$-parity conservation is imposed on MSSM models, the mixing between particles and sparticles cannot occur, resulting in the number of SUSY particles to be even at every interaction vertex. Furthermore, all sparticles must be pair-produced and the Lightest Supersymmetric Particle (LSP) has to be stable and can be a good Dark Matter candidate. %Heavier sparticles can only decay to odd numbers of it.
+				The SM particles have $R = 1$ and SUSY partners have $R=-1$. When $R$-parity conservation is imposed on MSSM models, the mixing between particles and sparticles cannot occur, resulting in the number of SUSY particles to be even at every interaction vertex. Furthermore, all sparticles must be pair-produced and the Lightest Supersymmetric Particle (LSP) has to be stable and can be a good Dark Matter candidate. %Heavier sparticles can only decay to odd numbers of it.
 
-				Although the SUSY searches in a $R$-parity violating (RPV) scenario have been extensively investigated by the particle-physics community, in this work only $R$-parity conserving (RPC) models, where the \ninoone\ is assumed to be the LSP, were considered.
+				Although SUSY searches in a $R$-parity violating (RPV) scenario have been extensively investigated by the particle-physics community, in this work only $R$-parity conserving (RPC) models, where the \ninoone\ is assumed to be the LSP, were considered.
 
 			\subsubsection*{Phenomenological MSSM (pMSSM)}
 
@@ -547,13 +533,11 @@
 
 				\noindent Such parameter space is still rather large and it makes pMSSM searches extremely challenging and difficult to exclude. To overcome this problem \textit{simplified models} are introduced. In other words, a certain signal process is extracted from the model and only particles contributing to a certain decay mode will be considered, \eg\ $\stopone \ra t + \ninoone$ only targets the 2-body decay ignoring the remaining SUSY mass spectrum. The number of parameters will then boil down to 2; \mstop\ and \mLSP, allowing the reinterpretation of the results and providing a powerful tool to constrain various models. 
 
-				In this work only analyses laying their theoretical assumptions on such simplified models will be presented. 
+				In this work only analyses based on such simplified models will be presented. 
 
 			\subsubsection*{Phenomenology of the top squark}
 
-				Fig.~\ref{fig:susy_13TeV_xsec} shows SUSY particles production cross-sections for squarks that do not contribute to gluino production diagrams and vice versa, \ie\ treating squarks and gluinos as \textit{decoupled} making the cross-section of squark pair-production be the same for all families. While gluinos production cross-sections are fairly large, SUSY electroweak production cross-sections of neutralinos and charginos are considerably lower. Sleptons production cross-section, which is not displayed, would sit just below higgsino-like chargino/neutralino production cross-section. 
-
-				Due to the cross-section being around a factor of six smaller than \ttbar\ production (when $m_{\stopone} \sim m_t$), third-generation SUSY analyses are very challenging. Furthermore, the cross-section of such processes dramatically decreases with increasing $m_{\tilde{q}}$. Nonetheless, for example, searches for direct \stopone\ production with $\stopone \ra t + \ninoone$ are sensitive in a scenario where $m_{\stopone} \gg m_t + m_{\ninoone}$ as the large \met, from the neutralinos, provides discriminating power for \ttbar\ rejection.
+				Fig.~\ref{fig:susy_13TeV_xsec} shows SUSY particles production cross-sections in \pp\ collisions at $\sqrt{s} = 13 \TeV$ for squarks that do not contribute to gluino production diagrams and vice versa, \ie\ treating squarks and gluinos as \textit{decoupled} making the cross-section of squark pair-production be the same for all families. While gluino pair-production cross-sections are fairly large, SUSY electroweak production cross-sections of neutralinos and charginos are considerably lower. Slepton production cross-section, which is not displayed, would sit just below higgsino-like chargino/neutralino production cross-section. 
 
 				\begin{figure}[!htb]
 					\centering
@@ -564,14 +548,13 @@
 				There exists various decay modes of pair-produced stops, depending on the masses of the decay products; 
 
 				\begin{itemize}
-					\item $\stop \ra t\ \nino$
-					\item $\stop \ra b\ \chinopm \ra b\  W\  \nino$ (on/off-shell \Wboson) or $\stop \ra b\  W\  \nino$ (off-shell top)
-					%\item $\stop \ra t\ \ninotwo \ra Z/h\ \ninoone$
-					\item $\stop \ra c\ \nino$
-					\item $\stop \ra b\ f\ f'\ \nino$
+					\item $\stop \ra t\ \ninoone$
+					\item $\stop \ra b\ \chinoonepm \ra b\  W\  \ninoone$ (on/off-shell \Wboson) or $\stop \ra b\  W\  \ninoone$ (off-shell top)
+					\item $\stop \ra c\ \ninoone$
+					\item $\stop \ra b\ f\ f'\ \ninoone$
 				\end{itemize} 
 
-				\noindent Figure~\ref{fig:stop_topologies} shows a schematic representation of the parameter space ($m_{\stopone}, m_{\ninoone})$ and the different region where each of the above-mentioned process dominates. %In particular, $\stop \ra b\ \chinopm$ is allowed when $m_{\nino} < m_{\chinopm} < \mstop - m_b$. 
+				Figure~\ref{fig:stop_topologies} shows a schematic representation of the parameter space ($m_{\stopone}, m_{\ninoone})$ and the different region where each of the above-mentioned process dominates. %In particular, $\stop \ra b\ \chinopm$ is allowed when $m_{\nino} < m_{\chinopm} < \mstop - m_b$. 
 
 				\begin{figure}[!htb]
 					\centering
@@ -593,3 +576,6 @@
 					\caption{Diagrams of the decay topologies of the signal models considered in this work. The term ``soft" refers to decay products that have transverse momenta below the detector thresholds.}
 					\label{fig:feynDiagModels}
 				\end{figure}
+
+				Third-generation SUSY analyses, \eg\ stop pair-production ($\stop\stop$) or sbottom pair-production ($\sbottom\sbottom$) are very challenging, due to the cross-section being around a factor of six smaller than \ttbar\ production (when $m_{\stopone} \sim m_at$), which usually is one of the main backgrounds. Furthermore, the cross-section of such processes dramatically decreases with increasing $m_{\tilde{q}}$. Nonetheless, for example, searches for direct \stopone\ production with $\stopone \ra t + \ninoone$ are sensitive in a scenario where $m_{\stopone} \gg m_t + m_{\ninoone}$ as the large \met, from the neutralinos, provides discriminating power for \ttbar\ rejection.
+				

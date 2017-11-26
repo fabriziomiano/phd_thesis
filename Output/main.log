@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.24)  22 NOV 2017 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.24)  24 NOV 2017 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2739,91 +2739,99 @@ Chapter 1.
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
-<./figures/theory/sm.png, id=404, 1204.5pt x 1204.5pt>
+<./figures/theory/sm.png, id=412, 1204.5pt x 1204.5pt>
 File: ./figures/theory/sm.png Graphic file (type png)
 <use ./figures/theory/sm.png>
-Package pdftex.def Info: ./figures/theory/sm.png  used on input line 17. on inp
-ut line 17.
+Package pdftex.def Info: ./figures/theory/sm.png  used on input line 16. on inp
+ut line 16.
 Package pdftex.def Info: Requested size: 213.39568pt x 213.38211pt on input lin
-e 17.
+e 16.
 
-Underfull \hbox (badness 1199) in paragraph at lines 18--18
+Underfull \hbox (badness 1199) in paragraph at lines 17--17
 [][]|[][] \T1/qpl/m/n/9 The ele-ment-ary particles of the Stand-
  []
 
 [2
 
-] [3 <./figures/theory/sm.png>]
-LaTeX Font Info:    Try loading font information for OMS+qpl on input line 69.
-LaTeX Font Info:    No file OMSqpl.fd. on input line 69.
+]
+Underfull \hbox (badness 3525) in paragraph at lines 22--23
+\T1/qpl/m/n/10.95 cit-a-tions of quantum fileds in a four-
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 22--23
+\T1/qpl/m/n/10.95 de-scribe three of the four fun-da-mental
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 24--26
+\T1/qpl/m/n/10.95 ally re-ferred to as in-form-a-tion car-ri-ers,
+ []
+
+[3 <./figures/theory/sm.png>] [4] [5]
+LaTeX Font Info:    Try loading font information for OMS+qpl on input line 98.
+LaTeX Font Info:    No file OMSqpl.fd. on input line 98.
 
 LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 69.
+(Font)              for symbol `textbullet' on input line 98.
 
-[4] [5] [6] [7]
-<HiggsPotential/HiggsPotential.pdf, id=463, pagebox=cropbox, 217.98138pt x 158.
+[6] [7]
+<HiggsPotential/HiggsPotential.pdf, id=468, pagebox=cropbox, 217.98138pt x 158.
 50717pt>
 File: HiggsPotential/HiggsPotential.pdf Graphic file (type pdf)
 <use HiggsPotential/HiggsPotential.pdf>
 Package pdftex.def Info: HiggsPotential/HiggsPotential.pdf  used on input line 
-235. on input line 235.
-Package pdftex.def Info: Requested size: 213.39568pt x 155.18117pt on input lin
-e 235.
-
-Overfull \hbox (2.58553pt too wide) in paragraph at lines 239--242
-[][]\T1/qpl/m/n/10.95 In sum-mary, to gen-er-ate particle masses
- []
-
-
-Underfull \hbox (badness 7888) in paragraph at lines 239--242
-\T1/qpl/m/n/10.95 renor-m-al-is-able, the global Lag-rangian
- []
-
+223. on input line 223.
+Package pdftex.def Info: Requested size: 170.71393pt x 124.14299pt on input lin
+e 223.
 [8 <./HiggsPotential/HiggsPotential.pdf>]
-<./figures/theory/ATLAS_a_SMSummary_TotalXsect.png, id=487, 4501.81876pt x 3303
+<./figures/theory/ATLAS_a_SMSummary_TotalXsect.png, id=497, 4501.81876pt x 3303
 .34125pt>
 File: ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png Graphic file (type png)
 
 <use ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png>
 Package pdftex.def Info: ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png  use
-d on input line 254. on input line 254.
+d on input line 252. on input line 252.
 Package pdftex.def Info: Requested size: 426.79135pt x 313.16542pt on input lin
-e 254.
-[9 <./figures/theory/ATLAS_a_SMSummary_TotalXsect.png>] [10]
-Overfull \hbox (4.2491pt too wide) in paragraph at lines 314--315
+e 252.
+[9 <./figures/theory/ATLAS_a_SMSummary_TotalXsect.png>]
+<./figures/theory/1loopfermionicCorrections.png, id=507, 363.3575pt x 223.83624
+pt>
+File: ./figures/theory/1loopfermionicCorrections.png Graphic file (type png)
+<use ./figures/theory/1loopfermionicCorrections.png>
+Package pdftex.def Info: ./figures/theory/1loopfermionicCorrections.png  used o
+n input line 271. on input line 271.
+Package pdftex.def Info: Requested size: 128.0387pt x 78.87666pt on input line 
+271.
+[10 <./figures/theory/1loopfermionicCorrections.png>]
+Overfull \hbox (4.2491pt too wide) in paragraph at lines 304--305
 \T1/qpl/m/n/10.95 For each SM particle there ex-ists a su-per-sym-met-ric part-
 ner, gen-er-ally called \T1/qpl/m/it/10.95 sparticle \T1/qpl/m/n/10.95 (where
  []
 
-
-Overfull \hbox (3.02264pt too wide) in paragraph at lines 316--317
-\T1/qpl/m/n/10.95 SUSY must be a broken sym-metry, oth-er-wise su-per-part-ners
- would have the same quantum
- []
-
 [11]
-<./figures/theory/alphaRunning.jpg, id=517, 569.0058pt x 232.4685pt>
+<./figures/theory/alphaRunning.jpg, id=531, 569.0058pt x 232.4685pt>
 File: ./figures/theory/alphaRunning.jpg Graphic file (type jpg)
 <use ./figures/theory/alphaRunning.jpg>
 Package pdftex.def Info: ./figures/theory/alphaRunning.jpg  used on input line 
-337. on input line 337.
+327. on input line 327.
 Package pdftex.def Info: Requested size: 426.79135pt x 174.36513pt on input lin
-e 337.
+e 327.
 [12 <./figures/theory/alphaRunning.jpg>]
-Overfull \hbox (7.29865pt too wide) in paragraph at lines 364--365
+Overfull \hbox (7.29865pt too wide) in paragraph at lines 354--355
 \T1/qpl/m/n/10.95 metry break-ing to the su-per-sym-met-ric Stand-ard Model thr
 ough the Stand-ard Model's
  []
 
 
-Overfull \hbox (20.8109pt too wide) in paragraph at lines 365--366
+Overfull \hbox (20.8109pt too wide) in paragraph at lines 355--356
 []\T1/qpl/m/n/10.95 anomaly-mediated su-per-sym-metry break-ing (AMSB), a spe-c
 ial type of gravity-mediated
  []
 
 [13] [14]
-Overfull \hbox (12.36131pt too wide) in paragraph at lines 488--489
+Overfull \hbox (12.36131pt too wide) in paragraph at lines 474--475
 \T1/qpl/m/n/10.95 with the mass ei-gen-val-ues $\OML/cmm/m/it/10.95 m[]$\T1/qpl
 /m/n/10.95 , $\OML/cmm/m/it/10.95 m[]$ \T1/qpl/m/n/10.95 ($\OML/cmm/m/it/10.95 
 m[] < m[]$ \T1/qpl/m/n/10.95 ) and the mix-ing angle $\OML/cmm/m/it/10.95 ^^R[]
@@ -2831,63 +2839,69 @@ m[] < m[]$ \T1/qpl/m/n/10.95 ) and the mix-ing angle $\OML/cmm/m/it/10.95 ^^R[]
  []
 
 [15]
-Overfull \hbox (3.12807pt too wide) in paragraph at lines 522--523
+Overfull \hbox (3.12807pt too wide) in paragraph at lines 508--509
 \T1/qpl/m/n/10.95 met-ers, sum-mar-ised in Table [][]1.3[][], defines the so-ca
 lled phe-nomen-o-lo-gical MSSM (pMSSM). 
  []
 
 [16]
-<./figures/theory/SusyXSec13TeV.png, id=569, 569.0058pt x 387.3672pt>
+<./figures/theory/SusyXSec13TeV.png, id=583, 569.0058pt x 387.3672pt>
 File: ./figures/theory/SusyXSec13TeV.png Graphic file (type png)
 <use ./figures/theory/SusyXSec13TeV.png>
 Package pdftex.def Info: ./figures/theory/SusyXSec13TeV.png  used on input line
- 560. on input line 560.
+ 544. on input line 544.
 Package pdftex.def Info: Requested size: 426.79135pt x 290.54832pt on input lin
-e 560.
-[17]
-<./figures/theory/3rd_gen_searches.png, id=577, 987.69pt x 487.8225pt>
+e 544.
+<./figures/theory/3rd_gen_searches.png, id=587, 987.69pt x 487.8225pt>
 File: ./figures/theory/3rd_gen_searches.png Graphic file (type png)
 <use ./figures/theory/3rd_gen_searches.png>
 Package pdftex.def Info: ./figures/theory/3rd_gen_searches.png  used on input l
-ine 578. on input line 578.
+ine 561. on input line 561.
 Package pdftex.def Info: Requested size: 426.79135pt x 210.78679pt on input lin
-e 578.
-<./figures/theory/stst-bqqbqqN1N1-tt.pdf, id=582, pagebox=cropbox, 128.48pt x 1
+e 561.
+[17] [18 <./figures/theory/SusyXSec13TeV.png> <./figures/theory/3rd_gen_searche
+s.png>]
+<./figures/theory/stst-bqqbqqN1N1-tt.pdf, id=607, pagebox=cropbox, 128.48pt x 1
 04.39pt>
 File: ./figures/theory/stst-bqqbqqN1N1-tt.pdf Graphic file (type pdf)
 <use ./figures/theory/stst-bqqbqqN1N1-tt.pdf>
 Package pdftex.def Info: ./figures/theory/stst-bqqbqqN1N1-tt.pdf  used on input
- line 588. on input line 588.
+ line 571. on input line 571.
 Package pdftex.def Info: Requested size: 106.69783pt x 86.69304pt on input line
- 588.
-<./figures/theory/stst-bbWWN1N1.pdf, id=583, pagebox=cropbox, 127.47626pt x 104
+ 571.
+<./figures/theory/stst-bbWWN1N1.pdf, id=608, pagebox=cropbox, 127.47626pt x 104
 .39pt>
 File: ./figures/theory/stst-bbWWN1N1.pdf Graphic file (type pdf)
 <use ./figures/theory/stst-bbWWN1N1.pdf>
 Package pdftex.def Info: ./figures/theory/stst-bbWWN1N1.pdf  used on input line
- 589. on input line 589.
+ 572. on input line 572.
 Package pdftex.def Info: Requested size: 106.69783pt x 87.37796pt on input line
- 589.
-<./figures/theory/stst-tbhWN1N1.pdf, id=584, pagebox=cropbox, 131.49126pt x 103
+ 572.
+<./figures/theory/stst-tbhWN1N1.pdf, id=609, pagebox=cropbox, 131.49126pt x 103
 .38625pt>
 File: ./figures/theory/stst-tbhWN1N1.pdf Graphic file (type pdf)
 <use ./figures/theory/stst-tbhWN1N1.pdf>
 Package pdftex.def Info: ./figures/theory/stst-tbhWN1N1.pdf  used on input line
- 590. on input line 590.
+ 573. on input line 573.
 Package pdftex.def Info: Requested size: 106.69783pt x 83.89542pt on input line
- 590.
-<./figures/theory/gogo-tsofttsoftN1N1-stst.pdf, id=585, pagebox=cropbox, 130.48
+ 573.
+<./figures/theory/gogo-tsofttsoftN1N1-stst.pdf, id=610, pagebox=cropbox, 130.48
 75pt x 102.3825pt>
 File: ./figures/theory/gogo-tsofttsoftN1N1-stst.pdf Graphic file (type pdf)
 <use ./figures/theory/gogo-tsofttsoftN1N1-stst.pdf>
 Package pdftex.def Info: ./figures/theory/gogo-tsofttsoftN1N1-stst.pdf  used on
- input line 591. on input line 591.
+ input line 574. on input line 574.
 Package pdftex.def Info: Requested size: 106.69783pt x 83.71829pt on input line
- 591.
-) (./Chapters/detector.tex [18 <./figures/theory/SusyXSec13TeV.png>] [19 <./fig
-ures/theory/3rd_gen_searches.png> <./figures/theory/stst-bqqbqqN1N1-tt.pdf> <./
-figures/theory/stst-bbWWN1N1.pdf> <./figures/theory/stst-tbhWN1N1.pdf> <./figur
-es/theory/gogo-tsofttsoftN1N1-stst.pdf>]
+ 574.
+
+Overfull \hbox (17.73355pt too wide) in paragraph at lines 580--581
+[]\T1/qpl/m/n/10.95 Third-generation SUSY ana-lyses, e.g. stop pair-production 
+($[][]$) or sbot-tom pair-production
+ []
+
+) (./Chapters/detector.tex [19 <./figures/theory/stst-bqqbqqN1N1-tt.pdf> <./fig
+ures/theory/stst-bbWWN1N1.pdf> <./figures/theory/stst-tbhWN1N1.pdf> <./figures/
+theory/gogo-tsofttsoftN1N1-stst.pdf>]
 Chapter 2.
 
 Package xcolor Warning: Incompatible color definition on input line 1.
@@ -2895,7 +2909,7 @@ Package xcolor Warning: Incompatible color definition on input line 1.
 [20
 
 ]
-<./figures/Detector/cern-acc-complex.jpg, id=642, 772.5663pt x 541.7841pt>
+<./figures/Detector/cern-acc-complex.jpg, id=655, 772.5663pt x 541.7841pt>
 File: ./figures/Detector/cern-acc-complex.jpg Graphic file (type jpg)
 <use ./figures/Detector/cern-acc-complex.jpg>
 Package pdftex.def Info: ./figures/Detector/cern-acc-complex.jpg  used on input
@@ -2903,7 +2917,7 @@ Package pdftex.def Info: ./figures/Detector/cern-acc-complex.jpg  used on input
 Package pdftex.def Info: Requested size: 426.79135pt x 299.29662pt on input lin
 e 47.
 [21] [22 <./figures/Detector/cern-acc-complex.jpg>]
-<./figures/Detector/cut-away-det.jpg, id=667, 3161.8125pt x 2032.59375pt>
+<./figures/Detector/cut-away-det.jpg, id=680, 3161.8125pt x 2032.59375pt>
 File: ./figures/Detector/cut-away-det.jpg Graphic file (type jpg)
 <use ./figures/Detector/cut-away-det.jpg>
 Package pdftex.def Info: ./figures/Detector/cut-away-det.jpg  used on input lin
@@ -2911,7 +2925,7 @@ e 67. on input line 67.
 Package pdftex.def Info: Requested size: 426.79135pt x 274.3573pt on input line
  67.
 [23 <./figures/Detector/cut-away-det.jpg>]
-<./figures/Detector/MagnetSyst/magnetSyst.png, id=675, 1037.8775pt x 800.9925pt
+<./figures/Detector/MagnetSyst/magnetSyst.png, id=688, 1037.8775pt x 800.9925pt
 >
 File: ./figures/Detector/MagnetSyst/magnetSyst.png Graphic file (type png)
 <use ./figures/Detector/MagnetSyst/magnetSyst.png>
@@ -2924,7 +2938,7 @@ Underfull \hbox (badness 2181) in paragraph at lines 112--112
 \T1/qpl/m/n/9 solen-oid wind-ing lies in-side the calor-i-meter
  []
 
-<./figures/Detector/MagnetSyst/magnetSyst-desc.jpg, id=678, 248.6088pt x 156.10
+<./figures/Detector/MagnetSyst/magnetSyst-desc.jpg, id=691, 248.6088pt x 156.10
 32pt>
 File: ./figures/Detector/MagnetSyst/magnetSyst-desc.jpg Graphic file (type jpg)
 
@@ -2934,14 +2948,14 @@ d on input line 116. on input line 116.
 Package pdftex.def Info: Requested size: 202.72849pt x 127.30037pt on input lin
 e 116.
 [24]
-<./figures/Detector/ID/ID-overview.jpg, id=693, 810.52812pt x 540.51938pt>
+<./figures/Detector/ID/ID-overview.jpg, id=706, 810.52812pt x 540.51938pt>
 File: ./figures/Detector/ID/ID-overview.jpg Graphic file (type jpg)
 <use ./figures/Detector/ID/ID-overview.jpg>
 Package pdftex.def Info: ./figures/Detector/ID/ID-overview.jpg  used on input l
 ine 142. on input line 142.
 Package pdftex.def Info: Requested size: 202.72849pt x 135.19548pt on input lin
 e 142.
-<./figures/Detector/ID/ID.png, id=694, 253.23409pt x 218.2554pt>
+<./figures/Detector/ID/ID.png, id=707, 253.23409pt x 218.2554pt>
 File: ./figures/Detector/ID/ID.png Graphic file (type png)
 <use ./figures/Detector/ID/ID.png>
 Package pdftex.def Info: ./figures/Detector/ID/ID.png  used on input line 143. 
@@ -2951,7 +2965,7 @@ e 143.
 [25 <./figures/Detector/MagnetSyst/magnetSyst.png> <./figures/Detector/MagnetSy
 st/magnetSyst-desc.jpg>] [26 <./figures/Detector/ID/ID-overview.jpg> <./figures
 /Detector/ID/ID.png>] [27]
-<./figures/Detector/Calo/Calo-overview.jpg, id=724, 3914.625pt x 2634.84375pt>
+<./figures/Detector/Calo/Calo-overview.jpg, id=737, 3914.625pt x 2634.84375pt>
 File: ./figures/Detector/Calo/Calo-overview.jpg Graphic file (type jpg)
 <use ./figures/Detector/Calo/Calo-overview.jpg>
 Package pdftex.def Info: ./figures/Detector/Calo/Calo-overview.jpg  used on inp
@@ -2970,7 +2984,7 @@ Overfull \hbox (7.6052pt too wide) in paragraph at lines 209--210
 re the en-ergy of had-ronic showers.
  []
 
-<./figures/Detector/MS/MS.jpg, id=734, 750.805pt x 563.10374pt>
+<./figures/Detector/MS/MS.jpg, id=747, 750.805pt x 563.10374pt>
 File: ./figures/Detector/MS/MS.jpg Graphic file (type jpg)
 <use ./figures/Detector/MS/MS.jpg>
 Package pdftex.def Info: ./figures/Detector/MS/MS.jpg  used on input line 221. 
@@ -2978,7 +2992,7 @@ on input line 221.
 Package pdftex.def Info: Requested size: 426.79135pt x 320.09605pt on input lin
 e 221.
 [29]
-<./figures/Detector/Trigger/TDAQSystem.png, id=744, 812.03375pt x 645.41125pt>
+<./figures/Detector/Trigger/TDAQSystem.png, id=757, 812.03375pt x 645.41125pt>
 File: ./figures/Detector/Trigger/TDAQSystem.png Graphic file (type png)
 <use ./figures/Detector/Trigger/TDAQSystem.png>
 Package pdftex.def Info: ./figures/Detector/Trigger/TDAQSystem.png  used on inp
@@ -2991,18 +3005,25 @@ Chapter 3.
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
+<./figures/Trigger/trig_chain.png, id=787, 248.93pt x 569.12625pt>
+File: ./figures/Trigger/trig_chain.png Graphic file (type png)
+<use ./figures/Trigger/trig_chain.png>
+Package pdftex.def Info: ./figures/Trigger/trig_chain.png  used on input line 1
+5. on input line 15.
+Package pdftex.def Info: Requested size: 92.2204pt x 210.83707pt on input line 
+15.
 [33
 
-]
+] [34 <./figures/Trigger/trig_chain.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 39.
+(hyperref)                removing `math shift' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 39.
+(hyperref)                removing `math shift' on input line 64.
 
-) (./Chapters/evtsim.tex [34]
+) (./Chapters/evtsim.tex [35]
 Chapter 4.
 
 Package xcolor Warning: Incompatible color definition on input line 1.
@@ -3012,9 +3033,9 @@ Overfull \hbox (28.1323pt too wide) in paragraph at lines 1--1
 |[]\T1/qpl/b/n/24.88 Event Sim-u-la-tion and Re-con-struc-
  []
 
-[35
+[36
 
-]) (./Chapters/stop.tex [36]
+]) (./Chapters/stop.tex [37]
 Chapter 5.
 
 Package xcolor Warning: Incompatible color definition on input line 1.
@@ -3024,16 +3045,16 @@ Overfull \hbox (6.61115pt too wide) in paragraph at lines 1--1
 |[]\T1/qpl/b/n/24.88 Stop searches in fi-nal states with
  []
 
-) (./Chapters/results.tex [37
+) (./Chapters/results.tex [38
 
 ]
 Chapter 6.
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
-) [38
+) [39
 
-] (./Chapters/appA.tex) [39
+] (./Chapters/appA.tex) [40
 
 
 ] (/Users/mbare/CERNBox/Thesis/Output/main.bbl (/Users/mbare/CERNBox/Thesis/Out
@@ -3044,10 +3065,10 @@ put/main.brf)
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [40
+) [41
 
 
-] [41] [42]) [43]
+] [42] [43]) [44]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
 (/Users/mbare/CERNBox/Thesis/Output/main.aux (/Users/mbare/CERNBox/Thesis/Outpu
@@ -3058,19 +3079,19 @@ wledgments.aux) (/Users/mbare/CERNBox/Thesis/Output/FrontBackMatter/Declaration
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5A2FA0312D721325451F8D9F2EA643BF;3287.
+(rerunfilecheck)             Checksum: B556ED2A99B4A45C10B46E2D4E5C6F2D;3264.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: E25743415C48A29424A17C283B72723C;2592.
+(rerunfilecheck)             Checksum: 12DF9D6C8548E101B9C29A52AA598D7B;2774.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 43084 strings out of 492990
- 965623 string characters out of 6132635
- 1169306 words of memory out of 5000000
- 45659 multiletter control sequences out of 15000+600000
+ 43105 strings out of 492990
+ 966210 string characters out of 6132635
+ 1170447 words of memory out of 5000000
+ 45673 multiletter control sequences out of 15000+600000
  605168 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,21n,111p,10470b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3094,16 +3115,17 @@ type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/tex-gyre/qplb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/t
-ex-gyre/qplr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyr
-e/qplri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfs
-s0600.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt1
-095.pfb>
-Output written on /Users/mbare/CERNBox/Thesis/Output/main.pdf (53 pages, 156705
-15 bytes).
+blic/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/tex-gyre/qplb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/tex-gyre/qplr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex
+-gyre/qplri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super
+/sfss0600.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
+ftt1095.pfb>
+Output written on /Users/mbare/CERNBox/Thesis/Output/main.pdf (54 pages, 157409
+32 bytes).
 PDF statistics:
- 1058 PDF objects out of 1200 (max. 8388607)
- 935 compressed objects within 10 object streams
- 195 named destinations out of 1000 (max. 500000)
- 481 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1087 PDF objects out of 1200 (max. 8388607)
+ 957 compressed objects within 10 object streams
+ 198 named destinations out of 1000 (max. 500000)
+ 491 words of extra memory for PDF output out of 10000 (max. 10000000)
 
