@@ -25,11 +25,11 @@
 \usepackage{subfig}  % pictures and sub-pictures
 \usepackage[]{fncychap} % header style - Options: Sonny, Glenn, Bjornstrup
 \usepackage[utf8]{inputenc} 
-%\usepackage[math]{iwona}
-\usepackage{tgpagella}
+\usepackage{palatino}
 \usepackage[T1]{fontenc} 
 \setcounter{secnumdepth}{4}
 \usepackage{titlesec, blindtext, color}
+
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
 
@@ -39,8 +39,9 @@
 %---------------------------------------------------
 % LINE SPACING AND FOOTNOTE MARGIN
 %---------------------------------------------------
-\newcommand{\linespacing}{1.5}
+\newcommand{\linespacing}{1.3}
 \renewcommand{\baselinestretch}{\linespacing}
+%\linespread{1.25}
 
 %\renewcommand{\epigraphrule}{0pt}
 %\setlength{\epigraphwidth}{.6\textwidth}
@@ -113,8 +114,8 @@
 \usepackage[pdftex]{graphicx}
 %\renewcommand{\includegraphics}[2][]{\fbox{}}
 \DeclareGraphicsRule{*}{mps}{*}{} 
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.14}
+% \usepackage{pgfplots}
+% \pgfplotsset{compat=1.14}
 \usepackage{amsmath}
 \usepackage{commath}
 \usepackage{amssymb}
@@ -271,7 +272,7 @@
     \clearpage
     \phantomsection
     \addcontentsline{toc}{chapter}{Bibliography}
-    \bibliography{Chapters/Bibliography}
+    \bibliography{Chapters/Bibliography} 
 
 %---------------------------------------------------
 % END DOCUMENT

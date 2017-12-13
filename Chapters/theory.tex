@@ -12,17 +12,17 @@
 		The SM is an effective theory that aims to provide a general description of fundamental particles and their interactions. Unfortunately, our understanding of nature is still limited due to some opened question the SM is not able to answer to.
 
 		\begin{wrapfigure}{R}{.5\textwidth}
+		%\begin{figure}[!htb]
 			\centering
 				\includegraphics[width=.5\textwidth]{theory/sm}
 			\caption{\label{fig:sm_el_part} The elementary particles of the Standard Model. From the outermost to the innermost; fermions (quarks, top-half wheel, leptons, bottom-half wheel), vector bosons, and the Higgs boson.} %Any given point around the bottom of the hat gives the lowest-energy state.}
-		\end{wrapfigure}
+		\end{wrapfigure}		
 
 		The 20$^{th}$ century can be considered a quantum revolution. Several experiments led to discoveries which were found to be, together with the formalised theory, a solid base of the Standard Model of particle physics and our description of nature. Several particles were first predicted and then experimentally observed \eg\ the \Wboson\ and the \Zboson\ bosons, the $\tau$ lepton,~\cite{Herrero1998}, and more recently the Higgs boson at the LHC discovered by ATLAS~\cite{ATLASHiggs2012} and CMS~\cite{CMSHiggs2012}.
 
 		The SM is a Quantum Field Theory (QFT) where particles are treated like excitations of quantum fileds in a four-dimensional Minkowski spacetime. It can describe three of the four fundamental forces; weak, electromagnetic, and strong, but not gravity.
 
 		The most general classification of the elementary particles within the SM can be made by means of spin and their behaviour under Poincaré transformations: \textit{fermions} (leptons and quarks), usually referred to as matter, which have half-integer spin values, in unit of $\hbar$, and \textit{bosons}, usually referred to as information carriers, which have integer-spin values. A noteworthy subset of bosons is formed by the Spin-1 bosons, also known as gauge bosons. These can be considered mediators of the forces. Figure~\ref{fig:sm_el_part} displays the elementary particles of the Standard Model known as of today.
-		%, classified as just discussed, plus an additional scalar boson, the Higgs boson.
 
 
 
@@ -218,11 +218,13 @@
 				\end{pmatrix}
 			\end{equation}
 
-			\begin{wrapfigure}{L}{.5\textwidth}
-			\centering
-				\includegraphics[width=.4\textwidth]{HiggsPotential/HiggsPotential}
+			%\begin{wrapfigure}[5]{L}{.5\textwidth}
+			\begin{figure}[!htb]
+				\centering
+				\includegraphics[width=.5\textwidth]{HiggsPotential/HiggsPotential}
 			\caption{\label{fig:higgs_potential}The Higgs potential in the complex plane.} %Any given point around the bottom of the hat gives the lowest-energy state.}
-			\end{wrapfigure}
+			%\end{wrapfigure}
+			\end{figure}
 
 			The Higgs potential in Eq.~\ref{eq:Higgs_potential} is displayed in Fig.~\ref{fig:higgs_potential} if $\lambda$ and $\mu$ are chosen to be real. Such potential has a non-zero ground state, $v$, also known as \emph{vacuum expectation value} (VEV):
 
@@ -268,7 +270,7 @@
 
 			\begin{figure}
 				\centering
-				\includegraphics[width=.3\textwidth]{theory/1loopfermionicCorrections}
+				\includegraphics[width=.3\textwidth]{theory/1loopFermionicCorrections}
 				\caption{\label{fig:higgs_f_coupling} One-loop quantum corrections to the Higgs mass. A fermion correction with coupling $\lambda_f$.}
 			\end{figure}
 
@@ -554,7 +556,7 @@
 					\item $\stop \ra b\ f\ f'\ \ninoone$
 				\end{itemize} 
 
-				Figure~\ref{fig:stop_topologies} shows a schematic representation of the parameter space ($m_{\stopone}, m_{\ninoone})$ and the different region where each of the above-mentioned process dominates. %In particular, $\stop \ra b\ \chinopm$ is allowed when $m_{\nino} < m_{\chinopm} < \mstop - m_b$. 
+				Figure~\ref{fig:stop_topologies} shows a schematic representation of the parameter space ($m_{\stopone}, m_{\ninoone})$ and the different region where each of the above-mentioned process dominates. %In particular, $\stop \ra b\ \chinopm$ is allowed when $m_{\nino} < m_{\chinopm} < \mstop - m_b$.
 
 				\begin{figure}[!htb]
 					\centering
@@ -562,9 +564,7 @@
 					\caption{\label{fig:stop_topologies} Illustration of stop decay modes in the ($m_{\stopone}, m_{\ninoone})$ mass place where the \ninoone\ is assumed to be the lightest supersymmetric particle. The dashed blue lines indicate thresholds separating regions where different processes dominate.}
 				\end{figure}
 
-				In the models considered in this work, either \ninotwo\ or \chinoonepm\ is assumed to be the so-called next lightest supersymmetric particle (NLSP). Three different decay scenarios were considered in this work; (a) where both top squarks decay via $\stop\rightarrow t^{(*)}\ \ninoone$ \footnote{The symbol (*) indicates that the decay can occur with the top quark being produced off-shell (region between the second and third dashed line in Fig.~\ref{fig:stop_topologies})}; (b) at least one of the stops decays via $\stop\rightarrow b\ \chinoonepm \rightarrow b\ \Wboson^{(*)}\ \ninoone$; (c) where $m_{\ninotwo}$ is small enough to allow one stop to decay via $\stop\to t\ \ninotwo \to h/Z\ \ninoone$. Here, $h$ is the SM Higgs boson (125 GeV), as illustrated in 
-				Figure~\ref{fig:feynDiagModels}(a)$-$(c), respectively. Furthermore, top squarks can also be indirectly produced through the so-called gluino-mediated stop production, as shown in Figure~\ref{fig:feynDiagModels}(d). 				
-
+				In the models considered in this work, either \ninotwo\ or \chinoonepm\ is assumed to be the so-called next lightest supersymmetric particle (NLSP). Three different decay scenarios were considered in this work; (a) where both top squarks decay via $\stop\rightarrow t^{(*)}\ \ninoone$\footnote{The symbol (*) indicates the off-shell production}; (b) at least one of the stops decays via $\stop\rightarrow b\ \chinoonepm \rightarrow b\ \Wboson^{(*)}\ \ninoone$; (c) where $m_{\ninotwo}$ is small enough to allow one stop to decay via $\stop\to t\ \ninotwo \to h/Z\ \ninoone$. Here, $h$ is the SM Higgs boson (125 GeV), as illustrated in Figure~\ref{fig:feynDiagModels}(a)$-$(c), respectively. Furthermore, top squarks can also be indirectly produced through the so-called gluino-mediated stop production, as shown in Figure~\ref{fig:feynDiagModels}(d).
 
 				\begin{figure}[!htb]
 					\begin{center}
@@ -577,5 +577,5 @@
 					\label{fig:feynDiagModels}
 				\end{figure}
 
-				Third-generation SUSY analyses, \eg\ stop pair-production ($\stop\stop$) or sbottom pair-production ($\sbottom\sbottom$) are very challenging, due to the cross-section being around a factor of six smaller than \ttbar\ production (when $m_{\stopone} \sim m_at$), which usually is one of the main backgrounds. Furthermore, the cross-section of such processes dramatically decreases with increasing $m_{\tilde{q}}$. Nonetheless, for example, searches for direct \stopone\ production with $\stopone \ra t + \ninoone$ are sensitive in a scenario where $m_{\stopone} \gg m_t + m_{\ninoone}$ as the large \met, from the neutralinos, provides discriminating power for \ttbar\ rejection.
+				Third-generation SUSY analyses, \eg\ stop pair-production ($\stop\stop$) or sbottom pair-production ($\sbottom\sbottom$) are very challenging, due to the cross-section being around a factor of six smaller than \ttbar\ production (when $m_{\stopone} \sim m_t$), which usually is one of the main backgrounds. Furthermore, the cross-section of such processes dramatically decreases with increasing $m_{\tilde{q}}$. Nonetheless, for example, searches for direct \stopone\ production with $\stopone \ra t + \ninoone$ are sensitive in a scenario where $m_{\stopone} \gg m_t + m_{\ninoone}$ as the large \met, from the neutralinos, provides discriminating power for \ttbar\ rejection.
 				

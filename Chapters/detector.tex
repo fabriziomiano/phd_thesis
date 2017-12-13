@@ -1,5 +1,6 @@
 \chapter{The ATLAS Experiment at the LHC}
-\epigraph{\emph{We are rather like children, who must take a watch to pieces to see how it works}}{Sir Ernest Rutherford}
+\label{ch:detector}
+\epigraph{\emph{We are rather like children, who must take a watch to pieces to see how it works.}}{Sir Ernest Rutherford}
 
 	ATLAS (A Toroidal LHC ApparatuS) is one of the four main experiments (ATLAS, CMS, ALICE, LHCb) taking data at a center-of-mass energy of $13$ TeV using beams delivered by the Large Hadron Collider (LHC). In this chapter an overview of the LHC will be given in Section~\ref{sec:lhc}, then the ATLAS detector will be described in Section~\ref{sec:det}, and finally the Trigger system, used to cleverly store the data, will be described in Section~\ref{sec:trigSyst}. A more in-depth description of the Trigger algorithms I have been involved in will be given in Chapter~\ref{ch:trigger}.
 
@@ -23,7 +24,7 @@
 		%\subsection*{Performance of the LHC}
 		\subsection*{Performance of the LHC}
 
-			In June 2015 the LHC restarted delivering physics data, after a two-year break, the so-called Long Shutdown 1 (LS1), during which the magnets were upgraded to handle the current required to circulate 7-TeV beams. It was the beginning of the so-called Run 2 - second operational run (2015-2018) - during which LHC has collided up to $10^{11}$ bunches of protons every 25 ns at the design luminosity - the highest luminosiy the detector was designed to cope with - of $2 \cdot 10^{34} \mathrm{cm}^{-2}\mathrm{s}^{-1}$. The definiton of the luminosity is:
+			In June 2015 the LHC restarted delivering physics data, after a two-year break, the so-called Long Shutdown 1 (LS1), during which the magnets were upgraded to handle the current required to circulate 7-TeV beams. It was the beginning of the so-called Run 2 - second operational run (2015-2018) - during which LHC has collided up to $10^{11}$ bunches of protons every 25 ns at the design luminosity\footnote{the highest luminosiy the detector was designed to cope with} of $2 \cdot 10^{34} \mathrm{cm}^{-2}\mathrm{s}^{-1}$. The definiton of the luminosity is:
 
 			\begin{equation}
 				{\mathcal L} = f \frac{n_b N_1 N_2}{4 \pi \sigma_x \sigma_y}
@@ -196,7 +197,9 @@
 
  				The ECAL is comprised of multiple layers of liquid Argon (LAr) sampler and lead absorber. The choice of its accordion-geometry design brought two main advantages; full $\phi$ coverage with no non-interactive regions (no cracks); fast extraction of signals coming from both front or rear end of the electrodes. It is made of two half-barrel wheels, both placed in the barrel cryostat, that provide a pseudorapidity coverage up to $\left | \eta\right | < 1.475$ and two end-cap detectors providing $1.375 \leq \left|\eta\right| \leq 3.20$ coverage in two end-cap cryostats. The junction between the barrel and end cap components defines the crack region and any signal coming from the crack region is therefore discarded. 
 
- 				In the $\left | \eta\right | < 1.8$ region there is an additional layer, placed at the front of the calorimeter, that is made of a thin (0.5 cm in the end-cap and 1.1 cm in the barrel) LAr layer with no absorber~\cite{ATLASLAR}. This additional layer was designed to correct for the energy lost, as particles enter the calorimeter, by taking a measurement just before the majority of the electomagnetic shower is developed.
+ 				In the $\left | \eta\right | < 1.8$ region there is an additional layer, placed at the front of the calorimeter, that is made of a thin (0.5 cm in the end-cap and 1.1 cm in the barrel) LAr layer with no absorber~\cite{ATLASLAR}. This additional layer was designed to correct for the energy lost, as particles enter the calorimeter, by taking a measurement just before the majority of the electomagnetic shower is developed. 
+
+ 				Two separate readout paths are employed: one with coarse granularity (\emph{trigger towers}), and one with fine granularity. These which will be further discussed in Chapter \ref{ch:trigger}.
 
  				% In the barrel, the accordion layers are axial and run in $\phi$, the folding angles of the layers vary with radius to keep the liquid-argon gap constant. 
  				% In the end-caps the layers are parallel to the radial direction and run axially. 
@@ -227,9 +230,15 @@
 
 			Around the beam axis, three cylindrical layers make way for the chambers, placed in planes perpendicular to the beam, used to measure tracks. 
 
-			Monitored Drift Chambers (MDTs) are employed over most of the pseudorapidity range to provide precision measurement of track coordinates in the bending direction. 
-			Cathode Strip Chambers (CSCs) are instead employed at large pseudorapidity ($2 < \left | \eta \right | < 2.7$). 
-			Finally, in the end-cap regions Thin-Gap Chambers (TGCs) together with Resistive-Plate Chambers (RPCs) are dedicated to the Trigger System discussed in Section~\ref{sec:trigSyst}. 
+			Monitored Drift Chambers (MDTs) are employed over most of the pseudorapidity range to provide precision measurement of track coordinates in the bending direction. An MDT is essentially a set of 30-mm-diameter \emph{Al} tubes containing a \emph{W-Re} wire, surrounded by a non-flammable $\mathrm{Ar-CH_4-N_2}$ mixture at a pressure of 3 bar. The resolution a single wire can give on the particle position is 80 $\mu$m enhanced by having multiple layers of tubes for each module.
+			
+			Cathode Strip Chambers (CSCs) are instead employed at large pseudorapidity ($2 < \left | \eta \right | < 2.7$). They work similarly to the MDT but instead of tubes there are cathode strips above and below the anode wires. In particular, one set is orthogonal to the wires for precision measurement and the other one parallel to the wires providing a measurement of the transverse coordinate. The gas employed between the strips and wires is a non-flammable mixture of $\mathrm{Ar-CO_2-CF_4}$.
+
+			Finally, Thin-Gap Chambers (TGCs) are employed in the end-cap region and Resistive-Plate Chambers (RPCs) in the barrel. The TGCs are very similar to the CSCs. They provide large signals and in a very narrow time window making them ideal for triggering purposes.
+
+			The RPC is also a gas-based detector. It is comprised of two parallel resistive plates held apart by insulating spacers, and a uniform electric field is employed to generate a limited avalanche multiplication centred around the primary ionisation electron. This will then be detected by \emph{Al} strips separated from the plates by an insulating film.
+
+			TGCs and RPC will be mentioned again in ~\ref{sec:L1} as they are part of the trigger system.
 
 
 	% --------------------------------
@@ -238,15 +247,10 @@
 	\section{The ATLAS Trigger System}
 	\label{sec:trigSyst}
 
-		\begin{figure}[!htb]
-			\centering
-			\includegraphics[width=\textwidth]{Detector/Trigger/TDAQSystem}
-			\caption{The ATLAS TDAQ system. L1Topo and FTK have not been used for the results shown in this thesis~\cite{ATLASTrigger2015}.}
-			\label{fig:TDAQSyst}
-		\end{figure}
+		The ATLAS Trigger System is at the heart of data taking. It is an essential component of any nuclear or particle physics experiment as it is responsible for deciding whether or not to store an event for later study. Its main function to reduce the event rate from $\sim$ 40 MHz bunch-crossing\footnote{The term bunch-crossing, \mubar, is hereby used when referring to a collision between two bunches of protons.} to $\sim 1$ kHz.
 
-		The ATLAS Trigger System is at the heart of data taking. It is an essential component of any nuclear or particle physics experiment since it is responsible for deciding whether or not to store an event for later study. Its main function to reduce the event rate from $\sim$ 40 MHz\footnote{The LHC delivers beams with a bunch-spacing of 25 ns.} bunch-crossing\footnote{The term bunch-crossing is hereby used when referring to a collision between two bunches of protons. Since only a certain fraction of the total momentum carried by each proton contributes to the collision, an average number of interactions per bunch-crossing, $\left < \mu \right >$ is used.} to $\sim$ 200 Hz which corresponds to roughly 300 MB/s.
-
-		The Trigger and Data Acquisition (TDAQ) utilises a two-level system shown in Figure~\ref{fig:TDAQSyst}, a first hardware-based level trigger (L1) and a software-based high-level trigger (HLT). The L1 trigger decision is formed by the Central Trigger Processor (CTP), which receives inputs from the L1 calorimeter (L1Calo) and L1 muon (L1Muon) triggers. L1 is a hardware-based system that uses information from the calorimeter and muon subdetectors, and defines the so-called Regions of Interest (RoIs) within the detector to be investigated by the next level trigger, the HLT. Additionally, a Fast TracKer (FTK) system~\cite{FTKTDR} (not yet installed) will provide global ID track reconstruction at the L1 trigger rate using lookup tables stored in custom associative memory chips for the pattern recognition. The FPGA-based track fitter will perform a fast linear fit and the tracks are made available to the HLT. This system will allow the use of tracks at much higher event rates in the HLT than is currently affordable using CPU systems. However, the upgrade of the ATLAS trigger will not be discussed any further.
-
-		The ATLAS trigger system will be further discussed in Chapter~\ref{ch:trigger}.
+		The Trigger system employs a two-level system: a first hardware-based level trigger, \emph{Level 1 Trigger} (L1), and a software-based \emph{high-level trigger} (HLT). L1 processes low-granularity information from the calorimeter and the muon spectrometer and identifies the so-called Regions of Interest (RoIs)\footnote{$\eta - \phi$ regions where event features have been found by the L1 selection process.} before making a decision. Event data from other sub-sytstem are temporarily stored in memories whilst L1 decision is taken.
+		
+		Further investigations are left to HLT which is made of software running on a cluster of computers (HLT farm). Additionally, a Fast TracKer (FTK) system~\cite{FTKTDR} (to be installed before the end of Run 2) will process events that are accepted by L1 trigger, and seed the HLT algorithms. It will provide global ID track reconstruction at the L1 trigger rate using lookup tables stored in custom associative memory chips for the pattern recognition.
+		
+		The ATLAS trigger system will be further discussed in Chapter~\ref{ch:trigger}, however the Run-1-to-Run-2 upgrade of the ATLAS trigger will not be discussed any further.
