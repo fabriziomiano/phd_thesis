@@ -15,6 +15,7 @@
 \usepackage{latex/atlasphysics} % ATLAS Class for variable etc
 \usepackage{enumerate}
 \usepackage{epigraph}
+\usepackage{acronym}
 \usepackage{placeins}
 \usepackage[hang]{footmisc}
 \usepackage[font=footnotesize,hang]{caption} % footnotes
@@ -36,12 +37,13 @@
 % \renewcommand{\epigraphrule}{0pt}
 % \setlength{\epigraphwidth}{.6\textwidth}
 % \renewcommand{\textflush}{flushepinormal}
+
 %---------------------------------------------------
 % LINE SPACING AND FOOTNOTE MARGIN
 %---------------------------------------------------
 \newcommand{\linespacing}{1.3}
 \renewcommand{\baselinestretch}{\linespacing}
-%\linespread{1.25}
+%\linespread{1c.25}
 
 %\renewcommand{\epigraphrule}{0pt}
 %\setlength{\epigraphwidth}{.6\textwidth}
@@ -160,7 +162,7 @@
 
 % Chapters header 
 \titleformat{\chapter}[hang]
-    {\Huge\bfseries} {\textcolor{red} \thechapter \hsp \textcolor{gray75} {|} \hsp} {0pt} {\Huge\bfseries}
+    {\Huge\bfseries} {\textcolor{red} \thechapter \hsp \textcolor{gray} {|} \hsp} {0pt} {\Huge\bfseries}
 
 
 %---------------------------------------------------
@@ -232,11 +234,11 @@
     \newpage
     \pdfbookmark[0]{Contents}{contents_bookmark}
     \tableofcontents
-    \listoftables
-    \phantomsection
+    %\listoftables
+    %\phantomsection
     %\addcontentsline{toc}{chapter}{List of Tables}
-    \listoffigures
-    \phantomsection
+    %\listoffigures
+    %\phantomsection
     %\addcontentsline{toc}{chapter}{List of Figures}
 
     %---------------------------------------------------
@@ -253,7 +255,7 @@
     \input{Chapters/theory}
     \input{Chapters/detector}
     \input{Chapters/trigger}
-    \input{Chapters/evtsim}
+    \input{Chapters/evtobj}
     \input{Chapters/stop}
     \input{Chapters/results}
 
@@ -264,7 +266,8 @@
     \backmatter
     \appendix
     \input{Chapters/appA.tex}
-
+    
+    \input{FrontBackMatter/Acronyms.tex}
 
     %---------------------------------------------------
     % BIBLIOGRAPHY
