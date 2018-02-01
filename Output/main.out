@@ -8,7 +8,7 @@
 \BOOKMARK [1][-]{section.1.1}{1.1 The Standard Model}{chapter.1}% 8
 \BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Electroweak Symmetry Breaking and the Higgs mechanism}{section.1.1}% 9
 \BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 Limitations of the Standard Model}{section.1.1}% 10
-\BOOKMARK [1][-]{section.1.2}{1.2 Introduction to Supersymmetry and the MSSM}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.2}{1.2 Supersymmetry and the MSSM}{chapter.1}% 11
 \BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Minimal Supersymmetric Standard Model}{section.1.2}% 12
 \BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Phenomenology of Supersymmetry}{section.1.2}% 13
 \BOOKMARK [0][-]{chapter.2}{2 The ATLAS Experiment at the LHC}{}% 14
@@ -27,14 +27,12 @@
 \BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Performance of HLT}{section.3.3}% 27
 \BOOKMARK [0][-]{chapter.4}{4 Event Simulation and Object Reconstruction}{}% 28
 \BOOKMARK [1][-]{section.4.1}{4.1 Generation of a MC-simulated event}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Detector simulation}{section.4.1}% 30
-\BOOKMARK [1][-]{section.4.2}{4.2 Object Reconstruction}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.3}{4.3 Object Selection}{chapter.4}% 32
-\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Baseline Object Selection}{section.4.3}% 33
-\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Overlap Removal}{section.4.3}% 34
-\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 Signal Object Selection}{section.4.3}% 35
-\BOOKMARK [0][-]{chapter.5}{5 Stop searches in final states with jets and missing transverse energy}{}% 36
-\BOOKMARK [0][-]{chapter.6}{6 Results and Statistical Intepretations}{}% 37
-\BOOKMARK [0][-]{appendix*.100}{Appendix title}{}% 38
-\BOOKMARK [0][-]{appendix*.101}{Acronyms}{}% 39
-\BOOKMARK [0][-]{section*.102}{Bibliography}{}% 40
+\BOOKMARK [1][-]{section.4.2}{4.2 Object Reconstruction}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.3}{4.3 Object Selection}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Baseline Object Selection}{section.4.3}% 32
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Overlap Removal}{section.4.3}% 33
+\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 Signal Object Selection}{section.4.3}% 34
+\BOOKMARK [0][-]{chapter.5}{5 Stop searches in final states with jets and missing transverse energy}{}% 35
+\BOOKMARK [0][-]{chapter.6}{6 Results and Statistical Intepretations}{}% 36
+\BOOKMARK [0][-]{appendix*.110}{List of Acronyms}{}% 37
+\BOOKMARK [0][-]{section*.111}{Bibliography}{}% 38
