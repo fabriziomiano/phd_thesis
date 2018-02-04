@@ -2,13 +2,13 @@
 \label{ch:evSimObjReco}
 \epigraph{\emph{Nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical, and by golly it's a wonderful problem, because it doesn't look so easy.}} {Richard P. Feynman}
 
-	The \ac{ATLAS} software framework Athena~\cite{TDR2005}, which is based on the Gaudi~\cite{Gaudi2000} framework developed by \ac{LHCb}~\cite{LHCb2008}, is used to reconstruct physics objects to be used by analysers, as the data collected and recorded by the \ac{ATLAS} detector requires processing. The Athena framework is capable of dealing with various aspects of the experiment software, \eg\ triggering or the processing of simulated data. Custom software, in particular \ac{MC} simulations, is used to simulate physics events used to model background and signal processes. These are produced through different stages, as shown in Figure~\ref{fig:workflow}, the last of which produces an output with an analyser-friendly format. 
+	The \ac{ATLAS} software framework Athena~\cite{TDR2005}, which is based on the Gaudi~\cite{Gaudi2000} framework developed by \ac{LHCb}~\cite{LHCb2008}, is used to reconstruct physics objects to be used by analysers, as the data collected and recorded by the \ac{ATLAS} detector requires processing. The Athena framework is capable of dealing with various aspects of the experiment software, \eg\ triggering or the processing of simulated data. Custom software, in particular \ac{MC} simulations, is used to simulate physics events used to model background and signal processes. These are produced through different stages, as shown in Figure~\ref{fig:workflow}, the last of which produces an analyser-friendly output. 
 
-	In this chapter the stages will be briefly explained as it follows: Event Generation (Section~\ref{sec:evGen}) and the Detector Simulation (Section~\ref{subsec:detSim}). The reconstruction of physics objects\footnote{A set of criteria needs to be applied in order to reconstruct the detected object as an ``electron'', ``photon'', ``muon'', ``jet'', etc.}, in both collected data and simulated \ac{MC} events, will be described in Section~\ref{sec:objReco}. Finally, a set of selection criteria are applied to reconstructed objects to identify those suitable for use in analysis, as detailed in Section~\ref{sec:objSel}.
+	In this chapter the stages will be briefly explained as it follows: event generation (Section~\ref{sec:evGen}); reconstruction of physics objects\footnote{A set of criteria needs to be applied in order to reconstruct the detected object as an ``electron'', ``photon'', ``muon'', ``jet'', etc.}, in both collected data and simulated \ac{MC} events (Section~\ref{sec:objReco}).%  Finally, a set of selection criteria are applied to reconstructed objects to identify those suitable for use in analysis, as detailed in Section~\ref{sec:objSel}.
 
 	\begin{figure}
 		\centering
-		\includegraphics[width=.75\textwidth]{MCobj/flow}
+		\includegraphics[width=.6\textwidth]{MCobj/flow}
 		\caption{\label{fig:workflow} Illustration of the different stages of the work flow needed to produce analysable simulated and collected data outputs. The white boxes represent the processes, and their outputs are shown in black balloons: \ac{RDO}, \ac{ESD}, and the final product, \ac{AOD}. The green `AtlFast' box represents the alternative simulation method \textsc{Atlfast}~\cite{Lukas2012}, discussed in Section~\ref{subsec:detSim}. Finally, the blue box shows the stage at which the actual \ac{ATLAS} data events begin processing.}
 	\end{figure}
 
@@ -25,7 +25,7 @@
 			\caption{\label{fig:DIS} Example of a \pp\ \ac{DIS} event.}
 		\end{figure}
 
-		An important yet simplifying dimensionless physical quantity is the Bjorken scaling~\cite{PhysRev.179.1547}, which represents the fraction, $x$, of the proton momentum carried by an interacting parton. The measure of momentum transfer, $Q^2$, in such events, is related to the momentum transferred by the exchanged boson, $q$, by $Q^2 = -q^2$. \acp{PDF} are used to describe mathematically the parton content of the colliding protons in order to model their interaction.  
+		An important, yet simplifying, dimensionless physical quantity is the Bjorken scaling~\cite{PhysRev.179.1547}, which represents the fraction, $x$, of the proton momentum carried by an interacting parton. The measure of momentum transfer $Q^2$ in such events, is related to the momentum transferred by the exchanged boson $q$ by $Q^2 = -q^2$. \acp{PDF} are used to describe mathematically the parton content of the colliding protons in order to model their interaction.  
 
 		The \pp\ scattering at the \ac{LHC} can be categorised in processes such as \emph{hard}, which can be described with perturbation theory, or \emph{soft}, which involve non-perturbative \ac{QCD} effects. Typically, a \pp\ collision involves a hard scattering process between two partons, one for each proton, and a certain number of soft processes, such as \ac{ISR}, \ac{FSR}, and \ac{UE}. The \ac{ISR} involves particles, that are radiated by partons, which will interact in the hard process prior to their scattering. Those partons, which are not involved in the hard scattering process, the so-called \emph{spectators}, form the \ac{UE}. The \ac{FSR} refers to particles that are radiated from the final state products of the hard scattering. Furthermore, \emph{parton showering} is a process in which particles in the event that have colour can radiate gluons and/or produce \qqbar\ pairs. Products of these showers will undergo the process of \emph{hadronisation} during which colourless hadron states are produced if $Q^2$ is of the order of $1 \GeV$. Such a process occurs due to confinement. 
 
@@ -202,21 +202,29 @@
 
 			%\paragraph*{Calibration}
 
-				Due to the compensation condition\footnote{Calorimeters response can be described in terms of the \ac{EM}/Hadronic ratio, as it is a measure of the calorimeter response to \ac{EM} VS hadronic radiation. An ideal calorimeter would have \ac{EM}/Hadronic$\sim1$.} the hadronic component of the shower produced by jets is underestimated and for such reason a calibration procedure is employed. In particular, the so-called Electromagnetic + Jet Energy Scale scheme is employed~\cite{ATL-PHYS-PUB-2015-015} where a set of corrections is applied to match the energy of the initial partons. These are \textbf{vertex correction}: once the \antikt\ algorithm has reconstructed the jets, its four-vectors, initially pointing at the centre of the detector, are adjusted to point to the primary vertex; \textbf{pileup correction}: pileup effect on the jets energy is reduced by using an area-based subtraction procedure~\cite{TheATLAScollaboration:2013pia}; \textbf{jet energy and $\eta$ correction:} additional calibration based on energy and pseudo-rapidity corrections where the kinematical properties of the reconstructed jet (\pt\ and $\eta$) are compared to the ones derived from \ac{MC} simulations; \textbf{global sequential correction:} individual-jet-property-based correction to correct for properties such as the fraction of energy deposited in different calorimeter layers or the number and type of associated tracks~\cite{ATLAS:2015oia}; \textbf{in-situ corrections:} the measured \pt\ of the jet is corrected using multijet and $\gamma$/\Zboson+jets events, where the momentum of a \emph{probe} jet is balanced against a well-measured reference object~\cite{ATLAS-CONF-2015-017}.
+				Due to the compensation condition\footnote{Calorimeters response can be described in terms of the \ac{EM}/Hadronic ratio, as it is a measure of the calorimeter response to \ac{EM} VS hadronic radiation. An ideal calorimeter would have \ac{EM}/Hadronic$\sim1$.} the hadronic component of the shower produced by jets is underestimated and for such reason a calibration procedure is employed. In particular, the so-called Electromagnetic + Jet Energy Scale scheme is employed~\cite{ATL-PHYS-PUB-2015-015} where a set of corrections is applied to match the energy of the initial partons. These are \textbf{vertex correction}: once the \antikt\ algorithm has reconstructed the jets, its four-vectors, initially pointing at the centre of the detector, are adjusted to point to the primary vertex; \textbf{pileup correction}: pileup effect on the jets energy is reduced by using an area-based subtraction procedure~\cite{TheATLAScollaboration:2013pia}; \textbf{jet energy and $\eta$ correction:} additional calibration based on energy and pseudo-rapidity corrections where the kinematical properties of the reconstructed jet (\pt\ and $\eta$) are compared to the ones derived from \ac{MC} simulations; \textbf{global sequential correction:} individual jet property-based correction for properties such as the fraction of energy deposited in different calorimeter layers or the number and type of associated tracks~\cite{ATLAS:2015oia}; \textbf{in-situ corrections:} then measured \pt\ of the jet is corrected using multi-jet and $\gamma$/\Zboson+jets events, where the momentum of a \emph{probe} jet is balanced against a well-measured reference object~\cite{ATLAS-CONF-2015-017}.
 
 			Finally, the \ac{JVT} variable~\cite{ATLAS-CONF-2014-018}, related to the fraction of charged tracks within the jets that point to the primary vertex, is employed. This observable tests the compatibility between the reconstructed jet and the hard-scatter charged particles within the jet~\cite{Aaboud:2017pou}.
 
 
 		\subsection*{$b$-tagged jets}
 
+			Likewise, the identification and the reconstruction of jets originated from $b$-quarks is also important, as they appear in the final state of the analysis presented in this work. Not only is this crucial for this work but also for other analyses carried out by the \ac{ATLAS} Collaboration. The standard jet-reconstruction procedure discussed above applies to \bjs\, too, with the addition of dedicated algorithms ($b$-tagging~\cite{Aad:2015ydr}) employed to spot a $b$-hadron within their cone. A diagram, showing what the difference between light jets and $b$-jets, is shown in Figure~\ref{fig:btagpic}. 
 
+			\begin{figure}[!htb]
+				\centering
+				\includegraphics[width=.5\textwidth]{MCobj/btagging}
+				\caption{\label{fig:btagpic} Diagram showing the common principle of identification of jets initiated by $b$-quark decays~\cite{btagpic}.}
+			\end{figure}
+
+			
 
 
 		\subsection*{Missing Transverse Energy}
 
 
 
-			 
+
 
 
 

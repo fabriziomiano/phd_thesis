@@ -27,7 +27,7 @@
 \usepackage[utf8]{inputenc} 
 \usepackage{palatino} % font type
 \usepackage[T1]{fontenc} 
-\setcounter{secnumdepth}{4}
+%\setcounter{secnumdepth}{4}
 \usepackage{titlesec, blindtext, color}
 
 %---------------------------------------------------
@@ -114,13 +114,11 @@
 % The left-hand-side should be 40mm.  The top and bottom margins should be
 % 25mm deep.  The right hand margin should be 20mm.
 \usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=4cm,right=2cm,headsep=10pt]{geometry}
-%\flushbottom
 \usepackage{fancyhdr}
-% Pages should be numbered consecutively thorugh the main text.  Page numbers
-% should be located centrally at the top of the page.
+% Pages should be numbered consecutively thorugh the main text. 
+% Page numbers should be located centrally at the top of the page.
 \pagestyle{fancy}
     \fancyhf{} 
-%    \renewcommand{\sectionmark}[1]{\markright{\footnotesize{\textit{{\thesection\ #1}}}}} % with number of section 
     \renewcommand{\sectionmark}[1]{\markright{{\textit{{\thesection\ #1}}}}} % with number of section 
     \lhead{}
     \rhead{\nouppercase{\rightmark}}
@@ -132,36 +130,32 @@
     \renewcommand{\footrulewidth}{0pt}
 
 % Even the first page of the chapter
-\fancypagestyle{plain}{% % <-- this is new
+\fancypagestyle{plain}{ % <-- a different style for chapters/pages with a different style
     \fancyhf{} 
     %\rhead{\nouppercase{\rightmark}}
     \chead{\thepage}
     %\fancyfoot[LE,RO]{\thepage} % same placement as with page style "fancy"
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}
-    }
-
-
-% Chapters header 
+}
+% --------------------------------------------------
+% Custom chapters header 
+% --------------------------------------------------
 \newcommand{\hsp}{\hspace{20pt}}
 \titleformat{\chapter}[hang]
     {\Huge\bfseries} {\textcolor{red} \thechapter \hsp \textcolor{gray} {|} \hsp} {0pt} {\Huge\bfseries}
-%%%% 
 
+% --------------------------------------------------
+% Useful to remove some warnings 
+% --------------------------------------------------
 \setlength{\headheight}{14pt} % to avoid multiple "\headheight is too small" warnings 
-\setlength{\parskip}{10pt}
+\setlength{\parskip}{10pt} % to have some space between paragraphs
 \pdfminorversion=6  % to avoid warnings like "PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed"  
+% --------------------------------------------------
 
-
-
-%---------------------------------------------------
-% HYPERREF
-%---------------------------------------------------
-% \usepackage[colorlinks,pagebackref,pdfusetitle,
-%             urlcolor=blue,citecolor=blue,linkcolor=blue,
-%             bookmarksnumbered,plainpages=false]{hyperref}
-
-% For digital version 
+% --------------------------------------------------
+% Uncomment for DIGITAL version
+% --------------------------------------------------
 \usepackage[pdftex,                          % Settings for PDF Metadata
             pdfauthor={Fabrizio Miano},
             pdftitle={\myTitle},
@@ -173,8 +167,9 @@
             colorlinks, pagebackref, pdfusetitle,            %Default Settings; original sussex template
             urlcolor=blue, citecolor=blue, linkcolor=blue,
             bookmarksnumbered, plainpages=false]{hyperref}
-
-% For printed version:
+% --------------------------------------------------
+% Uncomment PRINTED version
+% --------------------------------------------------
 % \usepackage[pdftex,
 %             pdfauthor={Fabrizio Miano},
 %             pdftitle={\myTitle},
@@ -184,21 +179,16 @@
 %             pdfproducer={LaTeX},
 %             pdfcreator={pdflatex},
 %             pdfusetitle, bookmarksnumbered, plainpages=false]{hyperref}
+% --------------------------------------------------
 
-%---------------------------------------------------
 
-
-\graphicspath{{./figures/}}
-%\raggedbottom
-
+\graphicspath{{./figures/}} % directory with all the pictures
+\flushbottom
 %---------------------------------------------------
 % BEGIN DOCUMENT
 %---------------------------------------------------
 \begin{document}
-    %---------------------------------------------------
-    % Line numbers
-    %---------------------------------------------------
-    %\linenumbers
+    %\linenumbers % to have lines numbered (mainly for corrections) 
 
     %---------------------------------------------------
     % PREAMBLE: roman page numbering i, ii, iii, ...
@@ -206,16 +196,13 @@
     \frontmatter
     \pagenumbering{roman}
 
-    \include{FrontBackMatter/Titlepage}
-    \include{FrontBackMatter/Dedication} % Dedication page
-    \include{FrontBackMatter/Acknowledgments} % Acknowledgements page
-    \include{FrontBackMatter/Declaration} % Declaration
-    \include{FrontBackMatter/Abstract} % Abstract page
-
+ 
     %---------------------------------------------------
     % TABLE OF CONTENTS, LISTS OF TABLES & FIGURES
     %---------------------------------------------------
+    \begingroup
     \newpage
+    \setlength{\parskip}{0pt} % To restore distance between Chapters, sections and subsections in the table of contents
     \pdfbookmark[0]{Contents}{contents_bookmark}
     \tableofcontents
     %\listoftables
@@ -224,6 +211,7 @@
     %\listoffigures
     %\phantomsection
     %\addcontentsline{toc}{chapter}{List of Figures}
+    \endgroup
 
     %---------------------------------------------------
     % MAIN THESIS TEXT: arabic page numbering 1, 2, 3, ...
@@ -235,13 +223,14 @@
     % THESIS CONTENT - CHAPTERS
     %---------------------------------------------------
     \mainmatter
-    \input{Chapters/intro}
-    \input{Chapters/theory}
-    \input{Chapters/detector}
-    \input{Chapters/trigger}
+    % \input{Chapters/intro}
+    % \input{Chapters/theory}
+    % \input{Chapters/detector}
+    % \input{Chapters/trigger}
     \input{Chapters/evtobj}
-    \input{Chapters/stop}
-    \input{Chapters/results}
+    % \input{Chapters/stop}
+    % \input{Chapters/results}
+    % \input{Chapters/conclusion}
 
 
     %---------------------------------------------------
