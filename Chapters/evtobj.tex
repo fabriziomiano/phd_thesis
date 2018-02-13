@@ -110,7 +110,6 @@
 			\footnotetext{Holes exist when a hit is expected in a layer of sensors given the fitted trajectory of the track but none is found}
 			\footnotetext{\emph{Silicon} refers to IBL, Pixel and SCT}
 
-
 			A global maximum in the $z$ coordinate of reconstructed tracks is searched for first, to find a vertex seed. The vertex position is then fitted using an algorithm called the \emph{Adaptive Vertex Fitting} algorithm~\cite{ATL-PHYS-PUB-2015-026,Fruhwirth:2007hz}. The vertex position is determined by fitting to \ac{ID} tracks with the least squares fitting method. Outlier tracks\footnote{Tracks that are far from the vertex centre} are assigned lower weights in the fit than tracks close to the vertex centre. Outlier tracks have a high probability of being tracks that not originating from another vertex. 
 			The adaptive fitting algorithm is able to decrease the sensitivity to these tracks by applying a smaller weight. As we do not know a priori the true position of the vertex centre, and which tracks are outliers, the algorithm iteratively tries to fit the vertex: all tracks weights are initialised with high values; after each fit iteration the weight of the outlier tracks is decreased; the algorithm then determines both the vertex centre and which tracks are outliers with increasing accuracy after each iteration; finally, the algorithm will stop once the fitted vertex centre does not change any more. Furthermore, once a vertex is found, tracks which are incompatible with the found vertex will form a new vertex seed. The vertex reconstruction process will terminate once all the tracks have been clustered into vertices or no additional vertices can be found. Among all the vertices found by the algorithm the \ac{PV} will be the one with the highest sum of the squared momenta of the associated tracks $\left ( \Sigma \pt^2 \right)$. The remaining primary vertices found by the algorithm, if any, are referred to as pile-up vertices. Further detail about the algorithm can be found in references~\cite{ATL-PHYS-PUB-2015-026,Fruhwirth:2007hz}. 
 
@@ -209,7 +208,7 @@
 
 		\subsection*{$b$-tagged jets}
 
-			The identification and the reconstruction of jets originated from $b$-quarks is also important, as they also are part of the final state of the analysis presented in this work. Not only is this crucial for this work but also for other analyses carried out by the \ac{ATLAS} Collaboration. The standard jet-reconstruction procedure discussed above applies to \bjs\, too, with the addition of dedicated algorithms ($b$-tagging~\cite{Aad:2015ydr}) employed to spot a $b$-hadron within their cone. A diagram, showing what the difference between light jets and $b$-jets, is shown in Figure~\ref{fig:btagpic}. Due to their lifetime of the order of $10^{-12}$ s, b-hadrons can travel a measurable distance in the detector before decaying, yielding a secondary vertex within the jet cone. In addition, the impact parameter of the tracks from the b-hadron decay is expected to di er from zero, providing a useful tool for jet flavour discrimination.
+			The identification and the reconstruction of jets originated from $b$-quarks is also important, as they also are part of the final state of the analysis presented in this work. Not only is this crucial for this work but also for other analyses carried out by the \ac{ATLAS} Collaboration. The standard jet-reconstruction procedure discussed above applies to \bjs\, too, with the addition of dedicated algorithms ($b$-tagging~\cite{Aad:2015ydr}) employed to spot a $b$-hadron within their cone. A diagram, showing the difference between light jets and \bjs\, is shown in Figure~\ref{fig:btagpic}. Due to their lifetime ($\sim 10^{-12}$ s), $b$-hadrons can travel a measurable distance in the detector before decaying ($\sim 1$ mm for a $20$-\GeV\ \bj), therefore producing a \ac{SV} which, together with a requirement on the impact parameter $d_0$, already provides a useful discrimination tool for jet flavour. Unfortunately, \cjs\ also leave a similar signature within the ATLAS detector. Although on average they travel a shorter distance due to their shorter lifetime~\cite{ATL-PHYS-PUB-2015-001}, their presence introduces a source of background for $b$-tagging. 
 
 			\begin{figure}[!htb]
 				\centering
@@ -217,38 +216,54 @@
 				\caption{\label{fig:btagpic} Diagram showing the common principle of identification of jets initiated by $b$-quark decays~\cite{btagpic}.}
 			\end{figure}
 
-			
+			Algorithms for $b$-tagging, such as, \emph{I2PD} and \emph{I3PD}~\cite{Lehmacher:1128662}\footnote{The significance of the transverse impact parameter (IP) of the tracks, $d_0/\sigma_{d_0}$ is used by both algorithms}, \emph{Secondary Vertex Finding}~\cite{ATL-PHYS-PUB-2017-011}, and \emph{Decay Chain Multi-Vertex Algorithm (JetFitter)}~\cite{1742-6596-119-3-032032}, are widely employed within the \ac{ATLAS} Collaboration. Their outputs are combined to feed a single multivariate tagger, \ac{MV2}, which is used by many analyses as it is, as of today, the algorithm with the highest discriminating power for jet flavour tagging. In particular, \ac{MV2} is a \ac{BDT} algorithm~\cite{BDT} implemented within the \texttt{ROOT TMVA}~\cite{Brun:1997pa, 2007physics3039H} and is provided in three different versions: MV2c00, MV2c10, and MV2c20. MV2c00 denotes the MV2 algorithm where no \cj\ contribution was present in the training. MV2c10 (MV2c20) denote the MV2 outputs where a $7\%$ ($15\%$) \cj\ fractions was present in the background sample~\cite{Aad:2015ydr}. Such tagger was used for both the analyses presented in this thesis.
+
+			\begin{figure}[!htb]
+				\begin{center}
+					\subfloat
+						[Light-flavour jet rejection versus \bj\ efficiency for $2015$ and $2016$ configurations of the MV2 b-tagging algorithm evaluated on \ttbar\ events. ]
+						{\includegraphics[width=0.45\textwidth]{MCobj/btag1}}\hspace{0.05\textwidth}
+					\subfloat
+						[\cj\ rejection versus \bj\ efficiency for $2015$ and $2016$ configurations of the MV2 b-tagging algorithm evaluated \ttbar\ events.]
+						{\includegraphics[width=0.45\textwidth]{MCobj/btag2}}
+				\end{center}
+				\caption{Performance of the MV2 tagger in \ttbar\ events. Various fractions of \cjs\ in the background training sample were considered (taken from~\cite{ATL-PHYS-PUB-2016-012}).}
+				\label{fig:btagEff}
+			\end{figure}
+
+			Figure~\ref{fig:btagEff} shows the performances of different configuration of such tagger. In particular, the $b$-tagging efficiency is compared to the \cjs\ and light-jet rejection which can be defined as the inverse of the mis-tag rates. Furthermore, the more \cj\ there are in the background training sample the better the rejection will be, as opposite to the case where no \cjs\ are included. 
 
 
-		\subsection*{Missing Transverse Energy}
 
+		\subsection*{Missing Transverse Energy, \met}
 
+			\begin{figure}[!htb]
+				\centering
+				\includegraphics[width=.75\textwidth]{MCobj/METevdisp}
+				\caption{\label{fig:METevdisp}ATLAS Event display for an event that has jets (blue solid lines) with and \met (red dashed line) (taken from~\cite{METevdisp}).}
+			\end{figure}
 
+			As previously mentioned, particles like neutrinos or potential \ac{DM} candidates escape the \ac{ATLAS} detector. When these particles are produced a momentum imbalance in the transverse plane will characterise the event, as shown in Figure~\ref{fig:METevdisp}. Such quantity can be estimated using the four-momenta of all the visible detected objects in the event, and it is called missing transverse momentum, \ptmiss~\cite{ATLASMet2015}. The \ptmiss\ provides an estimate of the total momentum of the particles that escaped the \ac{ATLAS} detector and it is defined as it follows: 
 
+			\begin{equation}
+				\ptmiss = - \sum_i \vecpt^{i, \mathrm{obj}}
+				\label{eq:ptmiss}
+			\end{equation}
 
+			\noindent Here, $\vecpt^{i, \mathrm{obj_i}}$ represents the transverse momentum of the $i$-th visible object in the event. The Missing Transverse Energy \met, is therefore defined as the magnitude of \ptmiss. 
 
+			The \met\ is reconstructed by selecting calibrated hard objects to measure the missing transverse momentum in the event. In particular the $(x-y)$ components of the \met\ are calculated as it follows: 
 
-	\section{Object Selection}
-	\label{sec:objSel}
+			\begin{equation}
+				E_{x(y)}^{\mathrm{miss}} = E_{x(y)}^{\mathrm{miss}, e} + E_{x(y)}^{\mathrm{miss}, \mu} + E_{x(y)}^{\mathrm{miss}, \tau} + E_{x(y)}^{\mathrm{miss, jets}} + E_{x(y)}^{\mathrm{miss}, \gamma} + E_{x(y)}^{\mathrm{miss,\,soft}}
+				\label{eq:met_xy}
+			\end{equation}
 
-		\subsection{Baseline Object Selection}
-		\label{subsec:baseObjSel}
+			where each object term is given by the negative vectorial sum of the momenta of the respective calibrated objects. In the analyses presented in this work, terms containing $\tau$ leptons were not considered as $\tau$ reconstruction was never explicitly performed. The \emph{soft term} is reconstructed from detector signal objects not associated with any object passing the selection cuts, \eg\ \ac{ID} tracks (track-based soft term) or calorimeter signals (calorimeter-based soft term). From the components in Equation~\ref{eq:met_xy} the magnitude of \met\ and the azimuthal angle $\phi^{\mathrm{miss}}$ are calculated as it follows:
 
-			\subsection*{Leptons}
-			
-			\subsection*{Photons}
-			
-			\subsection*{Jets}
+			\begin{eqnarray}
+				\met = \sqrt{ \left(E_{x}^{\mathrm{miss}}\right)^2 + \left(E_{y}^{\mathrm{miss}} \right)^2 } \qquad ; \qquad
+				\phi^{\mathrm{miss}} = \arctan \left ( \frac{E_y^{\mathrm{miss}}}{E_x^{\mathrm{miss}}} \right )
+			\end{eqnarray}
 
-
-		\subsection{Overlap Removal}
-		\label{subsec:OR}
-
-		\subsection{Signal Object Selection}
-		\label{subsec:sigObjSel}
-
-			\subsection*{Leptons}
-
-			\subsection*{Photons}
-
-			\subsection*{Jets}
+			The \met performance is studied in two complementary topologies, with and without genuine \met, such as $\Wboson \to e\nu$ and $\Zmm$, in both data and \ac{MC} in order to test the reconstruction algorithms and correct for any potential biases. 

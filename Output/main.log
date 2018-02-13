@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.24)  6 FEB 2018 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.24)  13 FEB 2018 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2552,7 +2552,7 @@ ut/main.out)
 \openout6 = `main.out'.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 206.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 210.
 (/Users/mbare/CERNBox/Thesis/Output/main.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
@@ -2586,7 +2586,7 @@ Package acronym Info: Label `acro:MSSM' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
-<./figures/theory/sm.png, id=212, 1204.5pt x 1204.5pt>
+<./figures/theory/sm.png, id=182, 1204.5pt x 1204.5pt>
 File: ./figures/theory/sm.png Graphic file (type png)
 <use ./figures/theory/sm.png>
 Package pdftex.def Info: ./figures/theory/sm.png  used on input line 17. on inp
@@ -2624,7 +2624,7 @@ File: omsppl.fd
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 98.
 [6] [7]
-<HiggsPotential/HiggsPotential.pdf, id=349, pagebox=cropbox, 217.98138pt x 158.
+<HiggsPotential/HiggsPotential.pdf, id=319, pagebox=cropbox, 217.98138pt x 158.
 50717pt>
 File: HiggsPotential/HiggsPotential.pdf Graphic file (type pdf)
 <use HiggsPotential/HiggsPotential.pdf>
@@ -2640,7 +2640,7 @@ although it is yet undefined on input line 251.
 Package acronym Info: Label `acro:CERN' newly defined as it shall be overridden
 
 although it is yet undefined on input line 251.
-<./figures/theory/ATLAS_a_SMSummary_TotalXsect.png, id=386, 4501.81876pt x 3303
+<./figures/theory/ATLAS_a_SMSummary_TotalXsect.png, id=356, 4501.81876pt x 3303
 .34125pt>
 File: ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png Graphic file (type png)
 
@@ -2650,7 +2650,7 @@ d on input line 255. on input line 255.
 Package pdftex.def Info: Requested size: 426.79135pt x 313.16542pt on input lin
 e 255.
 [9]
-<./figures/theory/1loopFermionicCorrections.png, id=410, 363.3575pt x 223.83624
+<./figures/theory/1loopFermionicCorrections.png, id=380, 363.3575pt x 223.83624
 pt>
 File: ./figures/theory/1loopFermionicCorrections.png Graphic file (type png)
 <use ./figures/theory/1loopFermionicCorrections.png>
@@ -2667,7 +2667,7 @@ although it is yet undefined on input line 288.
 Package acronym Info: Label `acro:GUT' newly defined as it shall be overridden
 although it is yet undefined on input line 313.
 [11 <./figures/theory/1loopFermionicCorrections.png>]
-<./figures/theory/alphaRunning.jpg, id=467, 569.0058pt x 232.4685pt>
+<./figures/theory/alphaRunning.jpg, id=437, 569.0058pt x 232.4685pt>
 File: ./figures/theory/alphaRunning.jpg Graphic file (type jpg)
 <use ./figures/theory/alphaRunning.jpg>
 Package pdftex.def Info: ./figures/theory/alphaRunning.jpg  used on input line 
@@ -2697,7 +2697,7 @@ although it is yet undefined on input line 514.
 Package acronym Info: Label `acro:pMSSM' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 518.
-<./figures/theory/SusyXSec13TeV.png, id=586, 569.0058pt x 387.3672pt>
+<./figures/theory/SusyXSec13TeV.png, id=555, 569.0058pt x 387.3672pt>
 File: ./figures/theory/SusyXSec13TeV.png Graphic file (type png)
 <use ./figures/theory/SusyXSec13TeV.png>
 Package pdftex.def Info: ./figures/theory/SusyXSec13TeV.png  used on input line
@@ -2705,7 +2705,7 @@ Package pdftex.def Info: ./figures/theory/SusyXSec13TeV.png  used on input line
 Package pdftex.def Info: Requested size: 426.79135pt x 290.54832pt on input lin
 e 554.
 [17]
-<./figures/theory/3rd_gen_searches.png, id=601, 987.69pt x 487.8225pt>
+<./figures/theory/3rd_gen_searches.png, id=571, 987.69pt x 487.8225pt>
 File: ./figures/theory/3rd_gen_searches.png Graphic file (type png)
 <use ./figures/theory/3rd_gen_searches.png>
 Package pdftex.def Info: ./figures/theory/3rd_gen_searches.png  used on input l
@@ -2715,7 +2715,7 @@ e 571.
 Package acronym Info: Label `acro:NLSP' newly defined as it shall be overridden
 
 although it is yet undefined on input line 575.
-<./figures/theory/stst-bqqbqqN1N1-tt.pdf, id=607, pagebox=cropbox, 128.48pt x 1
+<./figures/theory/stst-bqqbqqN1N1-tt.pdf, id=577, pagebox=cropbox, 128.48pt x 1
 04.39pt>
 File: ./figures/theory/stst-bqqbqqN1N1-tt.pdf Graphic file (type pdf)
 <use ./figures/theory/stst-bqqbqqN1N1-tt.pdf>
@@ -2723,7 +2723,7 @@ Package pdftex.def Info: ./figures/theory/stst-bqqbqqN1N1-tt.pdf  used on input
  line 579. on input line 579.
 Package pdftex.def Info: Requested size: 106.69783pt x 86.69304pt on input line
  579.
-<./figures/theory/stst-bbWWN1N1.pdf, id=608, pagebox=cropbox, 127.47626pt x 104
+<./figures/theory/stst-bbWWN1N1.pdf, id=578, pagebox=cropbox, 127.47626pt x 104
 .39pt>
 File: ./figures/theory/stst-bbWWN1N1.pdf Graphic file (type pdf)
 <use ./figures/theory/stst-bbWWN1N1.pdf>
@@ -2731,7 +2731,7 @@ Package pdftex.def Info: ./figures/theory/stst-bbWWN1N1.pdf  used on input line
  580. on input line 580.
 Package pdftex.def Info: Requested size: 106.69783pt x 87.37796pt on input line
  580.
-<./figures/theory/stst-tbhWN1N1.pdf, id=609, pagebox=cropbox, 131.49126pt x 103
+<./figures/theory/stst-tbhWN1N1.pdf, id=579, pagebox=cropbox, 131.49126pt x 103
 .38625pt>
 File: ./figures/theory/stst-tbhWN1N1.pdf Graphic file (type pdf)
 <use ./figures/theory/stst-tbhWN1N1.pdf>
@@ -2739,7 +2739,7 @@ Package pdftex.def Info: ./figures/theory/stst-tbhWN1N1.pdf  used on input line
  581. on input line 581.
 Package pdftex.def Info: Requested size: 106.69783pt x 83.89542pt on input line
  581.
-<./figures/theory/gogo-tsofttsoftN1N1-stst.pdf, id=610, pagebox=cropbox, 130.48
+<./figures/theory/gogo-tsofttsoftN1N1-stst.pdf, id=580, pagebox=cropbox, 130.48
 75pt x 102.3825pt>
 File: ./figures/theory/gogo-tsofttsoftN1N1-stst.pdf Graphic file (type pdf)
 <use ./figures/theory/gogo-tsofttsoftN1N1-stst.pdf>
@@ -2774,7 +2774,7 @@ although it is yet undefined on input line 5.
 ]
 Package acronym Info: Label `acro:LS1' newly defined as it shall be overridden
 although it is yet undefined on input line 25.
-<./figures/Detector/cern-acc-complex.jpg, id=695, 772.5663pt x 541.7841pt>
+<./figures/Detector/cern-acc-complex.jpg, id=665, 772.5663pt x 541.7841pt>
 File: ./figures/Detector/cern-acc-complex.jpg Graphic file (type jpg)
 <use ./figures/Detector/cern-acc-complex.jpg>
 Package pdftex.def Info: ./figures/Detector/cern-acc-complex.jpg  used on input
@@ -2816,7 +2816,7 @@ he multi-purpose de-tect-ors [][] [[]][],
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [22 <./figures/Detector/cern-acc-complex.jpg>]
-<./figures/Detector/cut-away-det.jpg, id=772, 1304.875pt x 839.135pt>
+<./figures/Detector/cut-away-det.jpg, id=742, 1304.875pt x 839.135pt>
 File: ./figures/Detector/cut-away-det.jpg Graphic file (type jpg)
 <use ./figures/Detector/cut-away-det.jpg>
 Package pdftex.def Info: ./figures/Detector/cut-away-det.jpg  used on input lin
@@ -2834,7 +2834,7 @@ although it is yet undefined on input line 74.
 Package acronym Info: Label `acro:MS' newly defined as it shall be overridden
 although it is yet undefined on input line 74.
 [23 <./figures/Detector/cut-away-det.jpg>]
-<./figures/Detector/MagnetSyst/magnetSyst.png, id=805, 1037.8775pt x 800.9925pt
+<./figures/Detector/MagnetSyst/magnetSyst.png, id=775, 1037.8775pt x 800.9925pt
 >
 File: ./figures/Detector/MagnetSyst/magnetSyst.png Graphic file (type png)
 <use ./figures/Detector/MagnetSyst/magnetSyst.png>
@@ -2847,7 +2847,7 @@ Underfull \hbox (badness 1297) in paragraph at lines 111--111
 \T1/ppl/m/n/9 solen-oid wind-ing lies in-side the calor-i-meter
  []
 
-<./figures/Detector/MagnetSyst/magnetSyst-desc.jpg, id=808, 248.6088pt x 156.10
+<./figures/Detector/MagnetSyst/magnetSyst-desc.jpg, id=778, 248.6088pt x 156.10
 32pt>
 File: ./figures/Detector/MagnetSyst/magnetSyst-desc.jpg Graphic file (type jpg)
 
@@ -2862,14 +2862,14 @@ although it is yet undefined on input line 125.
 [24]
 Package acronym Info: Label `acro:SV' newly defined as it shall be overridden
 although it is yet undefined on input line 137.
-<./figures/Detector/ID/ID-overview.jpg, id=832, 810.52812pt x 540.51938pt>
+<./figures/Detector/ID/ID-overview.jpg, id=802, 810.52812pt x 540.51938pt>
 File: ./figures/Detector/ID/ID-overview.jpg Graphic file (type jpg)
 <use ./figures/Detector/ID/ID-overview.jpg>
 Package pdftex.def Info: ./figures/Detector/ID/ID-overview.jpg  used on input l
 ine 140. on input line 140.
 Package pdftex.def Info: Requested size: 202.72849pt x 135.19548pt on input lin
 e 140.
-<./figures/Detector/ID/ID.png, id=837, 253.23409pt x 218.2554pt>
+<./figures/Detector/ID/ID.png, id=807, 253.23409pt x 218.2554pt>
 File: ./figures/Detector/ID/ID.png Graphic file (type png)
 <use ./figures/Detector/ID/ID.png>
 Package pdftex.def Info: ./figures/Detector/ID/ID.png  used on input line 141. 
@@ -2884,7 +2884,7 @@ Package acronym Info: Label `acro:PV' newly defined as it shall be overridden
 although it is yet undefined on input line 160.
 [26 <./figures/Detector/ID/ID-overview.jpg> <./figures/Detector/ID/ID.png>] [27
 ]
-<./figures/Detector/Calo/Calo-overview.jpg, id=904, 1304.875pt x 878.28125pt>
+<./figures/Detector/Calo/Calo-overview.jpg, id=874, 1304.875pt x 878.28125pt>
 File: ./figures/Detector/Calo/Calo-overview.jpg Graphic file (type jpg)
 <use ./figures/Detector/Calo/Calo-overview.jpg>
 Package pdftex.def Info: ./figures/Detector/Calo/Calo-overview.jpg  used on inp
@@ -2900,7 +2900,7 @@ although it is yet undefined on input line 205.
 Underfull \vbox (badness 3965) has occurred while \output is active []
 
 [30]
-<./figures/Detector/MS/MS.jpg, id=953, 750.805pt x 563.10374pt>
+<./figures/Detector/MS/MS.jpg, id=923, 750.805pt x 563.10374pt>
 File: ./figures/Detector/MS/MS.jpg Graphic file (type jpg)
 <use ./figures/Detector/MS/MS.jpg>
 Package pdftex.def Info: ./figures/Detector/MS/MS.jpg  used on input line 253. 
@@ -2948,7 +2948,7 @@ although it is yet undefined on input line 15.
 [34
 
 ]
-<./figures/Detector/Trigger/TDAQSystem.png, id=1062, 812.03375pt x 645.41125pt>
+<./figures/Detector/Trigger/TDAQSystem.png, id=1032, 812.03375pt x 645.41125pt>
 
 File: ./figures/Detector/Trigger/TDAQSystem.png Graphic file (type png)
 <use ./figures/Detector/Trigger/TDAQSystem.png>
@@ -2968,7 +2968,7 @@ Package acronym Info: Label `acro:L1Topo' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 47.
 [36]
-<./figures/Trigger/cluster.png, id=1125, 627.34375pt x 647.41875pt>
+<./figures/Trigger/cluster.png, id=1095, 627.34375pt x 647.41875pt>
 File: ./figures/Trigger/cluster.png Graphic file (type png)
 <use ./figures/Trigger/cluster.png>
 Package pdftex.def Info: ./figures/Trigger/cluster.png  used on input line 58. 
@@ -2981,7 +2981,7 @@ Overfull \hbox (3.68076pt too wide) in paragraph at lines 65--66
 fast muon trig-ger sub-detectors
  []
 
-<./figures/Trigger/L1MuTrigChambers.png, id=1136, 556.0775pt x 397.485pt>
+<./figures/Trigger/L1MuTrigChambers.png, id=1106, 556.0775pt x 397.485pt>
 File: ./figures/Trigger/L1MuTrigChambers.png Graphic file (type png)
 <use ./figures/Trigger/L1MuTrigChambers.png>
 Package pdftex.def Info: ./figures/Trigger/L1MuTrigChambers.png  used on input 
@@ -2995,7 +2995,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Package acronym Info: Label `acro:FTF' newly defined as it shall be overridden
 although it is yet undefined on input line 99.
 [39]
-<./figures/Trigger/id/elec24plots3fb160224/HLT_eta_eff.pdf, id=1210, pagebox=cr
+<./figures/Trigger/id/elec24plots3fb160224/HLT_eta_eff.pdf, id=1180, pagebox=cr
 opbox, 569.12625pt x 408.52625pt>
 File: ./figures/Trigger/id/elec24plots3fb160224/HLT_eta_eff.pdf Graphic file (t
 ype pdf)
@@ -3004,7 +3004,7 @@ Package pdftex.def Info: ./figures/Trigger/id/elec24plots3fb160224/HLT_eta_eff.
 pdf  used on input line 125. on input line 125.
 Package pdftex.def Info: Requested size: 213.39568pt x 153.17827pt on input lin
 e 125.
-<./figures/Trigger/id/elec24plots3fb160224/HLT_pT_eff.pdf, id=1211, pagebox=cro
+<./figures/Trigger/id/elec24plots3fb160224/HLT_pT_eff.pdf, id=1181, pagebox=cro
 pbox, 569.12625pt x 408.52625pt>
 File: ./figures/Trigger/id/elec24plots3fb160224/HLT_pT_eff.pdf Graphic file (ty
 pe pdf)
@@ -3017,7 +3017,7 @@ e 126.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [40]
-<./figures/Trigger/id/mu6plots3fb/HLT_pT_eff.pdf, id=1227, pagebox=cropbox, 569
+<./figures/Trigger/id/mu6plots3fb/HLT_pT_eff.pdf, id=1196, pagebox=cropbox, 569
 .12625pt x 408.52625pt>
 File: ./figures/Trigger/id/mu6plots3fb/HLT_pT_eff.pdf Graphic file (type pdf)
 <use ./figures/Trigger/id/mu6plots3fb/HLT_pT_eff.pdf>
@@ -3025,7 +3025,7 @@ Package pdftex.def Info: ./figures/Trigger/id/mu6plots3fb/HLT_pT_eff.pdf  used
 on input line 140. on input line 140.
 Package pdftex.def Info: Requested size: 213.39568pt x 153.17827pt on input lin
 e 140.
-<./figures/Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.pdf, id=1228, pagebox=cro
+<./figures/Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.pdf, id=1197, pagebox=cro
 pbox, 569.12625pt x 408.52625pt>
 File: ./figures/Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.pdf Graphic file (ty
 pe pdf)
@@ -3041,7 +3041,7 @@ Overfull \hbox (10.94995pt too wide) in paragraph at lines 140--148
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 154.
-<./figures/Trigger/id/roi-plan.pdf, id=1236, pagebox=cropbox, 1013.87155pt x 47
+<./figures/Trigger/id/roi-plan.pdf, id=1205, pagebox=cropbox, 1013.87155pt x 47
 4.32497pt>
 File: ./figures/Trigger/id/roi-plan.pdf Graphic file (type pdf)
 <use ./figures/Trigger/id/roi-plan.pdf>
@@ -3049,7 +3049,7 @@ Package pdftex.def Info: ./figures/Trigger/id/roi-plan.pdf  used on input line
 162. on input line 162.
 Package pdftex.def Info: Requested size: 277.41176pt x 129.78476pt on input lin
 e 162.
-<./figures/Trigger/id/roi.pdf, id=1237, pagebox=cropbox, 428.52568pt x 437.2472
+<./figures/Trigger/id/roi.pdf, id=1206, pagebox=cropbox, 428.52568pt x 437.2472
 5pt>
 File: ./figures/Trigger/id/roi.pdf Graphic file (type pdf)
 <use ./figures/Trigger/id/roi.pdf>
@@ -3063,7 +3063,7 @@ Package pdftex.def Info: Requested size: 128.0387pt x 130.64143pt on input line
 e is rotated 90 degrees> <./figures/Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.
 pdf, page is rotated 90 degrees> <./figures/Trigger/id/roi-plan.pdf> <./figures
 /Trigger/id/roi.pdf>]
-<./figures/Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf, id=1823, pagebox=cropb
+<./figures/Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf, id=1793, pagebox=cropb
 ox, 569.12625pt x 408.52625pt>
 File: ./figures/Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf Graphic file (type
  pdf)
@@ -3072,7 +3072,7 @@ Package pdftex.def Info: ./figures/Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf
   used on input line 184. on input line 184.
 Package pdftex.def Info: Requested size: 213.39568pt x 153.17827pt on input lin
 e 184.
-<./figures/Trigger/id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_sigma.pdf, id=1824, page
+<./figures/Trigger/id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_sigma.pdf, id=1794, page
 box=cropbox, 569.12625pt x 408.52625pt>
 File: ./figures/Trigger/id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_sigma.pdf Graphic f
 ile (type pdf)
@@ -3088,7 +3088,7 @@ Overfull \hbox (10.94995pt too wide) in paragraph at lines 184--189
 
 [43 <./figures/Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf> <./figures/Trigger
 /id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_sigma.pdf, page is rotated 90 degrees>]
-<./figures/Trigger/hlt_met_unprescaled2016.png, id=1991, 1581.91pt x 1072.005pt
+<./figures/Trigger/hlt_met_unprescaled2016.png, id=1961, 1581.91pt x 1072.005pt
 >
 File: ./figures/Trigger/hlt_met_unprescaled2016.png Graphic file (type png)
 <use ./figures/Trigger/hlt_met_unprescaled2016.png>
@@ -3109,7 +3109,7 @@ unprescaled2017-eps-converted-to.pdf ./figures/Trigger/hlt_met_unprescaled2017.
 eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/Trigger/hlt_met_unprescaled2017-eps-converted-to.pdf, id=1992, pageb
+<./figures/Trigger/hlt_met_unprescaled2017-eps-converted-to.pdf, id=1962, pageb
 ox=cropbox, 569.12625pt x 385.44pt>
 File: ./figures/Trigger/hlt_met_unprescaled2017-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -3128,7 +3128,7 @@ g> <./figures/Trigger/hlt_met_unprescaled2017-eps-converted-to.pdf>]
 Chapter 4.
 Package acronym Info: Label `acro:MC' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
-<./figures/MCobj/flow.png, id=2040, 513.92pt x 513.92pt>
+<./figures/MCobj/flow.png, id=2010, 513.92pt x 513.92pt>
 File: ./figures/MCobj/flow.png Graphic file (type png)
 <use ./figures/MCobj/flow.png>
 Package pdftex.def Info: ./figures/MCobj/flow.png  used on input line 11. on in
@@ -3146,7 +3146,7 @@ although it is yet undefined on input line 20.
 [46
 
 ]
-<./figures/MCobj/ppcollision.png, id=2075, 235.37938pt x 271.0125pt>
+<./figures/MCobj/ppcollision.png, id=2045, 235.37938pt x 271.0125pt>
 File: ./figures/MCobj/ppcollision.png Graphic file (type png)
 <use ./figures/MCobj/ppcollision.png>
 Package pdftex.def Info: ./figures/MCobj/ppcollision.png  used on input line 24
@@ -3176,7 +3176,7 @@ to.pdf>
 b-eps-converted-to.pdf ./figures/MCobj/d09-158f18b.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/MCobj/d09-158f18b-eps-converted-to.pdf, id=2132, pagebox=cropbox, 56
+<./figures/MCobj/d09-158f18b-eps-converted-to.pdf, id=2101, pagebox=cropbox, 56
 9.12625pt x 515.9275pt>
 File: ./figures/MCobj/d09-158f18b-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/MCobj/d09-158f18b-eps-converted-to.pdf>
@@ -3202,64 +3202,64 @@ Hfootnote.24}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.116 
+l.115 
       pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
 te.24}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.116 
+l.115 
       ]
 Package acronym Info: Label `acro:EM' newly defined as it shall be overridden
-although it is yet undefined on input line 122.
-<./figures/MCobj/elRecoAlg.png, id=2264, 2126.94624pt x 1075.01625pt>
+although it is yet undefined on input line 121.
+<./figures/MCobj/elRecoAlg.png, id=2234, 2126.94624pt x 1075.01625pt>
 File: ./figures/MCobj/elRecoAlg.png Graphic file (type png)
 <use ./figures/MCobj/elRecoAlg.png>
-Package pdftex.def Info: ./figures/MCobj/elRecoAlg.png  used on input line 126.
- on input line 126.
+Package pdftex.def Info: ./figures/MCobj/elRecoAlg.png  used on input line 125.
+ on input line 125.
 Package pdftex.def Info: Requested size: 426.79135pt x 215.70479pt on input lin
-e 126.
+e 125.
 [53]
 Package acronym Info: Label `acro:LH' newly defined as it shall be overridden
-although it is yet undefined on input line 139.
+although it is yet undefined on input line 138.
 Package acronym Info: Label `acro:WP' newly defined as it shall be overridden
-although it is yet undefined on input line 139.
-<./figures/MCobj/elRecoIDEff.png, id=2291, 1976.38374pt x 1920.17375pt>
+although it is yet undefined on input line 138.
+<./figures/MCobj/elRecoIDEff.png, id=2261, 1976.38374pt x 1920.17375pt>
 File: ./figures/MCobj/elRecoIDEff.png Graphic file (type png)
 <use ./figures/MCobj/elRecoIDEff.png>
 Package pdftex.def Info: ./figures/MCobj/elRecoIDEff.png  used on input line 14
-5. on input line 145.
+4. on input line 144.
 Package pdftex.def Info: Requested size: 170.71393pt x 165.83492pt on input lin
-e 145.
+e 144.
 
-Underfull \hbox (badness 1552) in paragraph at lines 145--145
+Underfull \hbox (badness 1552) in paragraph at lines 144--144
 \T1/ppl/m/n/9 tion ef-fi-cien-cies in $\OML/cmm/m/it/9 Z \OMS/cmsy/m/n/9 ! \OML
 /cmm/m/it/9 ee$ \T1/ppl/m/n/9 events
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 145--145
+Underfull \hbox (badness 1067) in paragraph at lines 144--144
 \T1/ppl/m/n/9 the full pseudo-rapidity range. The
  []
 
-<./figures/MCobj/phRecoIDEff.png, id=2292, 800.9925pt x 573.14125pt>
+<./figures/MCobj/phRecoIDEff.png, id=2262, 800.9925pt x 573.14125pt>
 File: ./figures/MCobj/phRecoIDEff.png Graphic file (type png)
 <use ./figures/MCobj/phRecoIDEff.png>
 Package pdftex.def Info: ./figures/MCobj/phRecoIDEff.png  used on input line 14
-8. on input line 148.
+7. on input line 147.
 Package pdftex.def Info: Requested size: 213.39568pt x 152.68628pt on input lin
-e 148.
+e 147.
 
-Underfull \hbox (badness 1242) in paragraph at lines 148--148
+Underfull \hbox (badness 1242) in paragraph at lines 147--147
 [][]|\T1/ppl/m/n/9 Photon iden-ti-fic-a-tion ef-fi-cien-cies us-ing the full
  []
 
 [54 <./figures/MCobj/elRecoAlg.png>] [55 <./figures/MCobj/elRecoIDEff.png> <./f
 igures/MCobj/phRecoIDEff.png>]
 Package acronym Info: Label `acro:MIP' newly defined as it shall be overridden
-although it is yet undefined on input line 167.
+although it is yet undefined on input line 166.
 
-Overfull \hbox (8.07121pt too wide) in paragraph at lines 167--168
+Overfull \hbox (8.07121pt too wide) in paragraph at lines 166--167
 \T1/ppl/m/n/10.95 posit in the calor-i-meter, com-pat-ible with the sig-na-ture
  of a [][][]Minimum Ion-ising Particle
  []
@@ -3273,19 +3273,19 @@ ed-to.pdf>
 (epstopdf)                    size: 17433 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/MCobj/muRecoIDEf
 f_pt-eps-converted-to.pdf ./figures/MCobj/muRecoIDEff_pt.eps>
-(epstopdf)             \includegraphics on input line 174.
+(epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/MCobj/muRecoIDEff_pt-eps-converted-to.pdf, id=2343, pagebox=cropbox,
+<./figures/MCobj/muRecoIDEff_pt-eps-converted-to.pdf, id=2313, pagebox=cropbox,
  569.12625pt x 408.52625pt>
 File: ./figures/MCobj/muRecoIDEff_pt-eps-converted-to.pdf Graphic file (type pd
 f)
 <use ./figures/MCobj/muRecoIDEff_pt-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/MCobj/muRecoIDEff_pt-eps-converted-to.pdf  u
-sed on input line 174. on input line 174.
+sed on input line 173. on input line 173.
 Package pdftex.def Info: Requested size: 192.0548pt x 137.8623pt on input line 
-174.
+173.
 
-Underfull \hbox (badness 6348) in paragraph at lines 174--174
+Underfull \hbox (badness 6348) in paragraph at lines 173--173
 [][]|\T1/ppl/m/n/9 Muon re-con-struc-tion ef-fi-cien-cies for the
  []
 
@@ -3298,63 +3298,113 @@ ted-to.pdf>
 (epstopdf)                    size: 39373 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/MCobj/muRecoIDEf
 f_eta-eps-converted-to.pdf ./figures/MCobj/muRecoIDEff_eta.eps>
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             \includegraphics on input line 176.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/MCobj/muRecoIDEff_eta-eps-converted-to.pdf, id=2344, pagebox=cropbox
+<./figures/MCobj/muRecoIDEff_eta-eps-converted-to.pdf, id=2314, pagebox=cropbox
 , 569.12625pt x 408.52625pt>
 File: ./figures/MCobj/muRecoIDEff_eta-eps-converted-to.pdf Graphic file (type p
 df)
 <use ./figures/MCobj/muRecoIDEff_eta-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/MCobj/muRecoIDEff_eta-eps-converted-to.pdf  
-used on input line 177. on input line 177.
+used on input line 176. on input line 176.
 Package pdftex.def Info: Requested size: 192.0548pt x 137.8623pt on input line 
-177.
+176.
 
-Underfull \hbox (badness 5939) in paragraph at lines 177--177
+Underfull \hbox (badness 5939) in paragraph at lines 176--176
 [][]|\T1/ppl/m/n/9 Muon re-con-struc-tion ef-fi-cien-cies for the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 \T1/pcr/m/n/9 Loose/Medium/Tight \T1/ppl/m/n/9 iden-ti-fic-a-tion al-
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 177--177
+Underfull \hbox (badness 2680) in paragraph at lines 176--176
 \T1/ppl/m/n/9 panel shows the ra-tio between ex-pec-ted
  []
 
 
-Underfull \hbox (badness 5741) in paragraph at lines 177--177
+Underfull \hbox (badness 5741) in paragraph at lines 176--176
 \T1/ppl/m/n/9 and ob-served ef-fi-cien-cies, the ef-fi-ciency
  []
 
 [56 <./figures/MCobj/muRecoIDEff_pt-eps-converted-to.pdf> <./figures/MCobj/muRe
 coIDEff_eta-eps-converted-to.pdf>] [57]
 Package acronym Info: Label `acro:JVT' newly defined as it shall be overridden
-although it is yet undefined on input line 207.
+although it is yet undefined on input line 206.
 [58]
-<./figures/MCobj/btagging.png, id=2450, 903.375pt x 924.45375pt>
+<./figures/MCobj/btagging.png, id=2422, 903.375pt x 924.45375pt>
 File: ./figures/MCobj/btagging.png Graphic file (type png)
 <use ./figures/MCobj/btagging.png>
-Package pdftex.def Info: ./figures/MCobj/btagging.png  used on input line 216. 
-on input line 216.
+Package pdftex.def Info: ./figures/MCobj/btagging.png  used on input line 215. 
+on input line 215.
 Package pdftex.def Info: Requested size: 213.39568pt x 218.37514pt on input lin
-e 216.
-) (./Chapters/stop.tex [59 <./figures/MCobj/btagging.png>]
+e 215.
+Package acronym Info: Label `acro:MV2' newly defined as it shall be overridden
+although it is yet undefined on input line 219.
+Package acronym Info: Label `acro:BDT' newly defined as it shall be overridden
+although it is yet undefined on input line 219.
+
+Overfull \hbox (6.87788pt too wide) in paragraph at lines 219--220
+[]\T1/ppl/m/n/10.95 Algorithms for $\OML/cmm/m/it/10.95 b$\T1/ppl/m/n/10.95 -ta
+gging, such as, \T1/ppl/m/it/10.95 I2PD \T1/ppl/m/n/10.95 and \T1/ppl/m/it/10.9
+5 I3PD \T1/ppl/m/n/10.95 [[]][][][][][][], \T1/ppl/m/it/10.95 Sec-ond-ary Ver-t
+ex Find-ing \T1/ppl/m/n/10.95 [[]][],
+ []
+
+<./figures/MCobj/btag1.png, id=2437, 1976.38374pt x 1711.39375pt>
+File: ./figures/MCobj/btag1.png Graphic file (type png)
+<use ./figures/MCobj/btag1.png>
+Package pdftex.def Info: ./figures/MCobj/btag1.png  used on input line 225. on 
+input line 225.
+Package pdftex.def Info: Requested size: 192.0548pt x 166.29224pt on input line
+ 225.
+<./figures/MCobj/btag2.png, id=2438, 1976.38374pt x 1711.39375pt>
+File: ./figures/MCobj/btag2.png Graphic file (type png)
+<use ./figures/MCobj/btag2.png>
+Package pdftex.def Info: ./figures/MCobj/btag2.png  used on input line 228. on 
+input line 228.
+Package pdftex.def Info: Requested size: 192.0548pt x 166.29224pt on input line
+ 228.
+
+Underfull \hbox (badness 3343) in paragraph at lines 228--228
+\T1/ppl/m/n/9 and $\OT1/cmr/m/n/9 2016$ \T1/ppl/m/n/9 con-fig-ur-a-tions of the
+ MV2 b-
+ []
+
+Package epstopdf Info: Source file: <./figures/MCobj/METevdisp.eps>
+(epstopdf)                    date: 2018-02-13 13:23:30
+(epstopdf)                    size: 8518669 bytes
+(epstopdf)             Output file: <./figures/MCobj/METevdisp-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2018-02-13 13:42:50
+(epstopdf)                    size: 675353 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/MCobj/METevdisp-
+eps-converted-to.pdf ./figures/MCobj/METevdisp.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
+<./figures/MCobj/METevdisp-eps-converted-to.pdf, id=2442, pagebox=cropbox, 1027
+.84pt x 1027.84pt>
+File: ./figures/MCobj/METevdisp-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/MCobj/METevdisp-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/MCobj/METevdisp-eps-converted-to.pdf  used o
+n input line 242. on input line 242.
+Package pdftex.def Info: Requested size: 320.0935pt x 320.08568pt on input line
+ 242.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[59 <./figures/MCobj/btagging.png>] [60 <./figures/MCobj/btag1.png> <./figures/
+MCobj/btag2.png>]) (./Chapters/stop.tex [61 <./figures/MCobj/METevdisp-eps-conv
+erted-to.pdf>]
 Chapter 5.
 
 Overfull \hbox (9.09734pt too wide) in paragraph at lines 1--1
 |[]\T1/ppl/b/n/24.88 Stop searches in fi-nal states with
  []
 
-) (./Chapters/results.tex [60
-
-]
-Chapter 6.
-) (./Chapters/conclusion.tex [61
-
-]) [62
+) [62
 
 ] (./Chapters/appA.tex) (./FrontBackMatter/Acronyms.tex [63
 
@@ -3366,34 +3416,34 @@ Chapter 6.
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.112 \end{acronym}
-                   ]) [67] (/Users/mbare/CERNBox/Thesis/Output/main.bbl (/Users
-/mbare/CERNBox/Thesis/Output/main.brf)
+l.112 ...IMP}{Weakly Interacting Massive Particle}
+                                                  ]) [67] (/Users/mbare/CERNBox
+/Thesis/Output/main.bbl (/Users/mbare/CERNBox/Thesis/Output/main.brf)
 \tf@brf=\write8
 \openout8 = `main.brf'.
 
 [68
 
 
-] [69] [70] [71] [72] [73] [74]) [75]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+] [69] [70] [71] [72] [73] [74] [75]) [76]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
 (/Users/mbare/CERNBox/Thesis/Output/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C8E7DB646F8890E672884C28BE20CDB8;2647.
+(rerunfilecheck)             Checksum: 268F01D11A928286AA220269F21931D1;2212.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 0B4E9D425FED9B682297A59E65181AC4;6700.
+(rerunfilecheck)             Checksum: BC88465BF9FEEF468C14C695406224A9;7302.
  ) 
 Here is how much of TeX's memory you used:
- 35862 strings out of 492990
- 676890 string characters out of 6132635
- 771802 words of memory out of 5000000
- 38245 multiletter control sequences out of 15000+600000
- 573152 words of font info for 108 fonts, out of 8000000 for 9000
+ 35956 strings out of 492990
+ 678587 string characters out of 6132635
+ 772561 words of memory out of 5000000
+ 38320 multiletter control sequences out of 15000+600000
+ 575008 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,21n,71p,10470b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,21n,71p,10470b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -3401,40 +3451,41 @@ pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
 t, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
-ublic/tex-gyre/qtmr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-txfonts/rtxmi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfont
-s/txmia.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/txsy
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/mbare/CERNBox/Thesis/Output/main.pdf (77 pages, 822595
-3 bytes).
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/tex-gyre/qtmr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/t
+xfonts/rtxmi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts
+/txmia.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/txsy.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/mbare/CERNBox/Thesis/Output/main.pdf (78 pages, 917536
+5 bytes).
 PDF statistics:
- 2989 PDF objects out of 3580 (max. 8388607)
- 2523 compressed objects within 26 object streams
- 474 named destinations out of 1000 (max. 500000)
- 506 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3050 PDF objects out of 3580 (max. 8388607)
+ 2574 compressed objects within 26 object streams
+ 491 named destinations out of 1000 (max. 500000)
+ 473 words of extra memory for PDF output out of 10000 (max. 10000000)
 
