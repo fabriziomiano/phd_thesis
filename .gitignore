@@ -1,3 +1,4 @@
+# Files
 .DS_Store
 *.toc
 *.aux
@@ -12,3 +13,7 @@
 *.out	
 *.pdf	
 *.synctex.gz
+
+#Dirs
+Ref/
+Output/
