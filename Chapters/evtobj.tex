@@ -1,29 +1,30 @@
-\chapter[Event Simulation and Object Reconstruction]{Event Simulation and \protect\\Object Reconstruction}
+\chapter{Event Simulation and Object Reconstruction}
 \label{ch:evSimObjReco}
 \epigraph{\emph{Nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical, and by golly it's a wonderful problem, because it doesn't look so easy.}} {Richard P. Feynman}
+
+	\begin{wrapfigure}{L}{.5\textwidth}
+	%\begin{figure}
+		\centering\includegraphics[width=.4\textwidth]{MCobj/flow}
+		\caption{\label{fig:workflow} Illustration of the different stages of the work flow needed to produce analysable simulated and collected data outputs. The white boxes represent the processes, and their outputs are shown in black balloons: \ac{RDO}, \ac{ESD}, and the final product, \ac{AOD}. The green `AtlFast' box represents the alternative simulation method \textsc{Atlfast}~\cite{Lukas2012}, discussed in Section~\ref{subsec:detSim}. Finally, the blue box shows the stage at which the actual \ac{ATLAS} data events begin processing.}
+	%\end{figure}
+	\end{wrapfigure}
 
 	The \ac{ATLAS} software framework Athena~\cite{TDR2005}, which is based on the Gaudi~\cite{Gaudi2000} framework developed by \ac{LHCb}~\cite{LHCb2008}, is used to reconstruct physics objects to be used by analysers, as the data collected and recorded by the \ac{ATLAS} detector requires processing. The Athena framework is capable of dealing with various aspects of the experiment software, \eg\ triggering or the processing of simulated data. Custom software, in particular \ac{MC} simulations, is used to simulate physics events used to model background and signal processes. These are produced through different stages, as shown in Figure~\ref{fig:workflow}, the last of which produces an analyser-friendly output. 
 
 	In this chapter the stages will be briefly explained as it follows: event generation (Section~\ref{sec:evGen}); reconstruction of physics objects\footnote{A set of criteria needs to be applied in order to reconstruct the detected object as an ``electron'', ``photon'', ``muon'', ``jet'', etc.}, in both collected data and simulated \ac{MC} events (Section~\ref{sec:objReco}).%  Finally, a set of selection criteria are applied to reconstructed objects to identify those suitable for use in analysis, as detailed in Section~\ref{sec:objSel}.
 
-	\begin{figure}
-		\centering
-		\includegraphics[width=.6\textwidth]{MCobj/flow}
-		\caption{\label{fig:workflow} Illustration of the different stages of the work flow needed to produce analysable simulated and collected data outputs. The white boxes represent the processes, and their outputs are shown in black balloons: \ac{RDO}, \ac{ESD}, and the final product, \ac{AOD}. The green `AtlFast' box represents the alternative simulation method \textsc{Atlfast}~\cite{Lukas2012}, discussed in Section~\ref{subsec:detSim}. Finally, the blue box shows the stage at which the actual \ac{ATLAS} data events begin processing.}
-	\end{figure}
-
-
 
 	\section{Generation of an MC-simulated event}
 	\label{sec:evGen}
 
-		\ac{MC} event generators~\cite{Buckley:2011ms} are extensively used in particle physics to simulate \ac{SM} and \ac{BSM} physics processes. A combination of perturbative and phenomenological calculations, to produce randomly distributed physics events, of a given type, with stable final state particles, is employed. As already mentioned in Chapter~\ref{ch:detector}, The \ac{ATLAS} detector collects \pp- and heavy-ion-collisions data. When two protons collide at such high energy in the centre of mass, the collision essentially occurs between the nucleon constituents: partons\footnote{``\emph{Feynman~\cite{PhysRevLett.23.1415} interpreted the Bjorken scaling as the point-like nature of the nucleon's constituents when they were incoherently scattered by the incident electron. Feynman named the point-like constituents partons. This is the parton model.}''(taken from~\cite{Yan:2014kna})}. Three valence quarks (uud), the gluons mediating the strong interactions between the valence quarks, and the sea quarks produced in virtual \qqbar\ pairs due to interacting gluons, are included in the partons. Figure~\ref{fig:DIS} shows one of these interactions which are known as \ac{DIS} processes, simply because the substructure of the proton is probed, therefore \emph{deep}, by an incoming particle, in this case a proton, whose momentum is not conserved in the process, therefore \emph{inelastic}.
-
-		\begin{figure}[!htb]
-			\centering
-			\includegraphics[width=.5\textwidth]{MCobj/ppcollision}
+		\begin{wrapfigure}{R}{.5\textwidth}
+		%\begin{figure}[!htb]
+			\centering\includegraphics[width=.5\textwidth]{MCobj/ppcollision}
 			\caption{\label{fig:DIS} Example of a \pp\ \ac{DIS} event.}
-		\end{figure}
+		%\end{figure}
+		\end{wrapfigure}
+
+		\ac{MC} event generators~\cite{Buckley:2011ms} are extensively used in particle physics to simulate \ac{SM} and \ac{BSM} physics processes. A combination of perturbative and phenomenological calculations, to produce randomly distributed physics events, of a given type, with stable final state particles, is employed. As already mentioned in Chapter~\ref{ch:detector}, the \ac{ATLAS} detector collects \pp- and heavy-ion-collision data. When two protons collide at such high energy in the centre of mass, the collision essentially occurs between the nucleon constituents: partons\footnote{``\emph{Feynman~\cite{PhysRevLett.23.1415} interpreted the Bjorken scaling as the point-like nature of the nucleon's constituents when they were incoherently scattered by the incident electron. Feynman named the point-like constituents partons. This is the parton model.}''(taken from~\cite{Yan:2014kna})}. Three valence quarks (uud), the gluons mediating the strong interactions between the valence quarks, and the sea quarks produced in virtual \qqbar\ pairs due to interacting gluons, are included in the partons. Figure~\ref{fig:DIS} shows one of these interactions which are known as \ac{DIS} processes, simply because the substructure of the proton is probed, therefore \emph{deep}, by an incoming particle, in this case a proton, whose momentum is not conserved in the process, therefore \emph{inelastic}.
 
 		An important, yet simplifying, dimensionless physical quantity is the Bjorken scaling~\cite{PhysRev.179.1547}, which represents the fraction, $x$, of the proton momentum carried by an interacting parton. The measure of momentum transfer $Q^2$ in such events, is related to the momentum transferred by the exchanged boson $q$ by $Q^2 = -q^2$. \acp{PDF} are used to describe mathematically the parton content of the colliding protons in order to model their interaction.  
 
@@ -32,16 +33,23 @@
 		%The modelling of the hard process, parton showering and hadronisation within the event, will be briefly described in Sections~\ref{sec:ME},~\ref{sec:PS} and~\ref{sec:hadronisation}. Section~\ref{sec:UE} describes how to model of the UE. 
 		In order to allow analysers to select samples with relevant processes, \ac{MC} samples are divided in categories depending upon the hard-process specified before generation. It is also possible to filter events to only produce a given final state, \eg\ asking for zero leptons, in order not to waste computational resources on events which would not pass any selection criteria, regardless, improving the available statistics. The effect of the selection will be taken into account by applying filter efficiency when the analysis is carried out. The \textsc{HepMC} format is used to store the output of simulated data outputs~\cite{DOBBS200141}.
 
+
+		
+
 		\subsection*{Parton Distribution Function}
 		%\label{sec:pdf}
 
-			\acp{PDF}~\cite{Campbell2007} mathematically describe the probability density of constituent partons of the interacting protons to have a fraction, $x$, of the nucleon momentum. They depend upon the parton type such as, valence quark, gluon, or sea quark, and the momentum transfer $Q^2$. Although perturbative calculations of the \acp{PDF} are not feasible, the \textsc{DGLAP}~\cite{Gribov:1972ri, Altarelli:1977zs} evolution equations, using a range of hard scattering data from both fixed target and collider experiments, can be used to estimate the dependence as a function of $Q^2$ for a given parton. In other words, \acp{PDF} describe the evolution of the structure functions of quarks and gluons as a function of the running\footnote{Referred to a dependence on $Q^2$} strong coupling constant $\alpha_s$. Figure~\ref{fig:HERAPDF} shows the \acp{PDF}, calculated with input from \textsc{HERA} and \textsc{CTEQ} at $Q^2 = 10 \GeV^2$ for up and down valence quarks, gluons, and sea-quarks.
-
-			\begin{figure}[!htb]
+			\begin{wrapfigure}{L}{.5\textwidth}
+			%\begin{figure}[!htb]
 				\centering
 				\includegraphics[width=.5\textwidth]{MCobj/d09-158f18b}
 				\caption{\label{fig:HERAPDF} PDF from \textsc{HERAPDF1.0}, for up and down valence quarks $xu_v$ and $xd_v$ , gluons $xg$, and sea quarks $xS = 2x(\bar{U} + \bar{D})$, using a momentum transfer of $Q^2 =10 \GeV^2$ (from~\cite{Aaron:2009aa}).}
-			\end{figure}
+			%\end{figure}
+			\end{wrapfigure}
+
+			\acp{PDF}~\cite{Campbell2007} mathematically describe the probability density of constituent partons of the interacting protons to have a fraction, $x$, of the nucleon momentum. They depend upon the parton type such as, valence quark, gluon, or sea quark, and the momentum transfer $Q^2$. Although perturbative calculations of the \acp{PDF} are not feasible, the \textsc{DGLAP}~\cite{Gribov:1972ri, Altarelli:1977zs} evolution equations, using a range of hard scattering data from both fixed target and collider experiments, can be used to estimate the dependence as a function of $Q^2$ for a given parton. In other words, \acp{PDF} describe the evolution of the structure functions of quarks and gluons as a function of the running\footnote{Referred to a dependence on $Q^2$} strong coupling constant $\alpha_s$. Figure~\ref{fig:HERAPDF} shows the \acp{PDF}, calculated with input from \textsc{HERA} and \textsc{CTEQ} at $Q^2 = 10 \GeV^2$ for up and down valence quarks, gluons, and sea-quarks.
+
+
 
 		\subsection*{Matrix Element}
 		%\label{sec:ME}
@@ -208,13 +216,15 @@
 
 		\subsection*{$b$-tagged jets}
 
-			The identification and the reconstruction of jets originated from $b$-quarks is also important, as they also are part of the final state of the analysis presented in this work. Not only is this crucial for this work but also for other analyses carried out by the \ac{ATLAS} Collaboration. The standard jet-reconstruction procedure discussed above applies to \bjs\, too, with the addition of dedicated algorithms ($b$-tagging~\cite{Aad:2015ydr}) employed to spot a $b$-hadron within their cone. A diagram, showing the difference between light jets and \bjs\, is shown in Figure~\ref{fig:btagpic}. Due to their lifetime ($\sim 10^{-12}$ s), $b$-hadrons can travel a measurable distance in the detector before decaying ($\sim 1$ mm for a $20$-\GeV\ \bj), therefore producing a \ac{SV} which, together with a requirement on the impact parameter $d_0$, already provides a useful discrimination tool for jet flavour. Unfortunately, \cjs\ also leave a similar signature within the ATLAS detector. Although on average they travel a shorter distance due to their shorter lifetime~\cite{ATL-PHYS-PUB-2015-001}, their presence introduces a source of background for $b$-tagging. 
-
-			\begin{figure}[!htb]
+			\begin{wrapfigure}{R}{.5\textwidth}
+			%\begin{figure}[!htb]
 				\centering
 				\includegraphics[width=.5\textwidth]{MCobj/btagging}
 				\caption{\label{fig:btagpic} Diagram showing the common principle of identification of jets initiated by $b$-quark decays~\cite{btagpic}.}
-			\end{figure}
+			%\end{figure}
+			\end{wrapfigure}
+
+			The identification and the reconstruction of jets originated from $b$-quarks is also important, as they also are part of the final state of the analysis presented in this work. Not only is this crucial for this work but also for other analyses carried out by the \ac{ATLAS} Collaboration. The standard jet-reconstruction procedure discussed above applies to \bjs\, too, with the addition of dedicated algorithms ($b$-tagging~\cite{Aad:2015ydr}) employed to spot a $b$-hadron within their cone. A diagram, showing the difference between light jets and \bjs\, is shown in Figure~\ref{fig:btagpic}. Due to their lifetime ($\sim 10^{-12}$ s), $b$-hadrons can travel a measurable distance in the detector before decaying ($\sim 1$ mm for a $20$-\GeV\ \bj), therefore producing a \ac{SV} which, together with a requirement on the impact parameter $d_0$, already provides a useful discrimination tool for jet flavour. Unfortunately, \cjs\ also leave a similar signature within the ATLAS detector. Although on average they travel a shorter distance due to their shorter lifetime~\cite{ATL-PHYS-PUB-2015-001}, their presence introduces a source of background for $b$-tagging. 
 
 			Algorithms for $b$-tagging, such as, \emph{I2PD} and \emph{I3PD}~\cite{Lehmacher:1128662}\footnote{The significance of the transverse impact parameter (IP) of the tracks, $d_0/\sigma_{d_0}$ is used by both algorithms}, \emph{Secondary Vertex Finding}~\cite{ATL-PHYS-PUB-2017-011}, and \emph{Decay Chain Multi-Vertex Algorithm (JetFitter)}~\cite{1742-6596-119-3-032032}, are widely employed within the \ac{ATLAS} Collaboration. Their outputs are combined to feed a single multivariate tagger, \ac{MV2}, which is used by many analyses as it is, as of today, the algorithm with the highest discriminating power for jet flavour tagging. In particular, \ac{MV2} is a \ac{BDT} algorithm~\cite{BDT} implemented within the \texttt{ROOT TMVA}~\cite{Brun:1997pa, 2007physics3039H} and is provided in three different versions: MV2c00, MV2c10, and MV2c20. MV2c00 denotes the MV2 algorithm where no \cj\ contribution was present in the training. MV2c10 (MV2c20) denote the MV2 outputs where a $7\%$ ($15\%$) \cj\ fractions was present in the background sample~\cite{Aad:2015ydr}. Such tagger was used for both the analyses presented in this thesis.
 
@@ -239,7 +249,7 @@
 
 			\begin{figure}[!htb]
 				\centering
-				\includegraphics[width=.75\textwidth]{MCobj/METevdisp}
+				\includegraphics[width=.7\textwidth]{MCobj/METevdisp}
 				\caption{\label{fig:METevdisp}ATLAS Event display for an event that has jets (blue solid lines) and \met (red dashed line) (taken from~\cite{METevdisp}).}
 			\end{figure}
 

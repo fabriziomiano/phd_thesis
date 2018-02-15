@@ -2,13 +2,16 @@
 % University of Sussex thesis template
 % Last Edit by Fabrizio Miano, Oct 2017
 %---------------------------------------------------
-\documentclass[a4paper,11pt,oneside]{memoir}
+\documentclass[a4paper,11pt,oneside]{book}
 \usepackage{booktabs}
 \usepackage{hepunits}
 \usepackage{physics}
 \usepackage{latex/atlasphysics} % ATLAS Class for variable etc
 \usepackage{enumerate}
 \usepackage{epigraph}
+% \renewcommand{\epigraphrule}{0pt}
+% \setlength{\epigraphwidth}{.6\textwidth}
+% \renewcommand{\textflush}{flushepinormal}
 \usepackage[printonlyused]{acronym}
 \usepackage{placeins}
 \usepackage[hang]{footmisc}
@@ -19,9 +22,12 @@
 \usepackage{booktabs} % lines for tables
 \usepackage{lineno} % Line Numbers 
 \usepackage{subfig}  % pictures and sub-pictures
+\usepackage[]{fncychap} % header style - Options: Sonny, Glenn, Bjornstrup
 \usepackage[utf8]{inputenc} 
+\usepackage{palatino} % font type
 \usepackage[T1]{fontenc} 
-\usepackage{palatino} % font type, but obsolete
+%\setcounter{secnumdepth}{4}
+\usepackage{titlesec, blindtext, color}
 
 %---------------------------------------------------
 % LINE SPACING AND FOOTNOTE MARGIN
@@ -29,12 +35,14 @@
 \newcommand{\linespacing}{1.3}
 \renewcommand{\baselinestretch}{\linespacing}
 %\linespread{1.25}
+
 \setlength{\footnotemargin}{3mm}
 
 %---------------------------------------------------
 % BIBLIOGRAPHY STYLE
 %---------------------------------------------------
 \bibliographystyle{latex/atlasBibStyleWithTitle}
+
 %---------------------------------------------------
 %   DOCUMENT VARIABLES
 %   Fill in the lines below to enter your information into the thesis template
@@ -82,7 +90,7 @@
 % OTHER FORMATTING/LAYOUT DECLARATIONS
 %---------------------------------------------------
 % Graphics
-\usepackage{titlesec, color, xcolor, calc, blindtext}
+\usepackage{color}
 \usepackage{feynmp}
 \usepackage[pdftex]{graphicx}
 %\renewcommand{\includegraphics}[2][]{\fbox{}}
@@ -100,82 +108,44 @@
 \usetikzlibrary{decorations.markings,calc,shapes,arrows}
 
 %---------------------------------------------------
-% MARGINS 
+% MARGINS AND CHAPTER HEADER
 %---------------------------------------------------
 % The left-hand-side should be 40mm.  The top and bottom margins should be
 % 25mm deep.  The right hand margin should be 20mm.
 \usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=4cm,right=2cm,headsep=10pt]{geometry}
+\usepackage{fancyhdr}
+% Pages should be numbered consecutively thorugh the main text. 
+% Page numbers should be located centrally at the top of the page.
+\pagestyle{fancy}
+    \fancyhf{} 
+    \renewcommand{\sectionmark}[1]{\markright{{\footnotesize{{\thesection\ #1}}}}} % with number of section 
+    \lhead{}
+    \rhead{\nouppercase{\rightmark}}
+    \chead{\thepage}
+    \cfoot{}
+    \lfoot{}
+    \rfoot{}
+    \renewcommand{\headrulewidth}{0.5pt}
+    \renewcommand{\footrulewidth}{0pt}
 
-%---------------------------------------------------
-% MEMOIR CLASS SETTINGS AND CHAPTER HEADER/STYLE
-%---------------------------------------------------
-\definecolor{chaptercolor}{gray}{0.75}
-% helper macros
-\newcommand\numlifter[1]{\raisebox{-2cm}[0pt][0pt]{\smash{#1}}}
-\newcommand\numindent{\kern37pt}
-\newlength\chaptertitleboxheight
-\makechapterstyle{hansen}{
-  \renewcommand\printchaptername{\raggedleft}
-  \renewcommand\printchapternum{%
-    \begingroup%
-    \leavevmode%
-    \chapnumfont%
-    \strut%
-    \numlifter{\thechapter}%
-    \numindent%
-\endgroup%
+% Even the first page of the chapter
+\fancypagestyle{plain}{ % <-- a different style for chapters/pages with a different style
+    \fancyhf{} 
+    %\rhead{\nouppercase{\rightmark}}
+    \chead{\thepage}
+    %\fancyfoot[LE,RO]{\thepage} % same placement as with page style "fancy"
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
 }
-  \renewcommand*{\printchapternonum}{%
-    \vphantom{\begingroup%
-      \leavevmode%
-      \chapnumfont%
-      \numlifter{\vphantom{9}}%
-      \numindent%
-      \endgroup}
-    \afterchapternum}
-  \setlength\midchapskip{0pt}
-  \setlength\beforechapskip{0.5\baselineskip}
-  \setlength{\afterchapskip}{3\baselineskip}
-  \renewcommand\chapnumfont{%
-    \fontsize{5cm}{0cm}%
-    \bfseries% or 
-    \itshape%
-    %\sffamily%
-    \color{chaptercolor}%
-  }
-  \renewcommand\chaptitlefont{%
-    \normalfont%
-    \Huge%
-    \bfseries%
-    \raggedleft%
-  }%
-  \settototalheight\chaptertitleboxheight{%
-    \parbox{\textwidth}{\chaptitlefont \strut bg\\bg\strut}}
-  \renewcommand\printchaptertitle[1]{%
-    \parbox[t][\chaptertitleboxheight][t]{\textwidth}{%
-      %\microtypesetup{protrusion=false}% add this if you use microtype
-      \chaptitlefont\strut ##1\strut}%
-}}
-
-\renewcommand{\sectionmark}[1]{\markright{{\footnotesize{{\itshape\thesection\ #1}}}}} % with number of section 
-\makepagestyle{custom}% Create custom page style
-    \makeoddhead{custom}% Adjust odd header for custom page style
-    {}% Left odd header
-    {\thepage}% Center odd header
-    {\rightmark}% Right odd header
-    \makeheadrule{custom}{\textwidth}{.5pt}% Header rule width/thickness for custom page style
-    %\makefootrule{custom}{\textwidth}{.4pt}{\footruleskip}% Footer rule width/thickness/skip for custom page style
-
-%    \chapterstyle{hansen} % Set chapter style
-
-    \aliaspagestyle{chapter}{custom} % just to save some space
-    \copypagestyle{chapter}{plain}
-    \makeoddhead{chapter}{}{\thepage}{}
-    \makeoddfoot{chapter}{}{}{}
-
+% --------------------------------------------------
+% Custom chapters header 
+% --------------------------------------------------
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]
+    {\Huge\bfseries} {\textcolor{red} \thechapter \hsp \textcolor{gray} {|} \hsp} {0pt} {\Huge\bfseries}
 
 % --------------------------------------------------
-% Remove some warnings 
+% Useful to remove some warnings 
 % --------------------------------------------------
 \setlength{\headheight}{14pt} % to avoid multiple "\headheight is too small" warnings 
 \setlength{\parskip}{10pt} % to have some space between paragraphs
@@ -210,66 +180,80 @@
 %             pdfusetitle, bookmarksnumbered, plainpages=false]{hyperref}
 % --------------------------------------------------
 
+
 \graphicspath{{./figures/}} % directory with all the pictures
 \flushbottom
 %---------------------------------------------------
 % BEGIN DOCUMENT
 %---------------------------------------------------
 \begin{document}
+    %\linenumbers % to have lines numbered (mainly for corrections) 
+
     %---------------------------------------------------
     % PREAMBLE: roman page numbering i, ii, iii, ...
     %---------------------------------------------------
-    \begingroup
-        \frontmatter
-        \pagenumbering{roman}
-        \include{FrontBackMatter/Titlepage}
-        \include{FrontBackMatter/Dedication} % Dedication page
-        \include{FrontBackMatter/Acknowledgments} % Acknowledgements page
-        \include{FrontBackMatter/Declaration} % Declaration
-        \include{FrontBackMatter/Abstract} % Abstract page
-    \endgroup
+    \frontmatter
+    \pagenumbering{roman}
+        % \include{FrontBackMatter/Titlepage}
+        % \include{FrontBackMatter/Dedication} % Dedication page
+        % \include{FrontBackMatter/Acknowledgments} % Acknowledgements page
+        % \include{FrontBackMatter/Declaration} % Declaration
+        % \include{FrontBackMatter/Abstract} % Abstract page
+ 
     %---------------------------------------------------
     % TABLE OF CONTENTS, LISTS OF TABLES & FIGURES
     %---------------------------------------------------
-    \newpage
-    \setlength{\parskip}{0pt} % To restore distance between Chapters, sections and subsections in the table of contents
-    \pdfbookmark[0]{Contents}{contents_bookmark}
-    \pagestyle{custom}% Set page style to custom
-    \chapterstyle{hansen} % Set chapter style
-    \tableofcontents*  % as per in memoir class 
+    \begingroup
+        \newpage
+        \setlength{\parskip}{0pt} % To restore distance between Chapters, sections and subsections in the table of contents
+        \pdfbookmark[0]{Contents}{contents_bookmark}
+        \tableofcontents
+        %\listoftables
+        %\phantomsection
+        %\addcontentsline{toc}{chapter}{List of Tables}
+        %\listoffigures
+        %\phantomsection
+        %\addcontentsline{toc}{chapter}{List of Figures}
+    \endgroup
 
     %---------------------------------------------------
     % MAIN THESIS TEXT: arabic page numbering 1, 2, 3, ...
+    %---------------------------------------------------
+    \newpage
+    \pagenumbering{arabic}
+
+    %---------------------------------------------------
     % THESIS CONTENT - CHAPTERS
     %---------------------------------------------------
-    %\begingroup
-        \mainmatter
-        \pagenumbering{arabic}
-        \input{Chapters/intro}
-        % \input{Chapters/theory}
+    \mainmatter
+        % \input{Chapters/intro}
+        \input{Chapters/theory}
         % \input{Chapters/detector}
         % \input{Chapters/trigger}
         % \input{Chapters/evtobj}
         \input{Chapters/stop}
-        \input{Chapters/conclusion}
-    %\endgroup
+        % \input{Chapters/results}
+        % \input{Chapters/conclusion}
+
+
     %---------------------------------------------------
-    % APPENDICES
+    % THESIS CONTENT - APPENDICES
     %---------------------------------------------------
     \backmatter
         \appendix
         \input{Chapters/appA.tex}
         \input{FrontBackMatter/Acronyms.tex}
 
-        %---------------------------------------------------
-        % BIBLIOGRAPHY
-        %---------------------------------------------------
-        \clearpage
-        \phantomsection
-        %\addcontentsline{toc}{chapter}{Bibliography} % unnecessary with this new template
-        \bibliography{Chapters/bibliography}
+    %---------------------------------------------------
+    % BIBLIOGRAPHY
+    %---------------------------------------------------
+    \clearpage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{Bibliography}
+    \bibliography{Chapters/bibliography} 
 
 %---------------------------------------------------
 % END DOCUMENT
 %---------------------------------------------------
+
 \end{document}
