@@ -1,26 +1,29 @@
-% Declaration
-
-\thispagestyle{empty}
+%\thispagestyle{empty}
+%\pagestyle{custom}% Set page style to custom
 \pdfbookmark[0]{Declaration}{declaration} % Bookmark name visible in a PDF viewer
 
 \begin{center}
-	\noindent{\Huge\textit{Statement} \par}
+	\Huge{\textbf{STATEMENT}}
 \end{center}
 
-\vspace*{.05\textheight}
+\vspace*{3cm}
 
+\begin{flushleft}
+	\large{\noindent I, \myName, hereby declare that this thesis has not been and will not be, submitted in whole or in part to another university for the award of any other degree.}
+\end{flushleft}
 
-\noindent I, \myName, hereby declare that this thesis, titled ``\myTitle'', has not been and will not be, submitted in whole or in part to another University for the award of any other degree.
+\vspace*{2cm}
 
-\bigskip
- 
-\textit{\myLocation, \myTime}
-
-\bigskip
-
-\begin{flushright}
- 	\begin{tabular}{l}
-	\hline \\ 
-	\centering \myName 
- 	\end{tabular}
-\end{flushright}
+\begin{minipage}{.45\linewidth}
+	\begin{flushleft} %\large
+		\textit{\myLocation,} \\
+		\textit{\today}% adds space between the two sets of signatures
+	\end{flushleft}
+\end{minipage}
+\hfill
+\begin{minipage}{.45\linewidth}
+	\begin{flushright} %\large
+		\makebox[2.5in]{\hrulefill} \\
+		\myName 
+	\end{flushright}
+\end{minipage}\\ [0.5cm]

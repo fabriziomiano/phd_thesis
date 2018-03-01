@@ -48,9 +48,9 @@
 				\label{fig:cern-acc-complex}
 			\end{figure}
 
-			Before reaching the maximum energy, the proton beams are accelerated by smaller accelerators through various stages. Figure~\ref{fig:cern-acc-complex} shows a sketch of the \ac{CERN}'s accelerator complex. It all begins with the \ac{LINAC2}. Here protons are accelerated up to 50 MeV, and then injected in the \ac{PSB} where they reach 1.4 \GeV. The next stage is the \ac{PS}, which boosts the beams up to 25 \GeV\, and then \ac{SPS} makes them reach energies up to 450 \GeV. Eventually, the beams are injected in bunches with a 25 ns spacing into the \ac{LHC}, where they travel in opposite directions, while they are accelerated to up to a centre-of-mass energy of 13 TeV. Once the bunches reach the maximum energy, they are made collide at four different points, inside four experiments around the ring~\cite{LHCDesignReport}. 
+			Before reaching the maximum energy, the proton beams are accelerated by smaller accelerators through various stages. Figure~\ref{fig:cern-acc-complex} shows a sketch of the \ac{CERN}'s accelerator complex. It all begins with the \ac{LINAC2}. Here protons are accelerated up to 50 MeV, and then injected in the \ac{PSB} where they reach 1.4 \GeV. The next stage is the Proton Synchrotron, which boosts the beams up to 25 \GeV\, and then \ac{SPS} makes them reach energies up to 450 \GeV. Eventually, the beams are injected in bunches with a 25 ns spacing into the \ac{LHC}, where they travel in opposite directions, while they are accelerated to up to a centre-of-mass energy of 13 TeV. Once the bunches reach the maximum energy, they are made collide at four different points, inside four experiments around the ring~\cite{LHCDesignReport}. 
 
-			The heavy ion beams acceleration procedure is slightly different. Their journey starts at \ac{LINAC3}, and the \ac{LEIR} then, before they make their way into the \ac{PS} where they follow the same path as the protons. 
+			The heavy ion beams acceleration procedure is slightly different. Their journey starts at \ac{LINAC3}, and the \ac{LEIR} then, before they make their way into the Proton Synchrotron where they follow the same path as the protons. 
 
 			The four large detectors on the collision points are; the multi-purpose detectors \ac{ATLAS}~\cite{ATLASJINST}, and \ac{CMS}~\cite{CMSJINST}, \ac{LHCb}~\cite{LHCb2008}, which focuses on flavour physics, and \ac{ALICE}~\cite{ALICEJINST} which specialises in heavy ion physics. The \emph{big four} are not the only experiments at the \ac{CERN}'s accelerator complex. There also are smaller experiments based at the the four caverns about the collision points e.g. \ac{TOTEM}~\cite{1748-0221-3-08-S08007}, \ac{LHCf}~\cite{Adriani:926196} and \ac{MoEDAL}~\cite{Pinfold:2017dot}, but these will not be discussed any further.
 		
@@ -107,12 +107,11 @@
 			
 			\begin{figure}[!htb]
 				%\centering
-				\subfloat[Geometry of magnet windings and tile calorimeter steel. The eight barrel toroid coils, with the end-cap coils interleaved are visible. The solenoid winding lies inside the calorimeter volume~\cite{ATLASJINST}.]
-				{\includegraphics[width=0.475\textwidth]{Detector/MagnetSyst/magnetSyst}\label{fig:magnetSyst}}
-				\hfill
-				%\centering
-				\subfloat[Schematic view of the superconducting magnets~\cite{YAMAMOTO200853}.]
-				{\includegraphics[width=0.475\textwidth]{Detector/MagnetSyst/magnetSyst-desc}\label{fig:magnetSyst-desc}}
+				\subbottom[Geometry of magnet windings and tile calorimeter steel. The eight barrel toroid coils, with the end-cap coils interleaved are visible. The solenoid winding lies inside the calorimeter volume~\cite{ATLASJINST}.]{
+					\includegraphics[width=0.475\textwidth]{Detector/MagnetSyst/magnetSyst}\label{fig:magnetSyst}}
+					\hfill
+				\subbottom[Schematic view of the superconducting magnets~\cite{YAMAMOTO200853}.]{
+					\includegraphics[width=0.475\textwidth]{Detector/MagnetSyst/magnetSyst-desc}\label{fig:magnetSyst-desc}}
 				\caption{The \ac{ATLAS} magnet system.}
 			\end{figure}
 
@@ -137,8 +136,8 @@
 			The \ac{ID}~\cite{ATLASInDet} is the innermost component of the \ac{ATLAS} detector \ie\ the nearest sub-detector to the interaction region and it is used to reconstruct charged particle tracks used in the selection of physics objects. In fact, it allows robust track reconstruction, with accurate impact parameter resolution ($\sim 20 \mu m$) and precise primary and \ac{SV} reconstruction for charged particles (tracks) above 500 \MeV\ and within $\displaystyle|\eta| < 2.5$.
 
 			\begin{figure}[!htb]
-				\subfloat[Overview of the \ac{ATLAS} \ac{ID} with labels and dimensions.]{\includegraphics[width=0.475\textwidth]{Detector/ID/ID-overview}\label{fig:ID-overview}}\hfill
-				\subfloat[Diagram of the \ac{ATLAS} \ac{ID} and its sub-detectors.]{\includegraphics[width=0.475\textwidth]{Detector/ID/ID}\label{fig:ID}}
+				\subbottom[Overview of the \ac{ATLAS} \ac{ID} with labels and dimensions.]{\includegraphics[width=0.475\textwidth]{Detector/ID/ID-overview}\label{fig:ID-overview}}\hfill
+				\subbottom[Diagram of the \ac{ATLAS} \ac{ID} and its sub-detectors.]{\includegraphics[width=0.475\textwidth]{Detector/ID/ID}\label{fig:ID}}
 				\caption{The \ac{ATLAS} Inner Detector}
 				\label{fig:AID}
 			\end{figure}
@@ -146,12 +145,12 @@
 
 			The \ac{ID} is comprised of independent and concentric sub-systems, which are all shown in Figure~\ref{fig:AID}: %\ref{fig:ID} and~\ref{fig:ID-overview}:
 
-			\begin{itemize}
-				\item \underline{\ac{IBL}:} \\innermost Pixel Detector layer added during \ac{ATLAS} Run 2 upgrade (2013/2014) to improve vertexing, by a factor $\sim 1.4$, and impact parameter reconstruction, by a factor 2;
-				\item \underline{Silicon Pixel Tracker (Pixel):} \\made of silicon pixel layers and used mainly for reconstructing both the primary and secondary vertices in an event;
-				\item \underline{\ac{SCT}:} \\comprised of silicon micro-strip layers; thanks to its resolution ($17 \times 580\, \mu$m) it can accurately measure particle momenta;
-				\item \underline{\ac{TRT}:} \\final layer comprised of various layers of gaseous straw tube elements surrounded by transition radiation material.
-			\end{itemize}
+			\begin{description}
+				\item \textbf{\ac{IBL}:} \\innermost Pixel Detector layer added during \ac{ATLAS} Run 2 upgrade (2013/2014) to improve vertexing, by a factor $\sim 1.4$, and impact parameter reconstruction, by a factor 2;
+				\item \textbf{Silicon Pixel Tracker (Pixel):} \\made of silicon pixel layers and used mainly for reconstructing both the primary and secondary vertices in an event;
+				\item \textbf{\ac{SCT}:} \\comprised of silicon micro-strip layers; thanks to its resolution ($17 \times 580\, \mu$m) it can accurately measure particle momenta;
+				\item \textbf{\ac{TRT}:} \\final layer comprised of various layers of gaseous straw tube elements surrounded by transition radiation material.
+			\end{description}
 
 			These sub-detectors will be discussed in the following sections.  
 

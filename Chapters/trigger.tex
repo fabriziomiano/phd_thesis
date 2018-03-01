@@ -123,32 +123,33 @@
 				Figure~\ref{fig:ele_idtrig_eff} shows the tracking efficiency for the 24 GeV electron trigger as a function of $\eta$ and \pt\ of the offline track. The tracking efficiency is measured with respect to offline tracks with $\pt > 20$ \GeV\ for tight offline electron candidates from the 24 GeV electron support trigger, which does not use the trigger tracks in the selection, despite being identical to the physics trigger. The \ac{FTF} and Precision Tracking efficiencies are all above 99\% within the whole pseudo-rapidity range. The small efficiency drop at low \pt\ is due to bremsstrahlung energy loss by electrons~\cite{ATLASTrigger2015}.
 
 				\begin{figure}[!htb]
-					\centering
-					\subfloat[]{\includegraphics[width=0.5\textwidth]{Trigger/id/elec24plots3fb160224/HLT_eta_eff.pdf}}
-					\subfloat[]{\includegraphics[width=0.5\textwidth]{Trigger/id/elec24plots3fb160224/HLT_pT_eff.pdf}}
+					\begin{center}
+						\subbottom[]{
+							\includegraphics[width=0.45\textwidth]{Trigger/id/elec24plots3fb160224/HLT_eta_eff.pdf}}\hspace{0.05\textwidth}
+						\subbottom[]{
+							\includegraphics[width=0.45\textwidth]{Trigger/id/elec24plots3fb160224/HLT_pT_eff.pdf}}\hspace{0.05\textwidth}
+					\end{center}
 					\caption{The ID tracking efficiency for the 24 \GeV\ electron trigger is shown as a function of the (a) $\eta$ and (b) $\pt$ of the track of the offline electron candidate. Uncertainties based on Bayesian statistics are shown (from~\cite{ATLASTrigger2015}).}
 					\label{fig:ele_idtrig_eff}
 				\end{figure}
+
 
 			\subsubsection*{Muons}
 
 				Figure~\ref{fig:idmuontriggera} shows the muon tracking performance with respect to offline muon candidates with $\pt > 6 \GeV$ selected by the 6 \GeV\ muon support trigger as a function of the offline muon \pt. The efficiency is well above 99\% in the entire \pt\ range for both \ac{FTF} and Precision Tracking. Figure~\ref{fig:idmuontriggerb} shows the resolution of the transverse track impact parameter with respect to offline as a function of the offline muon \pt. \ac{FTF} and Precision Tracking resolutions are better than 17 and 15 $\mu$m, respectively, for muon candidates with offline $\pt > 20 \GeV$. The difference ($\sim 10\%$) between the two algorithms is driven by the fact that Precision Tracking (black solid points) uses the space points found by the \ac{FTF} (red open points), but refits them using the offline algorithm. In other words, Precision Tracking runs a faster version of the full offline track fit and it performs better.
 
 				\begin{figure}[!htb]
-					\centering
-					\subfloat[]{
-					  \includegraphics[width=0.5\textwidth]{Trigger/id/mu6plots3fb/HLT_pT_eff.pdf}
-					  \label{fig:idmuontriggera}
-					}
-					\subfloat[]{
-					  \includegraphics[width=0.5\textwidth]{Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.pdf}
-					  \label{fig:idmuontriggerb}
-					}
+					\begin{center}
+						\subbottom[]{
+						  \includegraphics[width=0.45\textwidth]{Trigger/id/mu6plots3fb/HLT_pT_eff.pdf}\label{fig:idmuontriggera}}\hspace{0.05\textwidth}
+						\subbottom[]{
+						  \includegraphics[width=0.45\textwidth]{Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.pdf}\label{fig:idmuontriggerb}}
+					\end{center}
 					\caption{ 
 					The ID tracking performance for the 6 \GeV\ muon trigger;
 					(a) efficiency as a function of the offline reconstructed muon \pt,  
 					(b) the resolution of the transverse impact parameter, $d_{0}$  as a function of the offline reconstructed muon \pt. Uncertainties based on Bayesian statistics are shown (from~\cite{ATLASTrigger2015}).}
-				\label{fig:idmuontrigger}
+					\label{fig:idmuontrigger}
 				\end{figure}
 
 
@@ -179,15 +180,12 @@
 				is above 90\% for vertices with three or more tracks, and rises to more than 99.5\% for vertices with five or more tracks. The resolution in $z$ with respect to the offline $z$ position as shown in Figure~\ref{fig:bjetvertexb} is better than 100 $\mu$m for vertices with two or more offline tracks and improves to 60 $\mu$m for vertices with ten or more offline tracks.
 
 				\begin{figure}[!htb]
-					\centering
-					\subfloat[]{
-					  \includegraphics[width=0.5\textwidth]{Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf}
-					  \label{fig:bjetvertexa}
-					}
-					\subfloat[]{
-					  \includegraphics[width=0.5\textwidth]{Trigger/id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_sigma.pdf}
-					  \label{fig:bjetvertexb}
-					}
+					\begin{center}
+						\subbottom[]{
+							\includegraphics[width=0.45\textwidth]{Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf}\label{fig:bjetvertexa}}\hspace{0.05\textwidth}
+						\subbottom[]{
+							\includegraphics[width=0.45\textwidth]{Trigger/id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_sigma.pdf}\label{fig:bjetvertexb}}
+					\end{center}
 					\caption{The trigger performance for primary vertices in the $b$-jet signatures for 55, 110 and 260 \GeV\ jet triggers; (a) the vertexing efficiency as a function of the number of offline tracks within the jets used for the vertex tracking, (b) the resolution in $z$ of the vertex with respect to the offline vertex position as a function of the number of offline tracks from the offline vertex (from~\cite{ATLASTrigger2015}).}
 					\label{fig:bjetvertex}
 				\end{figure}
@@ -196,18 +194,15 @@
 
 				There exists several algorithms to reconstruct the \met\ at the \ac{HLT}. The \textit{missing} \HT\footnote{\HT\ is the scalar sum of the various \pt s in the event, $\displaystyle \HT = \sum_{i} \pt^i$.} (MHT) algorithm calculates \met\ as the negative sum of transverse energy of calibrated jets, constructed from calibrated topological clusters of calorimeter cells. This algorithm is the most relevant to the analysis presented in Chapter~\ref{ch:stop_ana}. The \textit{cell algorithm} is based on the negative sum of transverse energy deposited in calorimeter cells above a certain noise threshold. Unlike the cell algorithm, which calculates \met\ on the electromagnetic scale, the MHT algorithm looks at jets calibrated using jet energy scale, so that numerical threshold values for similar signal efficiencies differ. \textit{Pufit}, a third algorithm, was employed to disentangle calorimeter deposits from the hard-scatter, from those originating from pile-up interactions by grouping towers made out of topological clusters into a pile-up and a hard-scatter category. This grouping is based on their energy, where the threshold itself is dependent on the overall event activity measured by the total energy deposited in the calorimeter. The assumption is that the contribution to \met\ due to pile-up interactions is zero. Nevertheless a minimisation, which takes into account resolution terms, determines an effective energy density from pile-up interaction which allows a vanishing contribution to \met\ by the pile-up calorimeter towers. This correction is then subtracted from the hard-scatter towers. The negative sum of transverse energy of those pile-up corrected hard-scatter towers will provide the final \met\ value~\cite{ATL-COM-DAQ-2016-137}.
 
-				Figure~\ref{fig:mettrigger} shows the turn-on curves for various \met\ triggers: Figure~\ref{fig:mettriggera} shows the efficiency as a function of \textit{modified}\footnote{To calculate the \met\ efficiency, \eg\ in events with muons, a muon trigger must be employed, therefore muon contributions are removed.} offline \met\ for three different \met\ trigger algorithms, using early 2016 \pp\ collision data. The events have been selected using single lepton (electron or muon) triggers. The x-axis shows the offline \met\ calculated from the sum of electrons, photons and jets, without the contributions from the muons. Three different \met\ high-level trigger algorithms are shown: \texttt{HLT\_xe80\_tc\_lcw\_L1XE50} calculates \met\ based on calibrated clusters of calorimeter cells, and has a threshold of 80 \GeV. \texttt{HLT\_xe90\_mht\_L1XE50} calculates \met\ based on reconstructed jets, and it has a threshold of 90 GeV. \texttt{HLT\_xe100\_L1XE50} calculates \met\ based on calorimeter cells calibrated at the electromagnetic scale, and has a threshold of 100 \GeV. All three algorithms are seeded by a Level-1 trigger algorithm with a threshold of 50 \GeV\ which is also shown; Figure~\ref{fig:mettriggerb} shows the combined \ac{L1} and \ac{HLT} efficiency of the missing transverse energy triggers \texttt{HLT\_xe110\_pufit\_L1XE50} and \texttt{HLT\_xe110\_mht\_L1XE50} as well as the efficiency of the corresponding \ac{L1} trigger (L1\_XE50) are shown as a function of the reconstructed \met\ (modified to count muons as invisible) using \pp\ collision data collected in 2017. The events shown are taken from data with a $\Wboson \to \ell \nu$ selection to provide a sample enriched in real \met. The \ac{HLT} \met\ of the \textit{pufit} algorithm is calculated as the negative of the transverse momentum vector sum of all calorimeter topological clusters corrected for pileup. The pileup correction is done by grouping the clusters into coarser “towers” which are then marked as pileup if their $E_\mathrm{T}$ falls below a pileup-dependent threshold.
+				Figure~\ref{fig:mettrigger} shows the turn-on curves for various \met\ triggers: Figure~\ref{fig:mettriggera} shows the efficiency as a function of \textit{modified}\footnote{To calculate the \met\ efficiency, \eg\ in events with muons, a muon trigger must be employed, therefore muon contributions are removed.} offline \met\ for three different \met\ trigger algorithms, using early 2016 \pp\ collision data. The events have been selected using single lepton (electron or muon) triggers. The x-axis shows the offline \met\ calculated from the sum of electrons, photons and jets, without the contributions from the muons. Three different \met\ high-level trigger algorithms are shown: \texttt{HLT\_xe80\_tc\_lcw\_L1XE50} calculates \met\ based on calibrated clusters of calorimeter cells, and has a threshold of 80 \GeV. \texttt{HLT\_xe90\_mht\_L1XE50} calculates \met\ based on reconstructed jets, and it has a threshold of 90 GeV. \texttt{HLT\_xe100\_L1XE50} calculates \met\ based on calorimeter cells calibrated at the electromagnetic scale, and has a threshold of 100 \GeV. All three algorithms are seeded by a Level-1 trigger with a threshold of 50 \GeV\ which is also shown; Figure~\ref{fig:mettriggerb} shows the combined \ac{L1} and \ac{HLT} efficiency of the missing transverse energy triggers \texttt{HLT\_xe110\_pufit\_L1XE50} and \\ \texttt{HLT\_xe110\_mht\_L1XE50} as well as the efficiency of the corresponding \ac{L1} trigger (L1\_XE50) are shown as a function of the reconstructed \met\ (modified to count muons as invisible) using \pp\ collision data collected in 2017. The events shown are taken from data with a $\Wboson \to \ell \nu$ selection to provide a sample enriched in real \met. The \ac{HLT} \met\ of the \textit{pufit} algorithm is calculated as the negative of the transverse momentum vector sum of all calorimeter topological clusters corrected for pileup. The pileup correction is done by grouping the clusters into coarser “towers” which are then marked as pileup if their $E_\mathrm{T}$ falls below a pileup-dependent threshold.
 
 				\begin{figure}[!htb]
-					\centering
-					\subfloat[]{
-					  \includegraphics[width=0.5\textwidth]{Trigger/hlt_met_unprescaled2016.png}
-					  \label{fig:mettriggera}
-					}
-					\subfloat[]{
-					  \includegraphics[width=0.5\textwidth]{Trigger/hlt_met_unprescaled2017.eps}
-					  \label{fig:mettriggerb}
-					}
+					\begin{center}
+						\subbottom[]{
+							\includegraphics[width=0.45\textwidth]{Trigger/hlt_met_unprescaled2016.png}\label{fig:mettriggera}}\hspace{0.05\textwidth}
+						\subbottom[]{
+						  \includegraphics[width=0.45\textwidth]{Trigger/hlt_met_unprescaled2017.eps}\label{fig:mettriggerb}}
+					\end{center}
 					\caption{Turn-on curves of various \met\ triggers: Figure~\ref{fig:mettriggera} shows the efficiency as a function of offline \met\ for three different \met\ trigger algorithms. Three different \met\ high-level trigger algorithms are shown: \texttt{HLT\_xe80\_tc\_lcw\_L1XE50} calculates \met\ based on calibrated clusters of calorimeter cells, and has a nominal threshold of 80 \GeV. \texttt{HLT\_xe90\_mht\_L1XE50} calculates \met\ based on reconstructed jets, and has a nominal threshold of 90 \GeV. \texttt{HLT\_xe100\_L1XE50} calculates \met\ based on calorimeter cells calibrated at the electromagnetic scale, and has a nominal threshold (at the electromagnetic scale) of 100 \GeV. All three algorithms are seeded by a Level-1 trigger algorithm with a nominal threshold of 50 \GeV\ which is also shown; Figure~\ref{fig:mettriggerb} shows missing transverse energy trigger efficiencies for \texttt{HLT\_xe110\_pufit\_L1XE50} and \texttt{HLT\_xe110\_mht\_L1XE50} and for the corresponding \ac{L1} seed (\texttt{L1\_XE50}). (from~\cite{ATLASMETTriggerPublicPage}).}
 					\label{fig:mettrigger}
 				\end{figure}
