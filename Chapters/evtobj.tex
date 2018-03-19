@@ -95,14 +95,15 @@
 
 			Vertex reconstruction is needed for various purposes \eg\ to differentiate objects produced in the hard scattering from other pile-up\footnote{For every bunch crossing, the average number of interactions $\left < \mu \right >$, usually referred to as \emph{pile-up}, can be computed} interactions. As the bunch length is finite, \pp\ interactions are spread out along the $z$ coordinate. In order to reconstruct the \ac{PV}\footnote{The vertex associated to the hard scattering interaction}, tracks are back-tracked to the beam line. Table~\ref{tab:tracksCuts} shows a set of cuts applied to the reconstructed \ac{ID} tracks to be used for vertex reconstruction.
 
-			\begin{table}[!htb]\centering\caption{Cuts applied to the tracks}							
-				\begin{tabular}{cc}
+			\begin{table}[!htb]\centering\caption{Cuts applied to the tracks}
+			\renewcommand{\arraystretch}{1.3}
+				\begin{tabular}{lc}
 					\toprule
 					\textbf{Variable} & \textbf{Cut} \\
 					\toprule
-					\pt & $> 400 \MeV$ \\ \midrule
-					$\abseta$ & $< 2.5$ \\ \midrule
-					\# \ac{IBL} hits + B Layer hits & $\geq 1$ \\ 
+					\pt & $> 400 \MeV$ \\% \midrule
+					$\abseta$ & $< 2.5$ \\ %\midrule
+					\# \acs{IBL} hits + B Layer hits & $\geq 1$ \\ 
 					\# shared modules\footnotemark{} & $\leq 1$ \\
 					\# Pixel holes\footnotemark{} & $== 0$ \\
 					\# \ac{SCT} holes & $\leq 1$ \\ \midrule

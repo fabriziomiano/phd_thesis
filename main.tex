@@ -3,6 +3,7 @@
 % Last Edit by Fabrizio Miano, Oct 2017
 %---------------------------------------------------
 \documentclass[a4paper,11pt,oneside]{memoir}
+\usepackage{capt-of}
 \setcounter{tocdepth}{3} % Depth of sections to include in the table of contents - currently up to subsections 
 \setsecnumdepth{subsection}% % Depth of sections to number in the text itself - currently up to subsections
 \captionnamefont{\footnotesize} % Size of caption text
@@ -17,24 +18,25 @@
 \usepackage{physics}
 \usepackage{enumerate}
 \usepackage{epigraph}
-\usepackage[printonlyused]{acronym}
+\usepackage[printonlyused, withpage]{acronym}
 \usepackage{placeins}
 \usepackage[hang]{footmisc}
 \usepackage{tablefootnote}
 \usepackage{multicol} % multicolumn text
 \usepackage{wrapfig} % figures wrapped in text
+\usepackage{lscape}  % for tables in landscape mode
 \usepackage{booktabs} % lines for tables
 \usepackage{lineno} % Line Numbers 
 %---------------------------------------------------
 % OTHER FORMATTING/LAYOUT DECLARATIONS
 %---------------------------------------------------
 \usepackage{titlesec, color, xcolor, calc, blindtext}
-\usepackage{feynmp}
 \usepackage[pdftex]{graphicx}
 \usepackage{amsmath}
 \usepackage{commath}
 \usepackage{amssymb}
 \usepackage{multirow}
+\usepackage{arydshln}
 \usepackage{tikz}
 \usepackage{tikz-3dplot}
 \usepackage{cancel}
@@ -50,9 +52,9 @@
 %---------------------------------------------------
 \bibliographystyle{latex/atlasBibStyleWithTitle}
 %---------------------------------------------------
-%   DOCUMENT VARIABLES
-%   Fill in the lines below to enter your information into the thesis template
-%   Each of the commands can be cited anywhere in the thesis
+% DOCUMENT VARIABLES
+% Fill in the lines below to enter your information into the thesis template
+% Each of the commands can be cited anywhere in the thesis
 %---------------------------------------------------
 \newcommand{\myTitle}{Optimisation studies and data-driven background estimation for searches for the supersymmetric partner of the top quark with the ATLAS Detector at the LHC}
 \newcommand{\mySubtitle}{NO SUBTITLE\xspace}
@@ -77,8 +79,8 @@
 %---------------------------------------------------
 % MARGINS 
 %---------------------------------------------------
-% The left-hand-side should be 40mm.  The top and bottom margins should be
-% 25mm deep.  The right hand margin should be 20mm.
+% The left-hand-side should be 40mm.The top and bottom margins should be
+% 25mm deep.The right hand margin should be 20mm.
 \usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=4cm,right=2cm,headsep=10pt]{geometry}
 
 %---------------------------------------------------
@@ -202,11 +204,11 @@
   \begingroup
     \frontmatter
     \pagenumbering{roman}
-    \include{FrontBackMatter/Titlepage}
-    \include{FrontBackMatter/Dedication} % Dedication page
-    \include{FrontBackMatter/Acknowledgments} % Acknowledgements page
-    \include{FrontBackMatter/Declaration} % Declaration
-    \include{FrontBackMatter/Abstract} % Abstract page
+    % \include{FrontBackMatter/Titlepage}
+    % \include{FrontBackMatter/Dedication} % Dedication page
+    % \include{FrontBackMatter/Acknowledgments} % Acknowledgements page
+    % \include{FrontBackMatter/Declaration} % Declaration
+    % \include{FrontBackMatter/Abstract} % Abstract page
   \endgroup
   %---------------------------------------------------
   % TABLE OF CONTENTS, LISTS OF TABLES & FIGURES
@@ -226,19 +228,19 @@
   %---------------------------------------------------
   \mainmatter
   \pagenumbering{arabic}
-  \input{Chapters/intro}
-  \input{Chapters/theory}
-  \input{Chapters/detector}
-  \input{Chapters/trigger}
-  \input{Chapters/evtobj}
+  % \input{Chapters/intro}
+  % \input{Chapters/theory}
+  % \input{Chapters/detector}
+  % \input{Chapters/trigger}
+  % \input{Chapters/evtobj}
   \input{Chapters/stop}
-  \input{Chapters/conclusion}
+  % \input{Chapters/conclusion}
   
   %---------------------------------------------------
   % APPENDICES
   %---------------------------------------------------
-  \appendix
-      \input{Chapters/appA.tex}
+  % \appendix
+  %     \input{Chapters/appA.tex}
   \backmatter
       \input{FrontBackMatter/Acronyms.tex}
 
@@ -247,9 +249,9 @@
   %---------------------------------------------------
   \clearpage
   \phantomsection
-  %\addcontentsline{toc}{chapter}{Bibliography} % unnecessary with this new template
   \bibliography{Chapters/bibliography}
-  \newpage\input{FrontBackMatter/Colophon}
+  \clearpage
+  \input{FrontBackMatter/Colophon}
 
   %---------------------------------------------------
   % END DOCUMENT

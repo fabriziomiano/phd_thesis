@@ -12,7 +12,7 @@
 	\section{SUSY Signals}
 	\label{sec:susysig}
 
-		As already introduced in Section~\ref{sec:SUSYPheno}, the signals considered in this work are generated using simplified models, meaning that only the \stop, the \ninoone, the \ninotwo, and the \chinoonepm, were the \ac{SUSY} particles considered. In particular, in such considered models, either \ninotwo\ or \chinoonepm\ is assumed to be the \ac{NLSP} and, the chargino-neutralino mass splitting $\Delta m(\chinoonepm, \ninoone)$ is assumed to be $1$ \GeV, in accordance with the naturalness argument. This implies that the \chinoonepm\ will promptly decay to $\Wboson^*\ninoone$ , with the \Wboson\ emitted as a virtual particle. The decay products of the so-created virtual \Wboson\ will therefore be low \pt\ objects which will not be reconstructed by the \ac{ATLAS} detector. 
+		As already introduced in Section~\ref{sec:SUSYPheno}, the signals considered in this work are generated using simplified models, meaning that only the \stop, the \ninoone, the \ninotwo, and the \chinoonepm, were the \ac{SUSY} particles considered. In particular, in such models, either \ninotwo\ or \chinoonepm\ is assumed to be the \ac{NLSP} and, the chargino-neutralino mass splitting $\Delta m(\chinoonepm, \ninoone)$ is assumed to be $1$ \GeV, in accordance with the naturalness argument. This implies that the \chinoonepm\ will promptly decay to $\Wboson^*\ninoone$ , with the \Wboson\ emitted as a virtual particle. The decay products of the so-created virtual \Wboson\ will therefore be low \pt\ objects which will not be reconstructed by the \ac{ATLAS} detector. 
 
 		\subsection{Benchmark processes}
 
@@ -45,7 +45,7 @@
 		\subsection{MC samples}
 
 			A grid of points across the $(\mstopone-\mninoone)$ plane with a $50$-\GeV\ spacing is generated to simulate the above-mentioned simplified models. %The mixing between the partners of the left- and right-handed top quarks is assumed to be maximal, \ie\ ..
-			The signal models were generated using \texttt{MG5\_aMC@NLO 2.2-2.4}~\cite{madgraph} interfaced to \texttt{PYTHIA8}~\cite{pythia8} for the \ac{PS} and hadronisation. \texttt{EvtGen 1.2.0}~\cite{evtGen} was employed for the decays of the  $b$- and $c$-hadrons. The tree-level \ac{ME} calculation includes the emission of up to two additional partons for all signal samples. The \texttt{NNPDF2.3LO} \ac{PDF}~\cite{PDFs} set was used to generate the signal samples with the \texttt{A14}~\cite{CT10} tune for the \ac{UE} and shower parameters. Additionally, the CKKW-L prescription~\cite{CKKW} was used for the \ac{ME}–\ac{PS} matching. 
+			The signal models were generated using \texttt{MG5\_aMC@NLO 2.2-2.4}~\cite{madgraph} interfaced to \texttt{PYTHIA8}~\cite{pythia8} for the \ac{PS} and hadronisation. \texttt{EvtGen 1.2.0}~\cite{evtGen} was employed for the decays of the  $b$- and $c$-hadrons. The tree-level \ac{ME} calculation includes the emission of up to two additional partons for all signal samples. The \texttt{NNPDF2.3LO} \ac{PDF}~\cite{PDFs} set was used to generate the signal samples with the \verb+A14+~\cite{CT10} tune for the \ac{UE} and shower parameters. Additionally, the \ac{CKKW} prescription~\cite{CKKW} was used for the \ac{ME}–\ac{PS} matching. 
 
 			The various signal cross sections were all calculated to next-to-leading order in the strong coupling constant, with the addition of soft-gluon emission re-summation at next-to-leading-logarithm accuracy (NLO+NLL)~\cite{Beenakker:1997ut, Beenakker:2010nq, Beenakker:2011fu}. The sparticle mass spectra for \ac{pMSSM} models were calculated using \texttt{Softsusy 3.7.3}~\cite{Allanach:2001kg, Allanach:2013kza} while the decays of each sparticle were performed by \texttt{HDECAY 3.4}~\cite{hdecay} and \texttt{SDECAY 1.5/1.5a}~\cite{sdecay}. Finally, various \ac{PDF} sets, factorisation, and re-normalisation scales were used to generate an envelope of cross-section predictions, within which a nominal value and uncertainty were chosen. Further details can be found in~\cite{Borschensky:2014cia}.
 
@@ -56,7 +56,8 @@
 		The physics objects, as output of the reconstruction algorithms discussed in Section~\ref{sec:objReco}, are required to pass a first loose selection to be categorised as \emph{baseline} objects. An additional procedure is employed, to remove potentially overlapping objects, \eg\ a lepton is identified as a jet, or a lepton that falls within the same jet cone. The so-called \ac{OR} procedure, whose inputs are two baseline objects, is employed to resolve such ambiguity by discarding on of the two objects by looking at their $\Delta R$ as shown in Table~\ref{tab:OR}. 
 
 		\begin{table}[!htb]\centering\caption{List of the possible ambiguities with relative criteria and decisions.}
-			\begin{tabular}{cccc}
+		\renewcommand{\arraystretch}{1.3}
+			\begin{tabular}{lccc}
 				\toprule 
 				\textbf{Ambiguity} & \textbf{Criterion} & \textbf{Object kept} & \textbf{Object removed}\\
 				\toprule
@@ -96,7 +97,7 @@
 				The \met\ is reconstructed as described in Section~\ref{sec:objReco}. Baseline muons, electrons, and jets after overlap removal are used in the \met\ recalculation. 
 				% The \textit{soft} term in the event, already introduced in Section~\ref{sec:objReco}, that is not associated with any of the selected objects is calculated from inner detector tracks with $\pt > 400$ \MeV\ matched to the \ac{PV} to make it more resilient to pileup contaminations. 
 
-				Additionally, in the analysis carried out during Run-1~\cite{Atlas8TeV} another \met-related quantity was introduced. The track-based \met, derived from the sum of the \pt\ of the tracks associated with the objects in the event was found to have discriminating power to reject fake \met. The \ptmisstrk, whose magnitude is \mettrk, from the tracking system is computed using the vector sum of the reconstructed inner detector tracks, $\ptmisstrk = \sum_i^{\mathrm{tracks}} \pt^i$, with $\pT > 500$ \MeV\ and $\abseta < 2.5$, that are associated with the \ac{PV} in the event. 
+				Additionally, in the analysis carried out during Run-1~\cite{stop0LRun1} another \met-related quantity was introduced. The track-based \met, derived from the sum of the \pt\ of the tracks associated with the objects in the event was found to have discriminating power to reject fake \met. The \ptmisstrk, whose magnitude is \mettrk, from the tracking system is computed using the vector sum of the reconstructed inner detector tracks, $\ptmisstrk = \sum_i^{\mathrm{tracks}} \pt^i$, with $\pT > 500$ \MeV\ and $\abseta < 2.5$, that are associated with the \ac{PV} in the event. 
  		\end{description}
 
 		Ultimately, leptons are also required to satisfy \pt-dependent track- and calorimeter-based isolation criteria. The calorimeter-based isolation is determined by taking the ratio of the sum of energy deposits in a cone of $R = 0.2$ around the electron or muon candidate and the energy deposits associated with the electron and muon. The track-based isolation is estimated in a similar way but using a variable cone size with a maximum value of $R = 0.2$ for electrons and $R = 0.3$ for muons. An isolation requirement is made that is $95\%$ efficient for electron or muon candidates with $\pt = 25$ \GeV\ and $99\%$ for candidates with $\pt = 60$ \GeV.
@@ -139,15 +140,15 @@
 			
 			\item [Single top production:] the production of one single top is also possible at the LHC. The different decays are usually referred to as $s$-channel, $t$-channel, and $\Wboson\ t$ channel, the last one being the most relevant for this analysis since it yields a \Wboson; 
 
-			\item [$\mathbf{\Zboson}$ boson production in association with jets:] the production of a \Zboson\ boson in association with jets is one of the main backgrounds in a $0$-lepton plus \met\ final states, as well as a $2$-lepton channel. The $\Zboson \to \nu \nu$ decay, with a \ac{BR} $\sim 20\%$, and the $\Zboson \to \ell \ell$ decay\footnote{$\ell = e,\mu,\tau$}, with total \ac{BR} $\sim 10\%$. Although the hadronic decay of the \Zboson\ boson, $\Zboson \to qq$, has the largest \ac{BR} ($\sim 70\%$), it is not relevant for third-generation \ac{SUSY} searches, as the multi-jet background is still the dominant one. The \Zjets\ \ac{MC} samples are generated categorising\footnote{Using the information at truth level} the events depending on the flavours of the hadrons produced in association with the \Zboson\ boson:
+			\item [$\mathbf{\Zboson}$ boson production in association with jets:] the production of a \Zboson\ boson in association with jets is a major backgrounds in both $0$-lepton plus \met\ and $2$-lepton final states because of the $\Zboson \to \nu \nu$ and the $\Zboson \to \ell \ell$ decays\footnote{$\ell = e,\mu,\tau$}, with a \ac{BR} of $\sim 20\%$ and $\sim 10\%$, respectively. On the other hand, although the hadronic decay of the \Zboson\ boson ($\Zboson \to qq$) has the largest \ac{BR} ($\sim 70\%$), it is not relevant for third-generation \ac{SUSY} searches, as the multi-jet background dominates. The \Zjets\ \ac{MC} samples are generated categorising\footnote{Using the information at truth level} the events depending on the flavours of the hadrons produced in association with the \Zboson\ boson:
 			\begin{itemize}
 				\item $b$-filtered: containing at least one $b$-hadron;
 				\item $c$-filtered: containing at least one $c$-hadron (no $b$-hadrons);
-				\item light-filtered: no $b$- or $c$-hadrons included 
+				\item light-filtered: no $b$- or $c$-hadrons included;
 			\end{itemize} 
-			In this analysis the major contribution to such background comes from the $b$-filtered sub-sample as the selected events contain \bjs.
+			In this analysis the major contribution to such background comes from the $b$-filtered sub-sample as the selected events contain \bjs;
 
-			\item [$\mathbf{\Wboson}$ boson production in association with jets:] the production of \Wboson bosons in association with jets is a relevant background in $1$-lepton final states, due to the $\Wboson \to \ell\nu$ decay which has a \ac{BR} of $\sim 32\%.$ The dominant hadronic decay of the \Wboson, $\Wboson \to qq'$, produces a multi-jet final state which, again, is irrelevant for this analysis. As the \Zjets \ac{MC} samples, even the \Wjets events are equally categorised depending on the flavour of the hadrons produced in association with the \Wboson boson;
+			\item [$\mathbf{\Wboson}$ boson production in association with jets:] the production of \Wboson bosons in association with jets is a relevant background in $1$-lepton final states, due to the $\Wboson \to \ell\nu$ decay which has a \ac{BR} of $\sim 32\%.$ The dominant hadronic decay of the \Wboson, $\Wboson \to qq'$, produces a multi-jet final state which, again, is irrelevant for this analysis. The \Wjets\ samples are equally categorised depending on the flavour of the hadrons produced in association with the \Wboson boson;
 
 			\item [Di-bosons production:] albeit the production of pairs of bosons, \Wboson\Wboson, \Wboson\Zboson, and \Zboson\Zboson, can also be a source of background in channels with leptons or jets, depending on the decay mode of each boson;
 
@@ -156,112 +157,798 @@
 			\item [Multi-jet:] the multi-jet production is the process with the highest cross section among the ones mentioned so far, and even though such events do not contain neither leptons nor \met\ they could resemble the signal due to either isolated but mis-reconstructed leptons or large measured \met\ due to detector resolution. Despite the low probability of such occurrence, the high rate of such background might generate a non-negligible contribution in a certain channel;
 		\end{description}
 
-		For most of the listed backgrounds, a set of additional sub-samples is generated in order to estimate the theoretical uncertainties associated with the generation of the process. The variations of, re-normalisation, factorisation, CKKW matching scales, different PDF sets or hadronisation models, are included.
+		\noindent For most of the listed backgrounds, a set of additional sub-samples is generated in order to estimate the theoretical uncertainties associated with the generation of the process. The variations of, re-normalisation, factorisation, \ac{CKKW} matching scales, different \ac{PDF} sets or hadronisation models, are included.
+
+		\subsection{MC samples}
+
+			\ac{SM} background samples are generated using different \ac{MC} event generators: the production of \Zjets\ and \Wjets\ events are generated with \textsc{Sherpa}~\cite{Sherpa} using the \verb+NNPDF3.0NNLO+~\cite{PDFs} \ac{PDF} set and the \ac{UE} tune provided by \textsc{Sherpa} itself~\cite{Sherpa}l; \ttbar\ and single-top production are simulated with \textsc{Powheg-Box}~2~\cite{powheg-box} and interfaced to \textsc{Pythia}~\cite{Pythia2006} for \ac{PS} and hadronisation, with the \verb+CT10+~\cite{CT10} \ac{PDF} set. {\scshape MG5\_aMC\/@NLO} interfaced to \textsc{Pythia} for \ac{PS} and hadronisation is used to generate the \ttbar+$V$ and \ttbar+$\gamma$ samples at \ac{NLO} with the \verb+NNPDF3.0NLO+ \ac{PDF} set. The underlying-event tune used is \verb+A14+ with the \verb+NNPDF2.3LO+ \ac{PDF} set. For the estimation of \ttZ\ via $\ttgamma$, $\Wboson/\Zboson+\gamma$ processes are generated with \textsc{Sherpa}~\cite{Sherpa} using the \verb+CT10+ \ac{PDF} set, and finally, the same procedure is used for the generation of di-boson production events.
 
 
-
-
-
-
-	
-	\section{Signal Region optimisation}
+	\section{Signal Regions optimisation}
 	\label{sec:SRs}
 
-		The experimental signature for all signal topologies described in Section~\ref{sec:susysig} is essentially characterised by the presence of multiple jets, two of which are required to have passed the $b$-tagging selection, a significant missing transverse energy, and no leptons (electrons or muons).  
+		The experimental signature for all signal topologies described in Section~\ref{sec:susysig} is essentially characterised by the presence of multiple jets, two of which are required to have passed the $b$-tagging selection, a significant amount of missing transverse momentum, and no leptons (electrons or muons).
 
-		An initial overview of the five different sets of \acp{SR}, \SRA\ (SRA) to \SRE\ (SRE) employed to target each topology and kinematic regime will be given below: 
+		An initial overview of the five different sets of \acp{SR}, \SRA\ (SRA) to \SRE\ (SRE), employed to target each topology and kinematic regime, is given below: 
 		
 		\begin{description}
 			\item [SRA] is sensitive to the production of high-mass \stop\ pairs with a large \stop--\ninoone\ mass splitting \dmstopnino. It is optimised for $(\mstopone, \mninoone) = (1000,1)$ \GeV\ signal point;
+			
 			\item [SRB] targets decays involving top squarks with high stop mass but with smaller \dmstopnino. It is optimised for $(\mstopone, \mninoone) = (700, 400)$ \GeV, and $(\mstopone, \mninoone) = (600, 300)$ \GeV\ signal points;
+			
 			\item [SRC] is designed for the so-called highly compressed region where, $\dmstopnino \sim m_t$ and it employs an \ac{ISR} to improve sensitivity to such decays. It targets various signal points \eg\ $(\mstopone, \mninoone) = (500, 327)$, and $(\mstopone, \mninoone) = (300, 127)$ \GeV; 
+			
 			\item [SRD] targets the $\stopone \to b \chinoonepm$ decay, with $\mchinoonepm = 2\mninoone$, where no top-quark candidates are reconstructed. It is optimised for $(\mstopone, \mninoone) = (400,50)$ \GeV\ and $(\mstopone, \mninoone) = (700,100)$ \GeV; 
+			
 			\item [SRE] is sensitive to highly boosted scenarios that can occur in gluino-mediated stop production and it is optimised for $(\mgluino, \mstopone, \mninoone) = (1700, 400, 395)$ \GeV\ signal point;
 		\end{description}
 
 		\subsection{Preliminary selection and discriminating key variables}
 		\label{sec:vars_used}
 
-			A \emph{pre-selection}, essentially a basic selection of candidate events common to all the \acp{SR}, is performed by applying trigger and event-cleaning cuts together with the requirement of a relevant set of physics objects according to the targeted experimental signature. A summary of the pre-selection cuts is shown in Table~\ref{tab:SRcommon}, where three groups of cuts are listed: a \met\ cut of $250$ \GeV\ is applied, to stay in a region where the trigger is fully efficient, as already mentioned in Section~\ref{sec:evtsel}; a lepton veto is required, together with a cut on the number of jets (at least four, ordered in $\pt > 80,\,80,\,40,\,40$ \GeV), at least one of which must be b-tagged, as signal events tend to have more energetic jets than the background; finally, an angular separation between the azimuthal angle of the two highest-\pt\ jets and the \ptmiss\ is required to reject events with mis-measured \met\ originating from \ac{SM}-background decays. In addition, in order to further reject these events, a requirement on \ptmisstrk\ to be aligned in $\phi$ with respect to the \ptmiss\ calculated from the calorimeter system, is employed. 
+			A \emph{pre-selection}, essentially a basic selection of candidate events common to all the \acp{SR}, is performed by applying trigger and event-cleaning cuts together with the requirement of a relevant set of physics objects according to the targeted experimental signature. The physics objects, reconstructed as discussed in Section~\ref{sec:objReco}, are used to build the various variables used to discriminate the \ac{SUSY} signal from the \ac{SM} background. The event selection is based on such variables some of which will be described below:
+
+			\begin{description}
+				\item[\boldmath $\HT$:] the scalar sum of the \pt\ of all signal \antikt\ R$R=0.4$ jets;
+
+				\item[$\dphijettwomet$:] the difference in $\phi$ between the two leading jets (ordered in \pt) and \ptmiss. This variable provides a good rejection of events containing fake \met\ originating from \ac{QCD}, hadronic \ttbar, and detector resolution effects;
+
+				\item[\boldmath $\mtjetimet$:] the transverse mass (\mt) between the $i^{\mathrm{th}}$ jet and the \met\ in the event\\
+					% A massless approximation is used for this and all following \mt\ variables:\\
+				\begin{center}
+					$\mtjetimet = \sqrt{2\ptjeti\met\left[1-\cos{\Delta\phi\left(\mathrm{\mathbf{\ptjeti}},\ptmiss\right)}\right]}$,
+				\end{center}
+				where $\ptjeti$ is the transverse momentum of the $i^{\mathrm{th}}$ jet;
+
+				\item[\boldmath $\mtbmin$:] transverse mass between closest $b$-jet to $\met$ and $\met$. This variable provides very good discrimination between signal and semi-leptonic \ttbar\ background;
+
+				\item[\boldmath $\mtbmax$:] transverse mass between farthest $b$-jet to $\met$ and $\met$. This variable provides very good discrimination between signal and semi-leptonic \ttbar\ background;
+												
+				\item[\boldmath $\drbb$:] the angular separation between the two jets with the highest MV2c10 weight. This variable provides additional discrimination against background where the two jets with highest b-tagging weights originate from a gluon splitting
+			\end{description}
+
+			A summary of the pre-selection cuts is shown in Table~\ref{tab:SRcommon}, where three groups of cuts are listed: the first, a \met\ cut of $250$ \GeV, to stay in a region where the trigger is fully efficient, as already mentioned in Section~\ref{sec:evtsel}; the second, a lepton veto\footnote{The event must contain exactly $0$ baseline electron candidates and $0$ baseline muon candidates}, together with a cut on the number of jets (at least four, ordered in $\pt > 80,\,80,\,40,\,40$ \GeV), at least one of which must be b-tagged, as signal events tend to have more energetic jets than the background, to select hadronic \ttbar\ events; the third, an angular separation between the azimuthal angle of the two highest-\pt\ jets and the \ptmiss, to reject events with mis-measured \met\ originating from \ac{SM}-background decays. In addition, in order to further reject these events, a requirement on \ptmisstrk\ to be aligned in $\phi$ with respect to the \ptmiss\ calculated from the calorimeter system, is employed. 
 			%multi-jet and hadronic \ttbar\ decays.
 
 			\begin{table}[htbp]
-			\caption{Selection criteria common to all signal regions in addition to the event cleaning.}
+			\caption{Selection criteria common to all \acp{SR} in addition to the event cleaning.}
 				\begin{center}
+				\renewcommand{\arraystretch}{1.4}
 				    \begin{tabular}{lc} 
 				    	\toprule
 				    	\textbf{Object} & \textbf{Selection} \\
 				    	\toprule
 				    	Trigger & \met \\ 
-					    $\met$ & $> 250\GeV$ \\ 
-					    & \\ [-2.5ex] \midrule
-					    $N_{\mathrm{lep}}$ & $== 0$ \\ 
-					    \antikt\ $R=0.4$ jets & $\ge 4,~\pt>80,80,40,40 \gev$ \\ 
-					    $b$-tagged jets & $\ge1$ \\ \midrule
-					    $\dphijettwomet$ & $> 0.4$ \\ 
-					    & \\ [-2.5ex] 
-					    $\mettrk$  & $> 30 \gev$ \\  
-					    & \\ [-2.5ex] 
-					    $\dphimettrk$ & $<\pi/3$ \\
-					    \bottomrule
+					   % & \\ [-2ex] 
+					   $\met$ & $> 250\GeV$ \\ 
+					   %& \\ [-.5ex] 
+					   \midrule
+					   $N_{\mathrm{lep}}$ & $0$ \\ 
+					   \antikt\ $R=0.4$ jets & $\ge 4,~\pt>80,80,40,40 \gev$ \\ 
+					   $b$-tagged jets & $\ge1$ \\ \midrule
+					   $\dphijettwomet$ & $> 0.4$ \\ 
+					   % & \\ [-2ex] 
+					   $\mettrk$  & $> 30 \gev$ \\  
+					   % & \\ [-2ex] 
+					   $\dphimettrk$ & $<\pi/3$ \\
+					   \bottomrule
 				    \end{tabular}
 					\end{center}
 			\label{tab:SRcommon}
 			\end{table}
 
-			\begin{wrapfigure}{R}{.5\textwidth}
-				\centering\includegraphics[width=.5\textwidth]{stop/piechart_presel}
-				\caption{Pie chart of the background composition after the pre-selection selections described in Table~\ref{tab:SRcommon}}
-				\label{fig:piechart_presel}
-			\end{wrapfigure}
+			% \begin{wrapfigure}{R}{.6\textwidth}
+			% 	\centering\includegraphics[width=.6\textwidth]{stop/piechart_presel}
+			% 	\caption{Pie chart of the background composition after the pre-selection selections described in Table~\ref{tab:SRcommon}}
+			% 	\label{fig:piechart_presel}
+			% \end{wrapfigure}
 
-			Figure~\ref{fig:piechart_presel} displays a pie chart of the \ac{SM} background composition, after having applied all the cuts listed in Table~\ref{tab:SRcommon}. The main background is \ttbar\ production, as a result of the requirement on the number of jets and at least $1$ \bj. The \ttbar\ \ac{MC} sample used here is an inclusive sample\footnote{The sample takes into account all the possible \ttbar\ decays: fully hadronic, semi-leptonic and di-leptonic}.% the semi-leptonic and the di-leptonic \ttbar\ decay would be negligible as a lepton veto is applied.
+			% Figure~\ref{fig:piechart_presel} displays a pie chart of the \ac{SM} background composition, after having applied all the cuts listed in Table~\ref{tab:SRcommon}. The main background is all-hadronic \ttbar\ production, as a result of the requirement on the number of jets and at least $1$ \bj. The \ttbar\ \ac{MC} sample used here is an inclusive sample\footnote{The sample takes into account all the possible \ttbar\ decays: fully hadronic, semi-leptonic and di-leptonic}.
+			% % the semi-leptonic and the di-leptonic \ttbar\ decay would be negligible as a lepton veto is applied.
 
-			The physics objects, reconstructed as discussed in Section~\ref{sec:objReco}, are used to build the various variables used to discriminate the \ac{SUSY} signal from the \ac{SM} background. The event selection is based on such variables which will be described below:
-
-			\begin{description}
-				% \item[\boldmath $\htsig$:] An alternate definition of \MET\ significance, where the \sumet\ is replaced by \HT.
-				% \item[\boldmath $\meff$:] The effective mass, defined as $\meff = \HT + \met$.
-				\item[\boldmath $\mtjetimet$:] The transverse mass (\mt) between the $i^{\mathrm{th}}$ jet and the \met\ in the event. %A massless approximation is used for this and all following \mt\ variables:\newline $\mtjetimet = \sqrt{2\ptjeti\met\left(1-\cos{\Delta\phi\left(\mathrm{jet}^i,\met\right)}\right)}$, where $\ptjeti$ is the transverse momentum of the $i^{\mathrm{th}}$ jet.
-				\item[\boldmath $\mtbmin$:] Transverse mass between closest $b$-jet to $\met$ and $\met$. This variable provides very good discrimination between signal and semileptonic \ttbar\ background.
-				\item[\boldmath $\mtbmax$:] Transverse mass between farthest $b$-jet to $\met$ and $\met$. This variable provides very good discrimination between signal and semileptonic \ttbar\ background.
-				% \item[\boldmath $\mtuntagmetmindphi$:] Transverse mass between closest non-$b$-jet to $\met$ and $\met$. This variable provides  discrimination between signal and EW backgrounds.
-				% \item[\boldmath $\mtlowestptmet$:] Transverse mass between the lowest \pt\ \antikt\ $R=0.4$ jets and $\met$. This variable provides extra discrimination between signal and EW backgrounds.
-				% \item[\boldmath $\dphibb$:] The azimuthal angle between the two leading $b$-tagged jets in the event. This variable is useful in discriminating against the $Z(\nu\overline\nu)+b\overline{b}+\rm{jets}$ background.
-				\item[\boldmath $\drbb$:] The angular separation between the two jets with the highest MV2c10 weight. This variable is useful in discriminating against the $Z(\nu\overline\nu)+b\overline{b}+\mathrm{jets}$ background.
-				% \item[\boldmath $m\left(b,b\right)$:] The invariant mass of the two leading $b$-tagged jets in the event. This variable is useful in discriminating against the $Z(\nu\overline\nu)+b\overline{b}+\rm{jets}$ background.
-				% \item[\boldmath $\Delta R\left(\bbbar,\textrm{jet}\right)$:] The angular separation between the two leading $b$-tagged jets in the event (presumably from gluon splitting to $\bbbar$ in $Z(\nu\overline\nu)+b\overline{b}+\rm{jets}$) and the closest non $b$-tagged jet.
-				% \item[\boldmath $\Delta R\left(\bbbar,\textrm{jet}\right)/\HT$:] The same variable as above, normalized by the \HT.				
-			\end{description}
 
 
 			\paragraph*{Top quark mass reconstruction}
 
 				In addition to the above-mentioned variables, another set of variables is needed in \acp{SR} targeting the pair production of $\stopone \to t + \ninoone$: the reconstruction of two hadronically decaying top quarks in the event using the jet \emph{re-clustering} algorithm, performed using the \antikt\ algorithm (with a larger distance parameter $R = 1.2$), fed with the calibrated \antikt\ $R = 0.4 $jet collection (further details can be found in~\cite{Antikt2008}). The highest- (second-highest) \pt\ re-clustered jet is chosen to be the first (second) top candidate. The best signal sensitivity is reached by using $R = 1.2$ and $R = 0.8$, for top and \Wboson\ candidates, respectively~\cite{stop0L,ICHEPstop0L}. The variables used are the masses of the $R=1.2$ and $R=0.8$ leading and sub-leading jets, indicated by \mantikttwelvezero, \mantikttwelveone, \mantikteightzero, \mantikteightone, respectively. Such variables help reduce the \ac{SM} backgrounds. %from QCD, \Wjets, \Zjets, and lepton + jets \ttbar\ backgrounds,
+				The $\met$ value provides the highest discriminating power against \ac{SM} \ttbar\ production, as it results from the undetected $\ninoone$ neutralinos in the signal. In order to further reject $\ttbar$ events in which one $\Wboson$ boson decays via a charged lepton plus a neutrino two additional requirements are employed. The first is on the transverse mass (\mt) calculated from the \met\ and the $b$-tagged jet closest in $\phi$ to the $\ptmiss$ direction: 
+
+				\begin{equation*}
+					\mtbmin\ = \sqrt{2\,\ptb\,\met \left[1-\cos{\Delta\phi\left(\vecptb,\ptmiss\right)}\right]} > 200\,\GeV,
+				\end{equation*}
+
+				\noindent which ideally\footnote{without considering of resolution effects} has en end-point at the top mass value for the \ttbar\ background, as it can be seen in Figure~\ref{fig:preselection}(b).
+				\begin{figure}[!htb]
+				  \begin{center}
+					  \subbottom[]{\includegraphics[width=0.48\textwidth]{figures/stop/preselection/AntiKt12M0_preCutSRPlot_withRatio}}
+					  \subbottom[]{\includegraphics[width=0.48\textwidth]{figures/stop/preselection/MtBMin_preCutSRPlot_withRatio}}
+					  \caption{Distributions of the discriminating variables discussed in the text: (a)~\mantikttwelvezero\ and (b)~\mtbmin\ after the pre-selection and an additional $\mtbmin>50\gev$ requirement. The Data/\ac{SM} plots display the ratio of data events to the total \ac{SM} prediction. The band around the \ac{SM} prediction and in the ratio plots illustrates the combination of both statistical and detector-related systematic uncertainties~\cite{stop0L}.}
+					  \label{fig:preselection}
+				  \end{center}
+				\end{figure}
+
+			\paragraph{$\mathbf{\tau}$ veto}
+
+				An additional requirement is applied to reject those events with semi hadronically decaying $\tau$-lepton candidates that are likely to have been yielded from a $\Wboson\to\tau\nu$ decay. In particular, events are rejected when they contain a non-$b$-tagged jet, within $\abseta < 2.5$, with fewer than $4$ tracks associated with it ($\pt > 500$ \MeV), and when the angular difference, in $\phi$, between the jet and \ptmiss\ is less than $\pi/5$. The systematic uncertainties associated to the $\tau$ veto were studied in a paper - to which the author did not contribute -, produced during a previous version of the analysis carried out during Run-1, and were found to be negligible~\cite{stop0LRun1}.
+
+
 
 		\subsection{Optimisation strategy}
 
-		% A crucial step of the cut and count analyses is the optimisation of Signal Regions (SRs) which aim at enhancing the signal yield with respect to the dominant background sources. 
-		% Once the events with signal-like properties are identi ed, additional selections are ap- plied to suppress the leftover background whilst retaining the largest possible fraction of signal. This is done using dedicated sets of discriminating variables with di erent dis- tributions in signal and background, that are strongly analysis-dependent and are hence not discussed in the present chapter.
+			The optimisation of \acp{SR} is a fundamental part of every cut-and-count analysis. The goal is to find the best combination of cuts to remove as many background events as possible while retaining the largest possible fraction of signal events. A set of dedicated discriminating variables is therefore employed in each \ac{SR}.
 
-		% The optimisation of SR selections is performed by maximising the value of a  gure of merit (FOM) that represents the discovery signi cance of the signal model of interest (see Section 5.4.2). A variety of de nitions of the signi cance are possible [178], and the analyses in this thesis employ the ZN formula [179], which is implemented in the RooSt- ats package [180] of ROOT [181]. Alternatively, the following simpli ed expression can be used:
-		% Nsig
-		% Z =  Nbkg + (σbkgNbkg)2 (5.11)
-		% where Nsig and Nbkg are the signal and background yields, and σbkg is the an assump- tion on the relative systematic uncertainty on the background. Equation 5.11 is useful to understand intuitively the essential properties of the signi cance, that can be expressed as the ratio of the signal yield in the SR and the total uncertainty on the background, de-  ned as the sum in quadrature of the Poisson error  Nbkg and the expected systematic uncertainty σbkgNbkg.
-		% Together with maximising the discovery signi cance, the SR selections must also be chosen depending on the speci c requirements of each search. For example, a given de nition may be preferable because it allows a more robust background estimation, or because it is optimal for a larger number of signal models, or again because it can be combined with other existing channels of the analysis. A tradeo  between these argu- ments and a large value of the signi cance is generally used to converge towards the  nal SR de nition.
+			In order to represent the discovery significance of the signal model targeted, a \ac{FoM} is employed. In counting experiments the significance gives an estimate of the probability that an observed event count in a signal region, could have been produced by the sole fluctuations of the backgrounds in that region. In particular the optimisation of the cuts, of which each \ac{SR} selection is comprised of, is performed by maximising the value of the so-called \Zn\ formula~\cite{Zn}, even though alternative significance definitions can be found on the market~\cite{sigHEP}. The \Zn\ formula, implemented in the \verb+RooStats+~\cite{2010acat.confE..57M} package within the \verb+ROOT+ framework~\cite{Brun:1997pa}, is widely employed in various \ac{SUSY} searches, and it can be written in a simplistic way as it follows: 
+
+			\begin{equation}
+				\Zn = \frac{N_\mathrm{sig}}{\sqrt{ N_\mathrm{bkg} + (N_\mathrm{bkg}\sigma_\mathrm{bkg})^2}}
+				\label{eq:Zn_forumla}
+			\end{equation} 
+
+			\noindent Here, $N_\mathrm{sig}$, $N_\mathrm{bkg}$, and $\sigma_\mathrm{bkg}$ are the signal yields, background yields, and the relative systematic uncertainty on the background, whose value is generally assumed - in a conservative way - a priori. Equation~\ref{eq:Zn_forumla} essentially gives a general idea of what the discovery significance would be, given a certain number of events in a \ac{SR}, the Poisson error on the background $\sqrt{N_{\mathrm{bkg}}}$ and the systematic uncertainty $\sigma_{\mathrm{bkg}N_{\mathrm{bkg}}}$ on the background. Furthermore, there are additional criteria, such as the compatibility with more signal models or a more solid background estimation, that must be followed when \emph{freezing}\footnote{Once all the possible combinations have been investigated and a selection has been agreed upon, the \acp{SR} cuts are fixed in order to move onto performing extensive background studies} a \ac{SR}. The various \ac{SR} selections will then be defined taking into account the above-mentioned criteria combined with the highest value of \Zn. 
+
+			A so-called \emph{blinding} procedure is employed to avoid any potential biases that may affect the analysers during the optimisation of the \acp{SR}. In particular, the number of events - in the collected data - that fall into a signal-enriched region is hidden until the modelling of the backgrounds falling into a \ac{SR} has been solidly tested.%\footnote{A procedure employed in many analyses in various disciplines: the number of collected-data events that fall into a signal-enriched region is hidden}
+			
+			
+
+
+			\subsubsection*{Signal Regions A and B}
+
+				As already anticipated, SRA and SRB are optimised to target $\stopone \to t + \ninoone$ decays, where the stop-neutralino mass splitting is above the top-quark mass. The fully hadronic $\ttbar$ decay yields six distinct jets and typically they can be reconstructed as six $R=0.4$ \antikt\ jets whose transverse shape is circular with a radius equal to the \antikt\ $R$ parameter. Unfortunately though when the two top quarks are produced with enough boost, precisely when their mutual distance is smaller than $2R$\footnote{in the $\eta$--$\phi$ space}, the top-quark daughter-jet one-to-one correspondence might no longer be true. For this reason the two top candidates are reconstructed by feeding the \antikt\ clustering algorithm~\cite{Antikt2008} with $R=0.4$ jets, using re-clustered radius parameters of $R=0.8$ and $R=1.2$. Two $R=1.2$ re-clustered jets are required and the distribution of the leading $R=1.2$ re-clustered jet mass, for the main backgrounds and the signal, is shown in Figure~\ref{fig:preselection}(a).
+
+				\begin{figure}[!htb]
+				  \begin{center}
+				   \includegraphics[width=0.7\textwidth]{figures/stop/SRA/CategoryDefs}
+				   \caption{2D distribution of \mantikttwelvezero\ and \mantikttwelveone\ top candidate masses to illustrate the signal-region categories (TT, TW, and T0) in simulated direct stop-pair production samples with $(m_{\stop},m_{\ninoone})=(1000,1) \GeV$ after the pre-selection requirement. The black lines represent the requirements on the re-clustered jet masses~\cite{stop0L}.}
+				   \label{fig:categories}
+				  \end{center}
+				\end{figure}
+
+				The main discriminating variables are the re-clustered top masses, with $R = 1.2$ and $R = 0.8$, \mtbmin, \drbb, and \met. Events are grouped into three categories, as shown in Figure~\ref{fig:categories}. The definition of each category is based on the number reconstructed top candidate, as it follows: 
+				
+				\begin{description}
+					\item[TT] includes events with two reconstructed top candidates, namely with masses $\mantikttwelvezero>120\gev$ and $\mantikttwelveone>120\gev$;
+					\item[TW] contains events with one reconstructed leading-\pt\ top candidate and one reconstructed sub-leading \Wboson\ candidate from the sub-leading $R = 1.2$ re-clustered mass \ie\ $\mantikttwelvezero>120\gev$ and $60<\mantikttwelveone<120\gev$;
+					\item[T0] represents events with only a leading top candidate, \ie\ where $\mantikttwelvezero>120\gev$ and $\mantikttwelveone<60\gev$;
+				\end{description}
+
+				\noindent For the benchmark point $(\mstopone, \mninoone) = (1000,1)$ \GeV, after the pre-selection requirements, almost the totality of the events ($\sim 91\%$) fall into the three categories: TT=$38\%$, TW=$22\%$, and T0=$31\%$. Additionally, a  dedicated optimisation on each of such categories, due to differences in kinematics, is performed resulting in the three \acp{SR}, SRA-TT, SRA-TW, SRA-T0, defined in Table~\ref{tab:SRAB}. %Such categories are individually optimised as the signal-over-background ratio varies with them. 
+				
+				\begin{table}[htb]
+				\caption{Selection criteria for SRA and SRB, in addition to the cuts listed in Table~\ref{tab:SRcommon}. SRA and SRB are separated into topological categories based on the number of reconstructed top quarks.}
+					\begin{center}
+					\renewcommand{\arraystretch}{1.5}
+						\begin{tabular}{clccc} \toprule
+							{\multirow{2}{*}{\textbf{Signal Region}}}& 			& \multicolumn{3}{c}{\textbf{top Categories}} \\ 
+																					&        & {\textbf{TT}}    & {\textbf{TW}}     & {\textbf{T0}}     \\ \toprule%\cline{3-5}%\toprule
+							\multirow{4}{*}{{\textbf{A}}} & \mantikteightzero  & \multicolumn{3}{c}{$>60\gev$}        \\ \cline{2-5}
+																	& \drbjetbjet        & $>1$        & \multicolumn{2}{c}{-}       \\ \cline{2-5}
+																	& \mttwo             & $>400$ \gev  & $>400$ \gev   & $>500$ \gev   \\ \cline{2-5}
+																	& \met               & $>400 \gev$ & $> 500 \gev$ & $> 550 \gev$ \\ \midrule
+							\multirow{2}{*}{{\textbf{B}}} & \mtbmax            & \multicolumn{3}{c}{$>200\gev$}       \\ \cline{2-5}
+																	& \drbjetbjet        & \multicolumn{3}{c}{$>1.2$}                \\\midrule
+							\multirow{6}{*}{{\textbf{A and B}}} & \mantikttwelvezero & \multicolumn{3}{c}{$>120\gev$}            \\ \cline{2-5}
+																	& \mantikttwelveone  & $>120\gev$  & $[60,120]\gev$ & $<60\gev$  \\ \cline{2-5}
+																	& \mtbmin            & \multicolumn{3}{c}{$>200\gev$}            \\ \cline{2-5}
+																	& \nBJet    & \multicolumn{3}{c}{$\ge2$}                				\\ \cline{2-5}
+																	& $\tau$-veto        & \multicolumn{3}{c}{yes}                   \\ \cline{2-5} 
+																	& \dphijetthreemet   & \multicolumn{3}{c}{$>0.4$}                \\ 
+																	\bottomrule
+						\end{tabular}
+					\end{center}
+				\label{tab:SRAB}
+				\end{table}
+
+				An additional requirement in SRA is on the stransverse mass (\mttwo), especially powerful in the T0 category, as it assumes high values for signals with high top squark and low neutralino masses. \mttwo\ is particularly useful to reconstruct top candidate with lower momenta where the re-clustering was not optimal. In particular, \mttwo\ is built using direction and magnitude of the \ptmiss\ in the transverse plan and the direction of two top-quark candidates reconstructed using a $\chi^2$ method. The minimisation is done in terms of a so-called $\chi^2$-like penalty function $$\chi^2 = \left(m_{\mathrm{cand}} - m_{\mathrm{true}}\right)^2 / m_{\mathrm{true}},$$ \noindent where $m_{\mathrm{cand}}$ is the candidate mass and $m_{\mathrm{true}}$ is set to $80.4$ \GeV\ and $173.2$ \GeV\ for \Wboson\ candidates and top candidates, respectively. First, \Wboson\ boson candidates are formed by using single or pairs of \antikt\ $R = 0.4$ jets, and then combined with additional \bjs\ in the event to construct the top candidates. These, selected by the $\chi^2$ method, are only used for the momenta in \mttwo. The mass hypotheses are set to $173.2$ \gev\ and $0$ \gev\ for the top quarks and the invisible particles, respectively.	Further details on \mttwo\ can be found at~\cite{Barr:2003rg, LESTER199999}. Finally, in order to maximise the sensitivity to the signal, the top categories are then statistically combined - a logic \verb+OR+ of the three of them is taken - within SRA and SRB.
+
+				Figure~\ref{fig:SRA_bkgcomp} shows the background composition in each of the SRA categories. The main backgrounds are \Zjets\ and \ttV, followed by \ttbar, \Wjets, and single top production. As it will be shown in Section~\ref{sec:bkgest}, dedicated \acp{CR} are used for the TT, TW, and T0 categories, in the regions where enough statistic is present. In particular, for the \Zjets\ background a set of three $2$-lepton \ac{CR} is used, while to control the \ttbar\ and \Wjets\ backgrounds two orthogonal sets of $1$-lepton control regions are used. As the $\ttZ \left ( \to \nu\nu\right)$ is an irreducible background, \ie\ it utterly resembles the signal searched for, its normalisation is instead obtained by using a $1$-lepton-$1$-photon \ttgamma\ \ac{CR}, as it will be shown in~\ref{sec:ddbkgest}.
+
+				\begin{figure}[t]
+				  \begin{center}
+				   \includegraphics[width=\textwidth]{figures/stop/piechart_SRAcomp}
+				   \caption{Background composition in \SRA.}
+				   \label{fig:SRA_bkgcomp}
+				  \end{center}
+				\end{figure}
+
+				For the optimisation of SRB, a similar strategy was adopted. In addition to the \met\ and the re-clustered jet masses, the discriminating variables \mtbmin, \mtbmax, and \drbb\ are employed for the optimisation. After the pre-selection requirement, tightened up by the addition of the requirements of at least two \bjs, $\mtbmin > 200$ \gev, and the tau veto, the fraction of events that fall into the top categories is: TT=$14\%$, TW=20$\%$, TT0=$35\%$. The optimal cuts for SRB are also listed in Table~\ref{tab:SRAB}. 
+
+				\begin{figure}[t]
+				  \begin{center}
+				   \includegraphics[width=\textwidth]{figures/stop/piechart_SRBcomp}
+				   \caption{Background composition in \SRB.}
+				   \label{fig:SRB_bkgcomp}
+				  \end{center}
+				\end{figure}
+
+				Similarly to SRA, Figure~\ref{fig:SRB_bkgcomp} shows the background composition in each of the SRB categories. The dominant backgrounds in SRB are \Zjets\ and \ttbar, with about equal contributions. As already discussed for SRA, the same \acp{CR} are employed to control such dominant backgrounds. The di-boson contributes for less than $1\%$ of the total background therefore no effort will be put in the design of a \ac{CR}. Furthermore, due to the large \met\ requirement, contributions from multi-jet background, are expected to be negligible in both SRA and SRB, nonetheless it will be estimated using the so-called \emph{jet smearing} method~\cite{calumThesis}.
+
+
+
+
+			\subsubsection*{Signal Region C}
+
+				\SRC\ targets a kinematic regime of direct top-squark pair production where the stop-neutralino mass splitting is around the top quark mass. The signature of such decays, when $(\mstopone, \mninoone) \sim m_t$, essentially consists of considerably softer jets and low \met. As it can be seen by looking at the background composition of such \ac{SR} in Figure~\ref{fig:SRC_bkgcomp}, this topology is very similar to a non-resonant \ttbar\ production which makes signal-background separation challenging. Nonetheless the presence of \ac{ISR} can help exploit kinematical differences between stop decays and \ttbar\ production. In particular, when the event is characterised by the presence of a high-momentum \ac{ISR} - reconstructed as an \ac{ISR} system formed by multiple jets - the system comprised of the two top-squarks is produced with a boost in the transverse plane.
+
+				\begin{figure}[t]
+				  \begin{center}
+				   \includegraphics[width=\textwidth]{figures/stop/piechart_SRCcomp}
+				   \caption{Background composition in \SRC.}
+				   \label{fig:SRC_bkgcomp}
+				  \end{center}
+				\end{figure}
+
+				A new dedicated set of variables can be defined employing the so-called \emph{\ac{RJR}} of which a brief overview is given. Such technique is used to divide each event into hemispheres: an \ac{ISR} and a sparticle hemisphere. The latter is comprised of a pair of top-squark candidates both decaying via $t + \ninoone$. Objects are grouped together based on their proximity in the lab frame's transverse plane by minimizing the reconstructed transverse masses of the \ac{ISR} system and sparticle system simultaneously over all choices of object assignment. A dedicated set of kinematic variables is then defined, based on this assignment of objects to either the \ac{ISR} system or the sparticle system. This method is equivalent to grouping the event objects according to the axis of maximum back-to-back \pt\ in the event's \ac{CM} frame where the vectorial sum of all the \pt\ of the accepted objects is zero. In events with a high-\pT\ \ac{ISR} gluon, the axis of maximum back-to-back \pt\ approximates the direction of the \ac{ISR} and sparticles' back-to-back recoil. Additional details on such technique can be found in Ref.~\cite{RJR_ISR}.
+				\begin{table}[htpb]
+				  \caption{Selection criteria for SRC, in addition to the pre-selection listed in Table~\ref{tab:SRcommon}. The \acp{SR} are separated into $\RISR$-based windows.}
+				  \begin{center}
+				    \def\arraystretch{1.5}
+				    \begin{tabular}{lccccc} \toprule
+				      {\textbf{Variable}} & \textbf{SRC1} & \textbf{SRC2} & \textbf{SRC3} & \textbf{SRC4} & \textbf{SRC5} \\ \toprule
+				      \rISR & 0.30--0.40 & 0.40--0.50 & 0.50--0.60 & 0.60--0.70 & 0.70--0.80\\ \midrule %\hline \hline
+				      \nBJet & \multicolumn{5}{c}{$\ge1$} \\ %\hline
+				      \nBJetS & \multicolumn{5}{c}{$\ge1$} \\ %\hline
+				      \nJetS & \multicolumn{5}{c}{$\ge5$}  \\ %\hline
+				      \pTSBZero & \multicolumn{5}{c}{$>40\gev$}  \\ %\hline
+				      \mS & \multicolumn{5}{c}{$>300\gev$}  \\ %\hline
+				      \dPhiISRMET & \multicolumn{5}{c}{$>3.0$}  \\ %\hline
+				      \pTISR & \multicolumn{5}{c}{$>400$ \gev}   \\ %\hline
+				      \pTSFour & \multicolumn{5}{c}{$>50$ \gev}   \\ \bottomrule
+				    \end{tabular}
+				  \end{center}
+				  \label{tab:SignalRegionC}
+				\end{table}
+
+				The ratio of the \met\ to the \pt\ of the \ac{ISR} system in the \ac{CM} frame of the entire (\ac{ISR} plus di-top-squark) system (\pTISR), defined as \rISR, is proportional to the ratio of the $\ninoone$ and $\stop$ masses and it is defined as it follows~\cite{An,Macaluso}:
+				
+				\begin{equation*}
+					\rISR \equiv \frac{\met}{\pTISR} \sim \frac{m_{\ninoone}}{m_{\stop}}. 
+				\end{equation*}
+
+				\noindent Additionally, the following discriminating key variables are used in the optimisation of SRC: 
+
+				\begin{description}
+					\item[\boldmath \nBJetS:] number of \bjs\ associated with the sparticle hemisphere;
+					\item[\boldmath \nJetS:] number of jets associated with the sparticle hemisphere;
+					\item[\boldmath \pTSBZero:] \pt\ of the leading \bj\ in the sparticle hemisphere;
+					\item[\boldmath \pTSFour:] \pt\ of the fourth-leading jet in the sparticle hemisphere;
+					\item[\boldmath \dPhiISRMET:] angular separation in $\phi$ of the \ac{ISR} and the \met\ in the \ac{CM} frame;
+					\item[\boldmath \pTISR:] \pt\ of the \ac{ISR} system, evaluated in the \ac{CM} frame;
+					\item[\boldmath \mS:] transverse mass between the whole sparticle system and \met;
+					\item[\boldmath \mV/\mS:] ratio of the transverse mass of the only the visible part of the sparticle system without \met and the whole sparticle system including \met;
+				\end{description}				
+
+				Table~\ref{tab:SignalRegionC} lists the selection criteria for SRC. Five different non-overlapping \RISR-based sub regions (windows) are employed, each of which targets different signal points, \eg\ SRC2 is optimised for $(\mstop, \mninoone) = (300,127) $ \GeV; SRC4 is optimised for $(\mstop, \mninoone) = (500,327)$. Additionally, a minimum of five jets are required to be assigned to the sparticle hemisphere of the event (\nJetS), and at least one of them (\nBJetS) must be $b$-tagged. Requirements on \pTISR, the highest-\pt\ \bj\ in the sparticle hemisphere (\pTSBZero), and the fourth-leading jet in the sparticle hemisphere (\pTSFour), are also applied. Furthermore, the transverse mass built from the sparticle system and the \met\ (\mS), is required to be above $300\GeV$. Finally, the angular distance in $\phi$ between the \ac{ISR} system and the \ptmiss\ in the \ac{CM} frame is required to be above $3$. As with SRA and SRB, the five $\RISR$ windows are statistically combined to improve signal sensitivity.
+
+
+
+
+
+			\subsubsection*{Signal Region D}
+
+				%\begin{table}[!htb]
+				\begin{wraptable}{R}{.5\textwidth}
+				  \caption{Selection criteria for SRD, in addition to the common pre-selection shown in Table~\ref{tab:SRcommon}.}
+				  \begin{center}
+				  \def\arraystretch{1.4}
+				  \begin{tabular}{lcc}
+				    \toprule
+				    {\textbf{Variable}}       & {\textbf{SRD-low}} & {\textbf{SRD-high}} \\
+				    \toprule
+				    \dphijetthreemet     & \multicolumn{2}{c}{$>0.4$}     \\ %\hline
+				    \nBJet      & \multicolumn{2}{c}{$\geq$2}    \\%\hline
+				    \drbjetbjet     & \multicolumn{2}{c}{$>$ 0.8}    \\ %\hline
+				    \ptbzero+\ptbone & $>300$ \gev    & $>400$ \gev     \\ %\hline
+				    $\tau$-veto          & \multicolumn{2}{c}{yes}        \\ %\hline
+				    \ptone\              & \multicolumn{2}{c}{$>150\GeV$} \\ %\hline
+				    \ptthree\            & $>100\GeV$    & $>80\GeV$      \\ %\hline
+				    \ptfour\             & \multicolumn{2}{c}{$>60\GeV$}  \\ %\hline
+				    \mtbmin\             & $>250\GeV$    & $>350\GeV$     \\ %\hline
+				    \mtbmax\             & $>300\GeV$    & $>450\GeV$     \\ 
+				    \bottomrule
+				  \end{tabular}
+				  \end{center}
+				  \label{tab:SignalRegionD}
+				\end{wraptable}
+				\SRD\ targets direct top-squark pair production where both top squarks decay via $\stop\to b \chinoonepm$ and the chargino mass is set to be $m_{\chinoonepm}=2\mLSP$, therefore a nominal signature of six jets, two of which $b$-tagged. In this \ac{SR} no top-quark reconstruction is needed. 
+
+				SRD is divided into two sub-regions, SRD-low and SRD-high, which are optimised for $\mstop = 400\GeV$ with $\mLSP=50\GeV$, and $\mstop = 700\GeV$ with $\mLSP=100\GeV$, respectively. As it can be seen in Figure~\ref{fig:SRD_bkgcomp} the main backgrounds in SRD are \Zjets\ and \Wjets. The production of \ttbar, together with single top, and \ttV\ yield around the same number of events.
+
+				\begin{figure}[t]
+				  \begin{center}
+				   \includegraphics[width=.7\textwidth]{figures/stop/piechart_SRDcomp}
+				   \caption{Background composition in \SRD.}
+				   \label{fig:SRD_bkgcomp}
+				  \end{center}
+				\end{figure}
+
+				In this \ac{SR}, at least five jets are required, two of which must be $b$-tagged. As previously anticipated, a cut on the distance between the two jets with the highest MV2c10 weights is required to reject event with two \bjs\ originated from gluon splitting. On top of the discriminating variables already discussed for the other \ac{SR}, the scalar sum of the transverse momenta of the two jets with the highest MV2c10 weights (\ptbzero+\ptbone) together with the second (\ptone), fourth (\ptthree), and fifth (\ptfour) jet transverse momenta, are used as discriminating variables to provide further background rejection. Finally, tighter requirements on the leading and sub-leading jet $\pT$ are made for SRD-high. Table~\ref{tab:SignalRegionD} shows a summary of SRE selection.
+
+
+
+
+
+
+			\subsubsection*{Signal Region E}
+
+
+				Unlike the previous \acp{SR}, as mentioned in Section~\ref{sec:susysig}, SRE is designed for signal models in which top quarks are produced highly boosted. The scenarios targeted by this \ac{SR} can arise from either direct pair production of high-mass stop quarks, or from the gluino-mediated compressed stop production with a large gluino-stop mass splitting. In this regime, re-clustered jets with $R=0.8$ are employed for the optimisation of the experimental sensitivity to such highly boosted top quarks. In particular, the signal point used for the optimisation is $m_{\gluino} = 1700 \GeV$, $\mstop=400\GeV$, and $\mLSP=395\GeV$
+
+				Figure~\ref{fig:SRE_bkgcomp} shows the background composition in SRE. The main backgrounds are \Zjets\ and \ttV\ followed by single top, \Wjets, and \ttbar\ production. A dedicated $2$-lepton \Zjets\ \ac{CR} is employed for the normalisation of such background.  In this \ac{SR}, at least two jets out of the four or more required jets must be $b$-tagged. Additional discrimination is provided by the $\met$ significance: $\htsig$, where $\HT$ is the scalar sum of the $\pT$ of all the reconstructed $R=0.4$ jets in the event. The selection criteria for SRE, optimised for $m_{\gluino} = 1700 \GeV, \mstop=400\GeV$, and $\mLSP=395\GeV$, are listed in Table~\ref{tab:SignalRegionE}.
+
+				\begin{figure}[!htb]
+					\centering
+					\begin{minipage}[]{.5\textwidth}
+						\centering
+						\vspace{0pt}
+						\includegraphics[width=\textwidth]{figures/stop/piechart_SREcomp}
+						\caption{Background composition in \SRE.}
+						\label{fig:SRE_bkgcomp}
+					\end{minipage}\hfill
+					\begin{minipage}[!htb]{.5\textwidth}
+						\centering
+						\vspace{0pt}
+						% \begin{table}
+						\def\arraystretch{1.4}
+						\captionof{table}{Selection criteria for SRE in addition to the common pre-selection cuts listed in Table~\ref{tab:SRcommon}}
+							\begin{tabular}{lc}\toprule
+							   {\textbf{Variable}}    & {\textbf{SRE}}\\
+							   \toprule
+							   \dphijetthreemet  & $>0.4$             \\ %\hline
+							   \nBJet   & $\geq$2            \\     %\hline
+							   \mantikteightzero & $>120$ \gev        \\     %\hline
+							   \mantikteightone  & $>80$ \gev         \\     %\hline
+							   \mtbmin\          & $>200$ \gev        \\     %\hline
+							   \met\             & $> 550 \gev$       \\     %\hline
+							   \HT               & $>800 \gev$        \\     %\hline
+							   \htsig            & $> 18 \sqrt{\GeV}$ \\     
+							   \bottomrule
+							   \label{tab:SignalRegionE}
+							\end{tabular}
+						% \end{table}
+					\end{minipage}
+				\end{figure}
+
+
+
 
 
 	\section{Nominal Background Estimation}
 	\label{sec:bkgest}
 
-		\subsection{Control Regions}
+		The implementation of \acp{CR} is needed in order to estimate the various background yields in the \acp{SR}, without relying solely on the yields that one would obtain simply by applying the \ac{SR} selection to the \ac{MC} simulations of a background process. The \acp{CR} selections are designed to be orthogonal selections to the \acp{SR}. For example, one would ideally design a \ac{CR}, such that it is fully dominated by the targeted process, therefore suppressing the signal contamination. This allows to derive a normalisation factor for each relevant background by rescaling the expected \ac{MC} yield to the observed number of data events in the corresponding \ac{CR}. The prediction of the yield of a targeted background in \ac{SR} is then rescaled accordingly. For example, consider the case of one \ac{SR} and one \ac{CR}. Ideally, if the \ac{CR} is 100\% pure, the expected background yield in \ac{SR} can be written as:
+		\begin{equation}
+			N_{\mathrm{SR}}^{\mathrm{exp}} = \mu_{\mathrm{MC}} \cdot N_{\mathrm{SR}}^{\mathrm{MC}} \qquad \mathrm{with}\qquad \mu \equiv \frac{N_{\mathrm{CR}}^{\mathrm{data}}}{N_{\mathrm{CR}}^{\mathrm{MC}}}
+		\label{eq:exp_bkgyield}
+		\end{equation}
 
-		\subsection{Validation Regions}
+		\noindent here, $\mu$ is the above-mentioned normalisation scale factor. Furthermore, a so-called \ac{TF} can be defined as the ratio of the \ac{MC} yields in \ac{SR} and in \ac{CR}, allowing the re-definition of the expected background yield in \ac{SR}, as it follows: 
+		\begin{equation}
+			N_{\mathrm{SR}}^{\mathrm{exp}} = TF \cdot N_{\mathrm{CR}}^{\mathrm{data}} \qquad \mathrm{with} \qquad TF \equiv \frac{N_{\mathrm{SR}}^{\mathrm{MC}}}{N_{\mathrm{CR}}^{\mathrm{MC}}}
+		\label{eq:tf}
+		\end{equation}
+
+		\noindent This procedure allows a data-driven estimation of the expected background yields in \ac{SR} relying on the \ac{MC} simulation only for the computation of the \ac{TF}, and it is widely employed by several \ac{SUSY} analyses. Furthermore, it also allows to determine $N_{\mathrm{SR}}^{\mathrm{exp}}$ with an uncertainty given by the Poisson error on the $N_{\mathrm{CR}}^{\mathrm{data}}$ and the uncertainty on the \ac{CR}-to-\ac{SR} extrapolation. Unfortunately though, real life is not this easy, as in the actual \ac{SUSY} analyses, several are the background processes to be normalised in an independent set of \acp{CR}, and these usually suffer contaminations from other background processes. The above-mentioned equations then turn into something less easy to solve, for which statistical tools are needed. In particular, a system of $n$ equations (Equation~\ref{eq:mu_factors}), with $n$ number of background processes to control, is employed and needs to be solved to obtain the various normalisation factors:
+
+		\begin{equation}
+			\begin{cases}
+				N_{\mathrm{CR,1}}^{\mathrm{data}} = \mu_1 N_{\mathrm{CR,1}}^{\mathrm{MC,1}} + \mu_2 N_{\mathrm{CR,1}}^{\mathrm{MC,2}} + \dots + \mu_n N_{\mathrm{CR,1}}^{\mathrm{MC,n}} \\
+				N_{\mathrm{CR,2}}^{\mathrm{data}} = \mu_1 N_{\mathrm{CR,2}}^{\mathrm{MC,1}} + \mu_2 N_{\mathrm{CR,2}}^{\mathrm{MC,2}} + \dots + \mu_n N_{\mathrm{CR,2}}^{\mathrm{MC,n}} \\
+				\dots \\
+				N_{\mathrm{CR,n}}^{\mathrm{data}} = \mu_1 N_{\mathrm{CR,n}}^{\mathrm{MC,1}} + \mu_2 N_{\mathrm{CR,n}}^{\mathrm{MC,2}} + \dots + \mu_n N_{\mathrm{CR,n}}^{\mathrm{MC,n}} \\
+			\end{cases}
+		\label{eq:mu_factors}
+		\end{equation}
+
+		\noindent Here, $\mu_i$ is the normalisation factor for the $i^{\mathrm{th}}$ process; $N_{\mathrm{CR,j}}^{\mathrm{MC,i}}$ is the number of event, taken only from the \ac{MC} simulation, that passed the $j^{\mathrm{th}}$ CR selection; $N_{\mathrm{CR,k}}^{\mathrm{data}}$ is the number of observed event in the $k^{\mathrm{th}}$ \ac{CR}. Such procedure is validated in so-called \acp{VR}, designed when the \ac{CR} are too far - in terms of parameters space - from the \acp{SR}. The purpose of \ac{VR} is to make a \emph{bridge} between the \acp{CR} and the \acp{SR} to avoid large extrapolations and avoid any potential biases hidden in the \acp{TF}, as shown in Figure~\ref{fig:extrapolation}. It is important to stress that \acp{VR} are expected not to yield any excess and match the \ac{SM} predictions within uncertainties. The data-\ac{MC} agreement in \acp{VR} represents a green light toward the unblinding of the blinded \acp{SR}.
+
+		\begin{figure}[!htb]
+		  \begin{center}
+		   \includegraphics[width=\textwidth]{figures/stop/cartoon_CRVRSR_bw}
+		   \caption{A schematic view of an analysis strategy with multiple \acp{CR}, \acp{VR}, and \acp{SR} using two observables. The \ac{CR}-to-\ac{SR} extrapolation is verified by employing \acp{VR} that lie in the extrapolation phase space (taken from~\cite{histfitter}.}
+		   \label{fig:extrapolation}
+		  \end{center}
+		\end{figure}
+
+		For the estimation of the major sources of background $1$-lepton and $2$-lepton \acp{CR} are employed. In particular, a $2$-lepton \ac{CR} is used for the estimation of the \Zjets\ background and a $1$-lepton \ac{CR} is employed for the estimation of \ttbar\ (CRT), single top (CRST), and \Wjets\ (CRW) backgrounds. Additionally, a dedicated set of variable is employed:
+
+		\begin{description}
+			\item[\boldmath $N_{\ell}$:] number of leptons in the event;
+			\item[\boldmath $\pt^{\ell}$:] transverse momentum of the leading lepton;
+			\item[\boldmath $m_{\ell\ell}$:] invariant mass of the \ac{SFOS} lepton pair in the event;
+			\item[\boldmath $\mT(\ell,\met)$:] transverse mass calculated from the \met\ and the transverse momentum of the lepton;  
+			\item[\boldmath $\metprime$:] the transverse momenta of the selected leptons are added to the \ptmiss, \eg\ to mimic the \Znunu\ decays in the \acp{SR}, forming the quantity \metprime. Essentially, this is a corrected version of \met\ to treat the leptons as neutrinos. The \emph{prime} notation is used for all the variables that depend on \metprime;
+		\end{description}
+
+		The background estimation strategy is based on five independent \acp{CR} to control \Zjets, \ttbar, single top, \Wjets, and \ttZ. Where enough statistics is available \acp{CR} are designed to estimate backgrounds in different kinematic regions of the \acp{SR}. A description of the nominal background estimation strategy is given below, except for the estimation of the irreducible background \ttZ, which will be discussed in Section~\ref{sec:ddbkgest} as a different technique is employed. The remaining backgrounds such as di-bosons and multi-jet are estimated directly using the yields obtained from \ac{MC} simulations.
 
 
-	\section{Data-Driven Background Estimation}
+		\paragraph{$2$-lepton \Zjets\ CR}
+
+			The estimation of the \Znunu\ background is performed via the design of $2$-lepton $Z \rightarrow \ell \ell$ \ac{CR}. Although the branching fraction of the \Zll\ is smaller than \Znunu, a purer \ac{CR} can be obtained. As all the \acp{SR} (exception made for SRD) have requirements on the \MET\ selection, jet multiplicity, and $b-$tagged jets, therefore in order to ensure as little \ac{CR}-to-\ac{SR} extrapolation as possible, the same kinematic cuts are applied to the \Zjets\ \ac{CR} (CRZ).  SRA and SRB share a set of two \Zboson\ \acp{CR}: one is shared by the TT and TW categories due to statistical limitations and one is dedicated to the T0 category (CRZAB-TT-TW, CRZAB-T0). A common \Zboson\ \ac{CR} is used for SRDs (CRZD). Finally, a \Zboson\ \ac{CR} with higher \HT\ requirements is used for SRE. Essentially, a single-lepton trigger is employed, and a cut on $2$ \ac{SFOS} leptons is applied. To reduce the top contamination, an upper cut at $\met < 50$ \GeV, and a lower cut at $100$ \GeV\ are applied. Furthermore, a $\Zboson$-mass window cut on the invariant mass of the leptons pair is applied, to reduce other backgrounds contamination. A detailed \ac{CR} definition is given in Table~\ref{tab:selectionCRZs}
+
+
+		\paragraph{$0$-lepton \Zjets\ VR}
+
+			$0$-lepton \acp{VR} are designed to validate the background estimate for \Zjets\ in the \acp{SR}. Similarly to the strategy used in \ac{CR} dedicated sets of \acp{VR} are employed: VRZAB, VRZD, VRZE. No VRZ is designed for SRC due to the negligible contribution of the \Zboson\ background. In practice, to ensure orthogonality to the \acp{SR}, the requirement on one or more of the following variables is inverted: \drbjetbjet, \mantikttwelvezero, \mantikteightzero. A detailed list of the VRZ selections, after the common pre-selection shown in Table~\ref{tab:SRcommon}, is shown in Table~\ref{tab:selectionVRZs}. 
+
+		\paragraph{$1$-lepton CR for \ttbar, single top, and \Wjets}
+	
+			For consistency with the \acp{SR}, the same \met\ trigger is used as in the pre-selection (Table~\ref{tab:SRcommon}). In these $1$-lepton \acp{CR} the lepton is treated as a non-b-tagged jet - to emulate the hadronic $\tau$ decays in the \acp{SR} - in the computation of all jet-related variables. Similarly to CRZ, CRT is then further divided to address the various \acp{SR}. %Additionally, the three sets of $1$-lepton \acp{CR} are orthogonal. 
+			The requirements on the number of \bjs\ and on \mantikttwelvezero\ ensures that CRW is orthogonal with CRT and CRST. The selection on $\Delta R(b_{0,1},\ell)_{\mathrm{min}}$, defined as the minimum $\Delta R$ between the two jets with the highest b-tag weight and the selected lepton, ensures the orthogonality of CRT and CRST. In CRST the requirement on the $\Delta R$ of the two leading-weight b-jets is necessary to reject a large part of the remaining \ttbar\ background. Table~\ref{tab:selectionCRTs}  and Table~\ref{tab:selectionCRWST} provides the detailed definitions of the CRT, and CRST and CRW \acp{CR}, respectively. 
+
+		\paragraph{$0$-lepton \ttbar\ and $1$-lepton \Wjets\ VRs}
+
+			Following the same strategy discussed so far, in order to validate the \ttbar\ background $0$-lepton \acp{VR}, sharing the same common pre-selection, close to the SRA and SRB definitions are designed for each of the top categories: VRTA-TT, VRTA-TW, VRTA-T0, VRTB-TT, VRTB-TW, VRTB-T0. To ensure orthogonality with the \acp{SR} the \mtbmin\ requirement is inverted in all \acp{VR}. In particular, for the definition of VRTA, the SRA requirements are unchanged except for \mttwo\, which is not being applied, $100<\mtbmin<200\gev$, and the \met\ requirement being loosened by $100$ \GeV. The requirements for VRTB are the same as in the \acp{SR} except for \mtbmin, being changed to $100<\mtbmin<200\gev$ for VRTB-TT, $140<\mtbmin<200\gev$ for VRTB-TW, and $160<\mtbmin<200\gev$ for VRTB-T0. The VRTC keeps the same requirements as \SRC\ except for the looser requirements of $\mS> 100\gev$, $\pTSFour>40\gev$ and $\nJetS > 4$. The \dPhiISRMET\ requirement is inverted and $\mV/\mS<0.6$, where \mV\ is the transverse mass defined by the visible objects of the sparticle system and the \met, is applied in addition to the existing selection. The \ac{VR} VRTD, targeting SRD, is formed by applying the following requirements: $100<\mtbmin<200\gev$, $\ptbzero+\ptbone>300\gev$, $\ptthree>80$ \GeV, and $\mtbmax>300$ \GeV. All other requirements are applied exactly as in SRD-low except for the requirement on \ptfour\ which is not applied. Finally, VRTE, dedicated to SRE, ensures a minimum extrapolation as it applies the same requirements on the number of $b$-jets, \mantikteightzero, and \mantikteightone, and inverts the \mtbmin\ requirement to $100<\mtbmin<200\gev$. For the validation of the \Wjets\ background a unique $1$-lepton \ac{VR} (VRW) is used to test such background in all the \acp{SR}, with the only differences with respect to CRW being, \mindrblep, which is greater than $1.8$ in the \ac{VR} plus two additional requirements, namely $\mtbmin>150$ GeV and $\mantikttwelvezero<70$ \GeV\ which are included in the definition of VRW.
+
+
+
+
+	\section{Estimation of the irreducible background}
 	\label{sec:ddbkgest}
+
+		% \begin{table}[htpb]
+		%   \caption{$\ttbar+\gamma$ \ac{CR} yields.}
+		%   \begin{center}
+		% 	\begin{tabular}{lc}
+		% 	\toprule
+		% 	\textbf{Process} & \textbf{Yield} \\
+		% 	\midrule
+		% 	\ttgamma & $111.76 \pm 1.45$ \\
+		% 	$V+\gamma$ & $6.29 \pm 0.63$ \\
+		% 	$\ttbar$ & $5.14 \pm 1.20$ \\
+		% 	$\ttV$ & $2.34 \pm 0.25$ \\
+		% 	single Top & $2.07 \pm 0.80$ \\
+		% 	$Z$ & $0.66 \pm 0.17$ \\
+		% 	$W$ & $0.04 \pm 0.02$ \\
+		% 	\midrule
+		% 	Total MC & $128.29 \pm 2.17$ \\
+		% 	Data & $161.00 \pm 12.69$ \\
+		% 	\midrule
+		% 	\multicolumn{2}{c}{\textbf{CRTTGamma} ( $87\%$)} \\ 
+		% 	\midrule
+		% 	$\mu_{\ttgamma}$ & $1.29 \pm 0.12$ \\
+		% 	\bottomrule
+		% 	\end{tabular}
+		% 	\end{center}
+		% 	\label{tab:CRTTGamma_yields}
+		% \end{table}
+		% \begin{table}[htpb]
+		%   \caption{Selection criteria for the $\ttbar+\gamma$ \ac{CR}.}
+		%   \begin{center}
+		%     \begin{tabular}{lc}
+		%       \toprule
+		%       \textbf{Selection}  & \textbf{CRTTGamma}     \\
+		%       \toprule
+		%       Trigger & lepton \\ 
+		%       $N_{\ell}$ & 1 \\
+		%       Lepton \pt & $28$ GeV \\
+		%       \midrule
+		%       $N_{\gamma}$ & $1$\\
+		%       $\gamma$ \pT\ & $> 150$ \GeV \\
+		%       \midrule
+		%       $N_{\mathrm{jets}}$ & $ \geq 4 $ \\
+		%       Jet \pT\ & $(80,80,40,40)$ \GeV \\
+		%       $N_{\bjs}$ & $\ge 2$ \\
+		%       \bottomrule
+		%     \end{tabular}
+		%   \end{center}
+		%   \label{tab:CRTTGamma}
+		% \end{table}
+
+		The production of top pairs in association with a vector boson (\ttV) is the second most important background in most \acp{SR}. Precisely, such background is completely dominated by $\ttZ(\to \nu\nu)$, as the $\ttW(\to \ell \nu)$ contribution in \ac{SR} is negligible due to the presence of the lepton in the final state. As already anticipated in various parts of this work, $\ttZ(\to \nu\nu)$ yields a final state with kinematic properties identical to the signal searched for, namely two top quarks (six jets, if both tops are fully reconstructed) and \met\ from the neutrinos coming from the \Zboson\ decay. Unfortunately, as of today, although the \ac{ATLAS} collaboration has allocated some effort on this, no \ac{SM} measurement of such process has been published, especially due to the presence of large \met\ making the isolation of such signature quite difficult.
+
+		The analysis carried out during Run-1~\cite{stop0LRun1} did not employ any \ac{CR} for such background, relying the estimation of its contribution in \ac{SR} solely on the yields obtained from the \ac{MC} simulation. For the analysis presented in this work, one attempt to isolate such background was made using a $3$-lepton $\ttZ(\to\ell\ell)$ \ac{CR}, one lepton from the semi-leptonic \ttbar\ decay and $2$ leptons from the leptonic decay of the \Zboson, although due to the large extrapolation on the number of leptons and the low statistics (low branching fraction to leptons), the design of a $3$-lepton \ac{CR} was dropped. Furthermore, a $2$-lepton \ac{CR} would suffer a large contamination from \ttbar\ and \Zjets\ backgrounds, therefore both methods were dropped and will not be further discussed.
+
+		A data-driven technique, similar to the method adopted by another \ac{SUSY} analysis published in 2017~\cite{stop1L}, is employed instead. The normalisation of \ttZ\ in \ac{SR} is estimated by designing a $1$-lepton-$1$-photon \ttgamma\ \ac{CR}. Despite the differences in cross-section ($\sigma_{\ttZ}^{\mathrm{aMC@NLO}} \sim 150$ pb, $\sigma_{\ttgamma}^{\mathrm{aMC@NLO}} \sim 215$ pb), the validity of the technique is supported by the similarities of the \ttZ\ and \ttgamma\ Feynman diagrams, as shown in Figure~\ref{fig:ttZttGamma}. This \ac{CR} is designed to minimise the differences between the two processes and keep the theoretical uncertainties from the extrapolation of the $\gamma$ to the \Zboson\ low. 
+
+		\begin{figure}[htpb]
+		  \centering
+		  	\subbottom[]{\includegraphics[width=0.48\textwidth]{figures/stop/ttZ}}
+			\subbottom[]{\includegraphics[width=0.48\textwidth]{figures/stop/ttGamma}}
+		    \caption{Diagrams of the production of top-antitop pairs associated with a \Zboson\ boson~(a) and a photon~(b).}
+		    \label{fig:ttZttGamma}
+		\end{figure}
+
+		The strategy is based on the addition of the transverse momentum of the $\gamma$ in the event ($\pt^{\gamma}$) to the computation of the \met\ to mimic the neutrinos from the \Zboson\ decay. Additionally, in order to avoid double-counting of \ttbar\ simulated events where a hard photon is emitted, the \verb+MCTruthClassifier+~\cite{MCTruthClassifier} tool is employed to perform a truth-level selection of photons irradiated by a top quark. The same lepton triggers and lepton-\pt\ requirements are used for the \ttgamma\ \ac{CR} as for CRZ. Unlike the CRT, CRW, and CRST $1$-lepton \acp{CR} the lepton is not treated as a jet and unlike the CRZs the leptons are not removed from the \met\ calculation. In addition, an isolated photon with $\pt^{\gamma} > 150$ \GeV\ is required and it is used to ensure a consistent modelling of the \Zboson\ decay in the \acp{SR} as, for space-phase reasons, the two processes (\ttZ\ and \ttgamma) are comparable only when the \pt\ of the photon is well above the $\Zboson$ mass, as shown in Figure~\ref{fig:ZGammaratio}. Here, the \pt\ of the \Zboson\ and the $\gamma$, at truth level, are shown for the \ttZ\ and the \ttgamma\ \ac{MC} samples, respectively. The former is obtained by requiring a basic \ac{SR}-like selection with at least four jets two of which b-tagged, zero baseline and signal leptons, and a lower cut of $150$ \GeV\ on the \pt\ of the \Zboson, while the latter is obtained by requiring a basic \ac{CR}-like selection with at least four jets two of which b-tagged, $1$ lepton and $1$ photon, and a lower cut of $150$ \GeV\ on the \pt\ of the $\gamma$. Similarly to what is done for the \Zboson\ \acp{CR}, the photon \pt\ is used for the estimation of \met-related variables. Table~\ref{tab:CRTTGamma} shows the detailed selection applied. 
+
+		\begin{figure}[htpb]
+		  \centering
+		  \includegraphics[width=\textwidth]{stop/Zgammaratio}
+		  \caption{Ratio plot of the \pt\ of the \Zboson\ and $\gamma$ bosons at truth level obtained by requiring \ac{CR}-like and \ac{SR}-like selections as described in the text.}
+		  \label{fig:ZGammaratio}
+		\end{figure}
+
+		The estimation of the \ttZ\ yields in \ac{SR} is based on an approximation of what was already shown in Equations~\ref{eq:tf} and~\ref{eq:mu_factors}:
+		
+		\begin{equation}
+			N_{\ttZ,\mathrm{SR}}^{\mathrm{exp}} \sim N_{\ttgamma,\mathrm{CR}}^{\mathrm{obs}} \cdot \frac{N_{\ttZ,\mathrm{SR}}^{\mathrm{MC}}}{N_{\ttgamma,\mathrm{CR}}^{\mathrm{MC}}} \qquad \mathrm{with} \qquad TF \equiv \frac{N_{\ttZ,\mathrm{CR}}^{\mathrm{MC}}}{N_{\ttgamma,\mathrm{CR}}^{\mathrm{MC}}}
+		\label{eq:ttZ_estimation}
+		\end{equation}
+
+		\noindent where, $N_{\ttZ,\mathrm{SR}}^{\mathrm{exp}}$ is the expected \ttZ\ yields in \ac{SR}, $N_{\ttgamma,\mathrm{CR}}^{\mathrm{obs}}$ is the observed number of \ttgamma\ events in \ttgamma\ \ac{CR}, $N_{\ttZ,\mathrm{SR}}^{\mathrm{MC}}$ is the number of \ttZ\ events falling into the \acp{SR}, and $N_{\ttgamma,\mathrm{CR}}^{\mathrm{MC}}$ is the number of \ttgamma\ events in \ttgamma\ \ac{CR} taken from the \ac{MC} simulation. As previously mentioned, if the \ac{CR} were $100\%$ pure (no contamination of other background processes) Equation~\ref{eq:ttZ_estimation} would not be approximated, but exact.
+
+		\begin{table}
+			\parbox{.45\linewidth}{
+			\centering
+			\captionof{table}{Selection criteria for the $\ttbar+\gamma$ \ac{CR}.}\label{tab:CRTTGamma}
+		   	\begin{tabular}{lc}
+			      \toprule
+			      \textbf{Selection}  & \textbf{CRTTGamma}     \\
+			      \toprule
+			      Trigger & lepton \\ 
+			      $N_{\ell}$ & 1 \\
+			      Lepton \pt & $28$ GeV \\
+			      \midrule
+			      $N_{\gamma}$ & $1$\\
+			      $\gamma$ \pT\ & $> 150$ \GeV \\
+			      \midrule
+			      $N_{\mathrm{jets}}$ & $ \geq 4 $ \\
+			      Jet \pT\ & $(80,80,40,40)$ \GeV \\
+			      $N_{\bjs}$ & $\ge 2$ \\
+			      \bottomrule
+			   \end{tabular}
+				% \caption{Selection criteria for the $\ttbar+\gamma$ \ac{CR}.}
+			}
+			\hfill
+			\parbox{.45\linewidth}{
+			\centering
+			\captionof{table}{$\ttbar+\gamma$ \ac{CR} yields.}\label{tab:CRTTGamma_yields}
+				\begin{tabular}{lc}
+					\toprule
+					\textbf{Process} & \textbf{Yield} \\
+					\midrule
+					\ttgamma & $111.76 \pm 1.45$ \\
+					$V+\gamma$ & $6.29 \pm 0.63$ \\
+					$\ttbar$ & $5.14 \pm 1.20$ \\
+					$\ttV$ & $2.34 \pm 0.25$ \\
+					single Top & $2.07 \pm 0.80$ \\
+					$Z$ & $0.66 \pm 0.17$ \\
+					$W$ & $0.04 \pm 0.02$ \\
+					\midrule
+					Total MC & $128.29 \pm 2.17$ \\
+					Data & $161.00 \pm 12.69$ \\
+					\midrule
+					\multicolumn{2}{c}{\textbf{CRTTGamma} ( $87\%$)} \\ 
+					\midrule
+					$\mu_{\ttgamma}$ & $1.29 \pm 0.12$ \\
+					\bottomrule
+				\end{tabular}
+				% \caption{$\ttbar+\gamma$ \ac{CR} yields.}
+			}
+		\end{table}
+
+		Table~\ref{tab:CRTTGamma_yields} shows the breakdown of the various processes entering into the CRTTGamma selection shown in Table~\ref{tab:CRTTGamma}. The purity reached $86\%$ and $\mu_{\ttgamma}$ is $1.29$. 
+
+
+
+		Additionally the agreement between the observed data and the \ac{MC} predictions was checked in the \met\ and \mtlepmet\ distributions as the potential presence of fake leptons would show up at low values of \mtlepmet. The agreement at low \mtlepmet\ is a reasonable indication of no significant contributions from fake leptons.
+
+		\begin{figure}[htbp]
+			\begin{center}
+				\includegraphics[width=0.49\textwidth]{figures/stop/ttGamma/Met_CRTTGamma_withRatio_log.eps}
+				\includegraphics[width=0.49\textwidth]{figures/stop/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps}
+				\caption{\label{fig:ttVFakeLepCheck} Distributions of the \met\ and \mtlepmet\ for fake lepton checks. Agreement at low \mtlepmet\ is reasonable indicating no significant contributions from fake leptons. The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
+			\end{center}
+		\end{figure}
+
+
+
+		Figures~\ref{fig:ttV} and~\ref{fig:ttVMasses} show a selection of the relevant distributions. A normalisation factor $\mu_{\ttgamma} = 1.29$ is applied.
+
+		\begin{figure}[htbp]
+		\centering
+		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/SigPhotonPt0_ttyCR_afterfit}}
+		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/MT2Chi2_ttyCR_afterfit}}
+		% \includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/SigPhotonPt_0_sqrtHt_CRTTGamma.eps}
+		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/MtBMinPhoton_ttyCR_afterfit}}
+		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/MtBMaxPhoton_ttyCR_afterfit}}
+		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/Ht_ttyCR_afterfit}}
+		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/DRBB_ttyCR_afterfit}}
+		\caption{Data/MC distributions of the photon \pt\~(a), \mttwo~(b), \mtbmin~(c), \mtbmax~(d), \HT~(e), \drbb~(f). The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics. The rightmost bin includes overflow events.}
+		\label{fig:ttV} 
+		\end{figure}
+
+		\begin{figure}[htbp]
+		\centering
+		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt12M0_ttyCR_afterfit}}
+		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt12M1_ttyCR_afterfit}}
+		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt8M0_ttyCR_afterfit}}
+		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt8M1_ttyCR_afterfit}}
+		\caption{Data/MC distributions of the re-clustered jet masses, \mantikttwelvezero~(a), \mantikttwelveone~(b), \mantikteightzero~(c), \mantikteightone~(d). The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics. The rightmost bin includes overflow events.}
+		\label{fig:ttVMasses} 
+		\end{figure}
+
+		Finally, a $0$-lepton \ttgamma\ \ac{VR} was also considered but it was found to have a too low \ttgamma\ contribution, with \gammajets\ being the main contaminant and it was therefore dropped. Nevertheless, the use of the same kinematic selection in \ac{CR}  and \ac{SR}, together with the good data/MC agreement found in the main distributions gives confidence in the accuracy of the method.
+
+
+
+
+	\clearpage\section{Summary of the Control Regions}
+
+		A summary with the all the detailed selections of the presented \acp{CR} is given in Tables~\ref{tab:selectionCRZs} (CRZ),~\ref{tab:selectionCRTs} (CRT), and ~\ref{tab:selectionCRWST} (CRW and CRST). Additionally, Tables~\ref{tab:selectionVRZs},~\ref{tab:vrTopABDef},~\ref{tab:vrTopCDEDef} show the detailed selections for the \acp{VR} of the \Zjets\ and \ttbar\ backgrounds in \ac{SR}, respectively.
+
+		\begin{table}[htpb]
+		\def\arraystretch{1.5}
+		  \caption{Selection criteria for the $\Zjets$ control regions used to estimate the $\Zjets$ background contributions in the \acp{SR}.}
+		  \begin{center}
+		    \begin{tabular}{lcccc}
+		      \toprule
+		      \textbf{Selection}  & \textbf{CRZAB-TT-TW} & \textbf{CRZAB-T0} & \textbf{CRZD} & \textbf{CRZE}       \\
+		      \toprule
+			     Trigger              & \multicolumn{4}{c}{electron or muon}                                   \\ 
+			     $N_{\ell}$           & \multicolumn{4}{c}{$2$ \ac{SFOS}}           \\ 
+			     $\pT^{\ell}$         & \multicolumn{4}{c}{$>28 \gev$}                                        \\ 
+			     $m_{\ell\ell}$       & \multicolumn{4}{c}{[86,96] \gev}                                      \\ 
+			     \midrule
+			      $\met$              & \multicolumn{4}{c}{$<50 \gev$}                                        \\ 
+			      $\metprime$         & \multicolumn{4}{c}{$ > 100$ \gev}                                     \\
+			      \midrule
+			     $N_{\mathrm{jet}}$   & \multicolumn{4}{c}{$\ge 4$}                                           \\
+			     \nBJet     & \multicolumn{4}{c}{$\ge 2 $}                                          \\
+			      \ptzero, \ptone, \pttwo, \ptthree            & \multicolumn{4}{c}{$80,80,40,40\gev$}                              \\
+			      \midrule
+			       \mantikttwelvezero & \multicolumn{2}{c}{$>120\gev$} & \multicolumn{2}{c}{-}                \\ 
+			       \mantikttwelveone  & $>60\gev$                      & $<60\gev$    & \multicolumn{2}{c}{-} \\ 
+			       \midrule
+			       \mtbminprime       & \multicolumn{2}{c}{-}          & \multicolumn{2}{c}{$>200\,$\gev}     \\
+			      \mtbmaxprime        & \multicolumn{2}{c}{-}          & $>200\,$\gev & -                     \\
+			      \HT                 & \multicolumn{3}{c}{-}          & $>500\,$\gev                         \\			     	\bottomrule
+		    \end{tabular}
+		  \end{center}
+		  \label{tab:selectionCRZs}
+		\end{table}		
+
+		\begin{landscape}
+		\begin{table}[htpb]
+		  \caption{Selection criteria for the \ttbar\ \acp{CR} used to estimate the \ttbar\ background contributions in the \acp{SR}.} 
+		  \begin{center}
+		    \def\arraystretch{1.5}
+			\tiny
+		    \begin{tabular}{lccccccccc}
+		      \toprule
+		      \textbf{Selection}  & \textbf{CRTA-TT} & \textbf{CRTA-TW} & \textbf{CRTA-T0} & \textbf{CRTB-TT} & \textbf{CRTB-TW} & \textbf{CRTB-T0} & \textbf{CRTC} & \textbf{CRTD} & \textbf{CRTE} \\
+		      \toprule
+		      Trigger    & \multicolumn{9}{c}{\met}                                                                         \\ 
+				 $\met$ & $ >250$ \gev & $ >300$ \gev & $ >350$ \gev & \multicolumn{6}{c}{$>250 \gev$} \\  \midrule
+		      $N_{\ell}$ & \multicolumn{9}{c}{1}                                                                            \\ 
+		     $\pT^{\ell}$ & \multicolumn{9}{c}{$>20 \gev$}   \\ 
+		     \midrule
+		     $N_{\mathrm{jet}}$ & \multicolumn{9}{c}{$\ge 4$} \\ %(including lepton)} \\
+		      \ptzero, \ptone, \pttwo, \ptthree & \multicolumn{9}{c}{$80,80,40,40$ \gev} \\
+		      \nBJet & \multicolumn{9}{c}{$ \ge 2 $}\\
+				\midrule
+		      $\dphijettwomet$ & \multicolumn{9}{c}{$>0.4$} \\ 
+		      $\dphijetthreemet$ & \multicolumn{6}{c}{$>0.4$} & - & \multicolumn{2}{c}{$>0.4$}\\ 
+		      $\mT(\ell,\met)$   &     \multicolumn{6}{c}{$[30,100]\gev$} & $<100\gev$ & \multicolumn{2}{c}{$[30,100]\gev$}  \\ 
+		       $\drblmin$ & \multicolumn{6}{c}{$<1.5$} & $<2.0$ &  \multicolumn{2}{c}{$<1.5$}\\
+		       \midrule
+		       \mantikttwelvezero      & \multicolumn{6}{c}{$>120 \gev$} & \multicolumn{3}{c}{-} \\ 
+		       \mantikttwelveone      & $>120 \gev$  & $[60, 120] \gev$  & $<60 \gev$  & $>120 \gev$  & $[60, 120] \gev$  & $<60 \gev$ & \multicolumn{3}{c}{-} \\ 
+				 \mantikteightzero      & \multicolumn{3}{c}{$>60 \gev$} &  \multicolumn{5}{c}{-} & $>120 \gev$ \\ 
+		       \mantikteightone  &    \multicolumn{8}{c}{-}  & $>80 \gev$  \\ 
+		       \midrule
+		       $\drbjetbjet$                       & $>1.0$ & \multicolumn{2}{c}{-}& \multicolumn{3}{c}{$>1.2$} & - & $>0.8$ & - \\
+		       \mtbmin              & \multicolumn{6}{c}{$>100\,$\gev} & - &  \multicolumn{2}{c}{$>100\,$\gev} \\ 
+		       $\mtbmax$                        & \multicolumn{3}{c}{-}& \multicolumn{3}{c}{$>200\gev$} & - & $>100\gev$ & - \\
+		       \midrule
+		       $\ptone$                        & \multicolumn{7}{c}{-} & $>150\gev$ & - \\
+		       $\ptthree$                        & \multicolumn{7}{c}{-} & $>80\gev$ & - \\
+		       $\ptbzero+\ptbone$                        & \multicolumn{7}{c}{-} & $>300\gev$ & - \\
+		       \midrule
+		       $\NjV$         & \multicolumn{6}{c}{-}& $ \ge 5$ & \multicolumn{2}{c}{-} \\
+		       $\NbV$         & \multicolumn{6}{c}{-}& $ \ge 1$ & \multicolumn{2}{c}{-} \\
+		       $\PTISR$         & \multicolumn{6}{c}{-}& $>400\gev$ & \multicolumn{2}{c}{-} \\
+		       $\pTSFour$         & \multicolumn{6}{c}{-}& $>40\gev$ & \multicolumn{2}{c}{-} \\
+		       $\HT$         & \multicolumn{8}{c}{-}& $>500\gev$ \\
+		       \bottomrule
+		    \end{tabular}
+		  \end{center}
+		  \label{tab:selectionCRTs}
+		\end{table}
+		\end{landscape}
+
+		\begin{table}[htpb]
+		  \caption{Selection criteria for the \Wjets\ and single-top \ac{CR} definitions.} 
+		  \begin{center}
+		    \def\arraystretch{1.4}
+		    \begin{tabular}{lcc}
+		  	  \toprule
+		     \textbf{Selection}                       &\textbf{CRW}                                             & \textbf{CRST}  \\ \toprule
+		      Trigger                         & \multicolumn{2}{c}{\met}             \\ 
+				$\met$                         & \multicolumn{2}{c}{$>250 \gev$}													\\ \midrule
+		      $N_{\ell}$                      & \multicolumn{2}{c}{1}                                                           \\ 
+		     	$\pT^{\ell}$                     & \multicolumn{2}{c}{$>20 \gev$}      \\ \midrule
+		     	$N_{\mathrm{jet}}$               & \multicolumn{2}{c}{$\ge 4$ (including lepton)}            \\
+		      \ptzero, \ptone,\pttwo,\ptthree & \multicolumn{2}{c}{$80,80,40,40\gev$}                                          \\
+		      \nBJet                          & $1$                                            & $ \ge 2 $ 							\\ \midrule
+		      $\dphijettwomet$                & \multicolumn{2}{c}{$>0.4$}                                                  \\ 
+		      $\mT(\ell,\met)$                & \multicolumn{2}{c}{$[30,100]\gev$}                                          \\ 
+		      $\drblmin$                     & \multicolumn{2}{c}{$>2.0$}                                                  \\ 
+				$\drbjetbjet$                  & -                                               & $>1.5$                     \\ 
+				$\mantikttwelvezero$           & $<60\gev$                             & $>120\gev$                     \\ 
+				$\mtbmin$                      & -                          & $>200\gev$                     \\ 
+		      \bottomrule
+		    \end{tabular}
+		  \end{center}
+		  \label{tab:selectionCRWST}
+		\end{table}
+
+		\begin{table}[htpb]
+		  \caption{Selection criteria for the \Zboson\ \acp{VR} used
+		    to validate the \Zboson\ background estimates in the \acp{SR}.} 
+		  \begin{center}
+		    \def\arraystretch{1.4}
+		    \begin{tabular}{lccc}
+		      \toprule
+		      \textbf{Selection}           & \textbf{VRZAB}                    & \textbf{VRZD}           & \textbf{VRZE}          \\
+		      \toprule
+		      $N_{\mathrm{jet}}$     & $\ge4$                   & $\ge5$         & $\ge4$        \\
+		      Jet \ptzero, \ptone & $>80, >80 $ \GeV            & $>150, >80 $ \GeV & $>80, >80 $ \GeV \\
+		      \nBJet              & \multicolumn{3}{c}{$ \ge2 $}                              \\ \midrule
+		      $\tau$-veto         & \multicolumn{2}{c}{yes} & no                             \\ \midrule
+		      \mtbmin             & \multicolumn{3}{c}{$>200$ \gev}                            \\
+		      \mtbmax             & -                        & $>200$ \gev     & -             \\
+		      \mantikttwelvezero  & $ <120 $ \gev             & \multicolumn{2}{c}{-}          \\
+		      \mantikteightzero   & \multicolumn{2}{c}{-}   & $ <120 $ \gev                   \\ \midrule
+		      \drbb               & $<1.0$                   & $<0.8$         & $<1.0$        \\
+		      \htsig              & \multicolumn{2}{c}{-}   & $>14$ $\sqrt{\gev}$            \\
+		      \HT                 & \multicolumn{2}{c}{-}   & $>500$ \gev                     \\ \bottomrule
+		    \end{tabular}
+		  \end{center}
+		  \label{tab:selectionVRZs}
+		\end{table}
+
+
+
+\begin{table}[htb]
+  \caption{Validation region definitions, in addition to the requirements presented in Table~\ref{tab:SRcommon} for VRTopA and VRTopB.}
+  \begin{center}
+    \def\arraystretch{1.4}%
+    \begin{tabular}{clccc} \toprule
+      {\textbf{VRTop}}                &                    & {\textbf{TT}}     & {\textbf{TW}}     & {\textbf{T0}}     \\ \toprule
+                                 & \mantikttwelvezero & \multicolumn{3}{c}{$>120\gev$}             \\ %\cline{2-5}
+                                 & \mantikttwelveone  & $>120\gev$   & $60-120\gev$ & $<60\gev$    \\ %\cline{2-5}
+                                 & \mtbmin            & $>100,<200$ GeV & $>140,<200$ GeV & $>160,<200$ GeV       \\ %\cline{2-5}
+                                 & Number of $b$-jets & \multicolumn{3}{c}{ $\geq 2$  }            \\ %\cline{2-5}
+      \midrule
+      \multirow{3}{*}{{\textbf{A}}}   & \mantikteightzero  & \multicolumn{3}{c}{$>60\gev$}              \\ %\cline{2-5}
+      & \drbjetbjet        & $>1$         & \multicolumn{2}{c}{-}       \\ %\cline{2-5}
+                                 & \met               & $> 300 \gev$ & $> 400 \gev$ & $> 450 \gev$ \\ \midrule
+      \multirow{2}{*}{{\textbf{B}}}   & \drbjetbjet           & \multicolumn{3}{c}{$>1.2$}             \\ %\cline{2-5}
+       & \mtbmax           & \multicolumn{3}{c}{$>200$ GeV}             \\ %\cline{2-5}
+      \toprule
+    \end{tabular}
+  \end{center}
+  \label{tab:vrTopABDef}
+\end{table}%
+
+
+
+		Figure~\ref{fig:CRs} displays the comparison between observed data and \ac{MC} predictions of all relevant variables where an extrapolation to the \acp{SR} is required.
+		\begin{figure}[!htb]
+		  \centering
+		    \subbottom[]{\includegraphics[width=0.48\textwidth]{figures/stop/CRs/Znunu/MT2Chi2Lep_CRZAB_T0_log}}
+		    % \subbottom[]{\includegraphics[width=0.48\textwidth]{figures/stop/CRs/Znunu/MetLep_CRZE_log}}
+		    \subbottom[]{\includegraphics[width=0.48\textwidth]{figures/stop/CRs/ttbar/CA_RISR_CRTopC}}\\
+		    \subbottom[]{\includegraphics[width=0.48\textwidth]{figures/stop/CRs/Wjets/MtBMax_CRW_log}}
+		    \subbottom[]{\includegraphics[width=0.48\textwidth]{figures/stop/CRs/singleTop/JetPt_1__CRST_log}}
+		    \caption{Distributions of the most relevant variables: (a)~\mttwoprime\ in CRZAB-T0, (b)~\metprime\ in CRZE, (c)~\rISR\ in CRTC, (d)~\mtbmax\ in CRW, (e)~the transverse momentum of the second-leading-\pT\ jet in CRST. The stacked histograms show the \ac{SM} prediction, normalised using scale factors derived from the simultaneous fit to all backgrounds, discussed in Section~\ref{sec:results}. Ratio plots displayed the ratio of data events to the total \ac{SM} prediction. The uncertainty band around the \ac{SM} prediction and in the ratio plot illustrates the combination of \ac{MC} statistical and detector-related systematic uncertainties. The rightmost bin includes overflow events~\cite{stop0L}.}
+		    \label{fig:CRs}
+		\end{figure}
+
+ 		Figure~\ref{fig:VRs} displays the good agreement between data and \ac{MC} predictions, after a simultaneous fit procedure - which will be discussed in Section~\ref{sec:results} - where the \acp{VR} are used as test \acp{SR}.
+
+		\begin{figure}[!hbt]
+		  \begin{center}
+		    \includegraphics[width=.8\textwidth]{figures/stop/regionSummaryVR}
+		    \caption{Yields for all the \acp{VR} after the likelihood fit. The stacked histograms show the \ac{SM} prediction and the uncertainty band around the \ac{SM} prediction shows the total uncertainty, which consists of the \ac{MC} statistical uncertainties, detector-related systematic uncertainties, and theoretical uncertainties in the extrapolation from \ac{CR} to \ac{VR}.} 
+		    \label{fig:VRs}
+		  \end{center}
+		\end{figure}
+
 
 
 	\section{Results and Interpretation}
 	\label{sec:results}
+
+		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 

@@ -38,7 +38,8 @@
 \def\bjs{\ensuremath{b\mathrm{-jets}}}
 \def\cj{\ensuremath{c\mathrm{-jet}}}
 \def\cjs{\ensuremath{c\mathrm{-jets}}}
-\newcommand{\pp}{\emph{pp}}
+\def\pp{\emph{pp}}
+\def\Zn{\ensuremath{Z_\mathrm{N}}}
 %
 % +--------------------------------------------------------------------+
 % |                                                                    |
@@ -67,7 +68,7 @@
 \def\trigc{{\tt EF\_j75\_a4tc\_EFFS\linebreak[1]\_xe45\_loose\_noMu}}
 \def\mettrig2015{{\tt EF\_xe70\_tclcw}}
 \def\mettrig2016{{\tt EF\_xe100\_mht}}
-\newcommand{\ptmiss}{\ensuremath{\mathbf{p}_\mathrm{T}^\mathrm{miss}}\xspace}
+\def\ptmiss{\ensuremath{\mathbf{p}_\mathrm{T}^\mathrm{miss}}\xspace}	
 \def\ptmisstrk{\ensuremath{\mathbf{p}_{\mathrm{T}}^{\mathrm{miss, track}}}}
 %\def\totallumi{\ensuremath{\int\!\!{\cal L}\,dt = \left(20.5~\pm~0.7\right)\,\ifb}}
 %\def\totalluminoerr{\ensuremath{\int\!\!{\cal L}\,dt = 20.5\,\ifb}}
@@ -101,6 +102,7 @@
 \def\mt{\ensuremath{m_{\mathrm{T}}}}
 \def\mT{\mt}
 \def\mttwo{\ensuremath{m_{\mathrm{T2}}^{\chi^2}}}
+\def\mttwoprime{\ensuremath{m_{\mathrm{T2}}^{\chi^{2 \mathrm{'}}}}}
 \def\meff{\ensuremath{m_{\mathrm{eff}}}}
 
 \def\dphijetmet{\ensuremath{\left|\Delta\phi\left(\mathrm{jet},\met\right)\right|}}
@@ -191,7 +193,8 @@
 \def\nBJetS{\ensuremath{N_{b\mathrm{-jet}}^{\mathrm{S}}}}
 \def\pTSBZero{\ensuremath{p_{\mathrm{T},b}^{0,\mathrm{S}}}}
 \def\mTS{\ensuremath{m_{\mathrm{T}}^{\mathrm{S}}}} 
-\def\dPhiISRMET{\ensuremath{\Delta\phi_{\mathrm{ISR},\met}}}
+%\def\dPhiISRMET{\ensuremath{\Delta\phi_{\mathrm{ISR},\met}}}
+\def\dPhiISRMET{\ensuremath{\Delta\phi(\mathrm{ISR},\ptmiss)}}
 \def\pTISR{\ensuremath{\pt^{\mathrm{ISR}}}}
 \def\pTSFour{\ensuremath{\pt^{4,\mathrm{S}}}}
 \def\pTSThree{\ensuremath{\pt^{3,\mathrm{S}}}}
@@ -243,7 +246,7 @@
 
 \def\mcatnloSF{0.88}
 \def\alpSF{0.65}
-\def\ttV{\ttbar+\Wboson/\Zboson}
+\def\ttV{\ttbar+\ensuremath{V}}
 \def\ttW{\ttbar+\Wboson}
 \def\ttZ{\ttbar+\Zboson}
 \def\ttgamma{\ttbar+\ensuremath{\gamma}}
@@ -690,6 +693,8 @@
 \def\MET{\ensuremath{E_{\mathrm{T}}^{\mathrm{miss}}}} % Sub/superscript roman not italic (EE)
 \def\met{\ensuremath{E_{\mathrm{T}}^{\mathrm{miss}}}} % Sub/superscript roman not italic (EE)
 \def\metprime{\ensuremath{E_{\mathrm{T}}^{\mathrm{miss'}}}} % Sub/superscript roman not italic (EE) added \metprime definition
+\def\mtbminprime{\ensuremath{m_{\mathrm{T}}^{b,\mathrm{min'}}}}
+\def\mtbmaxprime{\ensuremath{m_{\mathrm{T}}^{b,\mathrm{max'}}}}
 \def\Wjj{\ensuremath{W \rightarrow jj}}
 \def\tjjb{\ensuremath{t \rightarrow jjb}}
 \def\Hbb{\ensuremath{H \rightarrow b\bar b}}
