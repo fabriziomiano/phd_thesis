@@ -383,7 +383,7 @@
 				  \begin{center}
 				    \def\arraystretch{1.5}
 				    \begin{tabular}{lccccc} \toprule
-				      {\textbf{Variable}} & \textbf{SRC1} & \textbf{SRC2} & \textbf{SRC3} & \textbf{SRC4} & \textbf{SRC5} \\ \toprule
+				      {\textbf{Selection}} & \textbf{SRC1} & \textbf{SRC2} & \textbf{SRC3} & \textbf{SRC4} & \textbf{SRC5} \\ \toprule
 				      \rISR & 0.30--0.40 & 0.40--0.50 & 0.50--0.60 & 0.60--0.70 & 0.70--0.80\\ \midrule %\hline \hline
 				      \nBJet & \multicolumn{5}{c}{$\ge1$} \\ %\hline
 				      \nBJetS & \multicolumn{5}{c}{$\ge1$} \\ %\hline
@@ -432,7 +432,7 @@
 				  \def\arraystretch{1.4}
 				  \begin{tabular}{lcc}
 				    \toprule
-				    {\textbf{Variable}}       & {\textbf{SRD-low}} & {\textbf{SRD-high}} \\
+				    {\textbf{Selection}}       & {\textbf{SRD-low}} & {\textbf{SRD-high}} \\
 				    \toprule
 				    \dphijetthreemet     & \multicolumn{2}{c}{$>0.4$}     \\ %\hline
 				    \nBJet      & \multicolumn{2}{c}{$\geq$2}    \\%\hline
@@ -491,7 +491,7 @@
 						\def\arraystretch{1.4}
 						\captionof{table}{Selection criteria for SRE in addition to the common pre-selection cuts listed in Table~\ref{tab:SRcommon}}
 							\begin{tabular}{lc}\toprule
-							   {\textbf{Variable}}    & {\textbf{SRE}}\\
+							   {\textbf{Selection}}    & {\textbf{SRE}}\\
 							   \toprule
 							   \dphijetthreemet  & $>0.4$             \\ %\hline
 							   \nBJet   & $\geq$2            \\     %\hline
@@ -687,7 +687,6 @@
 			      $N_{\bjs}$ & $\ge 2$ \\
 			      \bottomrule
 			   \end{tabular}
-				% \caption{Selection criteria for the $\ttbar+\gamma$ \ac{CR}.}
 			}
 			\hfill
 			\parbox{.45\linewidth}{
@@ -696,7 +695,7 @@
 				\begin{tabular}{lc}
 					\toprule
 					\textbf{Process} & \textbf{Yield} \\
-					\midrule
+					\toprule
 					\ttgamma & $111.76 \pm 1.45$ \\
 					$V+\gamma$ & $6.29 \pm 0.63$ \\
 					$\ttbar$ & $5.14 \pm 1.20$ \\
@@ -713,7 +712,6 @@
 					$\mu_{\ttgamma}$ & $1.29 \pm 0.12$ \\
 					\bottomrule
 				\end{tabular}
-				% \caption{$\ttbar+\gamma$ \ac{CR} yields.}
 			}
 		\end{table}
 
@@ -727,7 +725,7 @@
 			\begin{center}
 				\includegraphics[width=0.49\textwidth]{figures/stop/ttGamma/Met_CRTTGamma_withRatio_log.eps}
 				\includegraphics[width=0.49\textwidth]{figures/stop/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps}
-				\caption{\label{fig:ttVFakeLepCheck} Distributions of the \met\ and \mtlepmet\ for fake lepton checks. Agreement at low \mtlepmet\ is reasonable indicating no significant contributions from fake leptons. The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
+				\caption{\label{fig:ttVFakeLepCheck} Distributions of the \met\ and \mtlepmet\ for fake lepton checks. Agreement at low \mtlepmet\ is an indication of no significant contributions from fake leptons. The ratio between data and \ac{MC} is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to \ac{MC} statistics.}
 			\end{center}
 		\end{figure}
 
@@ -737,23 +735,22 @@
 
 		\begin{figure}[htbp]
 		\centering
-		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/SigPhotonPt0_ttyCR_afterfit}}
-		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/MT2Chi2_ttyCR_afterfit}}
-		% \includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/SigPhotonPt_0_sqrtHt_CRTTGamma.eps}
-		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/MtBMinPhoton_ttyCR_afterfit}}
-		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/MtBMaxPhoton_ttyCR_afterfit}}
-		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/Ht_ttyCR_afterfit}}
-		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/DRBB_ttyCR_afterfit}}
-		\caption{Data/MC distributions of the photon \pt\~(a), \mttwo~(b), \mtbmin~(c), \mtbmax~(d), \HT~(e), \drbb~(f). The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics. The rightmost bin includes overflow events.}
+			\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/SigPhotonPt0_ttyCR_afterfit}}
+			\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/MT2Chi2_ttyCR_afterfit}}
+			\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/MtBMinPhoton_ttyCR_afterfit}}
+			\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/MtBMaxPhoton_ttyCR_afterfit}}
+			\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/Ht_ttyCR_afterfit}}
+			\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/DRBB_ttyCR_afterfit}}
+		\caption{Data/MC distributions of the photon \pt~(a), \mttwo~(b), \mtbmin~(c), \mtbmax~(d), \HT~(e), \drbb~(f). The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics. The rightmost bin includes overflow events.}
 		\label{fig:ttV} 
 		\end{figure}
 
 		\begin{figure}[htbp]
 		\centering
-		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt12M0_ttyCR_afterfit}}
-		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt12M1_ttyCR_afterfit}}
-		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt8M0_ttyCR_afterfit}}
-		\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt8M1_ttyCR_afterfit}}
+			\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt12M0_ttyCR_afterfit}}
+			\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt12M1_ttyCR_afterfit}}
+			\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt8M0_ttyCR_afterfit}}
+			\subbottom[]{\includegraphics[width=0.49\textwidth]{figures/stop/ttg-plots/AntiKt8M1_ttyCR_afterfit}}
 		\caption{Data/MC distributions of the re-clustered jet masses, \mantikttwelvezero~(a), \mantikttwelveone~(b), \mantikteightzero~(c), \mantikteightone~(d). The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics. The rightmost bin includes overflow events.}
 		\label{fig:ttVMasses} 
 		\end{figure}
@@ -763,9 +760,9 @@
 
 
 
-	\clearpage\section{Summary of the Control Regions}
+	\clearpage\section{Summary of the background estimation}
 
-		A summary with the all the detailed selections of the presented \acp{CR} is given in Tables~\ref{tab:selectionCRZs} (CRZ),~\ref{tab:selectionCRTs} (CRT), and ~\ref{tab:selectionCRWST} (CRW and CRST). Additionally, Tables~\ref{tab:selectionVRZs},~\ref{tab:vrTopABDef},~\ref{tab:vrTopCDEDef} show the detailed selections for the \acp{VR} of the \Zjets\ and \ttbar\ backgrounds in \ac{SR}, respectively.
+		A summary with the all the detailed selections of the presented \acp{CR} is given in Tables~\ref{tab:selectionCRZs} (CRZ),~\ref{tab:selectionCRTs} (CRT), and ~\ref{tab:selectionCRWST} (CRW and CRST). Additionally, Tables~\ref{tab:selectionVRZs},~\ref{tab:VRTABDef},~\ref{tab:VRTCDEDef} show the detailed selections for the \acp{VR} of the \Zjets\ and \ttbar\ backgrounds in \ac{SR}, respectively. The details about the estimation of \ttZ\ are omitted as it has been extensively discussed in the previous Section. 
 
 		\begin{table}[htpb]
 		\def\arraystretch{1.5}
@@ -898,29 +895,61 @@
 		  \label{tab:selectionVRZs}
 		\end{table}
 
+		\begin{table}[htb]
+		  \caption{Validation region definitions, in addition to the requirements presented in Table~\ref{tab:SRcommon} for VRTA and VRTB.}
+		  \begin{center}
+		    \def\arraystretch{1.4}%
+		    \begin{tabular}{clccc} \toprule
+		      {\textbf{VRT}}             & \textbf{Selection} & {\textbf{TT}}     & {\textbf{TW}}     & {\textbf{T0}}     \\ \toprule
+		                                 & \mantikttwelvezero & \multicolumn{3}{c}{$>120\gev$}             \\ %\cline{2-5}
+		                                 & \mantikttwelveone  & $>120\gev$   & $60-120\gev$ & $<60\gev$    \\ %\cline{2-5}
+		                                 & \mtbmin            & $>100,<200$ GeV & $>140,<200$ GeV & $>160,<200$ GeV       \\ %\cline{2-5}
+		                                 & Number of $b$-jets & \multicolumn{3}{c}{ $\geq 2$  }            \\ %\cline{2-5}
+		      \midrule
+		      \multirow{3}{*}{{\textbf{A}}}   & \mantikteightzero  & \multicolumn{3}{c}{$>60\gev$}              \\ %\cline{2-5}
+		      & \drbjetbjet        & $>1$         & \multicolumn{2}{c}{-}       \\ %\cline{2-5}
+		                                 & \met               & $> 300 \gev$ & $> 400 \gev$ & $> 450 \gev$ \\ \midrule
+		      \multirow{2}{*}{{\textbf{B}}}   & \drbjetbjet           & \multicolumn{3}{c}{$>1.2$}             \\ %\cline{2-5}
+		       & \mtbmax           & \multicolumn{3}{c}{$>200$ GeV}             \\ %\cline{2-5}
+		      \toprule
+		    \end{tabular}
+		  \end{center}
+		  \label{tab:VRTABDef}
+		\end{table}%
 
-
-\begin{table}[htb]
-  \caption{Validation region definitions, in addition to the requirements presented in Table~\ref{tab:SRcommon} for VRTopA and VRTopB.}
-  \begin{center}
-    \def\arraystretch{1.4}%
-    \begin{tabular}{clccc} \toprule
-      {\textbf{VRTop}}                &                    & {\textbf{TT}}     & {\textbf{TW}}     & {\textbf{T0}}     \\ \toprule
-                                 & \mantikttwelvezero & \multicolumn{3}{c}{$>120\gev$}             \\ %\cline{2-5}
-                                 & \mantikttwelveone  & $>120\gev$   & $60-120\gev$ & $<60\gev$    \\ %\cline{2-5}
-                                 & \mtbmin            & $>100,<200$ GeV & $>140,<200$ GeV & $>160,<200$ GeV       \\ %\cline{2-5}
-                                 & Number of $b$-jets & \multicolumn{3}{c}{ $\geq 2$  }            \\ %\cline{2-5}
-      \midrule
-      \multirow{3}{*}{{\textbf{A}}}   & \mantikteightzero  & \multicolumn{3}{c}{$>60\gev$}              \\ %\cline{2-5}
-      & \drbjetbjet        & $>1$         & \multicolumn{2}{c}{-}       \\ %\cline{2-5}
-                                 & \met               & $> 300 \gev$ & $> 400 \gev$ & $> 450 \gev$ \\ \midrule
-      \multirow{2}{*}{{\textbf{B}}}   & \drbjetbjet           & \multicolumn{3}{c}{$>1.2$}             \\ %\cline{2-5}
-       & \mtbmax           & \multicolumn{3}{c}{$>200$ GeV}             \\ %\cline{2-5}
-      \toprule
-    \end{tabular}
-  \end{center}
-  \label{tab:vrTopABDef}
-\end{table}%
+		\begin{table}[htpb]
+		  \caption{Summary of the selection for the $0$-lepton top \acp{VR} VRTC, VRTD, and VRTE, in addition to the requirements presented in Table~\ref{tab:SRcommon}.}
+		  \begin{center}
+		    \def\arraystretch{1.4}%
+		    \begin{tabular}{lccc}
+		    \toprule
+		      \textbf{Selection}   & \textbf{VRTC}                & \textbf{VRTD}     & \textbf{VRTE}                   \\ \toprule
+		      $\tau$-veto          & -                     & yes        & -                        \\ %\hline %\hline
+		      $N_{\mathrm{jets}}$  & $\ge4$         & $\ge 5$ & $\ge4$       \\ %\hline %\hline
+		      jet \ptone           & -              & $>150$ GeV & -                        \\ %\hline
+		      jet \ptthree         & -              & $>80$ GeV & -                        \\ %\hline
+		      $N_{\bjs}$           & $\ge1$         & \multicolumn{2}{c}{ $\geq 2$  }       \\ %\hline %\hline
+		      b-jet \ptzero+\ptone & -              & $>300$ GeV & -                        \\ %\hline		      
+		      \midrule
+		      \mtbmin              & -              & \multicolumn{2}{c}{ $>100,<200$ GeV  } \\ 
+		      \mtbmax              & -              & $>300\gev$ & -                        \\ %\hline
+		      \mantikteightzero    & \multicolumn{2}{c}{-} & $>120\,$GeV                           \\ %\hline 
+		      \mantikteightone     & \multicolumn{2}{c}{-} & $>80\,$GeV                            \\ %\hline
+		      \midrule
+		      \drbjetbjet          & -              & $>0.8$     & -                        \\ %\hline
+		      \nJetS               & $\ge4$         & \multicolumn{2}{c}{-}                 \\ %\hline
+		      \nBJetS              & $\ge1$         & \multicolumn{2}{c}{-}                 \\ %\hline
+		      \pTSBZero            & $\ge 40$ GeV   & \multicolumn{2}{c}{-}                 \\ %\hline
+		      \pTSFour             & $>40\gev$ & \multicolumn{2}{c}{-}                \\ %\hline
+		      \pTISR               & $\ge 400$ GeV  & \multicolumn{2}{c}{-}                 \\ %\hline
+		      \mS                  & $>100\gev$     & \multicolumn{2}{c}{-}                 \\ %\hline
+		      $\mV/\mS$            & $<0.6$         & \multicolumn{2}{c}{-}                 \\ %\hline
+		      \dPhiISRMET          & $<3.00$        & \multicolumn{2}{c}{-}                 \\ %\hline%\hline
+		      \bottomrule
+		    \end{tabular}
+		  \end{center}
+		  \label{tab:VRTCDEDef}
+		\end{table}
 
 
 
@@ -936,6 +965,17 @@
 		    \label{fig:CRs}
 		\end{figure}
 
+
+
+	
+	\section{Statistical Analysis}
+
+		
+
+
+
+	\section{Results and Interpretation}
+	\label{sec:results}
  		Figure~\ref{fig:VRs} displays the good agreement between data and \ac{MC} predictions, after a simultaneous fit procedure - which will be discussed in Section~\ref{sec:results} - where the \acp{VR} are used as test \acp{SR}.
 
 		\begin{figure}[!hbt]
@@ -946,9 +986,3 @@
 		  \end{center}
 		\end{figure}
 
-
-
-	\section{Results and Interpretation}
-	\label{sec:results}
-
-		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 		poppete poppete chiamate un poppete. 
