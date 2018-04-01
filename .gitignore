@@ -11,9 +11,6 @@
 *.log	
 *.lot	
 *.out	
-*.pdf
+main.pdf
 *.synctex.gz
 
-#Dirs
-Ref/
-Output/
