@@ -33,6 +33,7 @@
 \usepackage{titlesec, color, xcolor, calc, blindtext}
 \usepackage[pdftex]{graphicx}
 \usepackage{amsmath}
+\usepackage{bm}
 \usepackage{commath}
 \usepackage{amssymb}
 \usepackage{multirow}
@@ -56,7 +57,7 @@
 % Fill in the lines below to enter your information into the thesis template
 % Each of the commands can be cited anywhere in the thesis
 %---------------------------------------------------
-\newcommand{\myTitle}{Optimisation studies and data-driven background estimation for searches for the supersymmetric partner of the top quark with the ATLAS Detector at the LHC}
+\newcommand{\myTitle}{Optimisation studies and data-driven background estimation in searches for the supersymmetric partner of the top quark with the ATLAS Detector at the LHC}
 \newcommand{\mySubtitle}{NO SUBTITLE\xspace}
 \newcommand{\myDegree}{Doctor of Philosophy \xspace}
 \newcommand{\myName}{Fabrizio \textsc{Miano}\xspace}
@@ -143,10 +144,11 @@
 % --------------------------------------------------
 % Set page style
 % --------------------------------------------------
-\renewcommand{\sectionmark}[1]{\markright{\footnotesize{\itshape\thesection\ #1}}} % with number of section 
+\renewcommand{\sectionmark}[1]{\markboth{}{\scriptsize{\thesection\ #1} } } % with number of section a
+
 \makepagestyle{custom}% Create custom page style
 \makeoddhead{custom}% Adjust odd header for custom page style
-{}% Left odd header
+{\leftmark}% Left odd header
 {\thepage}% Center odd header
 {\rightmark}% Right odd header
 \makeheadrule{custom}{\textwidth}{.5pt}% Header rule width/thickness for custom page style
@@ -165,29 +167,29 @@
 % --------------------------------------------------
 % Uncomment for DIGITAL version
 % --------------------------------------------------
-\usepackage[pdftex,                          % Settings for PDF Metadata
-            pdfauthor={Fabrizio Miano},
-            pdftitle={\myTitle},
-            pdfsubject={PhD Thesis},
-            pdfkeywords={CERN, Large Hadron Collider (LHC), ATLAS Experiment, Trigger, 
-                        Supersymmetry, Particle Physics, Big Data, Monte Carlo},
-            pdfproducer={LaTeX},
-            pdfcreator={pdflatex},
-            colorlinks, pagebackref, pdfusetitle,            %Default Settings; original sussex template
-            urlcolor=blue, citecolor=blue, linkcolor=blue,
-            bookmarksnumbered, plainpages=false]{hyperref}
-% --------------------------------------------------
-% Uncomment for PRINTED version
-% --------------------------------------------------
-% \usepackage[pdftex,
+% \usepackage[pdftex,                          % Settings for PDF Metadata
 %             pdfauthor={Fabrizio Miano},
 %             pdftitle={\myTitle},
 %             pdfsubject={PhD Thesis},
 %             pdfkeywords={CERN, Large Hadron Collider (LHC), ATLAS Experiment, Trigger, 
-%                         Supersymmetry, Particle Physics, Big Data, Monte Carlo},
+%                         Supersymmetry, Particle Physics, Big Data, Monte Carlo, Optimisation, Background, Modelling},
 %             pdfproducer={LaTeX},
 %             pdfcreator={pdflatex},
-%             pdfusetitle, bookmarksnumbered, plainpages=false]{hyperref}
+%             colorlinks, pagebackref, pdfusetitle,            %Default Settings; original sussex template
+%             urlcolor=blue, citecolor=blue, linkcolor=blue,
+%             bookmarksnumbered, plainpages=false]{hyperref}
+% --------------------------------------------------
+% Uncomment for PRINTED version
+% --------------------------------------------------
+\usepackage[pdftex,
+            pdfauthor={Fabrizio Miano},
+            pdftitle={\myTitle},
+            pdfsubject={PhD Thesis},
+            pdfkeywords={CERN, Large Hadron Collider (LHC), ATLAS Experiment, Trigger, 
+                        Supersymmetry, Particle Physics, Big Data, Monte Carlo, Optimisation, Background, Modelling},
+            pdfproducer={LaTeX},
+            pdfcreator={pdflatex},
+            pdfusetitle, bookmarksnumbered, plainpages=false]{hyperref}
 % --------------------------------------------------
 
 \graphicspath{{./figures/}} % directory with all the pictures
@@ -204,11 +206,11 @@
   \begingroup
     \frontmatter
     \pagenumbering{roman}
-    \include{FrontBackMatter/Titlepage}
-    \include{FrontBackMatter/Dedication} % Dedication page
-    \include{FrontBackMatter/Acknowledgments} % Acknowledgements page
-    \include{FrontBackMatter/Declaration} % Declaration
-    \include{FrontBackMatter/Abstract} % Abstract page
+    % \input{FrontBackMatter/Titlepage}
+    % \input{FrontBackMatter/Dedication} % Dedication page
+    % \input{FrontBackMatter/Acknowledgments} % Acknowledgements page
+    % \input{FrontBackMatter/Declaration} % Declaration
+    % \input{FrontBackMatter/Abstract} % Abstract page
   \endgroup
   %---------------------------------------------------
   % TABLE OF CONTENTS, LISTS OF TABLES & FIGURES
@@ -233,16 +235,19 @@
   \input{Chapters/detector}
   \input{Chapters/trigger}
   \input{Chapters/evtobj}
-  \input{Chapters/stop}
-  \input{Chapters/conclusion}
+  \input{Chapters/optimisation}
+  \input{Chapters/bkgest}
+  \input{Chapters/results}
+  \input{Chapters/conclusions}
   
   %---------------------------------------------------
   % APPENDICES
   %---------------------------------------------------
   \appendix
-      \input{Chapters/appA.tex}
+    \input{Chapters/appA.tex}
+    \input{Chapters/appB.tex}
   \backmatter
-      \input{FrontBackMatter/Acronyms.tex}
+    \input{FrontBackMatter/Acronyms.tex}
 
   %---------------------------------------------------
   % BIBLIOGRAPHY
@@ -250,8 +255,7 @@
   \clearpage
   \phantomsection
   \bibliography{Chapters/bibliography}
-  \clearpage
-  \input{FrontBackMatter/Colophon}
+  \clearpage\input{FrontBackMatter/Colophon}
 
   %---------------------------------------------------
   % END DOCUMENT
