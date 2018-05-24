@@ -14,3 +14,7 @@
 main.pdf
 *.synctex.gz
 
+Output/*.fls
+Output/*.log
+Output/*.out
+Output/*.pdf
