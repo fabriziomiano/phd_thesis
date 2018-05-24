@@ -1,64 +1,69 @@
-\BOOKMARK [0][-]{contents_bookmark.0}{Contents}{}% 1
-\BOOKMARK [0][-]{chapter*.2}{Introduction}{}% 2
-\BOOKMARK [0][-]{chapter.1}{1 The Standard Model and Supersymmetry}{}% 3
-\BOOKMARK [1][-]{section.1.1}{1.1 The Standard Model}{chapter.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Electroweak Symmetry Breaking and the Higgs mechanism}{section.1.1}% 5
-\BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 Limitations of the Standard Model}{section.1.1}% 6
-\BOOKMARK [1][-]{section.1.2}{1.2 Supersymmetry and the MSSM}{chapter.1}% 7
-\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Minimal Supersymmetric Standard Model}{section.1.2}% 8
-\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Phenomenology of Supersymmetry}{section.1.2}% 9
-\BOOKMARK [0][-]{chapter.2}{2 The ATLAS Experiment at the LHC}{}% 10
-\BOOKMARK [1][-]{section.2.1}{2.1 The LHC}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{2.2 The ATLAS Detector}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 The Magnet System}{section.2.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 The Inner Detector}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 The Calorimeters}{section.2.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 The Muon Spectrometer}{section.2.2}% 16
-\BOOKMARK [1][-]{section.2.3}{2.3 The ATLAS Trigger System}{chapter.2}% 17
-\BOOKMARK [0][-]{chapter.3}{3 The ATLAS Trigger System}{}% 18
-\BOOKMARK [1][-]{section.3.1}{3.1 Overview}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.2}{3.2 Level-1 Trigger}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.3}{3.3 High-Level Trigger}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Inner detector tracking}{section.3.3}% 22
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Performance of HLT}{section.3.3}% 23
-\BOOKMARK [0][-]{chapter.4}{4 Event Simulation and Object Reconstruction}{}% 24
-\BOOKMARK [1][-]{section.4.1}{4.1 Generation of Monte Carlo-simulated events}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.2}{4.2 Object Reconstruction}{chapter.4}% 26
-\BOOKMARK [0][-]{chapter.5}{5 Analysis strategy and optimisation}{}% 27
-\BOOKMARK [1][-]{section.5.1}{5.1 SUSY signals}{chapter.5}% 28
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Benchmark processes}{section.5.1}% 29
-\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 MC samples}{section.5.1}% 30
-\BOOKMARK [1][-]{section.5.2}{5.2 Objects definition}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.3}{5.3 Triggers used}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.4}{5.4 Event selection}{chapter.5}% 33
-\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Event cleaning}{section.5.4}% 34
-\BOOKMARK [1][-]{section.5.5}{5.5 Standard Model backgrounds}{chapter.5}% 35
-\BOOKMARK [2][-]{subsection.5.5.1}{5.5.1 MC samples}{section.5.5}% 36
-\BOOKMARK [1][-]{section.5.6}{5.6 Signal Regions optimisation}{chapter.5}% 37
-\BOOKMARK [2][-]{subsection.5.6.1}{5.6.1 Preliminary selection and discriminating key variables}{section.5.6}% 38
-\BOOKMARK [2][-]{subsection.5.6.2}{5.6.2 Optimisation strategy}{section.5.6}% 39
-\BOOKMARK [0][-]{chapter.6}{6 Background estimation}{}% 40
-\BOOKMARK [1][-]{section.6.1}{6.1 Nominal background estimation}{chapter.6}% 41
-\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Control regions}{section.6.1}% 42
-\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Validation regions}{section.6.1}% 43
-\BOOKMARK [1][-]{section.6.2}{6.2 Estimation of the irreducible background}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.3}{6.3 Systematic uncertainties}{chapter.6}% 45
-\BOOKMARK [2][-]{subsection.6.3.1}{6.3.1 Experimental uncertainties}{section.6.3}% 46
-\BOOKMARK [2][-]{subsection.6.3.2}{6.3.2 Theory uncertainties}{section.6.3}% 47
-\BOOKMARK [0][-]{chapter.7}{7 Results and statistical interpretation}{}% 48
-\BOOKMARK [1][-]{section.7.1}{7.1 Statistical analysis}{chapter.7}% 49
-\BOOKMARK [2][-]{subsection.7.1.1}{7.1.1 Estimation of the parameters and the statistical hypothesis testing}{section.7.1}% 50
-\BOOKMARK [2][-]{subsection.7.1.2}{7.1.2 Discovery and exclusion}{section.7.1}% 51
-\BOOKMARK [1][-]{section.7.2}{7.2 Results and Interpretation}{chapter.7}% 52
-\BOOKMARK [2][-]{subsection.7.2.1}{7.2.1 Background-only fit}{section.7.2}% 53
-\BOOKMARK [2][-]{subsection.7.2.2}{7.2.2 Opening Pandora's box: unblinded SRs}{section.7.2}% 54
-\BOOKMARK [2][-]{subsection.7.2.3}{7.2.3 Setting the limits}{section.7.2}% 55
-\BOOKMARK [0][-]{chapter*.99}{Conclusions}{}% 56
-\BOOKMARK [0][-]{appendix.A}{A t+Z estimation for a Dark Matter search}{}% 57
-\BOOKMARK [1][-]{section.A.1}{A.1 Overview of the analysis}{appendix.A}% 58
-\BOOKMARK [1][-]{section.A.2}{A.2 The estimation of the irreducible t+Z background}{appendix.A}% 59
-\BOOKMARK [1][-]{section.A.3}{A.3 Results}{appendix.A}% 60
-\BOOKMARK [0][-]{appendix.B}{B Summary of the background estimation}{}% 61
-\BOOKMARK [0][-]{appendix*.100}{Glossary}{}% 62
-\BOOKMARK [0][-]{section*.103}{Bibliography}{}% 63
-\BOOKMARK [0][-]{colophon.0}{Colophon}{}% 64
+\BOOKMARK [0][-]{Dedication.0}{Dedication}{}% 1
+\BOOKMARK [0][-]{Acknowledgements.0}{Acknowledgements}{}% 2
+\BOOKMARK [0][-]{declaration.0}{Declaration}{}% 3
+\BOOKMARK [0][-]{Abstract.0}{Abstract}{}% 4
+\BOOKMARK [0][-]{contents_bookmark.0}{Contents}{}% 5
+\BOOKMARK [0][-]{chapter*.2}{Introduction}{}% 6
+\BOOKMARK [0][-]{chapter.1}{1 The Standard Model and Supersymmetry}{}% 7
+\BOOKMARK [1][-]{section.1.1}{1.1 The Standard Model}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Electroweak Symmetry Breaking and the Higgs mechanism}{section.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 Limitations of the Standard Model}{section.1.1}% 10
+\BOOKMARK [1][-]{section.1.2}{1.2 Supersymmetry and the MSSM}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Minimal Supersymmetric Standard Model}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Phenomenology of Supersymmetry}{section.1.2}% 13
+\BOOKMARK [0][-]{chapter.2}{2 The ATLAS Experiment at the LHC}{}% 14
+\BOOKMARK [1][-]{section.2.1}{2.1 The LHC}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.2}{2.2 The ATLAS Detector}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 The Magnet System}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 The Inner Detector}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 The Calorimeters}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 The Muon Spectrometer}{section.2.2}% 20
+\BOOKMARK [1][-]{section.2.3}{2.3 The ATLAS Trigger System}{chapter.2}% 21
+\BOOKMARK [0][-]{chapter.3}{3 The ATLAS Trigger System}{}% 22
+\BOOKMARK [1][-]{section.3.1}{3.1 Overview}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{3.2 Level-1 Trigger}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{3.3 High-Level Trigger}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.4}{3.4 Performance of ID Triggers}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 Inner detector tracking}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 Performance of ID Triggers at HLT}{section.3.4}% 28
+\BOOKMARK [0][-]{chapter.4}{4 Event Simulation and Object Reconstruction}{}% 29
+\BOOKMARK [1][-]{section.4.1}{4.1 Generation of Monte Carlo-simulated events}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{4.2 Object Reconstruction}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter.5}{5 Analysis strategy and optimisation}{}% 32
+\BOOKMARK [1][-]{section.5.1}{5.1 SUSY signals}{chapter.5}% 33
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Benchmark processes}{section.5.1}% 34
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 MC samples}{section.5.1}% 35
+\BOOKMARK [1][-]{section.5.2}{5.2 Objects definition}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.3}{5.3 Triggers used}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.4}{5.4 Event selection}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Event cleaning}{section.5.4}% 39
+\BOOKMARK [1][-]{section.5.5}{5.5 Standard Model backgrounds}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.5.1}{5.5.1 MC samples}{section.5.5}% 41
+\BOOKMARK [1][-]{section.5.6}{5.6 Signal Regions optimisation}{chapter.5}% 42
+\BOOKMARK [2][-]{subsection.5.6.1}{5.6.1 Preliminary selection and discriminating key variables}{section.5.6}% 43
+\BOOKMARK [2][-]{subsection.5.6.2}{5.6.2 Optimisation strategy}{section.5.6}% 44
+\BOOKMARK [0][-]{chapter.6}{6 Background estimation}{}% 45
+\BOOKMARK [1][-]{section.6.1}{6.1 Nominal background estimation}{chapter.6}% 46
+\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Control regions definition}{section.6.1}% 47
+\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Validation regions}{section.6.1}% 48
+\BOOKMARK [1][-]{section.6.2}{6.2 Estimation of the t+Z irreducible background}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.3}{6.3 Systematic uncertainties}{chapter.6}% 50
+\BOOKMARK [2][-]{subsection.6.3.1}{6.3.1 Experimental uncertainties}{section.6.3}% 51
+\BOOKMARK [2][-]{subsection.6.3.2}{6.3.2 Theory uncertainties}{section.6.3}% 52
+\BOOKMARK [0][-]{chapter.7}{7 Results and statistical interpretation}{}% 53
+\BOOKMARK [1][-]{section.7.1}{7.1 Statistical analysis}{chapter.7}% 54
+\BOOKMARK [2][-]{subsection.7.1.1}{7.1.1 Estimation of the parameters and the statistical hypothesis testing}{section.7.1}% 55
+\BOOKMARK [2][-]{subsection.7.1.2}{7.1.2 Discovery and exclusion}{section.7.1}% 56
+\BOOKMARK [1][-]{section.7.2}{7.2 Results and Interpretation}{chapter.7}% 57
+\BOOKMARK [2][-]{subsection.7.2.1}{7.2.1 Background-only fit}{section.7.2}% 58
+\BOOKMARK [2][-]{subsection.7.2.2}{7.2.2 Opening Pandora's box: unblinded SRs}{section.7.2}% 59
+\BOOKMARK [2][-]{subsection.7.2.3}{7.2.3 Setting the limits}{section.7.2}% 60
+\BOOKMARK [0][-]{chapter*.99}{Conclusions}{}% 61
+\BOOKMARK [0][-]{appendix.A}{A t+Z estimation for a Dark Matter search}{}% 62
+\BOOKMARK [1][-]{section.A.1}{A.1 Overview of the analysis}{appendix.A}% 63
+\BOOKMARK [1][-]{section.A.2}{A.2 The estimation of the irreducible t+Z background}{appendix.A}% 64
+\BOOKMARK [1][-]{section.A.3}{A.3 Results}{appendix.A}% 65
+\BOOKMARK [0][-]{appendix.B}{B Summary of the background estimation}{}% 66
+\BOOKMARK [0][-]{appendix*.100}{Glossary}{}% 67
+\BOOKMARK [0][-]{section*.103}{Bibliography}{}% 68
+\BOOKMARK [0][-]{colophon.0}{Colophon}{}% 69

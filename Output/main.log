@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.4)  24 APR 2018 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.4)  9 MAY 2018 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2926,7 +2926,63 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Try loading font information for U+msb on input line 205.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) (./FrontBackMatter/Titlepage.tex
+Package epstopdf Info: Source file: <./figures/uslogo.eps>
+(epstopdf)                    date: 2015-11-09 19:01:27
+(epstopdf)                    size: 1172650 bytes
+(epstopdf)             Output file: <./figures/uslogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-13 11:13:17
+(epstopdf)                    size: 22049 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/uslogo-eps-conve
+rted-to.pdf ./figures/uslogo.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+<./figures/uslogo-eps-converted-to.pdf, id=284, 285.065pt x 250.9375pt>
+File: ./figures/uslogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/uslogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/uslogo-eps-converted-to.pdf used on input li
+ne 12.
+(pdftex.def)             Requested size: 142.26378pt x 125.23103pt.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 27.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 27.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 27.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 27.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 27.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 27.
+) [1
+
+
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
+es/uslogo-eps-converted-to.pdf>] (./FrontBackMatter/Dedication.tex) [2
+
+] (./FrontBackMatter/Acknowledgments.tex
+Underfull \vbox (badness 2042) has occurred while \output is active []
+
+[3
+
+]) [4] (./FrontBackMatter/Declaration.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 17--213
+
+ []
+
+[5
+
+] (./FrontBackMatter/Abstract.tex
+Overfull \hbox (20.52608pt too wide) in paragraph at lines 30--31
+\T1/futs/m/n/10.95 data and back-ground pre-dic-tions was ex-tens-ively checked
+ and the ex-tra-pol-a-tions from background-
+ []
+
+) [6
+
+]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <142.26378> not available
 
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 224.
@@ -2936,30 +2992,20 @@ e
 (/Users/frodo/CERNBox/Thesis/Output/main.toc
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 2.
-[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
+Underfull \vbox (badness 2126) has occurred while \output is active []
 
-]
+[7]
 Package acronym Info: Label `acro:SR' newly defined as it shall be overridden
-although it is yet undefined on input line 55.
-
-Overfull \hbox (1.09499pt too wide) detected at line 56
- \T1/futs/m/n/10.95 100
- []
-
-
-Overfull \hbox (1.98195pt too wide) detected at line 57
- \T1/futs/b/n/10.95 106
- []
-
+although it is yet undefined on input line 56.
 
 Overfull \hbox (1.98195pt too wide) detected at line 58
- \T1/futs/b/n/10.95 108
+ \T1/futs/b/n/10.95 107
  []
 
 
-Overfull \hbox (1.09499pt too wide) detected at line 59
- \T1/futs/m/n/10.95 108
+Overfull \hbox (1.98195pt too wide) detected at line 59
+ \T1/futs/b/n/10.95 109
  []
 
 
@@ -2973,21 +3019,26 @@ Overfull \hbox (1.09499pt too wide) detected at line 61
  []
 
 
-Overfull \hbox (1.98195pt too wide) detected at line 62
- \T1/futs/b/n/10.95 114
+Overfull \hbox (1.09499pt too wide) detected at line 62
+ \T1/futs/m/n/10.95 111
  []
 
 
 Overfull \hbox (1.98195pt too wide) detected at line 63
- \T1/futs/b/n/10.95 119
+ \T1/futs/b/n/10.95 115
  []
 
 
 Overfull \hbox (1.98195pt too wide) detected at line 64
- \T1/futs/b/n/10.95 123
+ \T1/futs/b/n/10.95 120
  []
 
-) [2] (./Chapters/intro.tex
+
+Overfull \hbox (1.98195pt too wide) detected at line 65
+ \T1/futs/b/n/10.95 124
+ []
+
+) [8] (./Chapters/intro.tex
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 9.19998pt on input line 4.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -3003,13 +3054,10 @@ Package acronym Info: Label `acro:SUSY' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:LHC' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
-Package acronym Info: Label `acro:ATLAS' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 11.
 ) (./Chapters/theory.tex [1
 
 
-] [2] <./figures/theory/sm.png, id=387, 1204.5pt x 1204.5pt>
+] [2] <./figures/theory/sm.png, id=445, 1204.5pt x 1204.5pt>
 File: ./figures/theory/sm.png Graphic file (type png)
 <use ./figures/theory/sm.png>
 Package pdftex.def Info: ./figures/theory/sm.png used on input line 7.
@@ -3038,84 +3086,85 @@ although it is yet undefined on input line 21.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 27.
 Package acronym Info: Label `acro:QED' newly defined as it shall be overridden
-although it is yet undefined on input line 44.
+although it is yet undefined on input line 42.
 [4]
-Overfull \hbox (1.036pt too wide) in paragraph at lines 63--64
+Overfull \hbox (1.036pt too wide) in paragraph at lines 61--62
 \T1/futs/m/n/10.95 The up-type quarks (\T1/futs/m/it/10.95 up, charm, top\T1/fu
 ts/m/n/10.95 ) have charge $\FMS/futm/m/n/10.95 Ä[]\FML/futmi/m/it/10.95 e$ \T1
 /futs/m/n/10.95 and the down-type quarks (\T1/futs/m/it/10.95 down, strange,
  []
 
+
+Overfull \hbox (3.0936pt too wide) in paragraph at lines 61--62
+\T1/futs/m/n/10.95 The col-our charge ex-ists in three dif-fer-ent states (\T1/
+futs/m/it/10.95 red\T1/futs/m/n/10.95 , \T1/futs/m/it/10.95 green \T1/futs/m/n/
+10.95 and \T1/futs/m/it/10.95 blue\T1/futs/m/n/10.95 ), but quarks can-not prop
+ag-
+ []
+
 [5]
 Package acronym Info: Label `acro:QCD' newly defined as it shall be overridden
-although it is yet undefined on input line 86.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 93.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 93.
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 96.
+although it is yet undefined on input line 84.
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-) [6] [7] <HiggsPotential/HiggsPotential.pdf, id=514, 217.98138pt x 158.50717pt
+) [6] [7] <HiggsPotential/HiggsPotential.pdf, id=572, 217.98138pt x 158.50717pt
 >
 File: HiggsPotential/HiggsPotential.pdf Graphic file (type pdf)
 <use HiggsPotential/HiggsPotential.pdf>
 Package pdftex.def Info: HiggsPotential/HiggsPotential.pdf used on input line 2
-09.
+07.
 (pdftex.def)             Requested size: 170.71393pt x 124.14299pt.
 Package acronym Info: Label `acro:VEV' newly defined as it shall be overridden
-although it is yet undefined on input line 213.
+although it is yet undefined on input line 211.
 [8]
-Underfull \hbox (badness 1629) in paragraph at lines 225--228
+Underfull \hbox (badness 1629) in paragraph at lines 223--226
 \T1/futs/m/n/10.95 gauge sym-metry must be broken. How-
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 225--228
+Underfull \hbox (badness 1803) in paragraph at lines 223--226
 \T1/futs/m/n/10.95 normalisable, the global Lag-rangian sym-
  []
 
 Package acronym Info: Label `acro:LEP' newly defined as it shall be overridden
-although it is yet undefined on input line 234.
-Package acronym Info: Label `acro:CERN' newly defined as it shall be overridden
+although it is yet undefined on input line 232.
 
-although it is yet undefined on input line 234.
-
-<./figures/theory/ATLAS_a_SMSummary_TotalXsect.png, id=541, 4501.81876pt x 3303
+<./figures/theory/ATLAS_a_SMSummary_TotalXsect.png, id=598, 4501.81876pt x 3303
 .34125pt>
 File: ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png Graphic file (type png)
 
 <use ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png>
 Package pdftex.def Info: ./figures/theory/ATLAS_a_SMSummary_TotalXsect.png used
- on input line 238.
+ on input line 236.
 (pdftex.def)             Requested size: 426.79135pt x 313.16542pt.
 
-<./figures/theory/1loopFermionicCorrections.png, id=550, 363.3575pt x 223.83624
+<./figures/theory/1loopFermionicCorrections.png, id=607, 363.3575pt x 223.83624
 pt>
 File: ./figures/theory/1loopFermionicCorrections.png Graphic file (type png)
 <use ./figures/theory/1loopFermionicCorrections.png>
 Package pdftex.def Info: ./figures/theory/1loopFermionicCorrections.png used on
- input line 257.
+ input line 255.
 (pdftex.def)             Requested size: 128.0387pt x 78.87666pt.
 
 Underfull \vbox (badness 1796) has occurred while \output is active []
 
 [9 <./HiggsPotential/HiggsPotential.pdf>]
 Package acronym Info: Label `acro:DM' newly defined as it shall be overridden
-although it is yet undefined on input line 271.
+although it is yet undefined on input line 269.
 Package acronym Info: Label `acro:WIMP' newly defined as it shall be overridden
 
-although it is yet undefined on input line 271.
+although it is yet undefined on input line 269.
 [10 <./figures/theory/ATLAS_a_SMSummary_TotalXsect.png> <./figures/theory/1loop
 FermionicCorrections.png>]
 Package acronym Info: Label `acro:GUT' newly defined as it shall be overridden
-although it is yet undefined on input line 287.
-<./figures/theory/alphaRunning.jpg, id=616, 569.0058pt x 232.4685pt>
+although it is yet undefined on input line 285.
+<./figures/theory/alphaRunning.jpg, id=671, 569.0058pt x 232.4685pt>
 File: ./figures/theory/alphaRunning.jpg Graphic file (type jpg)
 <use ./figures/theory/alphaRunning.jpg>
 Package pdftex.def Info: ./figures/theory/alphaRunning.jpg used on input line 2
-91.
+89.
 (pdftex.def)             Requested size: 426.79135pt x 174.36513pt.
 
 Underfull \vbox (badness 1043) has occurred while \output is active []
@@ -3125,92 +3174,90 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [12 <./figures/theory/alphaRunning.jpg>] [13] [14]
 Package acronym Info: Label `acro:LSP' newly defined as it shall be overridden
-although it is yet undefined on input line 471.
+although it is yet undefined on input line 469.
 [15]
 Package acronym Info: Label `acro:FCNC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 481.
+although it is yet undefined on input line 479.
 Package acronym Info: Label `acro:pMSSM' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 485.
+although it is yet undefined on input line 483.
 
-Overfull \hbox (36.02036pt too wide) in paragraph at lines 485--486
-\T1/futs/m/n/10.95 The in-tro-duc-tion of such para-met-ers, sum-mar-ised in Ta
-ble []1.3[], defines the so-called [][][]Phenomenological
+Overfull \hbox (4.57195pt too wide) in paragraph at lines 483--484
+\T1/futs/m/n/10.95 The in-tro-duc-tion of such con-straints al-lows the defin-i
+-tion of the the so-called [][][]Phenomenological
  []
 
 
-Overfull \hbox (6.24391pt too wide) in paragraph at lines 519--520
+Overfull \hbox (6.24391pt too wide) in paragraph at lines 517--518
 \T1/futs/m/n/10.95 squarks that do not con-trib-ute to gluino pro-duc-tion dia-
 grams and vice versa, i.e. treat-ing squarks
  []
 
 
-Overfull \hbox (6.34586pt too wide) in paragraph at lines 519--520
+Overfull \hbox (6.34586pt too wide) in paragraph at lines 517--518
 \T1/futs/m/n/10.95 tion cross-section, which is not dis-played, would sit just 
 be-low higgsino-like char-gino/neutralino
  []
 
-[16] <./figures/theory/SusyXSec13TeV.png, id=755, 569.0058pt x 387.3672pt>
+[16] <./figures/theory/SusyXSec13TeV.png, id=808, 569.0058pt x 387.3672pt>
 File: ./figures/theory/SusyXSec13TeV.png Graphic file (type png)
 <use ./figures/theory/SusyXSec13TeV.png>
 Package pdftex.def Info: ./figures/theory/SusyXSec13TeV.png used on input line 
-523.
+521.
 (pdftex.def)             Requested size: 426.79135pt x 290.54832pt.
-<./figures/theory/3rd_gen_searches.png, id=759, 987.69pt x 487.8225pt>
+<./figures/theory/3rd_gen_searches.png, id=812, 987.69pt x 487.8225pt>
 File: ./figures/theory/3rd_gen_searches.png Graphic file (type png)
 <use ./figures/theory/3rd_gen_searches.png>
 Package pdftex.def Info: ./figures/theory/3rd_gen_searches.png used on input li
-ne 540.
+ne 538.
 (pdftex.def)             Requested size: 426.79135pt x 210.78679pt.
 Package acronym Info: Label `acro:NLSP' newly defined as it shall be overridden
 
-although it is yet undefined on input line 544.
+although it is yet undefined on input line 542.
 [17 <./figures/theory/SusyXSec13TeV.png>] <./figures/theory/stst-bqqbqqN1N1-tt.
-pdf, id=774, 128.48pt x 104.39pt>
+pdf, id=827, 128.48pt x 104.39pt>
 File: ./figures/theory/stst-bqqbqqN1N1-tt.pdf Graphic file (type pdf)
 <use ./figures/theory/stst-bqqbqqN1N1-tt.pdf>
 Package pdftex.def Info: ./figures/theory/stst-bqqbqqN1N1-tt.pdf used on input 
-line 550.
+line 547.
 (pdftex.def)             Requested size: 106.69783pt x 86.69304pt.
-<./figures/theory/stst-bbWWN1N1.pdf, id=775, 127.47626pt x 104.39pt>
+<./figures/theory/stst-bbWWN1N1.pdf, id=828, 127.47626pt x 104.39pt>
 File: ./figures/theory/stst-bbWWN1N1.pdf Graphic file (type pdf)
 <use ./figures/theory/stst-bbWWN1N1.pdf>
 Package pdftex.def Info: ./figures/theory/stst-bbWWN1N1.pdf used on input line 
-552.
+549.
 (pdftex.def)             Requested size: 106.69783pt x 87.37796pt.
-<./figures/theory/stst-tbhWN1N1.pdf, id=776, 131.49126pt x 103.38625pt>
+<./figures/theory/stst-tbhWN1N1.pdf, id=829, 131.49126pt x 103.38625pt>
 File: ./figures/theory/stst-tbhWN1N1.pdf Graphic file (type pdf)
 <use ./figures/theory/stst-tbhWN1N1.pdf>
 Package pdftex.def Info: ./figures/theory/stst-tbhWN1N1.pdf used on input line 
-554.
+551.
 (pdftex.def)             Requested size: 106.69783pt x 83.89542pt.
 
-<./figures/theory/gogo-tsofttsoftN1N1-stst.pdf, id=777, 130.4875pt x 102.3825pt
+<./figures/theory/gogo-tsofttsoftN1N1-stst.pdf, id=830, 130.4875pt x 102.3825pt
 >
 File: ./figures/theory/gogo-tsofttsoftN1N1-stst.pdf Graphic file (type pdf)
 <use ./figures/theory/gogo-tsofttsoftN1N1-stst.pdf>
 Package pdftex.def Info: ./figures/theory/gogo-tsofttsoftN1N1-stst.pdf used on 
-input line 556.
+input line 553.
 (pdftex.def)             Requested size: 106.69783pt x 83.71829pt.
 [18 <./figures/theory/3rd_gen_searches.png> <./figures/theory/stst-bqqbqqN1N1-t
 t.pdf> <./figures/theory/stst-bbWWN1N1.pdf> <./figures/theory/stst-tbhWN1N1.pdf
 > <./figures/theory/gogo-tsofttsoftN1N1-stst.pdf>]) (./Chapters/detector.tex [1
 9]
-Package acronym Info: Label `acro:CMS' newly defined as it shall be overridden
-although it is yet undefined on input line 5.
-Package acronym Info: Label `acro:ALICE' newly defined as it shall be overridde
+Package acronym Info: Label `acro:ATLAS' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 5.
-Package acronym Info: Label `acro:LHCb' newly defined as it shall be overridden
+Package acronym Info: Label `acro:CERN' newly defined as it shall be overridden
 
-although it is yet undefined on input line 5.
+although it is yet undefined on input line 14.
 [20
 
 ]
 Package acronym Info: Label `acro:LS1' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
-<./figures/Detector/cern-acc-complex.jpg, id=855, 772.5663pt x 541.7841pt>
+<./figures/Detector/cern-acc-complex.jpg, id=904, 772.5663pt x 541.7841pt>
 File: ./figures/Detector/cern-acc-complex.jpg Graphic file (type jpg)
 <use ./figures/Detector/cern-acc-complex.jpg>
 Package pdftex.def Info: ./figures/Detector/cern-acc-complex.jpg used on input 
@@ -3230,6 +3277,14 @@ Package acronym Info: Label `acro:LEIR' newly defined as it shall be overridden
 
 although it is yet undefined on input line 52.
 [21]
+Package acronym Info: Label `acro:CMS' newly defined as it shall be overridden
+although it is yet undefined on input line 54.
+Package acronym Info: Label `acro:LHCb' newly defined as it shall be overridden
+
+although it is yet undefined on input line 54.
+Package acronym Info: Label `acro:ALICE' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 54.
 Package acronym Info: Label `acro:TOTEM' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 54.
@@ -3239,7 +3294,7 @@ although it is yet undefined on input line 54.
 Package acronym Info: Label `acro:MoEDAL' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 54.
-<./figures/Detector/cut-away-det.jpg, id=906, 1304.875pt x 839.135pt>
+<./figures/Detector/cut-away-det.jpg, id=954, 1304.875pt x 839.135pt>
 File: ./figures/Detector/cut-away-det.jpg Graphic file (type jpg)
 <use ./figures/Detector/cut-away-det.jpg>
 Package pdftex.def Info: ./figures/Detector/cut-away-det.jpg used on input line
@@ -3270,8 +3325,8 @@ ored
 l.109 				\subbottom
                     [Geometry of magnet windings and tile calorimeter steel....
 
-<./figures/Detector/MagnetSyst/magnetSyst.png, id=961, 1037.8775pt x 800.9925pt
->
+<./figures/Detector/MagnetSyst/magnetSyst.png, id=1015, 1037.8775pt x 800.9925p
+t>
 File: ./figures/Detector/MagnetSyst/magnetSyst.png Graphic file (type png)
 <use ./figures/Detector/MagnetSyst/magnetSyst.png>
 Package pdftex.def Info: ./figures/Detector/MagnetSyst/magnetSyst.png used on i
@@ -3284,8 +3339,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
 l.112 				\subbottom
                     [Schematic view of the superconducting magnets~\cite{YAM...
 
-<./figures/Detector/MagnetSyst/magnetSyst-desc.jpg, id=964, 248.6088pt x 156.10
-32pt>
+<./figures/Detector/MagnetSyst/magnetSyst-desc.jpg, id=1018, 248.6088pt x 156.1
+032pt>
 File: ./figures/Detector/MagnetSyst/magnetSyst-desc.jpg Graphic file (type jpg)
 
 <use ./figures/Detector/MagnetSyst/magnetSyst-desc.jpg>
@@ -3310,7 +3365,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1})
                    \relax 
 l.138 				\subbottom
                     [Overview of the \ac{ATLAS} \ac{ID} with labels and dime...
-<./figures/Detector/ID/ID-overview.jpg, id=990, 810.52812pt x 540.51938pt>
+<./figures/Detector/ID/ID-overview.jpg, id=1044, 810.52812pt x 540.51938pt>
 File: ./figures/Detector/ID/ID-overview.jpg Graphic file (type jpg)
 <use ./figures/Detector/ID/ID-overview.jpg>
 Package pdftex.def Info: ./figures/Detector/ID/ID-overview.jpg used on input li
@@ -3322,7 +3377,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
                    \relax 
 l.139 				\subbottom
                     [Diagram of the \ac{ATLAS} \ac{ID} and its sub-detectors...
-<./figures/Detector/ID/ID.png, id=995, 253.23409pt x 218.2554pt>
+<./figures/Detector/ID/ID.png, id=1049, 253.23409pt x 218.2554pt>
 File: ./figures/Detector/ID/ID.png Graphic file (type png)
 <use ./figures/Detector/ID/ID.png>
 Package pdftex.def Info: ./figures/Detector/ID/ID.png used on input line 139.
@@ -3332,21 +3387,20 @@ although it is yet undefined on input line 148.
 [25 <./figures/Detector/ID/ID-overview.jpg> <./figures/Detector/ID/ID.png>]
 Package acronym Info: Label `acro:PV' newly defined as it shall be overridden
 although it is yet undefined on input line 158.
-[26]
-<./figures/Detector/Calo/Calo-overview.jpg, id=1049, 1304.875pt x 878.28125pt>
+[26] [27]
+<./figures/Detector/Calo/Calo-overview.jpg, id=1108, 1304.875pt x 878.28125pt>
 File: ./figures/Detector/Calo/Calo-overview.jpg Graphic file (type jpg)
 <use ./figures/Detector/Calo/Calo-overview.jpg>
 Package pdftex.def Info: ./figures/Detector/Calo/Calo-overview.jpg used on inpu
 t line 198.
 (pdftex.def)             Requested size: 426.79135pt x 287.26062pt.
-[27]
 Package acronym Info: Label `acro:HCAL' newly defined as it shall be overridden
 
 although it is yet undefined on input line 203.
 Package acronym Info: Label `acro:LAr' newly defined as it shall be overridden
 although it is yet undefined on input line 203.
 [28 <./figures/Detector/Calo/Calo-overview.jpg>] [29] <./figures/Detector/MS/MS
-.jpg, id=1101, 750.805pt x 563.10374pt>
+.jpg, id=1153, 750.805pt x 563.10374pt>
 File: ./figures/Detector/MS/MS.jpg Graphic file (type jpg)
 <use ./figures/Detector/MS/MS.jpg>
 Package pdftex.def Info: ./figures/Detector/MS/MS.jpg used on input line 251.
@@ -3355,11 +3409,11 @@ Package acronym Info: Label `acro:MDT' newly defined as it shall be overridden
 although it is yet undefined on input line 260.
 Package acronym Info: Label `acro:CSC' newly defined as it shall be overridden
 although it is yet undefined on input line 262.
+[30 <./figures/Detector/MS/MS.jpg>]
 Package acronym Info: Label `acro:TGC' newly defined as it shall be overridden
 although it is yet undefined on input line 264.
 Package acronym Info: Label `acro:RPC' newly defined as it shall be overridden
 although it is yet undefined on input line 264.
-[30 <./figures/Detector/MS/MS.jpg>]
 Package acronym Info: Label `acro:L1' newly defined as it shall be overridden
 although it is yet undefined on input line 280.
 Package acronym Info: Label `acro:HLT' newly defined as it shall be overridden
@@ -3385,7 +3439,7 @@ although it is yet undefined on input line 14.
 [32
 
 ]
-<./figures/Detector/Trigger/TDAQSystem.png, id=1210, 812.03375pt x 645.41125pt>
+<./figures/Detector/Trigger/TDAQSystem.png, id=1264, 812.03375pt x 645.41125pt>
 File: ./figures/Detector/Trigger/TDAQSystem.png Graphic file (type png)
 <use ./figures/Detector/Trigger/TDAQSystem.png>
 Package pdftex.def Info: ./figures/Detector/Trigger/TDAQSystem.png used on inpu
@@ -3398,7 +3452,7 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 Package acronym Info: Label `acro:L1Topo' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 46.
-<./figures/Trigger/cluster.png, id=1246, 627.34375pt x 647.41875pt>
+<./figures/Trigger/cluster.png, id=1302, 627.34375pt x 647.41875pt>
 File: ./figures/Trigger/cluster.png Graphic file (type png)
 <use ./figures/Trigger/cluster.png>
 Package pdftex.def Info: ./figures/Trigger/cluster.png used on input line 56.
@@ -3409,91 +3463,94 @@ Underfull \hbox (badness 2173) in paragraph at lines 61--62
  []
 
 [34 <./figures/Trigger/cluster.png>] <./figures/Trigger/L1MuTrigChambers.png, i
-d=1280, 556.0775pt x 397.485pt>
+d=1335, 556.0775pt x 397.485pt>
 File: ./figures/Trigger/L1MuTrigChambers.png Graphic file (type png)
 <use ./figures/Trigger/L1MuTrigChambers.png>
 Package pdftex.def Info: ./figures/Trigger/L1MuTrigChambers.png used on input l
 ine 72.
 (pdftex.def)             Requested size: 426.79135pt x 305.07578pt.
-
-Underfull \vbox (badness 2495) has occurred while \output is active []
-
 [35] [36 <./figures/Trigger/L1MuTrigChambers.png>]
 Package acronym Info: Label `acro:CPU' newly defined as it shall be overridden
-although it is yet undefined on input line 98.
+although it is yet undefined on input line 99.
 Package acronym Info: Label `acro:FTF' newly defined as it shall be overridden
-although it is yet undefined on input line 101.
+although it is yet undefined on input line 102.
 [37]pdfTeX warning (ext4): destination with the same identifier (name{subfigure
 .1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 						\subbottom
-                      []{
-<./figures/Trigger/id/elec24plots3fb160224/HLT_eta_eff.pdf, id=1360, 569.12625p
+l.126 							\subbottom
+                       []{
+<./figures/Trigger/id/elec24plots3fb160224/HLT_eta_eff.pdf, id=1414, 569.12625p
 t x 408.52625pt>
 File: ./figures/Trigger/id/elec24plots3fb160224/HLT_eta_eff.pdf Graphic file (t
 ype pdf)
 <use ./figures/Trigger/id/elec24plots3fb160224/HLT_eta_eff.pdf>
 Package pdftex.def Info: ./figures/Trigger/id/elec24plots3fb160224/HLT_eta_eff.
-pdf used on input line 126.
+pdf used on input line 127.
 (pdftex.def)             Requested size: 192.0548pt x 137.8623pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.127 						\subbottom
-                      []{
-<./figures/Trigger/id/elec24plots3fb160224/HLT_pT_eff.pdf, id=1361, 569.12625pt
+l.128 							\subbottom
+                       []{
+<./figures/Trigger/id/elec24plots3fb160224/HLT_pT_eff.pdf, id=1415, 569.12625pt
  x 408.52625pt>
 File: ./figures/Trigger/id/elec24plots3fb160224/HLT_pT_eff.pdf Graphic file (ty
 pe pdf)
 <use ./figures/Trigger/id/elec24plots3fb160224/HLT_pT_eff.pdf>
 Package pdftex.def Info: ./figures/Trigger/id/elec24plots3fb160224/HLT_pT_eff.p
-df used on input line 128.
+df used on input line 129.
 (pdftex.def)             Requested size: 192.0548pt x 137.8623pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.141 						\subbottom
-                      []{
-<./figures/Trigger/id/mu6plots3fb/HLT_pT_eff.pdf, id=1369, 569.12625pt x 408.52
+l.142 							\subbottom
+                       []{
+<./figures/Trigger/id/mu6plots3fb/HLT_pT_eff.pdf, id=1423, 569.12625pt x 408.52
 625pt>
 File: ./figures/Trigger/id/mu6plots3fb/HLT_pT_eff.pdf Graphic file (type pdf)
 <use ./figures/Trigger/id/mu6plots3fb/HLT_pT_eff.pdf>
 Package pdftex.def Info: ./figures/Trigger/id/mu6plots3fb/HLT_pT_eff.pdf used o
-n input line 142.
+n input line 143.
 (pdftex.def)             Requested size: 192.0548pt x 137.8623pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 						\subbottom
-                      []{
-<./figures/Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.pdf, id=1370, 569.12625pt
+l.144 							\subbottom
+                       []{
+<./figures/Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.pdf, id=1424, 569.12625pt
  x 408.52625pt>
 File: ./figures/Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.pdf Graphic file (ty
 pe pdf)
 <use ./figures/Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.pdf>
 Package pdftex.def Info: ./figures/Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.p
-df used on input line 144.
+df used on input line 145.
 (pdftex.def)             Requested size: 192.0548pt x 137.8623pt.
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/it' tried instead on input line 155.
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 156.
+
+Underfull \vbox (badness 3449) has occurred while \output is active []
+
 [38 <./figures/Trigger/id/elec24plots3fb160224/HLT_eta_eff.pdf, page is rotated
  90 degrees> <./figures/Trigger/id/elec24plots3fb160224/HLT_pT_eff.pdf, page is
- rotated 90 degrees>] <./figures/Trigger/id/roi-plan.pdf, id=1436, 1013.87155pt
+ rotated 90 degrees>] <./figures/Trigger/id/roi-plan.pdf, id=1489, 1013.87155pt
  x 474.32497pt>
 File: ./figures/Trigger/id/roi-plan.pdf Graphic file (type pdf)
 <use ./figures/Trigger/id/roi-plan.pdf>
 Package pdftex.def Info: ./figures/Trigger/id/roi-plan.pdf used on input line 1
-63.
+64.
 (pdftex.def)             Requested size: 277.41176pt x 129.78476pt.
-<./figures/Trigger/id/roi.pdf, id=1437, 428.52568pt x 437.24725pt>
+<./figures/Trigger/id/roi.pdf, id=1490, 428.52568pt x 437.24725pt>
 File: ./figures/Trigger/id/roi.pdf Graphic file (type pdf)
 <use ./figures/Trigger/id/roi.pdf>
-Package pdftex.def Info: ./figures/Trigger/id/roi.pdf used on input line 164.
+Package pdftex.def Info: ./figures/Trigger/id/roi.pdf used on input line 165.
 (pdftex.def)             Requested size: 128.0387pt x 130.64143pt.
+
+Underfull \vbox (badness 1320) has occurred while \output is active []
+
 [39 <./figures/Trigger/id/mu6plots3fb/HLT_pT_eff.pdf, page is rotated 90 degree
 s> <./figures/Trigger/id/mu6plots3fb/HLT_rd0_vs_pt_sigma.pdf, page is rotated 9
 0 degrees> <./figures/Trigger/id/roi-plan.pdf> <./figures/Trigger/id/roi.pdf>]p
@@ -3501,29 +3558,29 @@ dfTeX warning (ext4): destination with the same identifier (name{subfigure.1})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.182 						\subbottom
-                      []{
-<./figures/Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf, id=1961, 569.12625pt x
+l.183 							\subbottom
+                       []{
+<./figures/Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf, id=2013, 569.12625pt x
  408.52625pt>
 File: ./figures/Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf Graphic file (type
  pdf)
 <use ./figures/Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf>
 Package pdftex.def Info: ./figures/Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf
- used on input line 183.
+ used on input line 184.
 (pdftex.def)             Requested size: 192.0548pt x 137.8623pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.184 						\subbottom
-                      []{
-<./figures/Trigger/id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_sigma.pdf, id=1962, 569.
+l.185 							\subbottom
+                       []{
+<./figures/Trigger/id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_sigma.pdf, id=2014, 569.
 12625pt x 408.52625pt>
 File: ./figures/Trigger/id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_sigma.pdf Graphic f
 ile (type pdf)
 <use ./figures/Trigger/id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_sigma.pdf>
 Package pdftex.def Info: ./figures/Trigger/id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_
-sigma.pdf used on input line 185.
+sigma.pdf used on input line 186.
 (pdftex.def)             Requested size: 192.0548pt x 137.8623pt.
 [40 <./figures/Trigger/id/bjetvtx/HLT_xPrimVx_ntrax_eff.pdf> <./figures/Trigger
 /id/bjetvtx/HLT_xPrimVx_rdz_vs_ntrax_sigma.pdf, page is rotated 90 degrees>]pdf
@@ -3531,21 +3588,21 @@ TeX warning (ext4): destination with the same identifier (name{subfigure.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.199 						\subbottom
-                      []{
-<./figures/Trigger/hlt_met_unprescaled2016.png, id=2127, 1581.91pt x 1072.005pt
+l.200 							\subbottom
+                       []{
+<./figures/Trigger/hlt_met_unprescaled2016.png, id=2180, 1581.91pt x 1072.005pt
 >
 File: ./figures/Trigger/hlt_met_unprescaled2016.png Graphic file (type png)
 <use ./figures/Trigger/hlt_met_unprescaled2016.png>
 Package pdftex.def Info: ./figures/Trigger/hlt_met_unprescaled2016.png used on 
-input line 200.
+input line 201.
 (pdftex.def)             Requested size: 192.0548pt x 130.13994pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 						\subbottom
-                      []{
+l.202 							\subbottom
+                       []{
 Package epstopdf Info: Source file: <./figures/Trigger/hlt_met_unprescaled2017.
 eps>
 (epstopdf)                    date: 2017-12-12 11:48:10
@@ -3557,20 +3614,20 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./figures/Trigger/hlt_met_
 unprescaled2017-eps-converted-to.pdf ./figures/Trigger/hlt_met_unprescaled2017.
 eps>
-(epstopdf)             \includegraphics on input line 202.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/Trigger/hlt_met_unprescaled2017-eps-converted-to.pdf, id=2128, 569.1
+<./figures/Trigger/hlt_met_unprescaled2017-eps-converted-to.pdf, id=2181, 569.1
 2625pt x 385.44pt>
 File: ./figures/Trigger/hlt_met_unprescaled2017-eps-converted-to.pdf Graphic fi
 le (type pdf)
 <use ./figures/Trigger/hlt_met_unprescaled2017-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/Trigger/hlt_met_unprescaled2017-eps-converte
-d-to.pdf used on input line 202.
+d-to.pdf used on input line 203.
 (pdftex.def)             Requested size: 192.0548pt x 130.07156pt.
 ) (./Chapters/evtobj.tex [41] [42 <./figures/Trigger/hlt_met_unprescaled2016.pn
 g> <./figures/Trigger/hlt_met_unprescaled2017-eps-converted-to.pdf>] <./figures
-/MCobj/flow.png, id=2164, 513.92pt x 513.92pt>
+/MCobj/flow.png, id=2217, 513.92pt x 513.92pt>
 File: ./figures/MCobj/flow.png Graphic file (type png)
 <use ./figures/MCobj/flow.png>
 Package pdftex.def Info: ./figures/MCobj/flow.png used on input line 7.
@@ -3593,17 +3650,12 @@ Underfull \hbox (badness 1043) in paragraph at lines 12--13
 \T1/futs/m/n/10.95 through dif-fer-ent stages, as shown in
  []
 
-
-Underfull \hbox (badness 1424) in paragraph at lines 14--15
-[]\T1/futs/m/n/10.95 In this chapter the stages will be
- []
-
 [43
 
  <./figures/MCobj/flow.png>]
 Package acronym Info: Label `acro:DIS' newly defined as it shall be overridden
 although it is yet undefined on input line 20.
-<./figures/MCobj/ppcollision.png, id=2212, 235.37938pt x 271.0125pt>
+<./figures/MCobj/ppcollision.png, id=2266, 235.37938pt x 271.0125pt>
 File: ./figures/MCobj/ppcollision.png Graphic file (type png)
 <use ./figures/MCobj/ppcollision.png>
 Package pdftex.def Info: ./figures/MCobj/ppcollision.png used on input line 24.
@@ -3627,12 +3679,6 @@ Underfull \hbox (badness 5331) in paragraph at lines 29--30
  of the pro-ton mo-
  []
 
-
-Underfull \hbox (badness 2894) in paragraph at lines 29--30
-\T1/futs/m/n/10.95 fer $\FML/futmi/m/it/10.95 Q[]$ \T1/futs/m/n/10.95 in such e
-vents, is re-lated to
- []
-
 Package acronym Info: Label `acro:ISR' newly defined as it shall be overridden
 although it is yet undefined on input line 31.
 Package acronym Info: Label `acro:FSR' newly defined as it shall be overridden
@@ -3652,7 +3698,7 @@ b-eps-converted-to.pdf ./figures/MCobj/d09-158f18b.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/MCobj/d09-158f18b-eps-converted-to.pdf, id=2248, 569.12625pt x 515.9
+<./figures/MCobj/d09-158f18b-eps-converted-to.pdf, id=2302, 569.12625pt x 515.9
 275pt>
 File: ./figures/MCobj/d09-158f18b-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/MCobj/d09-158f18b-eps-converted-to.pdf>
@@ -3667,26 +3713,20 @@ Underfull \hbox (badness 1253) in paragraph at lines 48--49
 Package acronym Info: Label `acro:ME' newly defined as it shall be overridden
 although it is yet undefined on input line 55.
 Package acronym Info: Label `acro:LO' newly defined as it shall be overridden
-although it is yet undefined on input line 55.
+although it is yet undefined on input line 56.
 Package acronym Info: Label `acro:NLO' newly defined as it shall be overridden
-although it is yet undefined on input line 55.
+although it is yet undefined on input line 56.
 [45 <./figures/MCobj/d09-158f18b-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:PS' newly defined as it shall be overridden
-although it is yet undefined on input line 60.
+although it is yet undefined on input line 61.
 Package acronym Info: Label `acro:HEP' newly defined as it shall be overridden
-although it is yet undefined on input line 60.
+although it is yet undefined on input line 61.
 Package acronym Info: Label `acro:CKKW' newly defined as it shall be overridden
 
-although it is yet undefined on input line 62.
+although it is yet undefined on input line 61.
 Package acronym Info: Label `acro:MLM' newly defined as it shall be overridden
-although it is yet undefined on input line 62.
-
-Overfull \hbox (0.32707pt too wide) in paragraph at lines 67--68
-[][] \T1/futs/m/n/10.95 and many more para-met-ers than the par-ton shower-ing.
- Phe-nomen-o-lo-gical mod-els, tuned
- []
-
-[46] [47] [48] <./figures/MCobj/elRecoAlg.png, id=2406, 2126.94624pt x 1075.016
+although it is yet undefined on input line 61.
+[46] [47] [48] <./figures/MCobj/elRecoAlg.png, id=2457, 2126.94624pt x 1075.016
 25pt>
 File: ./figures/MCobj/elRecoAlg.png Graphic file (type png)
 <use ./figures/MCobj/elRecoAlg.png>
@@ -3702,7 +3742,7 @@ although it is yet undefined on input line 146.
                    \relax 
 l.150 					\subbottom
                      [Electron reconstruction and identification efficiencie...
-<./figures/MCobj/elRecoIDEff.png, id=2428, 1976.38374pt x 1920.17375pt>
+<./figures/MCobj/elRecoIDEff.png, id=2479, 1976.38374pt x 1920.17375pt>
 File: ./figures/MCobj/elRecoIDEff.png Graphic file (type png)
 <use ./figures/MCobj/elRecoIDEff.png>
 Package pdftex.def Info: ./figures/MCobj/elRecoIDEff.png used on input line 153
@@ -3714,7 +3754,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
                    \relax 
 l.154 					\subbottom
                      [Photon identification efficiencies using the full $201...
-<./figures/MCobj/phRecoIDEff.png, id=2429, 800.9925pt x 573.14125pt>
+<./figures/MCobj/phRecoIDEff.png, id=2480, 800.9925pt x 573.14125pt>
 File: ./figures/MCobj/phRecoIDEff.png Graphic file (type png)
 <use ./figures/MCobj/phRecoIDEff.png>
 Package pdftex.def Info: ./figures/MCobj/phRecoIDEff.png used on input line 159
@@ -3743,7 +3783,7 @@ f_pt-eps-converted-to.pdf ./figures/MCobj/muRecoIDEff_pt.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/MCobj/muRecoIDEff_pt-eps-converted-to.pdf, id=2471, 569.12625pt x 40
+<./figures/MCobj/muRecoIDEff_pt-eps-converted-to.pdf, id=2520, 569.12625pt x 40
 8.52625pt>
 File: ./figures/MCobj/muRecoIDEff_pt-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3775,7 +3815,7 @@ f_eta-eps-converted-to.pdf ./figures/MCobj/muRecoIDEff_eta.eps>
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/MCobj/muRecoIDEff_eta-eps-converted-to.pdf, id=2472, 569.12625pt x 4
+<./figures/MCobj/muRecoIDEff_eta-eps-converted-to.pdf, id=2521, 569.12625pt x 4
 08.52625pt>
 File: ./figures/MCobj/muRecoIDEff_eta-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3799,51 +3839,54 @@ Underfull \hbox (badness 2393) in paragraph at lines 196--196
 \T1/futs/m/n/9 by the de-tector sim-u-la-tion is de-pic-ted as open
  []
 
-[51 <./figures/MCobj/elRecoIDEff.png> <./figures/MCobj/phRecoIDEff.png>] [52 <.
-/figures/MCobj/muRecoIDEff_pt-eps-converted-to.pdf> <./figures/MCobj/muRecoIDEf
-f_eta-eps-converted-to.pdf>]
-Package acronym Info: Label `acro:JES' newly defined as it shall be overridden
-although it is yet undefined on input line 220.
+[51 <./figures/MCobj/elRecoIDEff.png> <./figures/MCobj/phRecoIDEff.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Overfull \hbox (7.74171pt too wide) in paragraph at lines 227--228
+[52 <./figures/MCobj/muRecoIDEff_pt-eps-converted-to.pdf> <./figures/MCobj/muRe
+coIDEff_eta-eps-converted-to.pdf>]
+Package acronym Info: Label `acro:JES' newly defined as it shall be overridden
+although it is yet undefined on input line 222.
+
+Overfull \hbox (7.74171pt too wide) in paragraph at lines 229--230
 []\T1/futs/m/n/10.95 then meas-ured $\FML/futmi/m/it/10.95 p[]$ \T1/futs/m/n/10
 .95 of the jet is cor-rec-ted us-ing multi-jet and $\FML/futmi/m/it/10.95 ^^M$\
 T1/futs/m/n/10.95 /$\FML/futmi/m/it/10.95 Z$\T1/futs/m/n/10.95 +jets events,
  []
 
 Package acronym Info: Label `acro:JVT' newly defined as it shall be overridden
-although it is yet undefined on input line 230.
-[53]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 233.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 233.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 233.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 233.
-<./figures/MCobj/btagging.png, id=2574, 903.375pt x 924.45375pt>
+although it is yet undefined on input line 232.
+<./figures/MCobj/btagging.png, id=2610, 903.375pt x 924.45375pt>
 File: ./figures/MCobj/btagging.png Graphic file (type png)
 <use ./figures/MCobj/btagging.png>
-Package pdftex.def Info: ./figures/MCobj/btagging.png used on input line 237.
+Package pdftex.def Info: ./figures/MCobj/btagging.png used on input line 239.
 (pdftex.def)             Requested size: 213.39568pt x 218.37514pt.
-
-Underfull \hbox (badness 1939) in paragraph at lines 241--242
+[53]
+Underfull \hbox (badness 1939) in paragraph at lines 243--244
 \T1/futs/m/n/10.95 jets ori-gin-ated from $\FML/futmi/m/it/10.95 b$\T1/futs/m/n
 /10.95 -quarks is also im-
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 241--242
+Underfull \hbox (badness 2680) in paragraph at lines 243--244
 \T1/futs/m/n/10.95 port-ant, as they also are part of the fi-
  []
 
-Package acronym Info: Label `acro:MV2' newly defined as it shall be overridden
-although it is yet undefined on input line 243.
-Package acronym Info: Label `acro:BDT' newly defined as it shall be overridden
-although it is yet undefined on input line 243.
 
-Overfull \hbox (0.33421pt too wide) in paragraph at lines 243--244
+Underfull \hbox (badness 1067) in paragraph at lines 243--244
+\T1/futs/m/n/10.95 with the ad-di-tion of ded-ic-ated al-gorithms
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 243--244
+\T1/futs/m/n/10.95 ing the dif-fer-ence between light jets and
+ []
+
+Package acronym Info: Label `acro:MV2' newly defined as it shall be overridden
+although it is yet undefined on input line 245.
+Package acronym Info: Label `acro:BDT' newly defined as it shall be overridden
+although it is yet undefined on input line 245.
+
+Overfull \hbox (0.33421pt too wide) in paragraph at lines 245--246
 \T1/futs/m/n/10.95 and \T1/futs/m/it/10.95 De-cay Chain Multi-Vertex Al-gorithm
  (Jet-Fit-ter) \T1/futs/m/n/10.95 [[]], are widely em-ployed within the [][]
  []
@@ -3852,15 +3895,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.247 					\subbottom
+l.249 					\subbottom
                      [Light-flavour jet rejection versus \bj\ efficiency for...
-<./figures/MCobj/btag1.png, id=2594, 1976.38374pt x 1711.39375pt>
+<./figures/MCobj/btag1.png, id=2647, 1976.38374pt x 1711.39375pt>
 File: ./figures/MCobj/btag1.png Graphic file (type png)
 <use ./figures/MCobj/btag1.png>
-Package pdftex.def Info: ./figures/MCobj/btag1.png used on input line 249.
+Package pdftex.def Info: ./figures/MCobj/btag1.png used on input line 251.
 (pdftex.def)             Requested size: 192.0548pt x 166.29224pt.
 
-Underfull \hbox (badness 1028) in paragraph at lines 249--249
+Underfull \hbox (badness 1028) in paragraph at lines 251--251
 \T1/futs/m/n/9 for $2015$ and $2016$ con-fig-ur-a-tions of the MV2 b-
  []
 
@@ -3868,14 +3911,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.250 					\subbottom
+l.252 					\subbottom
                      [\cj\ rejection versus \bj\ efficiency for $2015$ and $...
-<./figures/MCobj/btag2.png, id=2595, 1976.38374pt x 1711.39375pt>
+<./figures/MCobj/btag2.png, id=2648, 1976.38374pt x 1711.39375pt>
 File: ./figures/MCobj/btag2.png Graphic file (type png)
 <use ./figures/MCobj/btag2.png>
-Package pdftex.def Info: ./figures/MCobj/btag2.png used on input line 252.
+Package pdftex.def Info: ./figures/MCobj/btag2.png used on input line 254.
 (pdftex.def)             Requested size: 192.0548pt x 166.29224pt.
-[54 <./figures/MCobj/btagging.png>]
 Package epstopdf Info: Source file: <./figures/MCobj/METevdisp.eps>
 (epstopdf)                    date: 2018-02-13 13:23:30
 (epstopdf)                    size: 8518669 bytes
@@ -3885,33 +3927,35 @@ Package epstopdf Info: Source file: <./figures/MCobj/METevdisp.eps>
 (epstopdf)                    size: 675353 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/MCobj/METevdisp-
 eps-converted-to.pdf ./figures/MCobj/METevdisp.eps>
-(epstopdf)             \includegraphics on input line 266.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/MCobj/METevdisp-eps-converted-to.pdf, id=2624, 1027.84pt x 1027.84pt
+<./figures/MCobj/METevdisp-eps-converted-to.pdf, id=2652, 1027.84pt x 1027.84pt
 >
 File: ./figures/MCobj/METevdisp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/MCobj/METevdisp-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/MCobj/METevdisp-eps-converted-to.pdf used on
- input line 266.
+ input line 268.
 (pdftex.def)             Requested size: 298.75264pt x 298.75604pt.
 
-Overfull \hbox (1.04337pt too wide) in paragraph at lines 279--280
-[]\T1/futs/m/n/10.95 The $\FML/futmi/m/it/10.95 E[]$ \T1/futs/m/n/10.95 is re-c
-on-struc-ted by se-lect-ing cal-ib-rated hard ob-jects to meas-ure the miss-ing
- trans-
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[55 <./figures/MCobj/btag1.png> <./figures/MCobj/btag2.png>]
-Overfull \hbox (1.99608pt too wide) in paragraph at lines 293--294
+[54 <./figures/MCobj/btagging.png>] [55 <./figures/MCobj/btag1.png> <./figures/
+MCobj/btag2.png> <./figures/MCobj/METevdisp-eps-converted-to.pdf>]
+Overfull \hbox (1.99608pt too wide) in paragraph at lines 295--296
 []\T1/futs/m/n/10.95 The $\FML/futmi/m/it/10.95 E[]$ \T1/futs/m/n/10.95 per-for
 m-ance is stud-ied in two com-ple-ment-ary to-po-lo-gies, with and without genu
 -
  []
 
-) (./Chapters/optimisation.tex [56 <./figures/MCobj/METevdisp-eps-converted-to.
-pdf>]pdfTeX warning (ext4): destination with the same identifier (name{subfigur
-e.1}) has been already used, duplicate ignored
+) (./Chapters/optimisation.tex [56]
+Overfull \hbox (0.44937pt too wide) in paragraph at lines 6--7
+[]\T1/futs/m/n/10.95 In this chapter one of the au-thor's main con-tri-bu-tion 
+will be presen-ted: the ana-lysis strategy,
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.22 					\subbottom
@@ -3968,18 +4012,21 @@ although it is yet undefined on input line 58.
 
 Underfull \vbox (badness 1019) has occurred while \output is active []
 
-[59] [60] [61]
+[59] [60]
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
+[61]
 Package acronym Info: Label `acro:BR' newly defined as it shall be overridden
-although it is yet undefined on input line 142.
+although it is yet undefined on input line 140.
 [62] [63]
-Overfull \hbox (11.52858pt too wide) in paragraph at lines 179--180
-[]\T1/futs/m/n/10.95 is sens-it-ive to the pro-duc-tion of high-mass $[]$ pairs
- with a large $[]$--$[]$ mass split-ting $\FML/futm/m/it/10.95 ^^A\FML/futmi/m/
-it/10.95 m []$\T1/futs/m/n/10.95 .
+Overfull \hbox (5.309pt too wide) in paragraph at lines 177--178
+[]\T1/futs/m/n/10.95 sensitive to the pro-duc-tion of high-mass $[]$ pairs with
+ a large $[]$--$[]$ mass split-ting $\FML/futm/m/it/10.95 ^^A\FML/futmi/m/it/10
+.95 m []$\T1/futs/m/n/10.95 .
  []
 
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
@@ -3987,67 +4034,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--202
 igure.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.270 					  \subbottom
+l.268 					  \subbottom
                        []{\includegraphics[width=0.48\textwidth]{figures/sto...
 
-<figures/stop/preselection/AntiKt12M0_preCutSRPlot_withRatio.pdf, id=2882, 569.
+<figures/stop/preselection/AntiKt12M0_preCutSRPlot_withRatio.pdf, id=2928, 569.
 12625pt x 467.7475pt>
 File: figures/stop/preselection/AntiKt12M0_preCutSRPlot_withRatio.pdf Graphic f
 ile (type pdf)
 <use figures/stop/preselection/AntiKt12M0_preCutSRPlot_withRatio.pdf>
 Package pdftex.def Info: figures/stop/preselection/AntiKt12M0_preCutSRPlot_with
-Ratio.pdf used on input line 270.
+Ratio.pdf used on input line 268.
 (pdftex.def)             Requested size: 204.85802pt x 168.36755pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.271 					  \subbottom
+l.269 					  \subbottom
                        []{\includegraphics[width=0.48\textwidth]{figures/sto...
 
-<figures/stop/preselection/MtBMin_preCutSRPlot_withRatio.pdf, id=2883, 569.1262
+<figures/stop/preselection/MtBMin_preCutSRPlot_withRatio.pdf, id=2929, 569.1262
 5pt x 467.7475pt>
 File: figures/stop/preselection/MtBMin_preCutSRPlot_withRatio.pdf Graphic file 
 (type pdf)
 <use figures/stop/preselection/MtBMin_preCutSRPlot_withRatio.pdf>
 Package pdftex.def Info: figures/stop/preselection/MtBMin_preCutSRPlot_withRati
-o.pdf used on input line 271.
+o.pdf used on input line 269.
 (pdftex.def)             Requested size: 204.85802pt x 168.36755pt.
 
-Underfull \vbox (badness 3417) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [67 <./figures/stop/preselection/AntiKt12M0_preCutSRPlot_withRatio.pdf> <./figu
 res/stop/preselection/MtBMin_preCutSRPlot_withRatio.pdf>]
 Package acronym Info: Label `acro:FoM' newly defined as it shall be overridden
-although it is yet undefined on input line 287.
+although it is yet undefined on input line 285.
 Package acronym Info: Label `acro:CR' newly defined as it shall be overridden
-although it is yet undefined on input line 296.
+although it is yet undefined on input line 295.
 Package acronym Info: Label `acro:VR' newly defined as it shall be overridden
-although it is yet undefined on input line 296.
-[68] <figures/stop/SRA/CategoryDefs.pdf, id=2954, 569.12625pt x 385.44pt>
+although it is yet undefined on input line 295.
+<figures/stop/SRA/CategoryDefs.pdf, id=2980, 569.12625pt x 385.44pt>
 File: figures/stop/SRA/CategoryDefs.pdf Graphic file (type pdf)
 <use figures/stop/SRA/CategoryDefs.pdf>
 Package pdftex.def Info: figures/stop/SRA/CategoryDefs.pdf used on input line 3
-07.
+06.
 (pdftex.def)             Requested size: 298.75264pt x 202.3355pt.
+[68]
+Overfull \hbox (2.00407pt too wide) in paragraph at lines 316--317
+[]\T1/futs/m/n/10.95 contains events with one re-con-struc-ted leading-$\FML/fu
+tmi/m/it/10.95 p[]$ \T1/futs/m/n/10.95 top can-did-ate with $\FML/futmi/m/it/10
+.95 m[] \FMS/futm/m/n/10.95 É \T1/futs/m/n/10.95 120[]$
+ []
+
+
+Overfull \hbox (4.16933pt too wide) in paragraph at lines 316--317
+\T1/futs/m/n/10.95 and one re-con-struc-ted sub-leading $\FML/futmi/m/it/10.95 
+W$ \T1/futs/m/n/10.95 can-did-ate from the sub-leading $\FML/futmi/m/it/10.95 R
+ \FMS/futm/m/n/10.95 Å \T1/futs/m/n/10.95 1\FML/futmi/m/it/10.95 :\T1/futs/m/n/
+10.95 2$ re-clustered
+ []
+
 [69 <./figures/stop/SRA/CategoryDefs.pdf>] <figures/stop/piechart_SRAcomp.png, 
-id=2981, 1084.05pt x 308.15125pt>
+id=3024, 1084.05pt x 308.15125pt>
 File: figures/stop/piechart_SRAcomp.png Graphic file (type png)
 <use figures/stop/piechart_SRAcomp.png>
 Package pdftex.def Info: figures/stop/piechart_SRAcomp.png used on input line 3
-54.
+53.
 (pdftex.def)             Requested size: 426.79135pt x 121.32108pt.
-
-Underfull \vbox (badness 1194) has occurred while \output is active []
-
-[70] <figures/stop/piechart_SRBcomp.png, id=2989, 1073.00874pt x 308.15125pt>
+<figures/stop/piechart_SRBcomp.png, id=3025, 1073.00874pt x 308.15125pt>
 File: figures/stop/piechart_SRBcomp.png Graphic file (type png)
 <use figures/stop/piechart_SRBcomp.png>
 Package pdftex.def Info: figures/stop/piechart_SRBcomp.png used on input line 3
-64.
+63.
 (pdftex.def)             Requested size: 426.79135pt x 122.56711pt.
-[71 <./figures/stop/piechart_SRAcomp.png> <./figures/stop/piechart_SRBcomp.png>
-] <figures/stop/piechart_SRCcomp.png, id=3009, 1162.3425pt x 686.565pt>
+
+Underfull \vbox (badness 6893) has occurred while \output is active []
+
+[70 <./figures/stop/piechart_SRAcomp.png>] <figures/stop/piechart_SRCcomp.png, 
+id=3042, 1162.3425pt x 686.565pt>
 File: figures/stop/piechart_SRCcomp.png Graphic file (type png)
 <use figures/stop/piechart_SRCcomp.png>
 Package pdftex.def Info: figures/stop/piechart_SRCcomp.png used on input line 3
@@ -4057,320 +4119,459 @@ Package acronym Info: Label `acro:RJR' newly defined as it shall be overridden
 although it is yet undefined on input line 387.
 Package acronym Info: Label `acro:CM' newly defined as it shall be overridden
 although it is yet undefined on input line 387.
+[71 <./figures/stop/piechart_SRBcomp.png>]
+Underfull \vbox (badness 1701) has occurred while \output is active []
 
-Underfull \vbox (badness 4048) has occurred while \output is active []
-
-[72 <./figures/stop/piechart_SRCcomp.png>] [73]
-Underfull \hbox (badness 3281) in paragraph at lines 461--462
-[]\T1/futs/m/n/10.95 SRD is di-vided into two sub-regions,
- []
-
-<figures/stop/piechart_SRDcomp.png, id=3056, 752.8125pt x 309.155pt>
+[72 <./figures/stop/piechart_SRCcomp.png>] <figures/stop/piechart_SRDcomp.png, 
+id=3092, 752.8125pt x 309.155pt>
 File: figures/stop/piechart_SRDcomp.png Graphic file (type png)
 <use figures/stop/piechart_SRDcomp.png>
 Package pdftex.def Info: figures/stop/piechart_SRDcomp.png used on input line 4
-65.
+67.
 (pdftex.def)             Requested size: 298.75264pt x 122.68803pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[74 <./figures/stop/piechart_SRDcomp.png>] <figures/stop/piechart_SREcomp.png, 
-id=3074, 438.63875pt x 307.1475pt>
+[73] [74 <./figures/stop/piechart_SRDcomp.png>] <figures/stop/piechart_SREcomp.
+png, id=3114, 438.63875pt x 307.1475pt>
 File: figures/stop/piechart_SREcomp.png Graphic file (type png)
 <use figures/stop/piechart_SREcomp.png>
 Package pdftex.def Info: figures/stop/piechart_SREcomp.png used on input line 4
-90.
+92.
 (pdftex.def)             Requested size: 213.39568pt x 149.42564pt.
 
-Underfull \hbox (badness 1009) in paragraph at lines 499--499
+Underfull \hbox (badness 1009) in paragraph at lines 501--501
 [][][]\T1/futs/m/n/9 Selection cri-teria for SRE in ad-di-tion to the
  []
 
 ) (./Chapters/bkgest.tex [75 <./figures/stop/piechart_SREcomp.png>]
-Package acronym Info: Label `acro:TF' newly defined as it shall be overridden
-although it is yet undefined on input line 16.
+Underfull \vbox (badness 4242) has occurred while \output is active []
+
 [76
 
-] <figures/stop/cartoon_CRVRSR_bw.pdf, id=3137, 722.7pt x 542.025pt>
+]
+Package acronym Info: Label `acro:TF' newly defined as it shall be overridden
+although it is yet undefined on input line 17.
+<figures/stop/cartoon_CRVRSR_bw.pdf, id=3184, 722.7pt x 542.025pt>
 File: figures/stop/cartoon_CRVRSR_bw.pdf Graphic file (type pdf)
 <use figures/stop/cartoon_CRVRSR_bw.pdf>
 Package pdftex.def Info: figures/stop/cartoon_CRVRSR_bw.pdf used on input line 
-38.
+39.
 (pdftex.def)             Requested size: 426.79135pt x 320.09798pt.
 Package acronym Info: Label `acro:SFOS' newly defined as it shall be overridden
 
-although it is yet undefined on input line 49.
-[77] [78 <./figures/stop/cartoon_CRVRSR_bw.pdf>] [79] [80]pdfTeX warning (ext4)
-: destination with the same identifier (name{subfigure.1}) has been already use
-d, duplicate ignored
+although it is yet undefined on input line 50.
+[77] [78 <./figures/stop/cartoon_CRVRSR_bw.pdf>] [79]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 95.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 95.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 95.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 95.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 99.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 99.
+[80]pdfTeX warning (ext4): destination with the same identifier (name{subfigure
+.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.109 		  	\subbottom
+l.106 		  	\subbottom
                      []{\includegraphics[width=0.48\textwidth]{figures/stop/...
-<figures/stop/ttZ.png, id=3294, 247.92625pt x 187.70125pt>
+<figures/stop/ttZ.png, id=3355, 247.92625pt x 187.70125pt>
 File: figures/stop/ttZ.png Graphic file (type png)
 <use figures/stop/ttZ.png>
-Package pdftex.def Info: figures/stop/ttZ.png used on input line 109.
+Package pdftex.def Info: figures/stop/ttZ.png used on input line 106.
 (pdftex.def)             Requested size: 204.85802pt x 155.09602pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 			\subbottom
+l.107 			\subbottom
                    []{\includegraphics[width=0.48\textwidth]{figures/stop/tt...
-<figures/stop/ttGamma.png, id=3295, 225.34187pt x 187.70125pt>
+<figures/stop/ttGamma.png, id=3356, 225.34187pt x 187.70125pt>
 File: figures/stop/ttGamma.png Graphic file (type png)
 <use figures/stop/ttGamma.png>
-Package pdftex.def Info: figures/stop/ttGamma.png used on input line 110.
+Package pdftex.def Info: figures/stop/ttGamma.png used on input line 107.
 (pdftex.def)             Requested size: 204.85802pt x 170.64801pt.
-<./figures/stop/Zgammaratio.pdf, id=3309, 569.12625pt x 408.52625pt>
-File: ./figures/stop/Zgammaratio.pdf Graphic file (type pdf)
-<use ./figures/stop/Zgammaratio.pdf>
-Package pdftex.def Info: ./figures/stop/Zgammaratio.pdf used on input line 121.
-
-(pdftex.def)             Requested size: 426.79135pt x 306.369pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 [81 <./figures/stop/ttZ.png> <./figures/stop/ttGamma.png>]
-Underfull \hbox (badness 2671) in paragraph at lines 180--180
-\T1/futs/m/n/9 fit yields, stat-ist-ical and de-tector sys-
- []
-
-
-Overfull \hbox (1.08452pt too wide) in paragraph at lines 185--186
+<./figures/stop/ttg-int-nonpub/TruthStudies/ZGammaRatio.pdf, id=3379, 569.12625
+pt x 408.52625pt>
+File: ./figures/stop/ttg-int-nonpub/TruthStudies/ZGammaRatio.pdf Graphic file (
+type pdf)
+<use ./figures/stop/ttg-int-nonpub/TruthStudies/ZGammaRatio.pdf>
+Package pdftex.def Info: ./figures/stop/ttg-int-nonpub/TruthStudies/ZGammaRatio
+.pdf used on input line 118.
+(pdftex.def)             Requested size: 426.79135pt x 306.369pt.
+[82 <./figures/stop/ttg-int-nonpub/TruthStudies/ZGammaRatio.pdf, page is rotate
+d 90 degrees>]
+Overfull \hbox (1.08452pt too wide) in paragraph at lines 188--189
 []\T1/futs/m/n/10.95 Additionally the agree-ment between the ob-served data and
  the [][] pre-dic-tions was checked
  []
 
-Package epstopdf Info: Source file: <figures/stop/ttGamma/Met_CRTTGamma_withRat
-io_log.eps>
-(epstopdf)                    date: 2017-10-27 12:43:44
-(epstopdf)                    size: 36222 bytes
-(epstopdf)             Output file: <figures/stop/ttGamma/Met_CRTTGamma_withRat
-io_log-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-12 11:41:03
-(epstopdf)                    size: 18650 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/stop/ttGamma/Met_C
-RTTGamma_withRatio_log-eps-converted-to.pdf figures/stop/ttGamma/Met_CRTTGamma_
+Package epstopdf Info: Source file: <figures/stop/ttg-int-nonpub/Met_CRTTGamma_
 withRatio_log.eps>
-(epstopdf)             \includegraphics on input line 189.
+(epstopdf)                    date: 2018-05-09 10:47:28
+(epstopdf)                    size: 36225 bytes
+(epstopdf)             Output file: <figures/stop/ttg-int-nonpub/Met_CRTTGamma_
+withRatio_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-09 10:47:41
+(epstopdf)                    size: 17375 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/stop/ttg-int-nonpu
+b/Met_CRTTGamma_withRatio_log-eps-converted-to.pdf figures/stop/ttg-int-nonpub/
+Met_CRTTGamma_withRatio_log.eps>
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/stop/ttGamma/Met_CRTTGamma_withRatio_log-eps-converted-to.pdf, id=3343
-, 569.12625pt x 467.7475pt>
-File: figures/stop/ttGamma/Met_CRTTGamma_withRatio_log-eps-converted-to.pdf Gra
-phic file (type pdf)
-<use figures/stop/ttGamma/Met_CRTTGamma_withRatio_log-eps-converted-to.pdf>
-Package pdftex.def Info: figures/stop/ttGamma/Met_CRTTGamma_withRatio_log-eps-c
-onverted-to.pdf used on input line 189.
+<figures/stop/ttg-int-nonpub/Met_CRTTGamma_withRatio_log-eps-converted-to.pdf, 
+id=3454, 569.12625pt x 467.7475pt>
+File: figures/stop/ttg-int-nonpub/Met_CRTTGamma_withRatio_log-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use figures/stop/ttg-int-nonpub/Met_CRTTGamma_withRatio_log-eps-converted-to.p
+df>
+Package pdftex.def Info: figures/stop/ttg-int-nonpub/Met_CRTTGamma_withRatio_lo
+g-eps-converted-to.pdf used on input line 192.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
-Package epstopdf Info: Source file: <figures/stop/ttGamma/MtMetLep_CRTTGamma_wi
-thRatio_log.eps>
-(epstopdf)                    date: 2017-10-27 12:43:44
-(epstopdf)                    size: 30895 bytes
-(epstopdf)             Output file: <figures/stop/ttGamma/MtMetLep_CRTTGamma_wi
-thRatio_log-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-12 11:41:03
-(epstopdf)                    size: 16000 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/stop/ttGamma/MtMet
-Lep_CRTTGamma_withRatio_log-eps-converted-to.pdf figures/stop/ttGamma/MtMetLep_
-CRTTGamma_withRatio_log.eps>
-(epstopdf)             \includegraphics on input line 190.
+Package epstopdf Info: Source file: <figures/stop/ttg-int-nonpub/MtMetLep_CRTTG
+amma_withRatio.eps>
+(epstopdf)                    date: 2018-05-09 10:47:21
+(epstopdf)                    size: 27786 bytes
+(epstopdf)             Output file: <figures/stop/ttg-int-nonpub/MtMetLep_CRTTG
+amma_withRatio-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-09 10:47:42
+(epstopdf)                    size: 14342 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/stop/ttg-int-nonpu
+b/MtMetLep_CRTTGamma_withRatio-eps-converted-to.pdf figures/stop/ttg-int-nonpub
+/MtMetLep_CRTTGamma_withRatio.eps>
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/stop/ttGamma/MtMetLep_CRTTGamma_withRatio_log-eps-converted-to.pdf, id
-=3344, 569.12625pt x 467.7475pt>
-File: figures/stop/ttGamma/MtMetLep_CRTTGamma_withRatio_log-eps-converted-to.pd
-f Graphic file (type pdf)
+<figures/stop/ttg-int-nonpub/MtMetLep_CRTTGamma_withRatio-eps-converted-to.pdf,
+ id=3455, 569.12625pt x 467.7475pt>
+File: figures/stop/ttg-int-nonpub/MtMetLep_CRTTGamma_withRatio-eps-converted-to
+.pdf Graphic file (type pdf)
 
-<use figures/stop/ttGamma/MtMetLep_CRTTGamma_withRatio_log-eps-converted-to.pdf
->
-Package pdftex.def Info: figures/stop/ttGamma/MtMetLep_CRTTGamma_withRatio_log-
-eps-converted-to.pdf used on input line 190.
+<use figures/stop/ttg-int-nonpub/MtMetLep_CRTTGamma_withRatio-eps-converted-to.
+pdf>
+Package pdftex.def Info: figures/stop/ttg-int-nonpub/MtMetLep_CRTTGamma_withRat
+io-eps-converted-to.pdf used on input line 194.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
-[82 <./figures/stop/Zgammaratio.pdf, page is rotated 90 degrees>] [83 <./figure
-s/stop/ttGamma/Met_CRTTGamma_withRatio_log-eps-converted-to.pdf> <./figures/sto
-p/ttGamma/MtMetLep_CRTTGamma_withRatio_log-eps-converted-to.pdf>]pdfTeX warning
- (ext4): destination with the same identifier (name{subfigure.1}) has been alre
-ady used, duplicate ignored
+[83 <./figures/stop/ttg-int-nonpub/Met_CRTTGamma_withRatio_log-eps-converted-to
+.pdf> <./figures/stop/ttg-int-nonpub/MtMetLep_CRTTGamma_withRatio-eps-converted
+-to.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{subf
+igure.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.200 			\subbottom
-                   []{\includegraphics[width=0.49\textwidth]{figures/stop/tt...
+l.204 			\subbottom
+                   []{\includegraphics[width=0.49\textwidth]{stop/ttg-int-no...
 
-<figures/stop/ttg-plots/SigPhotonPt0_ttyCR_afterfit.pdf, id=3444, 569.12625pt x
- 467.7475pt>
-File: figures/stop/ttg-plots/SigPhotonPt0_ttyCR_afterfit.pdf Graphic file (type
- pdf)
-<use figures/stop/ttg-plots/SigPhotonPt0_ttyCR_afterfit.pdf>
-Package pdftex.def Info: figures/stop/ttg-plots/SigPhotonPt0_ttyCR_afterfit.pdf
- used on input line 200.
+<./figures/stop/ttg-int-nonpub/postfit/SigPhotonPt_0__CRTTGamma_log.pdf, id=349
+9, 569.12625pt x 467.7475pt>
+File: ./figures/stop/ttg-int-nonpub/postfit/SigPhotonPt_0__CRTTGamma_log.pdf Gr
+aphic file (type pdf)
+<use ./figures/stop/ttg-int-nonpub/postfit/SigPhotonPt_0__CRTTGamma_log.pdf>
+Package pdftex.def Info: ./figures/stop/ttg-int-nonpub/postfit/SigPhotonPt_0__C
+RTTGamma_log.pdf used on input line 204.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 			\subbottom
-                   []{\includegraphics[width=0.49\textwidth]{figures/stop/tt...
+l.205 			\subbottom
+                   []{\includegraphics[width=0.49\textwidth]{stop/ttg-int-no...
+Package epstopdf Info: Source file: <./figures/stop/ttg-int-nonpub/postfit/MT2C
+hi2Photon_CRTTGamma_log.eps>
+(epstopdf)                    date: 2018-05-09 10:34:21
+(epstopdf)                    size: 30129 bytes
+(epstopdf)             Output file: <./figures/stop/ttg-int-nonpub/postfit/MT2C
+hi2Photon_CRTTGamma_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-09 10:42:14
+(epstopdf)                    size: 15397 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/stop/ttg-int-non
+pub/postfit/MT2Chi2Photon_CRTTGamma_log-eps-converted-to.pdf ./figures/stop/ttg
+-int-nonpub/postfit/MT2Chi2Photon_CRTTGamma_log.eps>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/stop/ttg-plots/MT2Chi2_ttyCR_afterfit.pdf, id=3445, 569.12625pt x 467.
-7475pt>
-File: figures/stop/ttg-plots/MT2Chi2_ttyCR_afterfit.pdf Graphic file (type pdf)
+<./figures/stop/ttg-int-nonpub/postfit/MT2Chi2Photon_CRTTGamma_log-eps-converte
+d-to.pdf, id=3500, 569.12625pt x 467.7475pt>
+File: ./figures/stop/ttg-int-nonpub/postfit/MT2Chi2Photon_CRTTGamma_log-eps-con
+verted-to.pdf Graphic file (type pdf)
 
-<use figures/stop/ttg-plots/MT2Chi2_ttyCR_afterfit.pdf>
-Package pdftex.def Info: figures/stop/ttg-plots/MT2Chi2_ttyCR_afterfit.pdf used
- on input line 201.
+<use ./figures/stop/ttg-int-nonpub/postfit/MT2Chi2Photon_CRTTGamma_log-eps-conv
+erted-to.pdf>
+Package pdftex.def Info: ./figures/stop/ttg-int-nonpub/postfit/MT2Chi2Photon_CR
+TTGamma_log-eps-converted-to.pdf used on input line 205.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.202 			\subbottom
-                   []{\includegraphics[width=0.49\textwidth]{figures/stop/tt...
+l.206 			\subbottom
+                   []{\includegraphics[width=0.49\textwidth]{stop/ttg-int-no...
+Package epstopdf Info: Source file: <./figures/stop/ttg-int-nonpub/postfit/MtBM
+inPhoton_CRTTGamma_log.eps>
+(epstopdf)                    date: 2018-05-09 10:33:31
+(epstopdf)                    size: 29862 bytes
+(epstopdf)             Output file: <./figures/stop/ttg-int-nonpub/postfit/MtBM
+inPhoton_CRTTGamma_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-09 10:42:14
+(epstopdf)                    size: 14899 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/stop/ttg-int-non
+pub/postfit/MtBMinPhoton_CRTTGamma_log-eps-converted-to.pdf ./figures/stop/ttg-
+int-nonpub/postfit/MtBMinPhoton_CRTTGamma_log.eps>
+(epstopdf)             \includegraphics on input line 206.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/stop/ttg-plots/MtBMinPhoton_ttyCR_afterfit.pdf, id=3446, 569.12625pt x
- 467.7475pt>
-File: figures/stop/ttg-plots/MtBMinPhoton_ttyCR_afterfit.pdf Graphic file (type
- pdf)
-<use figures/stop/ttg-plots/MtBMinPhoton_ttyCR_afterfit.pdf>
-Package pdftex.def Info: figures/stop/ttg-plots/MtBMinPhoton_ttyCR_afterfit.pdf
- used on input line 202.
+<./figures/stop/ttg-int-nonpub/postfit/MtBMinPhoton_CRTTGamma_log-eps-converted
+-to.pdf, id=3501, 569.12625pt x 467.7475pt>
+File: ./figures/stop/ttg-int-nonpub/postfit/MtBMinPhoton_CRTTGamma_log-eps-conv
+erted-to.pdf Graphic file (type pdf)
+
+<use ./figures/stop/ttg-int-nonpub/postfit/MtBMinPhoton_CRTTGamma_log-eps-conve
+rted-to.pdf>
+Package pdftex.def Info: ./figures/stop/ttg-int-nonpub/postfit/MtBMinPhoton_CRT
+TGamma_log-eps-converted-to.pdf used on input line 206.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.203 			\subbottom
-                   []{\includegraphics[width=0.49\textwidth]{figures/stop/tt...
+l.207 			\subbottom
+                   []{\includegraphics[width=0.49\textwidth]{stop/ttg-int-no...
+Package epstopdf Info: Source file: <./figures/stop/ttg-int-nonpub/postfit/MtBM
+axPhoton_CRTTGamma_log.eps>
+(epstopdf)                    date: 2018-05-09 10:34:00
+(epstopdf)                    size: 31157 bytes
+(epstopdf)             Output file: <./figures/stop/ttg-int-nonpub/postfit/MtBM
+axPhoton_CRTTGamma_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-09 10:42:15
+(epstopdf)                    size: 15659 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/stop/ttg-int-non
+pub/postfit/MtBMaxPhoton_CRTTGamma_log-eps-converted-to.pdf ./figures/stop/ttg-
+int-nonpub/postfit/MtBMaxPhoton_CRTTGamma_log.eps>
+(epstopdf)             \includegraphics on input line 207.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/stop/ttg-plots/MtBMaxPhoton_ttyCR_afterfit.pdf, id=3447, 569.12625pt x
- 467.7475pt>
-File: figures/stop/ttg-plots/MtBMaxPhoton_ttyCR_afterfit.pdf Graphic file (type
- pdf)
-<use figures/stop/ttg-plots/MtBMaxPhoton_ttyCR_afterfit.pdf>
-Package pdftex.def Info: figures/stop/ttg-plots/MtBMaxPhoton_ttyCR_afterfit.pdf
- used on input line 203.
+<./figures/stop/ttg-int-nonpub/postfit/MtBMaxPhoton_CRTTGamma_log-eps-converted
+-to.pdf, id=3502, 569.12625pt x 467.7475pt>
+File: ./figures/stop/ttg-int-nonpub/postfit/MtBMaxPhoton_CRTTGamma_log-eps-conv
+erted-to.pdf Graphic file (type pdf)
+
+<use ./figures/stop/ttg-int-nonpub/postfit/MtBMaxPhoton_CRTTGamma_log-eps-conve
+rted-to.pdf>
+Package pdftex.def Info: ./figures/stop/ttg-int-nonpub/postfit/MtBMaxPhoton_CRT
+TGamma_log-eps-converted-to.pdf used on input line 207.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
+Package epstopdf Info: Source file: <./figures/stop/ttg-int-nonpub/postfit/Ht_C
+RTTGamma_log.eps>
+(epstopdf)                    date: 2018-05-09 10:34:33
+(epstopdf)                    size: 33335 bytes
+(epstopdf)             Output file: <./figures/stop/ttg-int-nonpub/postfit/Ht_C
+RTTGamma_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-09 10:42:15
+(epstopdf)                    size: 16925 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/stop/ttg-int-non
+pub/postfit/Ht_CRTTGamma_log-eps-converted-to.pdf ./figures/stop/ttg-int-nonpub
+/postfit/Ht_CRTTGamma_log.eps>
+(epstopdf)             \includegraphics on input line 208.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/stop/ttg-plots/Ht_ttyCR_afterfit.pdf, id=3448, 569.12625pt x 467.7475p
-t>
-File: figures/stop/ttg-plots/Ht_ttyCR_afterfit.pdf Graphic file (type pdf)
-<use figures/stop/ttg-plots/Ht_ttyCR_afterfit.pdf>
-Package pdftex.def Info: figures/stop/ttg-plots/Ht_ttyCR_afterfit.pdf used on i
-nput line 204.
+<./figures/stop/ttg-int-nonpub/postfit/Ht_CRTTGamma_log-eps-converted-to.pdf, i
+d=3503, 569.12625pt x 467.7475pt>
+File: ./figures/stop/ttg-int-nonpub/postfit/Ht_CRTTGamma_log-eps-converted-to.p
+df Graphic file (type pdf)
+
+<use ./figures/stop/ttg-int-nonpub/postfit/Ht_CRTTGamma_log-eps-converted-to.pd
+f>
+Package pdftex.def Info: ./figures/stop/ttg-int-nonpub/postfit/Ht_CRTTGamma_log
+-eps-converted-to.pdf used on input line 208.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
+Package epstopdf Info: Source file: <./figures/stop/ttg-int-nonpub/postfit/DRBB
+_CRTTGamma_log.eps>
+(epstopdf)                    date: 2018-05-09 10:34:45
+(epstopdf)                    size: 35932 bytes
+(epstopdf)             Output file: <./figures/stop/ttg-int-nonpub/postfit/DRBB
+_CRTTGamma_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-09 10:42:16
+(epstopdf)                    size: 15749 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/stop/ttg-int-non
+pub/postfit/DRBB_CRTTGamma_log-eps-converted-to.pdf ./figures/stop/ttg-int-nonp
+ub/postfit/DRBB_CRTTGamma_log.eps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/stop/ttg-plots/DRBB_ttyCR_afterfit.pdf, id=3449, 569.12625pt x 467.747
-5pt>
-File: figures/stop/ttg-plots/DRBB_ttyCR_afterfit.pdf Graphic file (type pdf)
-<use figures/stop/ttg-plots/DRBB_ttyCR_afterfit.pdf>
-Package pdftex.def Info: figures/stop/ttg-plots/DRBB_ttyCR_afterfit.pdf used on
- input line 205.
+<./figures/stop/ttg-int-nonpub/postfit/DRBB_CRTTGamma_log-eps-converted-to.pdf,
+ id=3504, 569.12625pt x 467.7475pt>
+File: ./figures/stop/ttg-int-nonpub/postfit/DRBB_CRTTGamma_log-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./figures/stop/ttg-int-nonpub/postfit/DRBB_CRTTGamma_log-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./figures/stop/ttg-int-nonpub/postfit/DRBB_CRTTGamma_l
+og-eps-converted-to.pdf used on input line 209.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.212 			\subbottom
-                   []{\includegraphics[width=0.49\textwidth]{figures/stop/tt...
+l.216 			\subbottom
+                   []{\includegraphics[width=0.49\textwidth]{stop/ttg-int-no...
+Package epstopdf Info: Source file: <./figures/stop/ttg-int-nonpub/postfit/Anti
+Kt12M_0__CRTTGamma.eps>
+(epstopdf)                    date: 2018-05-09 10:35:11
+(epstopdf)                    size: 30060 bytes
+(epstopdf)             Output file: <./figures/stop/ttg-int-nonpub/postfit/Anti
+Kt12M_0__CRTTGamma-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-09 10:42:16
+(epstopdf)                    size: 16234 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/stop/ttg-int-non
+pub/postfit/AntiKt12M_0__CRTTGamma-eps-converted-to.pdf ./figures/stop/ttg-int-
+nonpub/postfit/AntiKt12M_0__CRTTGamma.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/stop/ttg-plots/AntiKt12M0_ttyCR_afterfit.pdf, id=3450, 569.12625pt x 4
-67.7475pt>
-File: figures/stop/ttg-plots/AntiKt12M0_ttyCR_afterfit.pdf Graphic file (type p
-df)
-<use figures/stop/ttg-plots/AntiKt12M0_ttyCR_afterfit.pdf>
-Package pdftex.def Info: figures/stop/ttg-plots/AntiKt12M0_ttyCR_afterfit.pdf u
-sed on input line 212.
+<./figures/stop/ttg-int-nonpub/postfit/AntiKt12M_0__CRTTGamma-eps-converted-to.
+pdf, id=3507, 569.12625pt x 467.7475pt>
+File: ./figures/stop/ttg-int-nonpub/postfit/AntiKt12M_0__CRTTGamma-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use ./figures/stop/ttg-int-nonpub/postfit/AntiKt12M_0__CRTTGamma-eps-converted
+-to.pdf>
+Package pdftex.def Info: ./figures/stop/ttg-int-nonpub/postfit/AntiKt12M_0__CRT
+TGamma-eps-converted-to.pdf used on input line 216.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.213 			\subbottom
-                   []{\includegraphics[width=0.49\textwidth]{figures/stop/tt...
+l.217 			\subbottom
+                   []{\includegraphics[width=0.49\textwidth]{stop/ttg-int-no...
+Package epstopdf Info: Source file: <./figures/stop/ttg-int-nonpub/postfit/Anti
+Kt12M_1__CRTTGamma.eps>
+(epstopdf)                    date: 2018-05-09 10:34:52
+(epstopdf)                    size: 28688 bytes
+(epstopdf)             Output file: <./figures/stop/ttg-int-nonpub/postfit/Anti
+Kt12M_1__CRTTGamma-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-09 10:42:16
+(epstopdf)                    size: 15719 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/stop/ttg-int-non
+pub/postfit/AntiKt12M_1__CRTTGamma-eps-converted-to.pdf ./figures/stop/ttg-int-
+nonpub/postfit/AntiKt12M_1__CRTTGamma.eps>
+(epstopdf)             \includegraphics on input line 217.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/stop/ttg-plots/AntiKt12M1_ttyCR_afterfit.pdf, id=3451, 569.12625pt x 4
-67.7475pt>
-File: figures/stop/ttg-plots/AntiKt12M1_ttyCR_afterfit.pdf Graphic file (type p
-df)
-<use figures/stop/ttg-plots/AntiKt12M1_ttyCR_afterfit.pdf>
-Package pdftex.def Info: figures/stop/ttg-plots/AntiKt12M1_ttyCR_afterfit.pdf u
-sed on input line 213.
+<./figures/stop/ttg-int-nonpub/postfit/AntiKt12M_1__CRTTGamma-eps-converted-to.
+pdf, id=3508, 569.12625pt x 467.7475pt>
+File: ./figures/stop/ttg-int-nonpub/postfit/AntiKt12M_1__CRTTGamma-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use ./figures/stop/ttg-int-nonpub/postfit/AntiKt12M_1__CRTTGamma-eps-converted
+-to.pdf>
+Package pdftex.def Info: ./figures/stop/ttg-int-nonpub/postfit/AntiKt12M_1__CRT
+TGamma-eps-converted-to.pdf used on input line 217.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.214 			\subbottom
-                   []{\includegraphics[width=0.49\textwidth]{figures/stop/tt...
+l.218 			\subbottom
+                   []{\includegraphics[width=0.49\textwidth]{stop/ttg-int-no...
+Package epstopdf Info: Source file: <./figures/stop/ttg-int-nonpub/postfit/Anti
+Kt8M_0__CRTTGamma.eps>
+(epstopdf)                    date: 2018-05-09 10:36:19
+(epstopdf)                    size: 32416 bytes
+(epstopdf)             Output file: <./figures/stop/ttg-int-nonpub/postfit/Anti
+Kt8M_0__CRTTGamma-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-09 10:42:17
+(epstopdf)                    size: 17492 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/stop/ttg-int-non
+pub/postfit/AntiKt8M_0__CRTTGamma-eps-converted-to.pdf ./figures/stop/ttg-int-n
+onpub/postfit/AntiKt8M_0__CRTTGamma.eps>
+(epstopdf)             \includegraphics on input line 218.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/stop/ttg-plots/AntiKt8M0_ttyCR_afterfit.pdf, id=3452, 569.12625pt x 46
-7.7475pt>
-File: figures/stop/ttg-plots/AntiKt8M0_ttyCR_afterfit.pdf Graphic file (type pd
-f)
-<use figures/stop/ttg-plots/AntiKt8M0_ttyCR_afterfit.pdf>
-Package pdftex.def Info: figures/stop/ttg-plots/AntiKt8M0_ttyCR_afterfit.pdf us
-ed on input line 214.
+<./figures/stop/ttg-int-nonpub/postfit/AntiKt8M_0__CRTTGamma-eps-converted-to.p
+df, id=3509, 569.12625pt x 467.7475pt>
+File: ./figures/stop/ttg-int-nonpub/postfit/AntiKt8M_0__CRTTGamma-eps-converted
+-to.pdf Graphic file (type pdf)
+
+<use ./figures/stop/ttg-int-nonpub/postfit/AntiKt8M_0__CRTTGamma-eps-converted-
+to.pdf>
+Package pdftex.def Info: ./figures/stop/ttg-int-nonpub/postfit/AntiKt8M_0__CRTT
+Gamma-eps-converted-to.pdf used on input line 218.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.215 			\subbottom
-                   []{\includegraphics[width=0.49\textwidth]{figures/stop/tt...
+l.219 			\subbottom
+                   []{\includegraphics[width=0.49\textwidth]{stop/ttg-int-no...
+Package epstopdf Info: Source file: <./figures/stop/ttg-int-nonpub/postfit/Anti
+Kt8M_1__CRTTGamma.eps>
+(epstopdf)                    date: 2018-05-09 10:36:11
+(epstopdf)                    size: 30473 bytes
+(epstopdf)             Output file: <./figures/stop/ttg-int-nonpub/postfit/Anti
+Kt8M_1__CRTTGamma-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-09 10:42:17
+(epstopdf)                    size: 15608 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/stop/ttg-int-non
+pub/postfit/AntiKt8M_1__CRTTGamma-eps-converted-to.pdf ./figures/stop/ttg-int-n
+onpub/postfit/AntiKt8M_1__CRTTGamma.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/stop/ttg-plots/AntiKt8M1_ttyCR_afterfit.pdf, id=3453, 569.12625pt x 46
-7.7475pt>
-File: figures/stop/ttg-plots/AntiKt8M1_ttyCR_afterfit.pdf Graphic file (type pd
-f)
-<use figures/stop/ttg-plots/AntiKt8M1_ttyCR_afterfit.pdf>
-Package pdftex.def Info: figures/stop/ttg-plots/AntiKt8M1_ttyCR_afterfit.pdf us
-ed on input line 215.
+<./figures/stop/ttg-int-nonpub/postfit/AntiKt8M_1__CRTTGamma-eps-converted-to.p
+df, id=3510, 569.12625pt x 467.7475pt>
+File: ./figures/stop/ttg-int-nonpub/postfit/AntiKt8M_1__CRTTGamma-eps-converted
+-to.pdf Graphic file (type pdf)
+
+<use ./figures/stop/ttg-int-nonpub/postfit/AntiKt8M_1__CRTTGamma-eps-converted-
+to.pdf>
+Package pdftex.def Info: ./figures/stop/ttg-int-nonpub/postfit/AntiKt8M_1__CRTT
+Gamma-eps-converted-to.pdf used on input line 219.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
 Package acronym Info: Label `acro:JER' newly defined as it shall be overridden
-although it is yet undefined on input line 234.
+although it is yet undefined on input line 239.
 
-Overfull \hbox (0.71767pt too wide) in paragraph at lines 234--235
-[]\T1/futs/m/n/10.95 these un-cer-tain-ties arise from the meas-ured mo-mentum
+Overfull \hbox (11.62384pt too wide) in paragraph at lines 239--241
+[]\T1/futs/m/n/10.95 these un-cer-tain-ties arise from the meas-
  []
 
-[84] [85 <./figures/stop/ttg-plots/SigPhotonPt0_ttyCR_afterfit.pdf, page is rot
-ated 90 degrees> <./figures/stop/ttg-plots/MT2Chi2_ttyCR_afterfit.pdf, page is 
-rotated 90 degrees> <./figures/stop/ttg-plots/MtBMinPhoton_ttyCR_afterfit.pdf, 
-page is rotated 90 degrees> <./figures/stop/ttg-plots/MtBMaxPhoton_ttyCR_afterf
-it.pdf, page is rotated 90 degrees> <./figures/stop/ttg-plots/Ht_ttyCR_afterfit
-.pdf, page is rotated 90 degrees> <./figures/stop/ttg-plots/DRBB_ttyCR_afterfit
-.pdf, page is rotated 90 degrees>]
+[84] [85 <./figures/stop/ttg-int-nonpub/postfit/SigPhotonPt_0__CRTTGamma_log.pd
+f> <./figures/stop/ttg-int-nonpub/postfit/MT2Chi2Photon_CRTTGamma_log-eps-conve
+rted-to.pdf> <./figures/stop/ttg-int-nonpub/postfit/MtBMinPhoton_CRTTGamma_log-
+eps-converted-to.pdf> <./figures/stop/ttg-int-nonpub/postfit/MtBMaxPhoton_CRTTG
+amma_log-eps-converted-to.pdf> <./figures/stop/ttg-int-nonpub/postfit/Ht_CRTTGa
+mma_log-eps-converted-to.pdf> <./figures/stop/ttg-int-nonpub/postfit/DRBB_CRTTG
+amma_log-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:SF' newly defined as it shall be overridden
-although it is yet undefined on input line 240.
-[86 <./figures/stop/ttg-plots/AntiKt12M0_ttyCR_afterfit.pdf, page is rotated 90
- degrees> <./figures/stop/ttg-plots/AntiKt12M1_ttyCR_afterfit.pdf, page is rota
-ted 90 degrees> <./figures/stop/ttg-plots/AntiKt8M0_ttyCR_afterfit.pdf, page is
- rotated 90 degrees> <./figures/stop/ttg-plots/AntiKt8M1_ttyCR_afterfit.pdf, pa
-ge is rotated 90 degrees>]
-Overfull \hbox (5.67801pt too wide) in paragraph at lines 248--249
+although it is yet undefined on input line 249.
+[86 <./figures/stop/ttg-int-nonpub/postfit/AntiKt12M_0__CRTTGamma-eps-converted
+-to.pdf> <./figures/stop/ttg-int-nonpub/postfit/AntiKt12M_1__CRTTGamma-eps-conv
+erted-to.pdf> <./figures/stop/ttg-int-nonpub/postfit/AntiKt8M_0__CRTTGamma-eps-
+converted-to.pdf> <./figures/stop/ttg-int-nonpub/postfit/AntiKt8M_1__CRTTGamma-
+eps-converted-to.pdf>]
+Overfull \hbox (5.67801pt too wide) in paragraph at lines 257--258
 []\T1/futs/m/n/10.95 lastly a $3\FML/futmi/m/it/10.95 :\T1/futs/m/n/10.95 2%$ u
 n-cer-tainty on the lu-min-os-ity of the $2015 \FMS/futm/m/n/10.95 Ä \T1/futs/m
 /n/10.95 2016$ data-set is ad-ded [[]]. 
  []
 
-[87] [88]) (./Chapters/results.tex [89] [90
+[87] [88] [89]) (./Chapters/results.tex [90]
+Underfull \vbox (badness 3849) has occurred while \output is active []
+
+[91
 
 ]
 Package acronym Info: Label `acro:MLE' newly defined as it shall be overridden
-although it is yet undefined on input line 42.
-
-Overfull \hbox (1.7196pt too wide) in paragraph at lines 44--45
-[]\T1/futs/m/n/10.95 To de-term-ine whether a [][] sig-nal is dis-covered, or e
-x-cluded, a stat-ist-ical pro-ced-ure known
- []
-
-[91]pdfTeX warning (ext4): destination with the same identifier (name{subfigure
+although it is yet undefined on input line 41.
+[92]pdfTeX warning (ext4): destination with the same identifier (name{subfigure
 .1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 					\subbottom
+l.56 					\subbottom
                     []{
 Package epstopdf Info: Source file: <./figures/stop/stat/Pval_tmu.eps>
 (epstopdf)                    date: 2010-09-30 04:38:56
@@ -4381,22 +4582,22 @@ Package epstopdf Info: Source file: <./figures/stop/stat/Pval_tmu.eps>
 (epstopdf)                    size: 7034 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/stop/stat/Pval_t
 mu-eps-converted-to.pdf ./figures/stop/stat/Pval_tmu.eps>
-(epstopdf)             \includegraphics on input line 58.
+(epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/stop/stat/Pval_tmu-eps-converted-to.pdf, id=4034, 569.12625pt x 408.
+<./figures/stop/stat/Pval_tmu-eps-converted-to.pdf, id=3782, 569.12625pt x 408.
 52625pt>
 File: ./figures/stop/stat/Pval_tmu-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures/stop/stat/Pval_tmu-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/stop/stat/Pval_tmu-eps-converted-to.pdf used
- on input line 58.
+ on input line 57.
 (pdftex.def)             Requested size: 192.0548pt x 137.8623pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 					\subbottom
+l.58 					\subbottom
                     []{
 Package epstopdf Info: Source file: <./figures/stop/stat/Significance.eps>
 (epstopdf)                    date: 2010-09-30 04:39:06
@@ -4407,25 +4608,26 @@ rted-to.pdf>
 (epstopdf)                    size: 6566 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/stop/stat/Signif
 icance-eps-converted-to.pdf ./figures/stop/stat/Significance.eps>
-(epstopdf)             \includegraphics on input line 60.
+(epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/stop/stat/Significance-eps-converted-to.pdf, id=4035, 569.12625pt x 
+<./figures/stop/stat/Significance-eps-converted-to.pdf, id=3783, 569.12625pt x 
 408.52625pt>
 File: ./figures/stop/stat/Significance-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use ./figures/stop/stat/Significance-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/stop/stat/Significance-eps-converted-to.pdf 
-used on input line 60.
+used on input line 59.
 (pdftex.def)             Requested size: 192.0548pt x 137.8623pt.
-[92 <./figures/stop/stat/Pval_tmu-eps-converted-to.pdf> <./figures/stop/stat/Si
+[93 <./figures/stop/stat/Pval_tmu-eps-converted-to.pdf> <./figures/stop/stat/Si
 gnificance-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:PLR' newly defined as it shall be overridden
-although it is yet undefined on input line 81.
+although it is yet undefined on input line 80.
+[94]
 Package acronym Info: Label `acro:CL' newly defined as it shall be overridden
-although it is yet undefined on input line 140.
+although it is yet undefined on input line 139.
 
-Overfull \hbox (10.30405pt too wide) in paragraph at lines 140--141
+Overfull \hbox (10.30405pt too wide) in paragraph at lines 139--140
 \T1/futs/m/n/10.95 where $\FML/futmi/m/it/10.95 p[]$ \T1/futs/m/n/10.95 and $\F
 ML/futmi/m/it/10.95 p[]$ \T1/futs/m/n/10.95 cor-res-pond to the $\FML/futmi/m/i
 t/10.95 p$\T1/futs/m/n/10.95 -values of the background-only and signal-plus-bac
@@ -4433,124 +4635,125 @@ kground
  []
 
 
-Overfull \hbox (10.53522pt too wide) in paragraph at lines 140--141
+Overfull \hbox (10.53522pt too wide) in paragraph at lines 139--140
 \T1/futs/m/n/10.95 hy-po-theses, re-spect-ively. A $95%$ [][][]Confidence Level
  ([])[] is reached when $[][] \FMS/futm/m/n/10.95 Ç \T1/futs/m/n/10.95 0\FML/fu
 tmi/m/it/10.95 :\T1/futs/m/n/10.95 05$, i.e. a threshold
  []
 
-[93] [94]pdfTeX warning (ext4): destination with the same identifier (name{subf
-igure.1}) has been already used, duplicate ignored
+
+Underfull \vbox (badness 8056) has occurred while \output is active []
+
+[95]pdfTeX warning (ext4): destination with the same identifier (name{subfigure
+.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.165 		    \subbottom
+l.164 		    \subbottom
                       []{\includegraphics[width=0.48\textwidth]{figures/stop...
 
-<figures/stop/CRs/Znunu/MT2Chi2Lep_CRZAB_T0_log.pdf, id=4129, 569.12625pt x 467
+<figures/stop/CRs/Znunu/MT2Chi2Lep_CRZAB_T0_log.pdf, id=3885, 569.12625pt x 467
 .7475pt>
 File: figures/stop/CRs/Znunu/MT2Chi2Lep_CRZAB_T0_log.pdf Graphic file (type pdf
 )
 <use figures/stop/CRs/Znunu/MT2Chi2Lep_CRZAB_T0_log.pdf>
 Package pdftex.def Info: figures/stop/CRs/Znunu/MT2Chi2Lep_CRZAB_T0_log.pdf use
-d on input line 165.
+d on input line 164.
 (pdftex.def)             Requested size: 204.85802pt x 168.36755pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.166 		    \subbottom
+                      []{\includegraphics[width=0.48\textwidth]{figures/stop...
+
+<figures/stop/CRs/ttbar/CA_RISR_CRTopC.pdf, id=3886, 569.12625pt x 467.7475pt>
+File: figures/stop/CRs/ttbar/CA_RISR_CRTopC.pdf Graphic file (type pdf)
+<use figures/stop/CRs/ttbar/CA_RISR_CRTopC.pdf>
+Package pdftex.def Info: figures/stop/CRs/ttbar/CA_RISR_CRTopC.pdf used on inpu
+t line 166.
+(pdftex.def)             Requested size: 204.85802pt x 168.36755pt.
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.167 		    \subbottom
                       []{\includegraphics[width=0.48\textwidth]{figures/stop...
 
-<figures/stop/CRs/ttbar/CA_RISR_CRTopC.pdf, id=4130, 569.12625pt x 467.7475pt>
-File: figures/stop/CRs/ttbar/CA_RISR_CRTopC.pdf Graphic file (type pdf)
-<use figures/stop/CRs/ttbar/CA_RISR_CRTopC.pdf>
-Package pdftex.def Info: figures/stop/CRs/ttbar/CA_RISR_CRTopC.pdf used on inpu
+<figures/stop/CRs/Wjets/MtBMax_CRW_log.pdf, id=3887, 569.12625pt x 467.7475pt>
+File: figures/stop/CRs/Wjets/MtBMax_CRW_log.pdf Graphic file (type pdf)
+<use figures/stop/CRs/Wjets/MtBMax_CRW_log.pdf>
+Package pdftex.def Info: figures/stop/CRs/Wjets/MtBMax_CRW_log.pdf used on inpu
 t line 167.
 (pdftex.def)             Requested size: 204.85802pt x 168.36755pt.
-pdfTeX warning (ext4): destination with the same identifier (name{subfigure.3})
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.168 		    \subbottom
                       []{\includegraphics[width=0.48\textwidth]{figures/stop...
 
-<figures/stop/CRs/Wjets/MtBMax_CRW_log.pdf, id=4131, 569.12625pt x 467.7475pt>
-File: figures/stop/CRs/Wjets/MtBMax_CRW_log.pdf Graphic file (type pdf)
-<use figures/stop/CRs/Wjets/MtBMax_CRW_log.pdf>
-Package pdftex.def Info: figures/stop/CRs/Wjets/MtBMax_CRW_log.pdf used on inpu
-t line 168.
-(pdftex.def)             Requested size: 204.85802pt x 168.36755pt.
-pdfTeX warning (ext4): destination with the same identifier (name{subfigure.4})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.169 		    \subbottom
-                      []{\includegraphics[width=0.48\textwidth]{figures/stop...
-
-<figures/stop/CRs/singleTop/JetPt_1__CRST_log.pdf, id=4132, 569.12625pt x 467.7
+<figures/stop/CRs/singleTop/JetPt_1__CRST_log.pdf, id=3888, 569.12625pt x 467.7
 475pt>
 File: figures/stop/CRs/singleTop/JetPt_1__CRST_log.pdf Graphic file (type pdf)
 <use figures/stop/CRs/singleTop/JetPt_1__CRST_log.pdf>
 Package pdftex.def Info: figures/stop/CRs/singleTop/JetPt_1__CRST_log.pdf used 
-on input line 169.
+on input line 168.
 (pdftex.def)             Requested size: 204.85802pt x 168.36755pt.
-<figures/stop/regionSummaryVR.pdf, id=4153, 569.12625pt x 467.7475pt>
+<figures/stop/regionSummaryVR.pdf, id=3907, 569.12625pt x 467.7475pt>
 File: figures/stop/regionSummaryVR.pdf Graphic file (type pdf)
 <use figures/stop/regionSummaryVR.pdf>
 Package pdftex.def Info: figures/stop/regionSummaryVR.pdf used on input line 17
-8.
+7.
 (pdftex.def)             Requested size: 341.43437pt x 280.62924pt.
-[95 <./figures/stop/CRs/Znunu/MT2Chi2Lep_CRZAB_T0_log.pdf> <./figures/stop/CRs/
-ttbar/CA_RISR_CRTopC.pdf> <./figures/stop/CRs/Wjets/MtBMax_CRW_log.pdf> <./figu
-res/stop/CRs/singleTop/JetPt_1__CRST_log.pdf>] (./tables/SRABYieldTable.tex)
-Overfull \hbox (45.33804pt too wide) in paragraph at lines 1--196
+(./tables/SRABYieldTable.tex)
+Overfull \hbox (45.33804pt too wide) in paragraph at lines 1--195
  [] 
  []
 
 (./tables/SRC1-5YieldTable.tex) (./tables/SRDEYieldTable.tex) <./figures/stop/f
-it/regionSummaryLog.pdf, id=4217, 569.12625pt x 467.7475pt>
+it/regionSummaryLog.pdf, id=3939, 569.12625pt x 467.7475pt>
 File: ./figures/stop/fit/regionSummaryLog.pdf Graphic file (type pdf)
 <use ./figures/stop/fit/regionSummaryLog.pdf>
 Package pdftex.def Info: ./figures/stop/fit/regionSummaryLog.pdf used on input 
-line 226.
+line 225.
 (pdftex.def)             Requested size: 341.43437pt x 280.62924pt.
-<./figures/stop/SRA/Met_SRA_TT.pdf, id=4223, 569.12625pt x 467.7475pt>
+<./figures/stop/SRA/Met_SRA_TT.pdf, id=3945, 569.12625pt x 467.7475pt>
 File: ./figures/stop/SRA/Met_SRA_TT.pdf Graphic file (type pdf)
 <use ./figures/stop/SRA/Met_SRA_TT.pdf>
 Package pdftex.def Info: ./figures/stop/SRA/Met_SRA_TT.pdf used on input line 2
-36.
+35.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
-<./figures/stop/SRA/MT2Chi2_SRA_T0.pdf, id=4224, 569.12625pt x 467.7475pt>
+<./figures/stop/SRA/MT2Chi2_SRA_T0.pdf, id=3946, 569.12625pt x 467.7475pt>
 File: ./figures/stop/SRA/MT2Chi2_SRA_T0.pdf Graphic file (type pdf)
 <use ./figures/stop/SRA/MT2Chi2_SRA_T0.pdf>
 Package pdftex.def Info: ./figures/stop/SRA/MT2Chi2_SRA_T0.pdf used on input li
-ne 237.
+ne 236.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
-<./figures/stop/SRB/MtBMax_SRB_TW.pdf, id=4225, 569.12625pt x 467.7475pt>
+<./figures/stop/SRB/MtBMax_SRB_TW.pdf, id=3947, 569.12625pt x 467.7475pt>
 File: ./figures/stop/SRB/MtBMax_SRB_TW.pdf Graphic file (type pdf)
 <use ./figures/stop/SRB/MtBMax_SRB_TW.pdf>
 Package pdftex.def Info: ./figures/stop/SRB/MtBMax_SRB_TW.pdf used on input lin
-e 238.
+e 237.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
-<./figures/stop/SRC/CA_RISR_SRC1_5.pdf, id=4226, 569.12625pt x 467.7475pt>
+<./figures/stop/SRC/CA_RISR_SRC1_5.pdf, id=3948, 569.12625pt x 467.7475pt>
 File: ./figures/stop/SRC/CA_RISR_SRC1_5.pdf Graphic file (type pdf)
 <use ./figures/stop/SRC/CA_RISR_SRC1_5.pdf>
 Package pdftex.def Info: ./figures/stop/SRC/CA_RISR_SRC1_5.pdf used on input li
-ne 239.
+ne 238.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
-<./figures/stop/SRD/MtBMax_SRD_high.pdf, id=4227, 569.12625pt x 467.7475pt>
+<./figures/stop/SRD/MtBMax_SRD_high.pdf, id=3949, 569.12625pt x 467.7475pt>
 File: ./figures/stop/SRD/MtBMax_SRD_high.pdf Graphic file (type pdf)
 <use ./figures/stop/SRD/MtBMax_SRD_high.pdf>
 Package pdftex.def Info: ./figures/stop/SRD/MtBMax_SRD_high.pdf used on input l
-ine 240.
+ine 239.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
-<./figures/stop/SRE/Ht_SRE.pdf, id=4228, 569.12625pt x 467.7475pt>
+<./figures/stop/SRE/Ht_SRE.pdf, id=3950, 569.12625pt x 467.7475pt>
 File: ./figures/stop/SRE/Ht_SRE.pdf Graphic file (type pdf)
 <use ./figures/stop/SRE/Ht_SRE.pdf>
-Package pdftex.def Info: ./figures/stop/SRE/Ht_SRE.pdf used on input line 241.
+Package pdftex.def Info: ./figures/stop/SRE/Ht_SRE.pdf used on input line 240.
 (pdftex.def)             Requested size: 209.1301pt x 171.87907pt.
 
-Overfull \hbox (3.4397pt too wide) in paragraph at lines 252--253
+Overfull \hbox (3.4397pt too wide) in paragraph at lines 251--252
 \T1/futs/m/n/10.95 Model-independent lim-its on the vis-ible [][] cross sec-tio
 n, defined as $\FML/futmi/m/it/10.95 ^^[[] \FMS/futm/m/n/10.95 Å \FML/futmi/m/i
 t/10.95 S[]\T1/futs/m/n/10.95 / []   \FMS/futm/m/n/10.95 L \FML/futmi/m/it/10.9
@@ -4560,63 +4763,71 @@ t/10.95 S[]\T1/futs/m/n/10.95 / []   \FMS/futm/m/n/10.95 L \FML/futmi/m/it/10.9
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[96 <./figures/stop/regionSummaryVR.pdf>] [97] [98 <./figures/stop/fit/regionSu
-mmaryLog.pdf>] [99 <./figures/stop/SRA/Met_SRA_TT.pdf> <./figures/stop/SRA/MT2C
-hi2_SRA_T0.pdf> <./figures/stop/SRB/MtBMax_SRB_TW.pdf> <./figures/stop/SRC/CA_R
-ISR_SRC1_5.pdf> <./figures/stop/SRD/MtBMax_SRD_high.pdf> <./figures/stop/SRE/Ht
-_SRE.pdf>] (./tables/UpperLimitTableNew.tex) [100]
+[96] [97] (./tables/UpperLimitTableNew.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[98 <./figures/stop/CRs/Znunu/MT2Chi2Lep_CRZAB_T0_log.pdf> <./figures/stop/CRs/
+ttbar/CA_RISR_CRTopC.pdf> <./figures/stop/CRs/Wjets/MtBMax_CRW_log.pdf> <./figu
+res/stop/CRs/singleTop/JetPt_1__CRST_log.pdf>] [99]
 <./figures/stop/fit/atlascls_m0m12_wband1_showcms0_StopZL2016_SRABCDE.pdf, id=4
-325, 569.12625pt x 546.04pt>
+013, 569.12625pt x 546.04pt>
 File: ./figures/stop/fit/atlascls_m0m12_wband1_showcms0_StopZL2016_SRABCDE.pdf 
 Graphic file (type pdf)
 
 <use ./figures/stop/fit/atlascls_m0m12_wband1_showcms0_StopZL2016_SRABCDE.pdf>
 Package pdftex.def Info: ./figures/stop/fit/atlascls_m0m12_wband1_showcms0_Stop
-ZL2016_SRABCDE.pdf used on input line 267.
+ZL2016_SRABCDE.pdf used on input line 266.
 (pdftex.def)             Requested size: 298.75264pt x 286.64197pt.
-[101 <./figures/stop/fit/atlascls_m0m12_wband1_showcms0_StopZL2016_SRABCDE.pdf>
-]
-Overfull \hbox (42.46082pt too wide) in paragraph at lines 285--286
-[]\T1/futs/m/n/10.95 a [][]-inspired sim-pli-fied model with a higgsino [][], $
-[]$,
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[100 <./figures/stop/regionSummaryVR.pdf>] [101 <./figures/stop/fit/regionSumma
+ryLog.pdf>] [102 <./figures/stop/SRA/Met_SRA_TT.pdf> <./figures/stop/SRA/MT2Chi
+2_SRA_T0.pdf> <./figures/stop/SRB/MtBMax_SRB_TW.pdf> <./figures/stop/SRC/CA_RIS
+R_SRC1_5.pdf> <./figures/stop/SRD/MtBMax_SRD_high.pdf> <./figures/stop/SRE/Ht_S
+RE.pdf>]
+Overfull \hbox (1.73592pt too wide) in paragraph at lines 288--291
+\T1/futs/m/n/10.95 char-gino (mix-tures of bino and higgsino states), are con-s
+idered with masses within $50$ GeV
  []
 
-[102] <figures/fit/SRABCD_mixed_dm1.pdf, id=4380, 569.12625pt x 546.04pt>
+[103 <./figures/stop/fit/atlascls_m0m12_wband1_showcms0_StopZL2016_SRABCDE.pdf>
+] <figures/fit/SRABCD_mixed_dm1.pdf, id=4134, 569.12625pt x 546.04pt>
 File: figures/fit/SRABCD_mixed_dm1.pdf Graphic file (type pdf)
 <use figures/fit/SRABCD_mixed_dm1.pdf>
 Package pdftex.def Info: figures/fit/SRABCD_mixed_dm1.pdf used on input line 29
-4.
+5.
 (pdftex.def)             Requested size: 298.75264pt x 286.64197pt.
-<figures/fit/SRABCD_tN1tN2bC1.pdf, id=4383, 569.12625pt x 408.52625pt>
+<figures/fit/SRABCD_tN1tN2bC1.pdf, id=4137, 569.12625pt x 408.52625pt>
 File: figures/fit/SRABCD_tN1tN2bC1.pdf Graphic file (type pdf)
 <use figures/fit/SRABCD_tN1tN2bC1.pdf>
 Package pdftex.def Info: figures/fit/SRABCD_tN1tN2bC1.pdf used on input line 30
 3.
 (pdftex.def)             Requested size: 298.75264pt x 214.45456pt.
-<figures/fit/SRABCD_winoNLSP.pdf, id=4386, 569.12625pt x 408.52625pt>
+<figures/fit/SRABCD_winoNLSP.pdf, id=4140, 569.12625pt x 408.52625pt>
 File: figures/fit/SRABCD_winoNLSP.pdf Graphic file (type pdf)
 <use figures/fit/SRABCD_winoNLSP.pdf>
-Package pdftex.def Info: figures/fit/SRABCD_winoNLSP.pdf used on input line 312
+Package pdftex.def Info: figures/fit/SRABCD_winoNLSP.pdf used on input line 311
 .
 (pdftex.def)             Requested size: 298.75264pt x 214.45456pt.
-<figures/fit/SRABCD_wellTempered.pdf, id=4389, 569.12625pt x 408.52625pt>
+<figures/fit/SRABCD_wellTempered.pdf, id=4143, 569.12625pt x 408.52625pt>
 File: figures/fit/SRABCD_wellTempered.pdf Graphic file (type pdf)
 <use figures/fit/SRABCD_wellTempered.pdf>
 Package pdftex.def Info: figures/fit/SRABCD_wellTempered.pdf used on input line
- 320.
+ 319.
 (pdftex.def)             Requested size: 298.75264pt x 214.45456pt.
-<figures/fit/SRE_exclusion.pdf, id=4393, 569.12625pt x 546.04pt>
+<figures/fit/SRE_exclusion.pdf, id=4148, 569.12625pt x 546.04pt>
 File: figures/fit/SRE_exclusion.pdf Graphic file (type pdf)
 <use figures/fit/SRE_exclusion.pdf>
-Package pdftex.def Info: figures/fit/SRE_exclusion.pdf used on input line 330.
+Package pdftex.def Info: figures/fit/SRE_exclusion.pdf used on input line 329.
 (pdftex.def)             Requested size: 298.75264pt x 286.64197pt.
-) (./Chapters/conclusions.tex [103 <./figures/fit/SRABCD_mixed_dm1.pdf, page is
- rotated 90 degrees>] [104 <./figures/fit/SRABCD_tN1tN2bC1.pdf, page is rotated
+) (./Chapters/conclusions.tex [104 <./figures/fit/SRABCD_mixed_dm1.pdf, page is
+ rotated 90 degrees>] [105 <./figures/fit/SRABCD_tN1tN2bC1.pdf, page is rotated
  90 degrees> <./figures/fit/SRABCD_winoNLSP.pdf, page is rotated 90 degrees>] [
-105 <./figures/fit/SRABCD_wellTempered.pdf, page is rotated 90 degrees> <./figu
-res/fit/SRE_exclusion.pdf, page is rotated 90 degrees>]) [106
+106 <./figures/fit/SRABCD_wellTempered.pdf, page is rotated 90 degrees> <./figu
+res/fit/SRE_exclusion.pdf, page is rotated 90 degrees>]) [107
 
-] (./Chapters/appA.tex [107]
+] (./Chapters/appA.tex [108]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 22.88956pt on input line 1.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -4625,7 +4836,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 22.88956pt on input line 1.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 15.89755pt on input line 1.
-<./figures/appA/TTphi.pdf, id=4659, 165.04239pt x 140.28781pt>
+<./figures/appA/TTphi.pdf, id=4414, 165.04239pt x 140.28781pt>
 File: ./figures/appA/TTphi.pdf Graphic file (type pdf)
 <use ./figures/appA/TTphi.pdf>
 Package pdftex.def Info: ./figures/appA/TTphi.pdf used on input line 43.
@@ -4635,22 +4846,9 @@ Underfull \hbox (badness 2189) in paragraph at lines 44--44
 \T1/futs/m/n/9 duc-tion with top quarks
  []
 
-[108
+[109
 
- <./figures/appA/TTphi.pdf>]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 56.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 56.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 56.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 56.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 104.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 104.
-[109]
+ <./figures/appA/TTphi.pdf>] [110]
 Package epstopdf Info: Source file: <./figures/appA/can_CRttG_MetTST_met_afterF
 it.eps>
 (epstopdf)                    date: 2018-04-12 12:37:44
@@ -4665,7 +4863,7 @@ erFit.eps>
 (epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/appA/can_CRttG_MetTST_met_afterFit-eps-converted-to.pdf, id=4746, 56
+<./figures/appA/can_CRttG_MetTST_met_afterFit-eps-converted-to.pdf, id=4501, 56
 9.12625pt x 467.7475pt>
 File: ./figures/appA/can_CRttG_MetTST_met_afterFit-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -4673,12 +4871,12 @@ File: ./figures/appA/can_CRttG_MetTST_met_afterFit-eps-converted-to.pdf Graphic
 Package pdftex.def Info: ./figures/appA/can_CRttG_MetTST_met_afterFit-eps-conve
 rted-to.pdf used on input line 113.
 (pdftex.def)             Requested size: 341.43437pt x 280.62924pt.
-[110]pdfTeX warning (ext4): destination with the same identifier (name{subfigur
+[111]pdfTeX warning (ext4): destination with the same identifier (name{subfigur
 e.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.126 			\subbottom
-                   []{ <./figures/appA/final_scalar_SR1.pdf, id=4776, 569.12625
+                   []{ <./figures/appA/final_scalar_SR1.pdf, id=4531, 569.12625
 pt x 408.52625pt>
 File: ./figures/appA/final_scalar_SR1.pdf Graphic file (type pdf)
 <use ./figures/appA/final_scalar_SR1.pdf>
@@ -4690,7 +4888,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
 <to be read again> 
                    \relax 
 l.128 			\subbottom
-                   []{ <./figures/appA/final_pseudo_SR1.pdf, id=4777, 569.12625
+                   []{ <./figures/appA/final_pseudo_SR1.pdf, id=4532, 569.12625
 pt x 408.52625pt>
 File: ./figures/appA/final_pseudo_SR1.pdf Graphic file (type pdf)
 <use ./figures/appA/final_pseudo_SR1.pdf>
@@ -4703,7 +4901,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1})
                    \relax 
 l.136 			\subbottom
                    []{
-<./figures/appA/final_scalar_SR1_offshell.pdf, id=4780, 569.12625pt x 408.52625
+<./figures/appA/final_scalar_SR1_offshell.pdf, id=4535, 569.12625pt x 408.52625
 pt>
 File: ./figures/appA/final_scalar_SR1_offshell.pdf Graphic file (type pdf)
 <use ./figures/appA/final_scalar_SR1_offshell.pdf>
@@ -4716,50 +4914,50 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.2})
                    \relax 
 l.138 			\subbottom
                    []{
-<./figures/appA/final_pseudo_SR1_offshell.pdf, id=4781, 569.12625pt x 408.52625
+<./figures/appA/final_pseudo_SR1_offshell.pdf, id=4536, 569.12625pt x 408.52625
 pt>
 File: ./figures/appA/final_pseudo_SR1_offshell.pdf Graphic file (type pdf)
 <use ./figures/appA/final_pseudo_SR1_offshell.pdf>
 Package pdftex.def Info: ./figures/appA/final_pseudo_SR1_offshell.pdf used on i
 nput line 139.
 (pdftex.def)             Requested size: 384.1096pt x 275.73085pt.
-) (./Chapters/appB.tex [111 <./figures/appA/can_CRttG_MetTST_met_afterFit-eps-c
-onverted-to.pdf>] [112 <./figures/appA/final_scalar_SR1.pdf, page is rotated 90
+) (./Chapters/appB.tex [112 <./figures/appA/can_CRttG_MetTST_met_afterFit-eps-c
+onverted-to.pdf>] [113 <./figures/appA/final_scalar_SR1.pdf, page is rotated 90
  degrees> <./figures/appA/final_pseudo_SR1.pdf, page is rotated 90 degrees>] [1
-13 <./figures/appA/final_scalar_SR1_offshell.pdf, page is rotated 90 degrees> <
-./figures/appA/final_pseudo_SR1_offshell.pdf, page is rotated 90 degrees>] [114
+14 <./figures/appA/final_scalar_SR1_offshell.pdf, page is rotated 90 degrees> <
+./figures/appA/final_pseudo_SR1_offshell.pdf, page is rotated 90 degrees>] [115
 
 ]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 46.
-[115]) [116
+[116]) [117
 
 
-] [117] [118] (./FrontBackMatter/Acronyms.tex
+] [118] [119] (./FrontBackMatter/Acronyms.tex
 Package acronym Info: Acronym AOD used in text but not spelled out in full in t
 ext on input line 6.
 Package acronym Info: Acronym ESD used in text but not spelled out in full in t
 ext on input line 25.
-[119
+[120
 
 
-] [120]
+] [121]
 Package acronym Info: Acronym RDO used in text but not spelled out in full in t
 ext on input line 79.
-[121pdfTeX warning (ext4): destination with the same identifier (name{RPC}) has
+[122pdfTeX warning (ext4): destination with the same identifier (name{RPC}) has
  been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.98 	\acro{TRT}{Transition Radiation Tracker}
-                                              ]) [122] (/Users/frodo/CERNBox/Th
+                                              ]) [123] (/Users/frodo/CERNBox/Th
 esis/Output/main.bbl
 bibitemlist
-[123
+[124
 
 
-] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134]) [135] (./F
-rontBackMatter/Colophon.tex) [136
+] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135]) [136] (./F
+rontBackMatter/Colophon.tex) [137
 
 ]
 \tf@toc=\write7
@@ -4771,14 +4969,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5074F935100004531EDF001D5F9DA65F;4821.
+(rerunfilecheck)             Checksum: 6AE130E2E26C0FA83BFE30E83CEF20AD;5134.
  ) 
 Here is how much of TeX's memory you used:
- 38215 strings out of 492995
- 704128 string characters out of 6132705
- 878404 words of memory out of 5000000
- 40144 multiletter control sequences out of 15000+600000
- 261146 words of font info for 275 fonts, out of 8000000 for 9000
+ 38275 strings out of 492995
+ 706794 string characters out of 6132705
+ 883640 words of memory out of 5000000
+ 40173 multiletter control sequences out of 15000+600000
+ 285652 words of font info for 285 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,24n,71p,10430b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -4810,11 +5008,11 @@ tt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt
 fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/frodo/CERNBox/Thesis/Output/main.pdf (138 pages, 10527
-344 bytes).
+Output written on /Users/frodo/CERNBox/Thesis/Output/main.pdf (145 pages, 10482
+040 bytes).
 PDF statistics:
- 5687 PDF objects out of 6186 (max. 8388607)
- 4461 compressed objects within 45 object streams
- 735 named destinations out of 1000 (max. 500000)
- 995 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5443 PDF objects out of 6186 (max. 8388607)
+ 4433 compressed objects within 45 object streams
+ 742 named destinations out of 1000 (max. 500000)
+ 1040 words of extra memory for PDF output out of 10000 (max. 10000000)
 
