@@ -2,7 +2,7 @@
 \label{ch:evSimObjReco}
 \epigraph{\emph{Nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical, and by golly it's a wonderful problem, because it doesn't look so easy.}} {Richard P. Feynman}
 
-	\begin{wrapfigure}{L}{.55\textwidth}
+	\begin{wrapfigure}{R}{.55\textwidth}
 	%\begin{figure}
 		\centering\includegraphics[width=.4\textwidth]{MCobj/flow}
 		\caption{\label{fig:workflow} The different stages of the work flow needed to produce analysable simulated and real data outputs. The white boxes represent the processes, and their outputs are shown in black balloons: \ac{RDO}, \ac{ESD}, and the final product, \ac{AOD}. The green `AtlFast' box represents the alternative simulation method \textsc{Atlfast}~\cite{Lukas2012}, discussed in Section~\ref{subsec:detSim}. Finally, the blue box shows the stage at which the actual \ac{ATLAS} data events begin processing.}
@@ -19,7 +19,7 @@
 
 		\ac{MC} event generators~\cite{Buckley:2011ms} are extensively used in particle physics to simulate physics processes. A combination of perturbative and phenomenological calculations is employed, to produce randomly distributed physics events of a given type, with stable final state particles. As already mentioned in Chapter~\ref{ch:detector}, the \ac{ATLAS} detector collects \pp- and heavy-ion-collision data. When two protons collide at such high energy in the centre of mass, the collision essentially occurs between the constituent partons\footnote{``\emph{Feynman~\cite{PhysRevLett.23.1415} interpreted the Bjorken scaling as the point-like nature of the nucleon's constituents when they were incoherently scattered by the incident electron. Feynman named the point-like constituents partons. This is the parton model.}''(taken from~\cite{Yan:2014kna})}. Three valence quarks (uud), the gluons mediating the strong interactions between the valence quarks, and the sea quarks produced in virtual \qqbar\ pairs due to interacting gluons, are included as partons. Figure~\ref{fig:DIS} shows one of these interactions which are known as \ac{DIS} processes: the substructure of the proton is probed (therefore \emph{deep}), by an incoming particle, in this case a proton, and the particles in the final states are in general different from the initial ones (therefore \emph{inelastic}).
 
-		\begin{wrapfigure}{R}{.55\textwidth}
+		\begin{wrapfigure}{R}{.5\textwidth}
 		%\begin{figure}[!htb]
 			\centering\includegraphics[width=.45\textwidth]{MCobj/ppcollision}
 			\caption{\label{fig:DIS} Example of a \pp\ \ac{DIS} event.}
@@ -31,13 +31,13 @@
 		The \pp\ scattering at the \ac{LHC} can be categorised in processes such as \emph{hard}, which can be described with perturbation theory, or \emph{soft}, which involve non-perturbative \ac{QCD} effects. Typically, a \pp\ collision involves a hard scattering process between two partons, one for each proton, and a certain number of soft processes, such as \ac{ISR}, \ac{FSR}, and \ac{UE}. The \ac{ISR} involves particles, radiated by partons, which will interact in the hard process prior to their scattering. Partons which are not involved in the hard scattering process, the so-called \emph{spectators}, form the \ac{UE}. The \ac{FSR} refers to particles that are radiated from the final state products of the hard scattering. Furthermore, \emph{parton showering} is a process in which particles in the event that have colour can radiate gluons and/or produce \qqbar\ pairs. Products of these showers will undergo the process of \emph{hadronisation} during which colourless hadron states are produced if $Q^2$ is of the order of $1 \GeV$. Such a process occurs due to confinement. 
 
 		%The modelling of the hard process, parton showering and hadronisation within the event, will be briefly described in Sections~\ref{sec:ME},~\ref{sec:PS} and~\ref{sec:hadronisation}. Section~\ref{sec:UE} describes how to model of the UE. 
-		In order to allow analysers to select samples with relevant processes, \ac{MC} samples are divided in categories depending upon the hard-process specified before generation. For specific analyses, it is also possible to filter events to only produce a given final state, \eg\ asking for zero leptons. This is done in order not to waste computational resources on events which would not pass analysis-specific selection criteria, therefore improving the available statistics. The effect of the selection is taken into account by applying filter efficiencies when the analysis is carried out. The \textsc{HepMC} format is used to store the output of simulated data outputs~\cite{DOBBS200141}.
+		In order to allow analysers to select samples with relevant processes, \ac{MC} samples are divided in categories depending upon the hard-process specified before generation. For specific analyses, it is also possible to filter events to only produce a given final state, \eg\ asking for zero leptons. This is done in order not to waste computational resources on events which would not pass analysis-specific selection criteria. The effect of the selection is taken into account by applying filter efficiencies when the analysis is carried out. The \textsc{HepMC} format is used to store the output of simulated data outputs~\cite{DOBBS200141}.
 		
 
 		\subsection*{Parton Distribution Function}
 		%\label{sec:pdf}
 
-			\begin{wrapfigure}{L}{.5\textwidth}
+			\begin{wrapfigure}{R}{.5\textwidth}
 			%\begin{figure}[!htb]
 				\centering
 				\includegraphics[width=.5\textwidth]{MCobj/d09-158f18b}
@@ -45,7 +45,7 @@
 			%\end{figure}
 			\end{wrapfigure}
 
-			\acp{PDF}~\cite{Campbell2007} describe mathematically the probability density of constituent partons of the interacting protons to have a given fraction ($x$) of the nucleon momentum. They depend upon the parton type, such as valence quark, gluon, or sea quark, and the momentum transfer $Q^2$. Although perturbative calculations of the \acp{PDF} are not feasible, the \textsc{DGLAP}~\cite{Gribov:1972ri, Altarelli:1977zs} evolution equations, using a range of hard scattering data from both fixed target and collider experiments, can be used to estimate the dependence of the \acp{PDF} as a function of $Q^2$ for a given parton. In other words, \acp{PDF} describe the evolution of the structure functions of quarks and gluons as a function of the running\footnote{``Running'' refers to a dependence on $Q^2$} strong coupling constant $\alpha_s$. Figure~\ref{fig:HERAPDF} shows the \acp{PDF}, calculated with input from \textsc{HERA}~\cite{Aaron:2009aa} and \textsc{CTEQ}~\cite{Botts:1992yi} at $Q^2 = 10 \GeV^2$ for up and down valence quarks, gluons, and sea-quarks.
+			\acp{PDF}~\cite{Campbell2007} describe mathematically the probability density of constituent partons of the interacting protons to have a given fraction ($x$) of the nucleon momentum. They depend upon the parton type, such as valence quark, gluon, or sea quark, and the momentum transfer $Q^2$. Although perturbative calculations of the \acp{PDF} are not feasible, the \texttt{DGLAP}~\cite{Gribov:1972ri, Altarelli:1977zs} evolution equations, using a range of hard scattering data from both fixed target and collider experiments, can be used to estimate the dependence of the \acp{PDF} as a function of $Q^2$ for a given parton. In other words, \acp{PDF} describe the evolution of the structure functions of quarks and gluons as a function of the running\footnote{``Running'' refers to a dependence on $Q^2$} strong coupling constant $\alpha_s$. Figure~\ref{fig:HERAPDF} shows the \acp{PDF}, calculated with input from \texttt{HERA}~\cite{Aaron:2009aa} and \texttt{CTEQ}~\cite{Botts:1992yi} at $Q^2 = 10 \GeV^2$ for valence quarks, gluons, and sea quarks.
 
 
 
@@ -64,7 +64,7 @@
 		\subsection*{Hadronisation}
 		%\label{sec:hadronisation}
 
-			When the energy of the partons decrease below $1 \GeV$ the  will undergo hadronisation. As previously mentioned in Section~\ref{sec:SMov}, once the quarks and gluons in the final state reach a $Q^2$ of the order of $\Lambda_{\mathrm{QCD}} \sim 200 \MeV$, the recombination into colourless objects must occur. The modelling of the production of such bound state, the hadronisation, involves non-perturbative \ac{QCD} and many more parameters than the parton showering. Phenomenological models, tuned using data, are then needed. The cluster model~\cite{ClusterHerwig1999}, used by \textsc{Herwig}, and the Lund string model~\cite{LundModel2002}, used by \textsc{Pythia}, are the most employed. 
+			When the energy of the partons decrease below $1 \GeV$ they will undergo hadronisation. As previously mentioned in Section~\ref{sec:SMov}, once the quarks and gluons in the final state reach a $Q^2$ of the order of $\Lambda_{\mathrm{QCD}} \sim 200 \MeV$, the recombination into colourless objects must occur. The modelling of the production of such bound state, the hadronisation, involves non-perturbative \ac{QCD} and many more parameters than the parton showering. Phenomenological models, tuned using data, are then needed. The cluster model~\cite{ClusterHerwig1999}, used by \textsc{Herwig}, and the Lund string model~\cite{LundModel2002}, used by \textsc{Pythia}, are the most employed. 
 
 		\subsection*{Underlying Event}
 		%\label{sec:UE}
@@ -80,12 +80,12 @@
 	\section{Object Reconstruction}
 	\label{sec:objReco}
 
-		Once \ac{MC} samples are digitised, the signals have to be turned into tracks and calorimeter deposits which, in turn, have to processed to be reconstructed into physics object: electrons, photons, muons, jets, taus, and missing energy, \met. Initially, a set of loose definitions is employed in order for various analyses to use such objects. Later, a set of tighter cuts can be applied depending on what a particular analysis needs to focus on. This approach increases the purity of the selected objects at the expense of selection efficiency. The criteria used to define the physics objects, relevant to the analysis presented in this thesis, will be presented in the following paragraphs.
+		Once \ac{MC} samples are digitised, the signals have to be turned into tracks and calorimeter deposits which, in turn, have to processed to be reconstructed into physics object: electrons, photons, muons, jets, taus, and missing transverse energy $\left ( \met \right )$. Initially, a set of loose definitions is employed in order for various analyses to use such objects. Later, a set of tighter cuts can be applied depending on what a particular analysis needs to focus on. This approach increases the purity of the selected objects at the expense of selection efficiency. The criteria used to define the physics objects, relevant to the analysis presented in this thesis, will be presented in the following paragraphs.
 
 
 		\subsection*{Tracks and vertices}
 
-			When a charged particle passes through the detector, all the \ac{ID} sub-systems (pixel, \ac{SCT} and \ac{TRT} components), register ``hits''and then, tracing the particle's trajectory, the hits are reconstructed into a ``track''. The most used algorithm is the so-called \emph{inside-out} method: it works outwards from the centre of the \ac{ID} to produce a track once it has initially grouped together hits in the pixel and \ac{SCT} sub-systems. If this track is then compatible with hits in the \ac{TRT} detector, then these hits are also included and the track is accepted. On the contrary, the \emph{back-tracking} algorithm tries to reconstruct a track starting from the \ac{TRT} to the \ac{SCT} and Pixel detectors. Tracks can also be reconstructed using only the hits in the \ac{TRT}. A number of selection cuts are applied to the tracks in order to achieve the required quality. Signals produced in other parts of the detector are then used to match \ac{ID} tracks up with charged-particle candidates, \eg\ \ac{ECAL} cluster for an electron track. The $\eta$ and $\phi$ values are then assigned to tracks using their direction with respect to the origin\footnote{This is assumed to be the position of the primary interaction} in the co-ordinate system described in Section~\ref{par:coord}. The relation that links the \pt\ of a track to its bending radius and the magnetic field is $\pt = 0.3 \times B \times R$, where the \pt\ is given in \GeV, the magnetic field $B$ in Tesla, and the radius $R$ in meters. Moreover the following other variables are defined:
+			When a charged particle passes through the detector, all the \ac{ID} sub-systems (pixel, \ac{SCT} and \ac{TRT} components), register ``hits''and then, tracing the particle's trajectory, the hits are reconstructed into a ``track''. The most used algorithm is the so-called \emph{inside-out} method: it works outwards from the centre of the \ac{ID} to produce a track once it has initially grouped together hits in the pixel and \ac{SCT} sub-systems. If this track is then compatible with hits in the \ac{TRT} detector, then these hits are also included and the track is accepted. On the contrary, the \emph{back-tracking} algorithm tries to reconstruct a track starting from the \ac{TRT} to the \ac{SCT} and Pixel detectors. Tracks can also be reconstructed using only the hits in the \ac{TRT}. A number of selection cuts are applied to the tracks in order to achieve the required quality. Signals produced in other parts of the detector are then used to match \ac{ID} tracks up with charged-particle candidates, \eg\ \ac{ECAL} cluster for an electron track. The $\eta$ and $\phi$ values are then assigned to tracks using their direction with respect to the origin\footnote{This is assumed to be the position of the primary interaction} in the co-ordinate system described in Section~\ref{par:coord}. The relation that links the \pt\ of a track to its bending radius and the magnetic field is $\pt = 0.3 \times B \times R$, where the \pt\ is given in \GeV, the magnetic field $B$ in Tesla, and the radius $R$ in meters. Moreover the following variables are defined:
 
 			\begin{itemize}
 				\item $d_0$ : the distance of closest approach between the track and the origin
@@ -151,7 +151,7 @@
 					integrated over the full pseudo-rapidity range. The data efficiencies are obtained by applying data/MC efficiency
 					 ratios that were measured in \Jee\ and \Zee\ events to MC simulation. The total statistical and systematic uncertainty is shown.]{
 					 	\includegraphics[width=0.4\textwidth]{MCobj/elRecoIDEff}}\hspace{0.05\textwidth}
-					\subbottom[Photon identification efficiencies using the full $2015 + 2016$ dataset Comparison of the data-driven 
+					\subbottom[Photon identification efficiencies using the full $2015 + 2016$ dataset. Comparison of the data-driven 
 					measurements (radiative \Zboson\ decay, electron extrapolation and matrix method~\cite{Aaboud:2016yuq}) 
 					of the identification efficiency for unconverted photons as a function of \et\ in the region
 					 $10 \GeV < \et < 1500 \GeV$ for the pseudo-rapidity interval $\abseta < 0.6$. The error bars represent the sum 
@@ -222,11 +222,11 @@
 			The calorimeters response can be described in terms of the \ac{EM}/Hadronic ratio, as this is a measure of how the calorimeter responds to \ac{EM} and hadronic radiation: an ideal calorimeter would have \ac{EM}/Hadronic $\sim1$. Due to this effect, called \emph{compensation condition}, the hadronic component of the shower produced by jets is underestimated and for such reason a calibration procedure is employed. In particular, the so-called Electromagnetic + Jet Energy Scale scheme is employed~\cite{ATL-PHYS-PUB-2015-015} where a set of corrections is applied to match the energy of the initial partons. It is possible to define the \ac{JES} by employing the following corrections:
 
 			\begin{description}
-				\item[vertex correction:] once the \antikt\ algorithm has reconstructed the jets, its four-vectors, initially pointing at the centre of the detector, are adjusted to point to the primary vertex; 
+				\item[vertex correction:] once the \antikt\ algorithm has reconstructed the jets, their four-vectors, initially pointing at the centre of the detector, are adjusted to point to the primary vertex; 
 				\item[pile-up correction:] pile-up effect on the jets energy is reduced by using an area-based subtraction procedure~\cite{TheATLAScollaboration:2013pia}; 
 				\item[jet energy and $\eta$ correction:] additional calibration based on energy and pseudo-rapidity corrections where the kinematical properties of the reconstructed jet (\pt\ and $\eta$) are compared to the ones derived from \ac{MC} simulations; 
 				\item[global sequential correction:] individual jet property-based correction for properties such as the fraction of energy deposited in different calorimeter layers or the number and type of associated tracks~\cite{ATLAS:2015oia}; 
-				\item[in-situ corrections:] then measured \pt\ of the jet is corrected using multi-jet and $\gamma$/\Zboson+jets events, where the momentum of a \emph{probe} jet is balanced against a well-measured reference object~\cite{ATLAS-CONF-2015-017}.
+				\item[in-situ corrections:] the measured \pt\ of the jet is corrected using multi-jet and $\gamma$/\Zboson+jets events, where the momentum of a \emph{probe} jet is balanced against a well-measured reference object~\cite{ATLAS-CONF-2015-017}.
 			\end{description}
 
 			To complete the jet identification, the \ac{JVT} variable~\cite{ATLAS-CONF-2014-018} is used. This variable is proportional to the fraction of charged tracks within the jets that point to the primary vertex and tests the compatibility between the reconstructed jet and the hard-scatter charged particles within the jet~\cite{Aaboud:2017pou}.
@@ -236,13 +236,14 @@
 
 			\begin{wrapfigure}{R}{.5\textwidth}
 				\centering
-				\includegraphics[width=.5\textwidth]{MCobj/btagging}
+				\includegraphics[width=.35\textwidth]{MCobj/btagging}
 				\caption{\label{fig:btagpic} Diagram showing the common principle of identification of jets initiated by $b$-quark decays~\cite{btagpic}.}
 			\end{wrapfigure}
 
-			The identification and the reconstruction of jets originated from $b$-quarks is also important, as they also are part of the final state of the analysis presented in this work. The standard jet-reconstruction procedure discussed above applies to \bjs\, too, with the addition of dedicated algorithms ($b$-tagging~\cite{Aad:2015ydr}) employed to identify a $b$-hadron within their cone. A diagram, showing the difference between light jets and \bjs\, is shown in Figure~\ref{fig:btagpic}. Due to their lifetime ($\sim 10^{-12}$ s), $b$-hadrons can travel a measurable distance in the detector before decaying ($\sim 1$ mm for a $20$-\GeV\ \bj), therefore producing a \ac{SV} which, together with a requirement on the impact parameter $d_0$, already provides a useful discrimination tool for jet flavour. Unfortunately, \cjs\ also leave a similar signature within the \ac{ATLAS} detector. Although on average they travel a shorter distance due to their shorter lifetime~\cite{ATL-PHYS-PUB-2015-001}, their presence introduces a source of background for $b$-tagging. 
+			The identification and the reconstruction of jets originated from $b$-quarks is also important, as they also are part of the final state of the analysis presented in this work. The standard jet-reconstruction procedure discussed above applies to \bjs\, too, with the addition of dedicated algorithms ($b$-tagging~\cite{Aad:2015ydr}) employed to identify a $b$-hadron within their cone. A diagram, showing the difference between light jets and \bjs, is shown in Figure~\ref{fig:btagpic}. Due to their lifetime ($\sim 10^{-12}$ s), $b$-hadrons can travel a measurable distance in the detector before decaying ($\sim 1$ mm for a $20$-\GeV\ \bj), therefore producing a \ac{SV} which, together with a requirement on the impact parameter $d_0$, already provides a useful discrimination tool for jet flavour. Unfortunately, \cjs\ also leave a similar signature within the \ac{ATLAS} detector. Although on average they travel a shorter distance due to their shorter lifetime~\cite{ATL-PHYS-PUB-2015-001}, their presence introduces a source of background for $b$-tagging. 
 
-			Algorithms for $b$-tagging, such as, \emph{I2PD} and \emph{I3PD}~\cite{Lehmacher:1128662}\footnote{The significance of the transverse impact parameter (IP) of the tracks, $d_0/\sigma_{d_0}$ is used by both algorithms}, \emph{Secondary Vertex Finding}~\cite{ATL-PHYS-PUB-2017-011}, and \emph{Decay Chain Multi-Vertex Algorithm (JetFitter)}~\cite{1742-6596-119-3-032032}, are widely employed within the \ac{ATLAS} Collaboration. Their outputs are combined to feed a single multivariate tagger, the \ac{MV2}, which is used by many analyses as it is, as of today, the algorithm with the highest discriminating power for jet flavour tagging. \ac{MV2} is a \ac{BDT} algorithm~\cite{BDT} implemented within the \texttt{ROOT TMVA} package~\cite{Brun:1997pa, 2007physics3039H} and is provided in three different versions: MV2c00, MV2c10, and MV2c20. MV2c00 denotes the MV2 algorithm where no \cj\ contribution was present in the training. MV2c10 (MV2c20) denotes the MV2 outputs where a $7\%$ ($15\%$) \cj\ fractions was present in the background sample~\cite{Aad:2015ydr} and it was used for the analyses presented in this thesis.
+			Algorithms for $b$-tagging, such as, \emph{I2PD} and \emph{I3PD}~\cite{Lehmacher:1128662}\footnote{The significance of the transverse impact parameter (IP) of the tracks $\left ( d_0/\sigma_{d_0} \right )$ is used by both algorithms}, \emph{Secondary Vertex Finding}~\cite{ATL-PHYS-PUB-2017-011}, and \emph{Decay Chain Multi-Vertex Algorithm (JetFitter)}~\cite{1742-6596-119-3-032032}, are widely employed within the \ac{ATLAS} Collaboration. Their outputs are combined to feed a single multivariate tagger, the \ac{MV2}, which is used by many analyses as it is, as of today, the algorithm with the highest discriminating power for jet flavour tagging. \ac{MV2} is a \ac{BDT} algorithm~\cite{BDT} implemented within the \texttt{ROOT TMVA} package~\cite{Brun:1997pa, 2007physics3039H} and is provided in three different versions: MV2c00, MV2c10, and MV2c20. MV2c00 denotes the MV2 algorithm where no \cj\ contribution was present in the training. MV2c10 (MV2c20) denotes the MV2 outputs where a $7\%$ ($15\%$) \cj\ fractions was present in the background sample~\cite{Aad:2015ydr} and it was used for the analyses presented in this thesis. Figure~\ref{fig:btagEff} shows the performances of different configuration of such tagger. In particular, the $b$-tagging efficiency is compared to the \cjs\ and light-jet rejection which can be defined as the inverse of the mis-tag rates. Furthermore, the more \cjs\ there are in the background training sample the better the rejection will be, as opposite to the case where no \cjs\ are included. 
+
 
 			\begin{figure}[!htb]
 				\begin{center}
@@ -256,8 +257,7 @@
 				\caption{Performance of the MV2 tagger in \ttbar\ events. Various fractions of \cjs\ in the background training sample were considered (taken from~\cite{ATL-PHYS-PUB-2016-012}).}
 				\label{fig:btagEff}
 			\end{figure}
-
-			Figure~\ref{fig:btagEff} shows the performances of different configuration of such tagger. In particular, the $b$-tagging efficiency is compared to the \cjs\ and light-jet rejection which can be defined as the inverse of the mis-tag rates. Furthermore, the more \cj\ there are in the background training sample the better the rejection will be, as opposite to the case where no \cjs\ are included. 
+			
 
 
 
@@ -269,23 +269,23 @@
 				\caption{\label{fig:METevdisp}ATLAS Event display for an event that has jets (blue solid lines) and \met (red dashed line) (taken from~\cite{METevdisp}).}
 			\end{figure}
 
-			As previously mentioned, particles like neutrinos or potential \ac{DM} candidates escape the \ac{ATLAS} detector. When these particles are produced, a momentum imbalance in the transverse plane will characterise the event, as shown in Figure~\ref{fig:METevdisp} where a simulated event with two jets and \met\ is displayed. The missing transverse momentum (\ptmiss) can be estimated using the four-momenta of all the visible detected objects in the event, and it is called missing transverse momentum, \ptmiss~\cite{ATLASMet2015}. It provides an estimate of the total momentum of the particles that escaped the \ac{ATLAS} detector and it is defined as: 
+			As previously mentioned, particles like neutrinos or potential \ac{DM} candidates escape the \ac{ATLAS} detector. When these particles are produced, a momentum imbalance in the transverse plane will characterise the event, as shown in Figure~\ref{fig:METevdisp} where a simulated event with two jets and \met\ is displayed. The missing transverse momentum $\left ( \ptmiss \right )$ can be estimated using the four-momenta of all the visible detected objects in the event~\cite{ATLASMet2015}. It provides an estimate of the total momentum of the particles that escaped the \ac{ATLAS} detector and it is defined as: 
 
 			\begin{equation}
 				\ptmiss = - \sum_i \vecpt^{i, \mathrm{obj}}
 				\label{eq:ptmiss}
 			\end{equation}
 
-			\noindent Here, $\vecpt^{i, \mathrm{obj_i}}$ represents the transverse momentum of the $i$-th visible object in the event. The Missing Transverse Energy \met, is therefore defined as the magnitude of \ptmiss. 
+			\noindent Here, $\vecpt^{i, \mathrm{obj}}$ represents the transverse momentum of the $i$-th visible object in the event. The Missing Transverse Energy \met, is therefore defined as the magnitude of \ptmiss. 
 
-			The \met\ is reconstructed by selecting calibrated objects to measure the missing transverse momentum in the event. The $(x-y)$ components of the \met\ are calculated as: 
+			The \met\ is reconstructed by selecting calibrated objects to measure the missing transverse momentum in the event. The $(x,y)$ components of the \met\ are calculated as: 
 
 			\begin{equation}
 				E_{x(y)}^{\mathrm{miss}} = E_{x(y)}^{\mathrm{miss}, e} + E_{x(y)}^{\mathrm{miss}, \mu} + E_{x(y)}^{\mathrm{miss}, \tau} + E_{x(y)}^{\mathrm{miss, jets}} + E_{x(y)}^{\mathrm{miss}, \gamma} + E_{x(y)}^{\mathrm{miss,\,soft}}
 				\label{eq:met_xy}
 			\end{equation}
 
-			where each object term is given by the negative vectorial sum of the momenta of the respective calibrated objects. In the analyses presented in this work, terms containing $\tau$ leptons were not considered as $\tau$ reconstruction was never explicitly performed. The \emph{soft term} is reconstructed from detector signal objects not associated with any object passing the selection cuts, \eg\ \ac{ID} tracks (track-based soft term) or calorimeter signals (calorimeter-based soft term). From the components in Equation~\ref{eq:met_xy} the magnitude of \met\ and the azimuthal angle $\phi^{\mathrm{miss}}$ are calculated as:
+			\noindent where each object term is given by the negative vectorial sum of the momenta of the respective calibrated objects. In the analyses presented in this work, terms containing $\tau$ leptons were not considered as $\tau$ reconstruction was never explicitly performed. The \emph{soft term} is reconstructed from detector signal objects not associated with any object passing the selection cuts, \eg\ \ac{ID} tracks (track-based soft term) or calorimeter signals (calorimeter-based soft term). From the components in Equation~\ref{eq:met_xy} the magnitude of \met\ and the azimuthal angle $\phi^{\mathrm{miss}}$ are calculated as:
 
 			\begin{eqnarray}
 				\met = \sqrt{ \left(E_{x}^{\mathrm{miss}}\right)^2 + \left(E_{y}^{\mathrm{miss}} \right)^2 } \qquad ; \qquad
