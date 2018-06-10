@@ -4,6 +4,7 @@ compile_pdf:
     - pdflatex main.tex
     - bibtex main.aux
     - pdflatex main.tex
+    - pdflatex main.tex
   artifacts:
     paths:
       - main.pdf
