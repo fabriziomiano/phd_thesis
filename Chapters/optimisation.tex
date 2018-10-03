@@ -2,17 +2,13 @@
 \label{ch:stop_ana}
 \epigraph{\emph{However beautiful the strategy, you should occasionally look at the results.}}{Winston Churchill}
 
-	%In this chapter the core of this thesis will be presented, namely the search for the direct pair-production of the supersymmetric partner of the top quark in all-hadronic final states using a dataset of $36.1\, \ifb$ \pp\ collisions, at a centre-of-mass energy $\rts = 13$ \TeV, delivered by the \ac{LHC} and collected by the \ac{ATLAS} detector. 
 	In this chapter the analysis strategy, together with the optimisation of the search for the direct pair-production of the supersymmetric partner of the top quark in all-hadronic final states using a dataset of $36.1\, \ifb$ \pp\ collisions at a centre-of-mass energy $\rts = 13$ \TeV, will be presented. In particular, an excursus on the simplified \ac{SUSY} models considered for the analysis optimisation will be given in Section~\ref{sec:susysig}; the objects used in both data and \ac{MC} will be presented in Section~\ref{sec:obj_def}; the triggers employed will be discussed in Section~\ref{sec:trig_used}; the selection of the events will be described in Section~\ref{sec:evtsel}; an overview of the \ac{SM} backgrounds, and the samples used, will be given in Section~\ref{sec:SMbkg}; finally, the signal region optimisation strategy, one of the author's main contributions to the analysis, will be extensively presented in Section~\ref{sec:SRs}.
-
-
-	%The chapter will be structured as it follows: an excursus on the simplified \ac{SUSY} models considered will be presented in Section~\ref{sec:susysig}; the objects used in both data and \ac{MC} will be discussed in Section~\ref{sec:obj_def}; the selection of the events, together with the key variables used and the optimisation of the regions in which the \ac{SUSY} signals were searched for will be presented in in Section~\ref{sec:evtsel}; the nominal procedure used for the background estimation will be discussed in Section~\ref{sec:bkgest}, with particular focus on the data-driven background estimation in Section~\ref{sec:ddbkgest}; the results, together with their interpretation, will finally be presented in Section~\ref{sec:results}.
 
 
 	\section{SUSY signals}
 	\label{sec:susysig}
 
-		As already introduced in Section~\ref{sec:SUSYPheno}, the signals considered in this work are generated using simplified models, meaning that only the \stop, the \ninoone, the \ninotwo, and the \chinoonepm, are the \ac{SUSY} particles considered. In particular, in such models, either \ninotwo\ or \chinoonepm\ is assumed to be the \ac{NLSP} and, the chargino-neutralino mass splitting $\Delta m(\chinoonepm, \ninoone)$ is assumed to be $1$ \GeV, in accordance with the naturalness argument. This implies that the \chinoonepm\ will promptly decay to $\Wboson^*\ninoone$ , with the \Wboson\ emitted as a virtual particle. The decay products of the so-created virtual \Wboson\ will therefore be low \pt\ objects which will not be reconstructed by the \ac{ATLAS} detector. 
+		As already introduced in Section~\ref{sec:SUSYPheno}, the signals considered in this work are generated using simplified models, meaning that the \stop, the \ninoone, the \ninotwo, and the \chinoonepm, are the only \ac{SUSY} particles considered. In such models, either \ninotwo\ or \chinoonepm\ is assumed to be the \ac{NLSP} and, the chargino-neutralino mass splitting $\Delta m(\chinoonepm, \ninoone)$ is assumed to be $1$ \GeV, in accordance with the naturalness argument. This implies that the \chinoonepm\ will promptly decay to $\Wboson^*\ninoone$ , with the \Wboson\ emitted as a virtual particle. The decay products of the created virtual \Wboson\ will therefore be low \pt\ objects which will not be reconstructed by the \ac{ATLAS} detector. 
 
 		\subsection{Benchmark processes}
 
@@ -32,7 +28,7 @@
 				\label{fig:stopModels}
 			\end{figure}
 
-			Figure~\ref{fig:stopModels}(a)$-$(c) shows the diagrams corresponding to the decay scenarios considered in this work. In particular, (a) where both top squarks decay\footnote{The symbol (*) indicates off-shell production} via $\stop\rightarrow t^{(*)}\ \ninoone$ (one-step decay); (b) where at least one of the stops decays via $\stop\rightarrow b\ \chinoonepm \rightarrow b\ \Wboson^{(*)}\ \ninoone$ (two-step decay); (c) where $m_{\ninotwo}$ is small enough to allow one stop to decay via $\stop\to t\ \ninotwo \to h/Z\ \ninoone$ where $h$ is the \ac{SM} Higgs boson. Essentially, the experimental signatures searched for in this analysis are characterised by the presence of four or more jets and missing transverse momentum. 
+			Figure~\ref{fig:stopModels}(a)$-$(d) shows the diagrams corresponding to the decay scenarios considered in this work. In particular, (a) where both top squarks decay\footnote{The symbol (*) indicates off-shell production} via $\stop\rightarrow t^{(*)}\ \ninoone$ (one-step decay); (b) where at least one of the stops decays via $\stop\rightarrow b\ \chinoonepm \rightarrow b\ \Wboson^{(*)}\ \ninoone$ (two-step decay); (c) where $m_{\ninotwo}$ is small enough to allow one stop to decay via $\stop\to t\ \ninotwo \to h/Z\ \ninoone$ where $h$ is the \ac{SM} Higgs boson. Essentially, the experimental signatures searched for in this analysis are characterised by the presence of four or more jets and missing transverse momentum. 
 
 			% \begin{wrapfigure}{R}{.5\textwidth}
 			% 	\centering\includegraphics[width=.28\textwidth]{theory/gogo-tsofttsoftN1N1-stst}
@@ -47,7 +43,7 @@
 		\subsection{MC samples}
 
 			A grid of points across the $\left(\mstopone-\mninoone\right)$ plane with a $50$-\GeV\ spacing is generated to simulate the above-mentioned simplified models. %The mixing between the partners of the left- and right-handed top quarks is assumed to be maximal, \ie\ ..
-			The signal models were generated using \texttt{MG5\_aMC@NLO 2.2-2.4}~\cite{madgraph} interfaced to \texttt{PYTHIA8}~\cite{pythia8} for the \ac{PS} and hadronisation. \texttt{EvtGen 1.2.0}~\cite{evtGen} was employed for the decays of the  $b$- and $c$-hadrons. The tree-level \ac{ME} calculation includes the emission of up to two additional partons for all signal samples. The \texttt{NNPDF2.3LO} \ac{PDF}~\cite{PDFs} set was used to generate the signal samples with the \verb+A14+~\cite{CT10} tune for the \ac{UE} and shower parameters. Additionally, the \ac{CKKW} prescription~\cite{CKKW} was used for the \ac{ME}–\ac{PS} matching. 
+			The signal models were generated using \texttt{MG5\_aMC@NLO 2.2-2.4}~\cite{madgraph} interfaced to \texttt{PYTHIA8}~\cite{pythia8} for the \ac{PS} and hadronisation. \texttt{EvtGen 1.2.0}~\cite{evtGen} was employed for the decays of the  $b$- and $c$-hadrons. The tree-level \ac{ME} calculation includes the emission of up to two additional partons for all signal samples. The \texttt{NNPDF2.3LO} \ac{PDF}~\cite{PDFs} set was used to generate the signal samples with the \verb+A14+~\cite{CT10} tune for the \ac{UE} and shower parameters. Additionally, the \ac{CKKW} prescription~\cite{CKKW} was used for the \acl{ME}–\acl{PS} matching. 
 
 			The various signal cross sections were all calculated to next-to-leading order in the strong coupling constant, with the addition of soft-gluon emission re-summation at next-to-leading-logarithm accuracy (NLO+NLL)~\cite{Beenakker:1997ut, Beenakker:2010nq, Beenakker:2011fu}. The sparticle mass spectra for \ac{pMSSM} models were calculated using \texttt{Softsusy 3.7.3}~\cite{Allanach:2001kg, Allanach:2013kza} while the decays of each sparticle were performed by \texttt{HDECAY 3.4}~\cite{hdecay} and \texttt{SDECAY 1.5/1.5a}~\cite{sdecay}. Finally, various \ac{PDF} sets, factorisation, and re-normalisation scales were used to generate an envelope of cross-section predictions, within which a nominal value and uncertainty were chosen. Further details can be found in~\cite{Borschensky:2014cia}.
 
@@ -124,17 +120,19 @@
 
 		A cut-and-count strategy is at the heart of the analysis presented here. Dedicated sets of discriminating variables are employed to isolate, where possible, the targeted signals from the main \ac{SM} backgrounds. Equally, background-enriched regions are defined to \emph{control} the modelling of such backgrounds. The number of events passing such selections is used as the main observable, to predict both signal and background processes either by means of \ac{MC} samples, or using data-driven techniques. In general, a combination of the two is used. 
 
-		The \ac{ATLAS} detector did not operate with the same conditions during $2015$ and $2016$: different triggers, and calibration parameters were used. In order for \ac{MC} parameters to be modified consistently with what is done in data, \ac{MC} events are assigned a random number, which identifies an ATLAS run. This procedure provides consistency between the collected data and the simulated \ac{MC} events. %to be associated with specific data-taking periods such that their parameters are associated what is done in data and can be modified accordingly.
+		Because of the different operating conditions of the detector (different configurations in 2015 and 2016), some selections, \eg\ trigger requirements or calibration parameters, are applied differently in 2015 and 2016. However, as the MC samples are employed for all the various periods of data taking, the simulated events are assigned a random number that identifies a given ATLAS run. In this way it is possible to associate the simulated events with specific periods of operation so that their parameters can be modified according with what is done with data.
+
+		% The \ac{ATLAS} detector did not operate with the same conditions during $2015$ and $2016$: different triggers, and calibration parameters were used. In order for \ac{MC} parameters to be modified consistently with what is done in data, \ac{MC} events are assigned a random number, which identifies an ATLAS run. This procedure provides consistency between the collected data and the simulated \ac{MC} events.
 
 		\subsection{Event cleaning}
 
-			In order to remove events where a detector fault might have occurred, a set of offline cuts is applied to clean the used event sample. The first requirement for an event to be a good physics event is the existence of a primary vertex with a minimum of two tracks, with $\pt\ > 400$ \MeV, associated with it. In addition, the status of both \ac{ECAL} and \ac{HCAL} for that event is checked: if any of the calorimeters returned an error state, the event is discarded. Furthermore, to reduce and suppress the fake-jet contamination a \emph{bad jet} requirement is defined by introducing quality requirements on a variety of jet parameters, \eg\ the fraction of energy deposited in the different layers of the calorimeters, and the fraction of jet \pt\ measured by the tracks in the Inner Detector. Events containing bad jets that passed the \ac{OR} are discarded. Similarly, events containing baseline muon candidates, whose relative uncertainty on $e/p$ is larger than $20\%$, and which were found before the \ac{OR}, are discarded. This also applies to events containing cosmic muons, which were not removed by the \ac{OR} procedure.				
+			In order to remove events where a detector fault might have occurred, a set of offline cuts is applied to clean the event sample used. The first requirement for an event to be a good physics event is the existence of a primary vertex with a minimum of two tracks, with $\pt\ > 400$ \MeV, associated with it. In addition, the status of both \ac{ECAL} and \ac{HCAL} for that event is checked: if any of the calorimeters returned an error state, the event is discarded. Furthermore, to reduce and suppress the fake-jet contamination a \emph{bad jet} requirement is defined by introducing quality requirements on a variety of jet parameters, \eg\ the fraction of energy deposited in the different layers of the calorimeters, and the fraction of jet \pt\ measured by the tracks in the Inner Detector. Events containing bad jets that passed the \ac{OR} are discarded. Similarly, events containing baseline muon candidates, whose relative uncertainty on $e/p$ is larger than $20\%$, and which were found before the \ac{OR}, are discarded. This also applies to events containing cosmic muons, which were not removed by the \ac{OR} procedure.				
 
 
 	\section{Standard Model backgrounds}
 	\label{sec:SMbkg}
 
-		As already anticipated in Section~\ref{sec:SMlim}, there exists a wide variety of \ac{SM} processes whose cross sections are significantly larger than \ac{SUSY} signal ones. In order for the analysis to robustly target the desired signal, the accurate modelling of such backgrounds is a fundamental part. The signal region definitions, whose modelling is strictly related to the sensitivity reached by the analysis, need an accurate knowledge of the kinematical properties of both targeted signals and backgrounds. The backgrounds which contribute to the search of direct stop-pair production in final states with jets and \met, with their relative \ac{MC} samples employed, will be discussed below.
+		As already anticipated in Section~\ref{sec:SMlim}, a wide variety of \ac{SM} processes exist whose cross sections are significantly larger than \ac{SUSY} signal ones. In order for the analysis to robustly target the desired signal, the accurate modelling of such backgrounds is fundamental. The signal region definitions, whose modelling is strictly related to the sensitivity reached by the analysis, need an accurate knowledge of the kinematical properties of both targeted signals and backgrounds. The backgrounds which contribute to the search of direct stop-pair production in final states with jets and \met, with their relative \ac{MC} samples employed, will be discussed below.
 
 		\begin{description}
 
@@ -152,7 +150,7 @@
 
 			\item [$\mathbf{\Wboson}$ boson production in association with jets:] the production of \Wboson\ bosons in association with jets is a relevant background in $1$-lepton final states, due to the $\Wboson \to \ell\nu$ decay which has a \ac{BR} of $\sim 32\%.$ The dominant hadronic decay of the \Wboson, $\Wboson \to qq'$, produces a multi-jet final state which, again, is irrelevant for this analysis. The \Wjets\ samples are equally categorised depending on the flavour of the hadrons produced in association with the \Wboson\ boson;
 
-			\item [Di-bosons production:] albeit the production of pairs of bosons, \Wboson\Wboson, \Wboson\Zboson, and \Zboson\Zboson, can also be a source of background in channels with leptons or jets, depending on the decay mode of each boson, this background represents a negligible contribution for this analysis;
+			\item [Di-bosons production:] the production of pairs of bosons, \Wboson\Wboson, \Wboson\Zboson, and \Zboson\Zboson, can also be a source of background in channels with leptons or jets, depending on the decay mode of each boson, this background represents a negligible contribution for this analysis;
 
 			\item [Top pair production in association with a vector boson:] the cross section of the production of top pairs in association with a vector boson or a Higgs boson is smaller than the other processes considered so far. Nevertheless, such background can be a prominent background for third-generation \ac{SUSY} analyses. In particular, the top-pair production in association with a \Zboson\ boson, with the \Zboson\ boson decaying to neutrinos, $\ttZ \to \nu \bar{\nu}$, does represent an irreducible background as it yields a final state with jets and \met\ which looks identical to the signal searched for. For such reason a data-driven technique is employed to estimate this background, where the top pair production in association with a photon $\left(\ttgamma\right)$ is used instead. This is one of the main contribution of the author to this analysis, therefore further details on the method for its estimation will be given in Section~\ref{sec:ddbkgest}; 
 
@@ -164,13 +162,13 @@
 		\subsection{MC samples}
 		\label{subsec:mc_samples}
 
-			\ac{SM} background samples are generated using different \ac{MC} event generators: the production of \Zjets\ and \Wjets\ events are generated with \textsc{Sherpa}~\cite{Sherpa} using the \verb+NNPDF3.0NNLO+~\cite{PDFs} \ac{PDF} set and the \ac{UE} tune provided by \textsc{Sherpa} itself~\cite{Sherpa}; \ttbar\ and single-top production are simulated with \textsc{Powheg-Box}~2~\cite{powheg-box} and interfaced to \textsc{Pythia}~\cite{Pythia2006} for \ac{PS} and hadronisation, with the \verb+CT10+~\cite{CT10} \ac{PDF} set. {\scshape MG5\_aMC\/@NLO} interfaced to \textsc{Pythia} for \ac{PS} and hadronisation is used to generate the \ttbar+$V$ and \ttbar+$\gamma$ samples at \ac{NLO} with the \verb+NNPDF3.0NLO+ \ac{PDF} set. The underlying-event tune used is \verb+A14+ with the \verb+NNPDF2.3LO+ \ac{PDF} set. For the estimation of \ttZ\ via $\ttgamma$, $\Wboson/\Zboson+\gamma$ processes are generated with \textsc{Sherpa}~\cite{Sherpa} using the \verb+CT10+ \ac{PDF} set, and finally, the same procedure is used for the generation of di-boson production events.
+			\ac{SM} background samples are generated using different \ac{MC} event generators: \Zjets\ and \Wjets\ events are generated with \textsc{Sherpa}~\cite{Sherpa} using the \verb+NNPDF3.0NNLO+~\cite{PDFs} \ac{PDF} set and the \ac{UE} tune provided by \textsc{Sherpa} itself~\cite{Sherpa}; \ttbar\ and single-top production are simulated with \textsc{Powheg-Box}~2~\cite{powheg-box} and interfaced to \textsc{Pythia}~\cite{Pythia2006} for \ac{PS} and hadronisation, with the \verb+CT10+~\cite{CT10} \ac{PDF} set. {\scshape MG5\_aMC\/@NLO} interfaced to \textsc{Pythia} for \ac{PS} and hadronisation is used to generate the \ttbar+$V$ and \ttbar+$\gamma$ samples at \ac{NLO} with the \verb+NNPDF3.0NLO+ \ac{PDF} set. The underlying-event tune used is \verb+A14+ with the \verb+NNPDF2.3LO+ \ac{PDF} set. For the estimation of \ttZ\ via $\ttgamma$, $\Wboson/\Zboson+\gamma$ processes are generated with \textsc{Sherpa}~\cite{Sherpa} using the \verb+CT10+ \ac{PDF} set, and finally, the same procedure is used for the generation of di-boson production events.
 
 
 	\section{Signal Regions optimisation}
 	\label{sec:SRs}
 
-		The experimental signature for all signal topologies described in Section~\ref{sec:susysig} is characterised by the presence of multiple jets, two of which are required to have passed the $b$-tagging selection, a significant amount of missing transverse momentum, and no leptons (electrons or muons).
+		The experimental signature for all signal topologies described in Section~\ref{sec:susysig} is the presence of multiple jets, two of which are required to have passed the $b$-tagging selection, a significant amount of missing transverse momentum, and no leptons (electrons or muons).
 
 		The different topologies and kinematic regimes which can be optimised when searching for the final states described in Figure~\ref{fig:stopModels} allow the definition of different ``signal regions'', \ac{SR}: 
 		
@@ -368,14 +366,14 @@
 				\end{figure}
 
 				%Similarly to SRA, Figure~\ref{fig:SRB_bkgcomp} shows the background composition in each of the SRB categories. The dominant backgrounds in SRB are \Zjets\ and \ttbar, with about equal contributions. As already discussed for SRA, the same \acp{CR} are employed to control such dominant backgrounds. 
-				The di-boson background contributes for less than $1\%$ of the total background in both \acp{SR} therefore no effort will be put in the design of a \ac{CR} specific for this background. Furthermore, due to the large \met\ requirement, contributions from multi-jet background are expected to be negligible in both SRA and SRB. Nonetheless, this background will be estimated using the so-called \emph{jet smearing} method~\cite{calumThesis}.
+				The di-boson background contributes less than $1\%$ of the total background in both \acp{SR} therefore no effort will be put in the design of a \ac{CR} specific for this background. Furthermore, due to the large \met\ requirement, contributions from the multi-jet background are expected to be negligible in both SRA and SRB. Nonetheless, this background will be estimated using the so-called \emph{jet smearing} method~\cite{calumThesis}.
 
 
 
 
 			\subsubsection*{Signal Region C}
 
-				\SRC\ targets a kinematic regime of direct top-squark pair production, where the stop-neutralino mass splitting is around the top quark mass. The signature of such decays, when $(\mstopone, \mninoone) \sim m_t$, consists of considerably softer jets and low \met. As it can be seen by looking at the background composition of such \ac{SR} in Figure~\ref{fig:SRC_bkgcomp}, this topology is very similar to a non-resonant \ttbar\ production which makes signal-background separation challenging. Nonetheless, the presence of \ac{ISR} can help exploit kinematical differences between stop decays and \ttbar\ production. In particular, when the event is characterised by the presence of a high-momentum \ac{ISR} - reconstructed as an \ac{ISR} system formed by multiple jets - the system comprised of the two top squarks is produced with a boost in the transverse plane.
+				\SRC\ targets a kinematic regime of direct top-squark pair production, where the stop-neutralino mass splitting is around the top quark mass. The signature of such decays, when $(\mstopone, \mninoone) \sim m_t$, consists of considerably softer jets and low \met. As it can be seen by looking at the background composition of this \ac{SR} in Figure~\ref{fig:SRC_bkgcomp}, this topology is very similar to a non-resonant \ttbar\ production which makes signal-background separation challenging. Nonetheless, the presence of \ac{ISR} can help exploit kinematical differences between stop decays and \ttbar\ production. In particular, when the event is characterised by the presence of a high-momentum \ac{ISR} - reconstructed as an \ac{ISR} system formed by multiple jets - the system comprised of the two top squarks is produced with a boost in the transverse plane.
 
 				\begin{figure}[t]
 				  \begin{center}
@@ -519,3 +517,37 @@
 					\end{minipage}
 				\end{figure}
 
+
+	\section{Summary}
+
+		% \begin{figure}[!htb]
+		% 	% \begin{center}
+		% 	\centering
+		% 		\subbottom[$\stop\ra t^{(*)}\ninoone$]{
+		% 			\includegraphics[width=0.28\textwidth]{theory/stst-bqqbqqN1N1-tt}}\hspace{0.05\textwidth}
+		% 		\subbottom[$\stop\ra b\ \chinoonepm\ra b \Wboson^{(*)}\ninoone$]{
+		% 			\includegraphics[width=0.28\textwidth]{theory/stst-bbWWN1N1}}\hspace{0.05\textwidth}
+		% 		\subbottom[$\stop\ra t\ \ninotwo\to h/Z\ \ninoone$]{
+		% 			\includegraphics[width=0.28\textwidth]{theory/stst-tbhWN1N1}}\hspace{0.05\textwidth}\\
+		% 		\subbottom[$\gluino\ra \stop t$]{
+		% 			\includegraphics[width=.28\textwidth]{theory/gogo-tsofttsoftN1N1-stst}}
+		% 	% \end{center}
+		% 	\caption{Diagrams of the decay topologies of the signal models considered in this work.}
+		% 	\label{fig:stopModels}
+		% \end{figure}
+
+		This chapter presented the analysis strategy for the \ac{SUSY} signals searched for and the \acp{SR} employed to isolate them. Five sets of \acp{SR} are defined; SRA, SRB, SRC, SRD, and SRE. 
+
+		\begin{description}
+		
+			\item [SRA:] targets scenarios in which high-mass \stop\ pairs with a large \stop--\ninoone\ mass splitting \dmstopnino\ are produced, \eg\ $(\mstopone, \mninoone) = (1000,1)$ \GeV. These events are characterised by large \met. See Figure~\ref{fig:stopModels}(a)
+
+			\item [SRB:] addresses decays involving top squarks with high stop mass but with smaller \dmstopnino, \eg\ $(\mstopone, \mninoone) = (600, 300)$ \GeV. These events are characterised by small \met. See Figure~\ref{fig:stopModels}(a)
+
+			\item [SRC:] designed for the ``highly compressed'' scenarios in which \dmstopnino\ is around the top mass, \eg\ $(\mstopone, \mninoone) = (500, 327)$ \GeV. These events resemble the \ttbar\ production.
+
+			\item [SRD:] targets the $\stopone \to b \chinoonepm$ decay. Here no top-quark reconstruction is required. The optimisation of the variables used to define this region is done by using specific signal points defined by: $(\mstopone, \mninoone) = (400,50)$ \GeV\ and $(\mstopone, \mninoone) = (700,100)$ \GeV. See Figure~\ref{fig:stopModels}(b)-(c).
+			
+			\item [SRE:] sensitive to highly boosted scenarios that can occur in gluino-mediated stop production. The optimisation of the variables used to define this region is done by using a specific signal point defined by: $(\mgluino, \mstopone, \mninoone) = (1700, 400, 395)$ \GeV. See Figure~\ref{fig:stopModels}(d).
+
+		\end{description}
