@@ -198,6 +198,11 @@
 % BEGIN DOCUMENT
 %---------------------------------------------------
 \begin{document}
+% --- to fix figure numbers 
+\makeatletter
+\renewcommand{\counterwithin}{\@ifstar{\@csinstar}{\@csin}}
+\makeatother
+% ---
   %---------------------------------------------------
   % PREAMBLE: roman page numbering i, ii, iii, ...
   %---------------------------------------------------
