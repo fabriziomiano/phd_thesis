@@ -1,5 +1,4 @@
 # My PhD Thesis 
-_
 
 This thesis template is heavily based on a number of templates found on the 
 internet. Thanks to everyone who contributed. Enjoy
